@@ -4,7 +4,7 @@ Esta pasta reúne o modelo BIM e os dados selecionados para o exemplo.
 
 ## Base selecionada
 
-**FNDE — Creche Pré-Escola Tipo 1, Revisão 2024 – R03, Projeto Arquitetônico (IFC).**
+**FNDE — Creche Pré-Escola Tipo 2, Revisão 2025 – R03, Projeto Arquitetônico (IFC).**
 
 O registro da fonte está em [fnde/arquitetura/](fnde/arquitetura/).
 
