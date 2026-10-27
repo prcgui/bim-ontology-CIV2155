@@ -35,7 +35,8 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 
 | Pasta | Conteúdo |
 | --- | --- |
-| [docs/](docs/) | Texto acadêmico, fundamentação e referências bibliográficas. |
+| [docs/](docs/) | Texto acadêmico e fundamentação teórica. |
+| [referencias/](referencias/) | Artigos científicos e referências bibliográficas. |
 | [dados/](dados/) | Modelo BIM e dados utilizados no estudo. |
 | [ontologia/](ontologia/) | Classes, propriedades, relações e arquivo da ontologia. |
 | [consultas/](consultas/) | Perguntas e consultas sobre as informações representadas. |
@@ -44,8 +45,26 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 
 ## Procedimento metodológico
 
-1. Obter o pacote arquitetônico do FNDE e registrar os arquivos de origem.
-2. Inspecionar o IFC e selecionar os ambientes e informações do recorte.
-3. Representar os conceitos e suas relações na ontologia.
-4. Elaborar e executar consultas.
-5. Registrar os resultados e as limitações.
+### Transformação do modelo IFC
+
+A transformação será realizada com o **IFCtoLBD**, software associado ao método apresentado por Bonduel et al. (2018). O conversor extrai informações do modelo IFC e produz um grafo RDF com vocabulários de Linked Building Data, incluindo a **Building Topology Ontology (BOT)** para a organização topológica do edifício.
+
+- **Código-fonte dos autores:** [jyrkioraskari/IFCtoLBD](https://github.com/jyrkioraskari/IFCtoLBD).
+- **Artigo de referência:** [The IFC to Linked Building Data Converter: Current Status — PDF](referencias/Bonduel_et_al_2018_IFCtoLBD.pdf).
+- **Publicação original:** [anais do LDAC 2018, CEUR Workshop Proceedings, v. 2159](https://ceur-ws.org/Vol-2159/).
+
+O procedimento compreenderá as seguintes etapas:
+
+1. **Inspeção da entrada:** leitura do arquivo `TIPO2-ARQ-DTV_R03.ifc` e identificação dos ambientes, identificadores, classificações e relações espaciais do recorte.
+2. **Configuração da conversão:** definição dos módulos e parâmetros do IFCtoLBD pertinentes ao recorte, com registro da versão do software e das opções utilizadas.
+3. **Transformação semântica:** execução do conversor e preservação da saída RDF em Turtle (`.ttl`), com os conceitos e relações definidos pelos vocabulários adotados.
+4. **Consulta dos dados:** elaboração de consultas para recuperar as informações dos ambientes e sua organização espacial.
+5. **Avaliação da preservação:** comparação dos registros selecionados no IFC com os resultados das consultas, identificando correspondências, simplificações, divergências e ausências.
+
+A representação OWL será examinada por meio dos conceitos e axiomas da BOT e dos indivíduos e relações expressos no grafo RDF. Turtle é o formato de serialização dos dados; sua utilização não implica a tradução integral do esquema IFC para ifcOWL.
+
+O motor de conversão será reutilizado do repositório dos autores. As rotinas de execução, consulta e comparação desenvolvidas para o estudo serão identificadas como adaptações de apoio. A versão efetivamente utilizada será referenciada separadamente do artigo de 2018, considerando a evolução do software desde sua publicação.
+
+## Referência metodológica
+
+BONDUEL, Mathias; ORASKARI, Jyrki; PAUWELS, Pieter; VERGAUWEN, Maarten; KLEIN, Ralf. The IFC to Linked Building Data Converter: Current Status. In: LINKED DATA IN ARCHITECTURE AND CONSTRUCTION WORKSHOP, 6., 2018, Londres. **Proceedings [...]**. CEUR Workshop Proceedings, v. 2159, 2018. p. 34–43. Disponível em: <https://ceur-ws.org/Vol-2159/04paper.pdf>. Acesso em: 27 out. 2026.
