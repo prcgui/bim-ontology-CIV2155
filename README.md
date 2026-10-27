@@ -1,6 +1,6 @@
 # bim-ontology-CIV2155
 
-Projeto acadêmico da disciplina CIV2155 para explorar, passo a passo, a organização de informações BIM por meio de uma ontologia simplificada.
+Projeto acadêmico desenvolvido no âmbito da disciplina CIV2155, dedicado à organização e à representação semântica de informações BIM por meio de ontologias.
 
 ## Tema
 
@@ -12,7 +12,7 @@ Quais informações de identificação, organização espacial e classificação
 
 ## Objetivo
 
-Documentar, passo a passo, a transformação de um recorte do modelo arquitetônico IFC em uma representação semântica baseada em BOT e comparar os dados de origem com a representação obtida.
+Documentar o procedimento de transformação de um recorte do modelo arquitetônico IFC em uma representação semântica baseada em BOT e comparar os dados de origem com a representação obtida.
 
 ## Universo de dados
 
@@ -22,25 +22,25 @@ A base de dados selecionada é o pacote **Projeto Arquitetônico**, disponibiliz
 
 O estudo se concentrará nos identificadores, nomes, classificação dos ambientes e relações de organização espacial efetivamente presentes no modelo. As propriedades disponíveis serão inventariadas antes da definição das consultas. O caso representa um projeto padrão institucional, sem pressupor uma creche construída em um município específico.
 
-### O que vamos estudar
+### Escopo da análise
 
-1. Como os ambientes e a estrutura espacial estão representados no IFC arquitetônico.
-2. Como representar essas informações em OWL com os conceitos da BOT.
-3. Quais identificadores, nomes, classificações e relações permanecem recuperáveis após a transformação.
-4. Quais informações são simplificadas, divergentes ou ausentes, distinguindo lacunas do IFC e perdas na transformação.
+1. Caracterização dos ambientes e da estrutura espacial representados no modelo IFC arquitetônico.
+2. Mapeamento das informações selecionadas para uma representação OWL baseada nos conceitos da BOT.
+3. Verificação da preservação dos identificadores, nomes, classificações e relações após a transformação.
+4. Identificação de simplificações, divergências e ausências, distinguindo lacunas dos dados de origem de perdas decorrentes da transformação.
 
-O recorte inicial compreende arquitetura e organização dos ambientes. A conferência dos dados de entrada e saída será feita sobre um conjunto pequeno e explicitamente selecionado de objetos.
+O recorte compreende a arquitetura e a organização dos ambientes. A comparação entre os dados de entrada e saída será realizada sobre um conjunto delimitado e explicitamente selecionado de objetos.
 
 ## Estrutura do repositório
 
 | Pasta | Conteúdo |
 | --- | --- |
 | [docs/](docs/) | Planejamento, referências e texto do trabalho. |
-| [dados/](dados/) | Modelo BIM e dados utilizados no exemplo. |
+| [dados/](dados/) | Modelo BIM e dados utilizados no estudo. |
 | [ontologia/](ontologia/) | Classes, propriedades, relações e arquivo da ontologia. |
 | [consultas/](consultas/) | Perguntas e consultas sobre as informações representadas. |
 | [resultados/](resultados/) | Respostas obtidas, tabelas e imagens de verificação. |
-| [apresentacao/](apresentacao/) | Roteiro e slides para apresentação à professora. |
+| [apresentacao/](apresentacao/) | Roteiro e slides da apresentação acadêmica. |
 
 ## Etapas de desenvolvimento
 
