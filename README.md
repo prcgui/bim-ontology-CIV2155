@@ -2,9 +2,34 @@
 
 Projeto acadêmico da disciplina CIV2155 para explorar, passo a passo, a organização de informações BIM por meio de uma ontologia simplificada.
 
+## Tema
+
+**Transformação de dados BIM em OWL: estudo do projeto padrão de uma creche do FNDE.**
+
+## Pergunta de pesquisa
+
+Quais informações de identificação, organização espacial e classificação dos ambientes são preservadas na transformação do modelo IFC dessa creche em uma representação OWL baseada na Building Topology Ontology (BOT)?
+
 ## Objetivo
 
-Desenvolver um exemplo simples de organização de informações BIM em uma ontologia e demonstrar como consultar essas informações. O recorte do exemplo e as ferramentas serão definidos ao longo do trabalho.
+Documentar, passo a passo, a transformação de um recorte do modelo arquitetônico IFC em uma representação semântica baseada em BOT e comparar os dados de origem com a representação obtida.
+
+## Universo de dados
+
+O universo documental será a página oficial do FNDE [Creche Pré-Escola Tipo 1](https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/par/bim-modelagem-de-informacao-na-construcao/projetos/creche-pre-escola-tipo-1), identificada como **Revisão 2024 – R03**. Acesso em: 27 out. 2026.
+
+A base de dados selecionada é o pacote **Projeto Arquitetônico**, disponibilizado na coluna **Arquivos IFC** dessa página. Sua fonte e situação de obtenção estão registradas em [dados/fnde/arquitetura/](dados/fnde/arquitetura/).
+
+O estudo se concentrará nos identificadores, nomes, classificação dos ambientes e relações de organização espacial efetivamente presentes no modelo. As propriedades disponíveis serão inventariadas antes da definição das consultas. O caso representa um projeto padrão institucional, sem pressupor uma creche construída em um município específico.
+
+### O que vamos estudar
+
+1. Como os ambientes e a estrutura espacial estão representados no IFC arquitetônico.
+2. Como representar essas informações em OWL com os conceitos da BOT.
+3. Quais identificadores, nomes, classificações e relações permanecem recuperáveis após a transformação.
+4. Quais informações são simplificadas, divergentes ou ausentes, distinguindo lacunas do IFC e perdas na transformação.
+
+O recorte inicial compreende arquitetura e organização dos ambientes. A conferência dos dados de entrada e saída será feita sobre um conjunto pequeno e explicitamente selecionado de objetos.
 
 ## Estrutura do repositório
 
@@ -19,8 +44,8 @@ Desenvolver um exemplo simples de organização de informações BIM em uma onto
 
 ## Etapas de desenvolvimento
 
-1. Definir um pequeno exemplo BIM e as perguntas que o trabalho pretende responder.
-2. Selecionar os dados necessários para esse exemplo.
+1. Obter o pacote arquitetônico do FNDE e registrar os arquivos de origem.
+2. Inspecionar o IFC e selecionar os ambientes e informações do recorte.
 3. Representar os conceitos e suas relações na ontologia.
 4. Elaborar e executar consultas.
 5. Registrar os resultados e as limitações.
@@ -28,4 +53,4 @@ Desenvolver um exemplo simples de organização de informações BIM em uma onto
 
 ## Situação atual
 
-Estrutura inicial organizada. Os dados, a ontologia e os resultados serão adicionados conforme o desenvolvimento do trabalho.
+Tema, pergunta de pesquisa e fonte de dados registrados. Em 27 out. 2026, o link oficial do pacote arquitetônico retornou HTTP 404 (arquivo não encontrado). A inclusão dos arquivos IFC está pendente de obtenção do pacote. A transformação e a análise ainda não foram executadas.
