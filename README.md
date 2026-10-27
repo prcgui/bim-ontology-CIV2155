@@ -35,18 +35,17 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 
 | Pasta | Conteúdo |
 | --- | --- |
-| [docs/](docs/) | Planejamento, referências e texto do trabalho. |
+| [docs/](docs/) | Texto acadêmico, fundamentação e referências bibliográficas. |
 | [dados/](dados/) | Modelo BIM e dados utilizados no estudo. |
 | [ontologia/](ontologia/) | Classes, propriedades, relações e arquivo da ontologia. |
 | [consultas/](consultas/) | Perguntas e consultas sobre as informações representadas. |
-| [resultados/](resultados/) | Respostas obtidas, tabelas e imagens de verificação. |
-| [apresentacao/](apresentacao/) | Roteiro e slides da apresentação acadêmica. |
+| [resultados/](resultados/) | Resultados consolidados, tabelas e evidências da análise. |
+| [apresentacao/](apresentacao/) | Slides da apresentação. |
 
-## Etapas de desenvolvimento
+## Procedimento metodológico
 
 1. Obter o pacote arquitetônico do FNDE e registrar os arquivos de origem.
 2. Inspecionar o IFC e selecionar os ambientes e informações do recorte.
 3. Representar os conceitos e suas relações na ontologia.
 4. Elaborar e executar consultas.
 5. Registrar os resultados e as limitações.
-6. Preparar o texto e a apresentação.
