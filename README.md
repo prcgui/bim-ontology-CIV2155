@@ -65,6 +65,25 @@ A representação OWL será examinada por meio dos conceitos e axiomas da BOT e 
 
 O motor de conversão será reutilizado do repositório dos autores. As rotinas de execução, consulta e comparação desenvolvidas para o estudo serão identificadas como adaptações de apoio. A versão efetivamente utilizada será referenciada separadamente do artigo de 2018, considerando a evolução do software desde sua publicação.
 
+### Fundamentação científica e repercussão do artigo
+
+O artigo de **Bonduel et al. (2018)** foi apresentado no **6th Linked Data in Architecture and Construction Workshop (LDAC 2018)**, realizado em Londres entre 19 e 21 de junho de 2018, e publicado nos [anais do evento, CEUR Workshop Proceedings, v. 2159, p. 34–43](https://ceur-ws.org/Vol-2159/). Apresenta o conversor aberto IFCtoLBD e o procedimento de transformação de modelos IFC em grafos RDF organizados pelos vocabulários BOT, PRODUCT e PROPS.
+
+Sua relevância para este estudo está na disponibilização de uma implementação reutilizável e na explicitação dos mapeamentos entre entidades, relações espaciais e atributos IFC. No caso **Duplex House**, os autores demonstram redução de aproximadamente **83% no número de triplas** em relação à representação ifcOWL, com os três módulos e PROPS L3, além de consultas mais curtas. Esse resultado se refere à configuração avaliada no artigo, cuja representação LBD exclui os dados geométricos. [Fonte: seções 2.2 e 2.3 do artigo](https://ceur-ws.org/Vol-2159/04paper.pdf#page=8).
+
+Na consulta realizada em **27 out. 2026**, a [página do artigo no ResearchGate](https://www.researchgate.net/publication/327262321_The_IFC_to_Linked_Building_Data_Converter-Current_Status) exibia **112 citações**. O indicador registra a repercussão rastreada pela plataforma e pode variar entre bases e datas. O campo **“References (7)”** corresponde às referências bibliográficas vinculadas ao artigo pelo ResearchGate, e não a sete citações adicionais recebidas.
+
+Entre as publicações recentes que citam o trabalho, destacam-se os seguintes exemplos, selecionados por sua proximidade temática:
+
+| Ano | Publicação citante | Relação com o tema |
+| --- | --- | --- |
+| 2024 | Oraskari et al. — [A Method to Unify Custom Properties in IFC to Linked Building Data Conversion](https://linkedbuildingdata.net/ldac2024/files/papers/LDAC2024_Camera_20.pdf), LDAC 2024. | Discute a harmonização de propriedades e utiliza o IFCtoLBD na conversão dos modelos. |
+| 2025 | Jäkel et al. — [Ontology for a Knowledge-Based Deconstruction of Buildings Based on BIM Models and Linked Data Principles](https://doi.org/10.3390/buildings15050720), *Buildings*. | Emprega o IFCtoLBD para associar modelos BIM a uma ontologia de desconstrução. |
+| 2026 | Menegotto — [Ontologia BIM da Taxonomia Sustentável Brasileira](https://doi.org/10.56238/arev8n3-151), *ARACÊ*. | Inclui Bonduel et al. (2018) entre as referências da discussão sobre ontologias e BIM. |
+| 2026 | Zentgraf, Hagedorn e König — [A BIM-based framework for automated building code extraction and compliance checking](https://doi.org/10.1016/j.aei.2026.104735), *Advanced Engineering Informatics*. | Cita o trabalho ao tratar da representação semântica de dados BIM para verificação de requisitos. |
+
+A presença de citações entre 2024 e 2026 indica continuidade de uso e discussão da abordagem. A escolha metodológica neste estudo se apoia nessa pertinência temática e no acesso ao artigo e ao código dos autores; a contagem de citações é um indicador complementar de repercussão.
+
 ## Referência metodológica
 
 BONDUEL, Mathias; ORASKARI, Jyrki; PAUWELS, Pieter; VERGAUWEN, Maarten; KLEIN, Ralf. The IFC to Linked Building Data Converter: Current Status. In: LINKED DATA IN ARCHITECTURE AND CONSTRUCTION WORKSHOP, 6., 2018, Londres. **Proceedings [...]**. CEUR Workshop Proceedings, v. 2159, 2018. p. 34–43. Disponível em: <https://ceur-ws.org/Vol-2159/04paper.pdf>. Acesso em: 27 out. 2026.
