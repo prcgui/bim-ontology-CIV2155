@@ -18,7 +18,7 @@ Documentar, passo a passo, a transformação de um recorte do modelo arquitetôn
 
 O universo documental será a página oficial do FNDE [Creche Pré-Escola Tipo 1](https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/par/bim-modelagem-de-informacao-na-construcao/projetos/creche-pre-escola-tipo-1), identificada como **Revisão 2024 – R03**. Acesso em: 27 out. 2026.
 
-A base de dados selecionada é o pacote **Projeto Arquitetônico**, disponibilizado na coluna **Arquivos IFC** dessa página. Sua fonte e situação de obtenção estão registradas em [dados/fnde/arquitetura/](dados/fnde/arquitetura/).
+A base de dados selecionada é o pacote **Projeto Arquitetônico**, disponibilizado na coluna **Arquivos IFC** dessa página. A identificação da fonte está em [dados/fnde/arquitetura/](dados/fnde/arquitetura/).
 
 O estudo se concentrará nos identificadores, nomes, classificação dos ambientes e relações de organização espacial efetivamente presentes no modelo. As propriedades disponíveis serão inventariadas antes da definição das consultas. O caso representa um projeto padrão institucional, sem pressupor uma creche construída em um município específico.
 
@@ -51,6 +51,3 @@ O recorte inicial compreende arquitetura e organização dos ambientes. A confer
 5. Registrar os resultados e as limitações.
 6. Preparar o texto e a apresentação.
 
-## Situação atual
-
-Tema, pergunta de pesquisa e fonte de dados registrados. Em 27 out. 2026, o link oficial do pacote arquitetônico retornou HTTP 404 (arquivo não encontrado). A inclusão dos arquivos IFC está pendente de obtenção do pacote. A transformação e a análise ainda não foram executadas.
