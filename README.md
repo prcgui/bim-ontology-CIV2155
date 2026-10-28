@@ -90,6 +90,16 @@ Entre as publicações recentes que citam o trabalho, destacam-se os seguintes e
 
 A presença de citações entre 2024 e 2026 indica continuidade de uso e discussão da abordagem. A escolha metodológica neste estudo se apoia nessa pertinência temática e no acesso ao artigo e ao código dos autores; a contagem de citações é um indicador complementar de repercussão.
 
-## Referência metodológica
+## Referências metodológicas
 
 BONDUEL, Mathias; ORASKARI, Jyrki; PAUWELS, Pieter; VERGAUWEN, Maarten; KLEIN, Ralf. The IFC to Linked Building Data Converter: Current Status. In: LINKED DATA IN ARCHITECTURE AND CONSTRUCTION WORKSHOP, 6., 2018, Londres. **Proceedings [...]**. CEUR Workshop Proceedings, v. 2159, 2018. p. 34–43. Disponível em: <https://ceur-ws.org/Vol-2159/04paper.pdf>. Acesso em: 27 out. 2026.
+
+**Contribuição no estudo:** fundamentação da transformação IFC-LBD e reutilização do conversor dos autores. [PDF](referencias/Bonduel_et_al_2018_IFCtoLBD.pdf) · [Código dos autores](https://github.com/jyrkioraskari/IFCtoLBD).
+
+JÄKEL, Jan-Iwo; HEINLEIN, Eva; VON CZERNITZKY, Constantin; MACKENBACH, Sven; KLEMT-ALBERT, Katharina. Ontology for a Knowledge-Based Deconstruction of Buildings Based on BIM Models and Linked Data Principles. **Buildings**, v. 15, n. 5, 720, 2025. DOI: [10.3390/buildings15050720](https://doi.org/10.3390/buildings15050720). Acesso em: 27 out. 2026.
+
+**Contribuição no estudo:** referência para a estratégia de consultas SPARQL e validação SHACL adaptada nas células 6 e 7. Os exemplos originais constam da seção 5.2 e das tabelas 3 a 5. [PDF](referencias/Jaekel_et_al_2025_DCO.pdf) · [Ontologia dos autores](https://github.com/janiwojaekel/dcoOntology).
+
+ORASKARI, Jyrki; KIRNER, Lukas; ZÖCKLEIN, Marit; BRELL-COKCAN, Sigrid. A Method to Unify Custom Properties in IFC to Linked Building Data Conversion. In: **LINKED DATA IN ARCHITECTURE AND CONSTRUCTION WORKSHOP**, 2024. Disponível em: <https://linkedbuildingdata.net/ldac2024/files/papers/LDAC2024_Camera_20.pdf>. Acesso em: 27 out. 2026.
+
+**Contribuição no estudo:** referência para a discussão da correspondência e harmonização de propriedades IFC-LBD. O mapeamento JSON apresentado pelos autores não foi aplicado ao grafo desta etapa. [PDF](referencias/Oraskari_et_al_2024_Propriedades_IFC_LBD.pdf) · [Exemplo de código dos autores: Example13.java](https://github.com/jyrkioraskari/IFCtoLBD/blob/master/IFCtoLBD/src/main/java/examples/Example13.java).
