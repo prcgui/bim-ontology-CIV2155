@@ -46,6 +46,14 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 
 ## Procedimento metodológico
 
+### Inspeção de portas, aberturas e elementos hospedeiros
+
+O [notebook 3](notebooks/03_Inspecao_Portas_IFC_RDF_CQ2_v01.ipynb) documenta a análise-piloto da CQ2 em 11 etapas executáveis, com finalidade, critérios e referências junto a cada consulta. A seleção utiliza a classe `IfcDoor`, percorre `IfcRelFillsElement` e `IfcRelVoidsElement` e confere os pares hospedeiro-porta no RDF por `GlobalId`.
+
+Foram identificadas 53 portas: 45 com hospedeiro `IfcWall` e oito com hospedeiro `IfcFurniture`, descrito no IFC como divisória de granito. Os 53 pares têm aresta direta `bot:hasSubElement` no RDF. O resultado 45/53 corresponde à cobertura do filtro `IfcWall`; a exclusão dos oito casos não demonstra perda na conversão. A associação dos elementos aos ambientes permanece sem demonstração neste teste.
+
+Os [resultados, as entradas e o relatório detalhado](resultados/notebook3/) permitem reproduzir a inspeção. As rotinas são adaptações específicas deste estudo das APIs do IfcOpenShell e RDFLib e das relações definidas pela buildingSMART e pela BOT, conforme as [fontes técnicas](referencias/Referencias_Notebook3_CQ2.txt). O código das bibliotecas está disponível nos repositórios [IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell) e [RDFLib](https://github.com/RDFLib/rdflib).
+
 ### Incremento exploratório: arquitetura e estrutura
 
 O [notebook 2](notebooks/02_integracao_arquitetura_estrutura.ipynb) amplia a inspeção para os elementos do modelo arquitetônico e para o arquivo estrutural **SMT**, da mesma revisão do FNDE. A etapa repete as conversões e verificações em blocos separados e registra as dificuldades de estabelecer correspondências entre os modelos. O [IFC estrutural selecionado](dados/fnde/estrutura/) e os [resultados do diagnóstico](resultados/notebook2/) documentam o recorte. A integração semântica permanece pendente; esta versão não aplica soluções aos problemas novos encontrados.

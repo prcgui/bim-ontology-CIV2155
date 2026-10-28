@@ -1,5 +1,9 @@
 # Resultados
 
+## Inspeção de portas, aberturas e hospedeiros
+
+Os [resultados do notebook 3](notebook3/) registram 53 portas e seus pares hospedeiro-porta no RDF. O filtro inicial reconhece 45 hospedeiros `IfcWall`; os oito casos restantes estão associados a dois objetos `IfcFurniture` descritos como divisórias de granito. Os 53 pares aparecem no RDF. O recorte descreve uma limitação do critério de consulta e não demonstra perda de conversão. O notebook, as entradas e o relatório detalham os critérios e os limites dessa conclusão.
+
 Resultados consolidados da análise, respostas às consultas, tabelas e evidências de comparação entre os dados IFC e a representação semântica.
 
 ## Diagnóstico entre arquitetura e estrutura

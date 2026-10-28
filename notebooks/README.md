@@ -1,5 +1,15 @@
 # Notebooks do estudo
 
+## Notebook 3 - Inspeção de portas IFC-RDF (CQ2)
+
+[Notebook executado, com referências e saídas](03_Inspecao_Portas_IFC_RDF_CQ2_v01.ipynb).
+
+Seleciona as portas por classe IFC, percorre as relações porta-abertura-hospedeiro e verifica as arestas entre hospedeiro e porta no RDF ampliado da arquitetura. As 11 células de código foram executadas localmente e reproduziram os 53 registros individuais da rotina original. Cada etapa contém explicação e referências.
+
+Para executar no Colab, abrir o notebook e enviar os dois [arquivos de entrada indicados nos resultados](../resultados/notebook3/#entradas). No computador, a etapa 2 está configurada para a organização da pasta local do projeto; ajustar os caminhos se a execução partir desta cópia do GitHub. Não é realizada nova conversão ou solução de integração.
+
+[Resultados e relatório](../resultados/notebook3/) · [Fontes técnicas e código das bibliotecas](../referencias/Referencias_Notebook3_CQ2.txt).
+
 ## Notebook 2 — Diagnóstico da integração entre arquitetura e estrutura
 
 [02_integracao_arquitetura_estrutura.ipynb](02_integracao_arquitetura_estrutura.ipynb)

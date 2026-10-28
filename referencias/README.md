@@ -1,5 +1,16 @@
 # Referências
 
+## Fontes das consultas de portas e hospedeiros (Notebook 3)
+
+As [referências do notebook 3](Referencias_Notebook3_CQ2.txt) identificam a documentação utilizada em cada etapa: IfcOpenShell (`by_type`, `get_type`, `get_psets`), buildingSMART (`IfcRelFillsElement`, `IfcRelVoidsElement`, `IfcFurniture`), RDFLib (busca por padrões de triplas), BOT (`hasSubElement`) e bibliotecas de exportação do Python. A combinação das consultas e o filtro inicial `IfcWall` constituem uma adaptação específica do estudo.
+
+- [Documentação e exemplos do IfcOpenShell](https://docs.ifcopenshell.org/ifcopenshell-python/code_examples.html) · [Código dos desenvolvedores](https://github.com/IfcOpenShell/IfcOpenShell).
+- [RDFLib: Navigating Graphs](https://rdflib.readthedocs.io/en/latest/intro_to_graphs/) · [Código dos desenvolvedores](https://github.com/RDFLib/rdflib).
+- [IFC4: sequência abertura-preenchimento](https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/schema/ifcproductextension/lexical/ifcrelfillselement.htm).
+- [BOT: relação hasSubElement](https://w3c-lbd-cg.github.io/bot/#hasSubElement).
+
+A referência de conversão permanece Bonduel et al. (2018) e o [IFCtoLBD dos autores](https://github.com/jyrkioraskari/IFCtoLBD). As fontes técnicas citadas fundamentam a inspeção posterior, sem atribuir aos autores a rotina específica deste ensaio.
+
 ## Fundamentação ontológica e construtor OntologiaBIM
 
 MENEGOTTO, José Luis. **Ontologia BIM da Taxonomia Sustentável Brasileira**. *ARACÊ*, v. 8, n. 3, 2026. DOI: [10.56238/arev8n3-151](https://doi.org/10.56238/arev8n3-151). Acesso em: 28 out. 2026.

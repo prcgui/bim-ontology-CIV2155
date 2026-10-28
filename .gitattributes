@@ -1,0 +1,3 @@
+# Preserve the recorded bytes of the reproducible CQ2 experiment.
+/notebooks/03_Inspecao_Portas_IFC_RDF_CQ2_v01.ipynb -text
+/resultados/notebook3/** -text

@@ -1,0 +1,9 @@
+﻿porta_guid,porta_nome,porta_tipo,preenchimentos_ifc,aberturas_ifc,vazios_ifc,abertura_guid,hospedeiro_guid,hospedeiro_classe,hospedeiro_nome,aceito_no_criterio_IfcWall,correspondencia_rdf_unica,arestas_diretas_rdf,predicados_rdf
+08IKprlfH2WAuRZ4DmjH6w,PM5,FNDE - Porta Personalizada - sanitarios infantis - amarelo,1,1,1,2wgwyNNYdcjO_YQsGnrgrE,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+0LsKoafCbDSe3m0_7bRcqA,PM5,FNDE - Porta Personalizada - sanitarios infantis - azul,1,1,1,3Gusmuv57nc7y9WvqZ8l7o,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+0q4YSxByfFc8mvXtLdses8,PM5,FNDE - Porta Personalizada - sanitarios infantis - laranja,1,1,1,1yAmPN_v8l44hxwgbXcGzN,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+12cC5Ioe952e0vutOtETR8,PM5,FNDE - Porta Personalizada - sanitarios infantis - verde,1,1,1,22RqptW3Jnhosd$V_Du__6,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+13$TzEYPL7BwyJuoALhFMi,PM5,FNDE - Porta Personalizada - sanitarios infantis - laranja,1,1,1,1CYfXYeySjMuY_jp8ahzff,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+1fc6gQjLr8S9y9TpDxmiO0,PM5,FNDE - Porta Personalizada - sanitarios infantis - azul,1,1,1,3VFgM8_ohcaXYA07SLTY8U,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+2mN81WWIr2Duv5Qp0diyV_,PM5,FNDE - Porta Personalizada - sanitarios infantis - amarelo,1,1,1,361mSX0ZdxffYm5eFD5H79,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+3DwHjxFVTCoRGzeEKYeWeg,PM5,FNDE - Porta Personalizada - sanitarios infantis - verde,1,1,1,0OXjjsB98ins8a0sZZkPEz,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement

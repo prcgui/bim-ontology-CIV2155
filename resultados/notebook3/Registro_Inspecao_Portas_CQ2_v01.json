@@ -1,0 +1,2080 @@
+{
+  "versao": "1.0",
+  "data_referencia": "2026-10-28",
+  "execucao_utc": "2026-10-28T22:21:33.413849+00:00",
+  "bibliotecas": {
+    "ifcopenshell": "0.8.4",
+    "rdflib": "7.1.4"
+  },
+  "arquivos": {
+    "ifc": {
+      "caminho": "02_Dados_BIM/Arquitetura/TIPO2-ARQ-DTV_R03.ifc",
+      "sha256_antes": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+      "sha256_depois": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a"
+    },
+    "rdf": {
+      "caminho": "04_Resultados/02_Diagnostico_Integracao/arquitetura/grafo.ttl",
+      "sha256_antes": "b6b6c38fc13711db4f17d145dbc4efb0ff32c73c113fcdb992a25c2f43c2e4a3",
+      "sha256_depois": "b6b6c38fc13711db4f17d145dbc4efb0ff32c73c113fcdb992a25c2f43c2e4a3"
+    }
+  },
+  "resumo": {
+    "portas_ifc": 53,
+    "cadeias_com_hospedeiro_unico": 53,
+    "por_classe_hospedeiro": {
+      "IfcWall": 45,
+      "IfcFurniture": 8
+    },
+    "aceitas_criterio_IfcWall": 45,
+    "fora_criterio_IfcWall": 8,
+    "fora_criterio_com_aresta_rdf": 8,
+    "todas_com_aresta_rdf": 53,
+    "hospedeiros_fora_criterio": 2
+  },
+  "hospedeiros": {
+    "3yBKkZR710Wxzex4iLkf0R": {
+      "GlobalId": "3yBKkZR710Wxzex4iLkf0R",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I3-I8 (verde-cinza) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "0scVyEQ7H1WBwab8_01NcZ": {
+      "GlobalId": "0scVyEQ7H1WBwab8_01NcZ",
+      "classe": "IfcFurniture",
+      "nome": "DV1",
+      "tipo": "EI-GRA-Divisória - Granito cinza Andorinha 30",
+      "FNDE_Pedras": "DIVISÓRIA - GRANITO CINZA ANDORINHA - esp. 3 cm"
+    },
+    "0dYZ4MzcX59RVNEy4syFIT": {
+      "GlobalId": "0dYZ4MzcX59RVNEy4syFIT",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I5-I7 (azul-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "0KY4NQ469EFR$ukosSYLrV": {
+      "GlobalId": "0KY4NQ469EFR$ukosSYLrV",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I2-I7 (laranja-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "292djSli13QOK5kurtYpT5": {
+      "GlobalId": "292djSli13QOK5kurtYpT5",
+      "classe": "IfcWall",
+      "nome": "Parede-110",
+      "tipo": "GENÉRICO - VEDAÇÃO INTERNA 150",
+      "FNDE_Pedras": null
+    },
+    "3My5Kwz2j0Tx3VQDQdBCK$": {
+      "GlobalId": "3My5Kwz2j0Tx3VQDQdBCK$",
+      "classe": "IfcFurniture",
+      "nome": "DV1",
+      "tipo": "EI-GRA-Divisória - Granito cinza Andorinha 30",
+      "FNDE_Pedras": "DIVISÓRIA - GRANITO CINZA ANDORINHA - esp. 3 cm"
+    },
+    "0zWX2TdHb8tua3mupbX3X0": {
+      "GlobalId": "0zWX2TdHb8tua3mupbX3X0",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I3-I7 (verde-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "0YL1CpO0D1$g98g3nA3uSv": {
+      "GlobalId": "0YL1CpO0D1$g98g3nA3uSv",
+      "classe": "IfcWall",
+      "nome": "AL14",
+      "tipo": "FNDE-AL14-E2-E2 200",
+      "FNDE_Pedras": null
+    },
+    "0R1noBuJP7NuUbucKUqnq4": {
+      "GlobalId": "0R1noBuJP7NuUbucKUqnq4",
+      "classe": "IfcWall",
+      "nome": "AL14",
+      "tipo": "FNDE-AL14-I3-E1 (verde-cinza) 200 x 3100",
+      "FNDE_Pedras": null
+    },
+    "28H7jmF8X7muvuYN6q4Aef": {
+      "GlobalId": "28H7jmF8X7muvuYN6q4Aef",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I1-I7 (branco-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "2UBUAGkKHAPPv$fThPGv9l": {
+      "GlobalId": "2UBUAGkKHAPPv$fThPGv9l",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I1-I7 (branco-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "2D09K1HojAifH2RtXolwlP": {
+      "GlobalId": "2D09K1HojAifH2RtXolwlP",
+      "classe": "IfcWall",
+      "nome": "AL14",
+      "tipo": "FNDE-AL14-E2-E2 (Muros - sem massa corrida) 190",
+      "FNDE_Pedras": null
+    },
+    "16LXPK8wnEReNUpGj57cwy": {
+      "GlobalId": "16LXPK8wnEReNUpGj57cwy",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I4-I4 150",
+      "FNDE_Pedras": null
+    },
+    "0M4t0lmxfFL9kM9j5ergqe": {
+      "GlobalId": "0M4t0lmxfFL9kM9j5ergqe",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I2-I7 (laranja-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "246JmPSAP9kRYjk1Icc_NH": {
+      "GlobalId": "246JmPSAP9kRYjk1Icc_NH",
+      "classe": "IfcWall",
+      "nome": "AL14",
+      "tipo": "FNDE-AL14-E2-E2 200",
+      "FNDE_Pedras": null
+    },
+    "3FmQIyPmPEXOcKU2$4IH4l": {
+      "GlobalId": "3FmQIyPmPEXOcKU2$4IH4l",
+      "classe": "IfcWall",
+      "nome": "AL14",
+      "tipo": "FNDE-AL14-E2-E2 200",
+      "FNDE_Pedras": null
+    },
+    "2_A$EmjVbEUgDIaR5Dt$T4": {
+      "GlobalId": "2_A$EmjVbEUgDIaR5Dt$T4",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-E2-E2 150",
+      "FNDE_Pedras": null
+    },
+    "0h8Xfsod97gQwttwI93LA4": {
+      "GlobalId": "0h8Xfsod97gQwttwI93LA4",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I4-I5 (30x40-vermelho) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3rgSgbA$5FgwTxrvoAQOtN": {
+      "GlobalId": "3rgSgbA$5FgwTxrvoAQOtN",
+      "classe": "IfcWall",
+      "nome": "AL",
+      "tipo": "FNDE-CON-E5-E5 320",
+      "FNDE_Pedras": null
+    },
+    "0XAHc8zyr1YuL0AWxiP2D2": {
+      "GlobalId": "0XAHc8zyr1YuL0AWxiP2D2",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I4-I8 (30x40-cinza) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3prbokpk5BLgcouJFezjW0": {
+      "GlobalId": "3prbokpk5BLgcouJFezjW0",
+      "classe": "IfcWall",
+      "nome": "AL14",
+      "tipo": "FNDE-AL14-E2-E2 (Muros - sem massa corrida) 190",
+      "FNDE_Pedras": null
+    },
+    "2hdyfw1F5Efvw8OQwMsveE": {
+      "GlobalId": "2hdyfw1F5Efvw8OQwMsveE",
+      "classe": "IfcWall",
+      "nome": "AL14",
+      "tipo": "FNDE-AL14-E2-E2 200",
+      "FNDE_Pedras": null
+    },
+    "15acbSi_T1au0ex28LqHho": {
+      "GlobalId": "15acbSi_T1au0ex28LqHho",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I3-I7 (verde-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "1PdjHo6zvFue7eJ4JApaPN": {
+      "GlobalId": "1PdjHo6zvFue7eJ4JApaPN",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I5-I7 (azul-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3Bw9bk8_n0duI6YtWErccu": {
+      "GlobalId": "3Bw9bk8_n0duI6YtWErccu",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I1-I7 (branco-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "1v8GUEVp5BSuN5s4rGKaRA": {
+      "GlobalId": "1v8GUEVp5BSuN5s4rGKaRA",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I4-I4 150",
+      "FNDE_Pedras": null
+    },
+    "0dOiUpzNH97uPNxrbyg6mm": {
+      "GlobalId": "0dOiUpzNH97uPNxrbyg6mm",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I2-I8 (laranja-cinza) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3U3aBWFO9CpBgCsiQzp1pW": {
+      "GlobalId": "3U3aBWFO9CpBgCsiQzp1pW",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I2-I7 (laranja-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "1dZzeFgi52sxdY$SVOdXIT": {
+      "GlobalId": "1dZzeFgi52sxdY$SVOdXIT",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I4-I5 (30x40-azul) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "2LHycwR7z5aAV9LtOWq_Yx": {
+      "GlobalId": "2LHycwR7z5aAV9LtOWq_Yx",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I2-I8 (laranja-cinza) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3Lm1DxdhvDngNYlnBzUiMU": {
+      "GlobalId": "3Lm1DxdhvDngNYlnBzUiMU",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I5-I7 (azul-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3yAwqEBwf7PuJw_u$qQEyP": {
+      "GlobalId": "3yAwqEBwf7PuJw_u$qQEyP",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I4-I7 (30x40-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3Ak27VgDnEHPbsNyce8LHn": {
+      "GlobalId": "3Ak27VgDnEHPbsNyce8LHn",
+      "classe": "IfcWall",
+      "nome": "Parede-110",
+      "tipo": "GENÉRICO - VEDAÇÃO INTERNA 150",
+      "FNDE_Pedras": null
+    },
+    "0TdKPEcqr7iwpDLA2jkHfS": {
+      "GlobalId": "0TdKPEcqr7iwpDLA2jkHfS",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I3-I7 (verde-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "2JDn2pFhf91wBy$8Zw7R82": {
+      "GlobalId": "2JDn2pFhf91wBy$8Zw7R82",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I2-I8 (laranja-cinza) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3BgFgAEMH1AR1k70kqmmGX": {
+      "GlobalId": "3BgFgAEMH1AR1k70kqmmGX",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I4-I7 (30x40-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "36hzAYQT14BOIvjaVL9t0n": {
+      "GlobalId": "36hzAYQT14BOIvjaVL9t0n",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I3-I8 (verde-cinza) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "3jsNVkT0TC4eoeR3CC7hwe": {
+      "GlobalId": "3jsNVkT0TC4eoeR3CC7hwe",
+      "classe": "IfcWall",
+      "nome": "Parede-110",
+      "tipo": "GENÉRICO - VEDAÇÃO INTERNA 150",
+      "FNDE_Pedras": null
+    },
+    "3RwYcOvUD0Wwi22QiIvBjO": {
+      "GlobalId": "3RwYcOvUD0Wwi22QiIvBjO",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I5-I7 (vermelho-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "09ixgreIj5ggRNB1f7pQOi": {
+      "GlobalId": "09ixgreIj5ggRNB1f7pQOi",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I5-I7 (vermelho-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    },
+    "0wNvZNge92zhpzT52itWk2": {
+      "GlobalId": "0wNvZNge92zhpzT52itWk2",
+      "classe": "IfcWall",
+      "nome": "AL09",
+      "tipo": "FNDE-AL09-I1-I7 (branco-amarela) 150 x 3100",
+      "FNDE_Pedras": null
+    }
+  },
+  "portas": [
+    {
+      "porta_guid": "0$7sr1l_18mg3F8eebY0Nr",
+      "porta_nome": "PA4",
+      "porta_tipo": "Porta de Correr com Travessa 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2DGVt8FngnmOcXvoYbBpHs",
+      "hospedeiro_guid": "3yBKkZR710Wxzex4iLkf0R",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_fc2d4ba3-6c70-4083-bf68-ec4b15ba901b",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_3f1f6d41-bfe0-48c2-a0cf-228a258805f5"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "08IKprlfH2WAuRZ4DmjH6w",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - amarelo",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2wgwyNNYdcjO_YQsGnrgrE",
+      "hospedeiro_guid": "0scVyEQ7H1WBwab8_01NcZ",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_3699ff0e-6874-4180-bea4-948f800579a3",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_08494cf5-be94-4280-ae1b-8c4370b511ba"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture",
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "08juIWcUDAthHGZeLDYGNp",
+      "porta_nome": "PM3",
+      "porta_tipo": "FNDE - Porta Personalizada - Sanitários",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2LRizAS2mmlBQHfPnFVuNS",
+      "hospedeiro_guid": "0dYZ4MzcX59RVNEy4syFIT",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_278a3116-f668-4525-b7d7-3bc136f0f49d",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_08b784a0-99e3-4ade-b450-8e854d8905f3"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "0AXbNPPML1WPFzZGGjGw$P",
+      "porta_nome": "PM4",
+      "porta_tipo": "FNDE - Porta Personalizada - Com visor",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "087mnlgDvowjAxwEAAdhnw",
+      "hospedeiro_guid": "0KY4NQ469EFR$ukosSYLrV",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_148845da-1062-4e3d-bff8-bb2d9c895d5f",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_0a8655d9-6565-4181-93fd-8d042d43afd9"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "0ELPqLqwH5ixdZTn1yzbnw",
+      "porta_nome": "PO2",
+      "porta_tipo": "FNDE-PO-1 Folha 140 90graus",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3vsWU2Wo6Feh3Vbi7q2n52",
+      "hospedeiro_guid": "292djSli13QOK5kurtYpT5",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "Parede-110",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_890a7b5c-bec0-4369-8505-bb8d778b3745",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_0e559d15-d3a4-45b3-b9e3-77107cf65c7a"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "0LsKoafCbDSe3m0_7bRcqA",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - azul",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3Gusmuv57nc7y9WvqZ8l7o",
+      "hospedeiro_guid": "3My5Kwz2j0Tx3VQDQdBCK$",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_d6f0553a-f42b-4077-b0df-68d6a72cc53f",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_15d94ca4-a4c9-4d72-80f0-03e1e56e6d0a"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "http://pi.pauwel.be/voc/furniture#Furniture"
+      ]
+    },
+    {
+      "porta_guid": "0MRfMkDqf5$Q3HBulv9PKo",
+      "porta_nome": "PM4",
+      "porta_tipo": "FNDE - Porta Personalizada - Com visor",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "065pJQXx46pZbZeaW7QNA9",
+      "hospedeiro_guid": "0zWX2TdHb8tua3mupbX3X0",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_3d82109d-9d19-48df-8903-c38ce5843840",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_166e95ae-374a-45fd-a0d1-2f8bf9259532"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "0R1b$fupj7tBDD9rcaaQV8",
+      "porta_nome": "PF2",
+      "porta_tipo": "FNDE-PF solarios R01",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "08T4qjigiBwqgE8cVPGPsD",
+      "hospedeiro_guid": "0YL1CpO0D1$g98g3nA3uSv",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_22541333-6003-41fe-a248-a83c4a0f8739",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_1b065fe9-e33b-47dc-b34d-2759a491a7c8"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "0SBrb98$PByvY4F_NdbUlM",
+      "porta_nome": "PA4",
+      "porta_tipo": "Porta de Correr com Travessa 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "0bLWp_47dRSaWI0w$AVKE0",
+      "hospedeiro_guid": "0R1noBuJP7NuUbucKUqnq4",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_1b071c8b-e136-475f-87a5-e2651ed31d04",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_1c2f5949-23f6-4bf3-9884-3fe5e795ebd6"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "0TxphoUa5CBfpLD5xJ1OGL",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "22hOW9TIEsTCAA3V7V28AE",
+      "hospedeiro_guid": "28H7jmF8X7muvuYN6q4Aef",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_88447b70-3c88-47c3-8e78-8971b410aa29",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_1def3af2-7a41-4c2e-9cd5-345ed3058415"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "0VMnVMTI13qh$ue1xvoTRQ",
+      "porta_nome": "PM2",
+      "porta_tipo": "FNDE - Porta Personalizada - Com veneziana",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2mKR$R67b3nf3jyZ3P1RTc",
+      "hospedeiro_guid": "2UBUAGkKHAPPv$fThPGv9l",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_9e2de290-b944-4a65-9e7f-a5dad943926f",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_1f5b17d6-7520-43d2-bff8-a01ef9c9d6da"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "0ZwmXZs$zASevFEQdxDDon",
+      "porta_nome": "PO4",
+      "porta_tipo": "FNDE-Portão de Ferro Tipo 2",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2M1Gk26raPDmzWXWzCjnyX",
+      "hospedeiro_guid": "2D09K1HojAifH2RtXolwlP",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_8d009501-472b-4ab2-9442-6f7872bfabd9",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_23eb0863-dbff-4a72-8e4f-39a9fb34dcb1"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "0_ryLaOGzAOBqfUvc1U7n3",
+      "porta_nome": "PM2",
+      "porta_tipo": "FNDE - Porta Personalizada - Com veneziana",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3XXffENbftcjHGr6oRCZgR",
+      "hospedeiro_guid": "16LXPK8wnEReNUpGj57cwy",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_46561654-23ac-4e6e-85de-cd0b451e6ebc",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_3ed7c564-610f-4a60-bd29-7b9981787c43"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "0fAH1U8h9C5PQ2QWeT8Iz1",
+      "porta_nome": "PM4",
+      "porta_tipo": "FNDE - Porta Personalizada - Com visor",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3YAVQfoJJFbB$RNzlPQIQ5",
+      "hospedeiro_guid": "0M4t0lmxfFL9kM9j5ergqe",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_1613702f-c3ba-4f54-9b96-26d168d6ad28",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_2929105e-22b2-4c15-9682-6a0a1d212f41"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "0jIcNsED50YvaGdySu6$Xb",
+      "porta_nome": "PA5",
+      "porta_tipo": "Porta Dupla 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3p$FYi5Xsn7p3qKU4Xcjf7",
+      "hospedeiro_guid": "246JmPSAP9kRYjk1Icc_NH",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_84193c19-70a6-49b9-b8ad-b814a69be5d1",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_2d4a65f6-38d1-408b-9910-9fc7381bf865"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "0kUqhEow5AuB0LUtSSrV_N",
+      "porta_nome": "PF1",
+      "porta_tipo": "PF1-portão de ferro R01",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1FgoCBPocovgCTZKry0ymw",
+      "hospedeiro_guid": "3FmQIyPmPEXOcKU2$4IH4l",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_cfc1a4bc-6706-4e85-8994-782fc449112f",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_2e7b4ace-cba1-4ae0-b015-7b771cd5ff97"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "0q4YSxByfFc8mvXtLdses8",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - laranja",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1yAmPN_v8l44hxwgbXcGzN",
+      "hospedeiro_guid": "3My5Kwz2j0Tx3VQDQdBCK$",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_d6f0553a-f42b-4077-b0df-68d6a72cc53f",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_3412273b-2fca-4f98-8c39-877567da8d88"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "http://pi.pauwel.be/voc/furniture#Furniture"
+      ]
+    },
+    {
+      "porta_guid": "0u5Y8Arar94PBSelrT1JLM",
+      "porta_nome": "PA5",
+      "porta_tipo": "Porta Dupla 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3pcWHi7VBD$44VVnpsfczA",
+      "hospedeiro_guid": "2_A$EmjVbEUgDIaR5Dt$T4",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_be2bf3b0-b5f9-4e7a-a352-91b14ddff744",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_3816220a-d64d-4911-92dc-a2fd5d053556"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "12cC5Ioe952e0vutOtETR8",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - verde",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "22RqptW3Jnhosd$V_Du__6",
+      "hospedeiro_guid": "0scVyEQ7H1WBwab8_01NcZ",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_3699ff0e-6874-4180-bea4-948f800579a3",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_4298c152-ca82-450a-8039-e3763739d6c8"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture",
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "13$TzEYPL7BwyJuoALhFMi",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - laranja",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1CYfXYeySjMuY_jp8ahzff",
+      "hospedeiro_guid": "0scVyEQ7H1WBwab8_01NcZ",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_3699ff0e-6874-4180-bea4-948f800579a3",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_43fddf4e-8995-472f-af13-e32295acf5ac"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture",
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "169fDE8fzAfwNtW5i5B13P",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1ZkYZW4rp0OJJMfVyj9whM",
+      "hospedeiro_guid": "0h8Xfsod97gQwttwI93LA4",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_2b221a76-ca72-47a9-aeb7-dfa4890d5284",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_4626934e-229f-4aa7-a5f7-805b052c10d9"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "1T25Pburj2K8Cu$1_qfxMU",
+      "porta_nome": "PV1",
+      "porta_tipo": "FNDE-PV-Acesso",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3cVreNCop62Ef0aEGWv7fI",
+      "hospedeiro_guid": "3rgSgbA$5FgwTxrvoAQOtN",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_f5a9caa5-2bf1-4fab-a77b-d79c8a698dd7",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_5d085665-e35b-4250-8338-fc1fb4a7b59e"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "1TYUzaGPfAJRH9yn9Ryl8A",
+      "porta_nome": "PA2",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3JJUxtOAPr5m9wwWZzHFVF",
+      "hospedeiro_guid": "0XAHc8zyr1YuL0AWxiP2D2",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_21291988-f7cd-418b-8540-2a0eec642342",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_5d89ef64-419a-4a4d-b449-f3125bf2f20a"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "1ZNEbr8yzAzwIfNr8DLfEB",
+      "porta_nome": "PA2",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "0myL3D$8PQoJaIwSJlJmZU",
+      "hospedeiro_guid": "0XAHc8zyr1YuL0AWxiP2D2",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_21291988-f7cd-418b-8540-2a0eec642342",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_635ce975-23cf-4af7-a4a9-5f520d56938b"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "1fc6gQjLr8S9y9TpDxmiO0",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - azul",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3VFgM8_ohcaXYA07SLTY8U",
+      "hospedeiro_guid": "0scVyEQ7H1WBwab8_01NcZ",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_3699ff0e-6874-4180-bea4-948f800579a3",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_69986a9a-b55d-4870-9f09-77337bc2c600"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture",
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "1m93WiavnDjA1ffwNGiG0Y",
+      "porta_nome": "PA5",
+      "porta_tipo": "Porta Dupla 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1wXsI3BlweKvJbFzStWroW",
+      "hospedeiro_guid": "2_A$EmjVbEUgDIaR5Dt$T4",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_be2bf3b0-b5f9-4e7a-a352-91b14ddff744",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_7024382c-939c-4db4-a069-a7a5d0b10022"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "1mQmJozavChP$HXNvjCxQ8",
+      "porta_nome": "PO1",
+      "porta_tipo": "FNDE-PO-2 Folhas 185",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1wr4b$P2OiYTStvKkGpzOp",
+      "hospedeiro_guid": "3prbokpk5BLgcouJFezjW0",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_f3d65cae-cee1-4b56-a9b2-e133e8f6d800",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_706b04f2-f64e-4cad-9fd1-857e6d33b688"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "1w5jQ1VYj8oglb4lTLm9HL",
+      "porta_nome": "PF2",
+      "porta_tipo": "FNDE-PF solarios R01",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3k3oVGL9IP4elieJoJtDfi",
+      "hospedeiro_guid": "2hdyfw1F5Efvw8OQwMsveE",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_ab9fca7a-04f1-4ea7-9e88-61ae96db9a0e",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_7a16d681-7e2b-48ca-abe5-12f755c09455"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "1ylx3Jc85Fp9MgHwshluRZ",
+      "porta_nome": "PM4",
+      "porta_tipo": "FNDE - Porta Personalizada - Com visor",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1mccZ536Vef1pbbsvT91_G",
+      "hospedeiro_guid": "15acbSi_T1au0ex28LqHho",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_4592695c-b3e7-4193-8028-ec2215d11af2",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_7cbfb0d3-9881-4fcc-95aa-47adabbf86e3"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "22ZRfsRw51vP3lSdz$OaVX",
+      "porta_nome": "PA1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1Wd1axI5BMaK18bgM5VEWC",
+      "hospedeiro_guid": "0XAHc8zyr1YuL0AWxiP2D2",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_21291988-f7cd-418b-8540-2a0eec642342",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_828dba76-6fa1-41e5-90ef-727f7f6247e1"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "26Bf$PJ918MAZ83NMLZGra",
+      "porta_nome": "PM3",
+      "porta_tipo": "FNDE - Porta Personalizada - Sanitários",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1$YQ9YES6Hc1SklKrxeAfl",
+      "hospedeiro_guid": "1PdjHo6zvFue7eJ4JApaPN",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_599ed472-1bde-4fe2-81e8-4c44cace4657",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_862e9fd9-4c90-4858-a8c8-0d75958d0d64"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "2LRxt_BlfCvui30eAg4USn",
+      "porta_nome": "PA3",
+      "porta_tipo": "Porta Dupla 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "39Xjvv_l_kcbd4qY52MMNY",
+      "hospedeiro_guid": "3Bw9bk8_n0duI6YtWErccu",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_cbe8996e-23ec-409f-8486-8b780ed669b8",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_956fbdfe-2efa-4ce7-8b03-0282aa11e731"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "2RDqryaovC_OblAlg91p4L",
+      "porta_nome": "PM2",
+      "porta_tipo": "FNDE - Porta Personalizada - Com veneziana",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1x71j$dxyYEEoncuc4VkyQ",
+      "hospedeiro_guid": "1v8GUEVp5BSuN5s4rGKaRA",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_7921078e-7f31-4b73-85c5-d84d505246ca",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_9b374d7c-932e-4cf9-896f-2afa89073115"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "2T2q9$eErCvBqRcKtiwBbt",
+      "porta_nome": "PA4",
+      "porta_tipo": "Porta de Correr com Travessa 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3_F7gU0KrYcOsJ9QkFFuCt",
+      "hospedeiro_guid": "0dOiUpzNH97uPNxrbyg6mm",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_2762c7b3-f574-491f-8657-ef597ca86c30",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_9d0b427f-a0ed-4ce4-bd1b-994dece8b977"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "2_r5g9xjfAV9TVk2lAcJMN",
+      "porta_nome": "PM4",
+      "porta_tipo": "FNDE - Porta Personalizada - Com visor",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2MqX7EZ$bAjFFrdUF33nwK",
+      "hospedeiro_guid": "3U3aBWFO9CpBgCsiQzp1pW",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_de0e42e0-3d82-4ccc-ba8c-dac6bdcc1ce0",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_bed45a89-eeda-4a7c-975f-b82bca993597"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "2cFrzebFj5yucM5VsP3OGN",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3gZI_KnHq6Okel14a7b_KY",
+      "hospedeiro_guid": "1dZzeFgi52sxdY$SVOdXIT",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_678fda0f-aac1-42db-b9e2-fdc7d89e149d",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_a63f5f68-94fb-45f3-8996-15fd990d8417"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "2dnkbAiS93j8MkIpnC4vEc",
+      "porta_nome": "PA4",
+      "porta_tipo": "Porta de Correr com Travessa 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2b6AV3elrypep0AgrYQMDQ",
+      "hospedeiro_guid": "2LHycwR7z5aAV9LtOWq_Yx",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_9547c9ba-6c7f-4590-a7c9-577620d3e8bb",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_a7c6e94a-b1c2-43b4-85ae-4b3c4c1393a6"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "2duCFb0inEfPepwugZbI5_",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1n5sQiy_3WDQE0B04DiYzH",
+      "hospedeiro_guid": "3Lm1DxdhvDngNYlnBzUiMU",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_d5c0137b-9ebe-4dc6-a5e2-bf12fd7ac59e",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_a7e0c3e5-02cc-4ea5-9a33-eb8aa395217e"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "2e4fcXX8r2eQ30U9kXib6A",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2pO4AK2t$FBki25CCokn1p",
+      "hospedeiro_guid": "3yAwqEBwf7PuJw_u$qQEyP",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_fc2bad0e-2faa-4767-84fa-fb8ff468ef19",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_a81299a1-848d-42a1-a0c0-789ba1b2518a"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "2mN81WWIr2Duv5Qp0diyV_",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - amarelo",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "361mSX0ZdxffYm5eFD5H79",
+      "hospedeiro_guid": "3My5Kwz2j0Tx3VQDQdBCK$",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_d6f0553a-f42b-4077-b0df-68d6a72cc53f",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_b05c8060-812d-4237-8e45-6b3027b3c7fe"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "http://pi.pauwel.be/voc/furniture#Furniture"
+      ]
+    },
+    {
+      "porta_guid": "2u10nDQsT42OWnhQSW2H8Z",
+      "porta_nome": "PO3",
+      "porta_tipo": "FNDE-PO-1 Folha 120",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "0E8dSFQhyKmTEPcjAnfupZ",
+      "hospedeiro_guid": "3Ak27VgDnEHPbsNyce8LHn",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "Parede-110",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_cab821df-a8dc-4e45-9976-5fc9a8215471",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_b8040c4d-6b67-4409-8831-ada720091223"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "2yrZhQXXvCRwjLSFaUElAe",
+      "porta_nome": "PA4",
+      "porta_tipo": "Porta de Correr com Travessa 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "37yRXoF9QvuDNbA9He0teO",
+      "hospedeiro_guid": "0TdKPEcqr7iwpDLA2jkHfS",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_1d9d464e-9b4d-47b3-accd-54a0adb91a5c",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_bcd63ada-861e-4c6f-ab55-70f91e3af2a8"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "3$HZQnC5vA4PThRw0TPdvO",
+      "porta_nome": "PA4",
+      "porta_tipo": "Porta de Correr com Travessa 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3WA_8lMJW1J0YJ4oAbwZmG",
+      "hospedeiro_guid": "2JDn2pFhf91wBy$8Zw7R82",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_933710b3-3eba-4907-a2fc-fc88fa1db202",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_ff4636b1-305e-4a11-976b-6fa01d667e58"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "36VcylwljAxhzXEsJpeekr",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2emFbuPmPUg3fQIL_8nci_",
+      "hospedeiro_guid": "3BgFgAEMH1AR1k70kqmmGX",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_cba8fa8a-3964-4129-b06e-1c0bb4c30421",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_c67e6f2f-eafb-4aee-bf61-3b64f3a28bb5"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "3DwHjxFVTCoRGzeEKYeWeg",
+      "porta_nome": "PM5",
+      "porta_tipo": "FNDE - Porta Personalizada - sanitarios infantis - verde",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "0OXjjsB98ins8a0sZZkPEz",
+      "hospedeiro_guid": "3My5Kwz2j0Tx3VQDQdBCK$",
+      "hospedeiro_classe": "IfcFurniture",
+      "hospedeiro_nome": "DV1",
+      "aceito_no_criterio_IfcWall": false,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/furniture_d6f0553a-f42b-4077-b0df-68d6a72cc53f",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_cde91b7b-3df7-4cc9-b43d-a0e522a20a2a"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "http://pi.pauwel.be/voc/furniture#Furniture-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "http://pi.pauwel.be/voc/furniture#Furniture"
+      ]
+    },
+    {
+      "porta_guid": "3Muyty6Jn84wD2ggZdX4nF",
+      "porta_nome": "PA4",
+      "porta_tipo": "Porta de Correr com Travessa 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "0h7ZliKspr8U82Tm95vcki",
+      "hospedeiro_guid": "36hzAYQT14BOIvjaVL9t0n",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_c6afd2a2-69d0-442d-84b9-b647d5277031",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_d6e3cdfc-193c-4813-a342-aaa8e7844c4f"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "3UdIZm3p96ivubuyjzOrnt",
+      "porta_nome": "PO2",
+      "porta_tipo": "FNDE-PO-1 Folha 140 180graus",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "12s7C7KUFq6ZqEfzgdhaxF",
+      "hospedeiro_guid": "3jsNVkT0TC4eoeR3CC7hwe",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "Parede-110",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_edd977ee-7407-4c12-8ca8-6c330c1ebea8",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_de9d28f0-0f32-46b3-9e25-e3cb7d635c77"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "3dtlrqmAH13OjRv8PfxORZ",
+      "porta_nome": "PM3",
+      "porta_tipo": "FNDE - Porta Personalizada - Sanitários",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2kOdg6Tkk5v_0cWOGVZGf1",
+      "hospedeiro_guid": "3RwYcOvUD0Wwi22QiIvBjO",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_dbea2998-e5e3-4083-ab02-09ab12e4bb58",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_e7defd74-c0a4-410d-8b5b-e48669ed86e3"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "3eSlFj_ObCUQzpQQ7szs0n",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "3Sv$5lxbxpOprH5zItsohu",
+      "hospedeiro_guid": "28H7jmF8X7muvuYN6q4Aef",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_88447b70-3c88-47c3-8e78-8971b410aa29",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_e872f3ed-f989-4c79-af73-69a1f6f76031"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    },
+    {
+      "porta_guid": "3efK_3wsb0Ow_NJDUKYKLb",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1hxbwpysmlHV$5GpPNPoSq",
+      "hospedeiro_guid": "09ixgreIj5ggRNB1f7pQOi",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_09b3bab5-a12b-45aa-a6d7-2c1a47cda62c",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_e8a54f83-eb69-4063-af97-4cd794894565"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "3rbVarsKbD_uuryOcy8kcj",
+      "porta_nome": "PO1",
+      "porta_tipo": "FNDE-PO-2 Folhas 185",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1TxSlLXJAQCpnFa6msLNpq",
+      "hospedeiro_guid": "3prbokpk5BLgcouJFezjW0",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL14",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_f3d65cae-cee1-4b56-a9b2-e133e8f6d800",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_f595f935-d949-4dfb-8e35-f189bc22e9ad"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door",
+        "https://w3id.org/bot#Element"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall"
+      ]
+    },
+    {
+      "porta_guid": "3whdmTCPbAavExR20OE5sf",
+      "porta_nome": "PM1",
+      "porta_tipo": "Porta 27",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "2zCFgfcAl534AmiMAglBM$",
+      "hospedeiro_guid": "0wNvZNge92zhpzT52itWk2",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL09",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_3a5f98d7-aa82-42f6-bcfd-7450acde0b82",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_faae7c1d-3199-4a93-93bb-6c2018385da9"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://w3id.org/bot#Element"
+      ]
+    },
+    {
+      "porta_guid": "3zOnACk6L0hem$SJb4PQhZ",
+      "porta_nome": "PV1",
+      "porta_tipo": "FNDE-PV-Acesso",
+      "preenchimentos_ifc": 1,
+      "aberturas_ifc": 1,
+      "vazios_ifc": 1,
+      "abertura_guid": "1uyWQ8W$hryH6rGYBtYnfV",
+      "hospedeiro_guid": "3rgSgbA$5FgwTxrvoAQOtN",
+      "hospedeiro_classe": "IfcWall",
+      "hospedeiro_nome": "AL",
+      "aceito_no_criterio_IfcWall": true,
+      "correspondencia_rdf_unica": true,
+      "arestas_diretas_rdf": 1,
+      "predicados_rdf": "https://w3id.org/bot#hasSubElement",
+      "triplas_rdf": [
+        [
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/wall_f5a9caa5-2bf1-4fab-a77b-d79c8a698dd7",
+          "https://w3id.org/bot#hasSubElement",
+          "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook2/arquitetura/door_fd63128c-b865-40ae-8c3f-71394465aae3"
+        ]
+      ],
+      "tipos_rdf_porta": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED",
+        "https://pi.pauwel.be/voc/buildingelement#Door"
+      ],
+      "tipos_rdf_hospedeiro": [
+        "https://w3id.org/bot#Element",
+        "https://pi.pauwel.be/voc/buildingelement#Wall",
+        "https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED"
+      ]
+    }
+  ],
+  "limites": [
+    "Não verifica a correção da classe escolhida no projeto de autoria.",
+    "Não calcula geometria nem determina o ambiente físico das portas.",
+    "Presença de aresta RDF não prova todas as relações semânticas ou toda a preservação do IFC.",
+    "A matriz v01 é preservada como registro anterior à análise-piloto."
+  ]
+}

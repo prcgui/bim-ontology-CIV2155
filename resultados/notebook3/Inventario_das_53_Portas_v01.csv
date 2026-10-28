@@ -1,0 +1,54 @@
+﻿porta_guid,porta_nome,porta_tipo,preenchimentos_ifc,aberturas_ifc,vazios_ifc,abertura_guid,hospedeiro_guid,hospedeiro_classe,hospedeiro_nome,aceito_no_criterio_IfcWall,correspondencia_rdf_unica,arestas_diretas_rdf,predicados_rdf
+0$7sr1l_18mg3F8eebY0Nr,PA4,Porta de Correr com Travessa 27,1,1,1,2DGVt8FngnmOcXvoYbBpHs,3yBKkZR710Wxzex4iLkf0R,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+08IKprlfH2WAuRZ4DmjH6w,PM5,FNDE - Porta Personalizada - sanitarios infantis - amarelo,1,1,1,2wgwyNNYdcjO_YQsGnrgrE,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+08juIWcUDAthHGZeLDYGNp,PM3,FNDE - Porta Personalizada - Sanitários,1,1,1,2LRizAS2mmlBQHfPnFVuNS,0dYZ4MzcX59RVNEy4syFIT,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+0AXbNPPML1WPFzZGGjGw$P,PM4,FNDE - Porta Personalizada - Com visor,1,1,1,087mnlgDvowjAxwEAAdhnw,0KY4NQ469EFR$ukosSYLrV,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+0ELPqLqwH5ixdZTn1yzbnw,PO2,FNDE-PO-1 Folha 140 90graus,1,1,1,3vsWU2Wo6Feh3Vbi7q2n52,292djSli13QOK5kurtYpT5,IfcWall,Parede-110,True,True,1,https://w3id.org/bot#hasSubElement
+0LsKoafCbDSe3m0_7bRcqA,PM5,FNDE - Porta Personalizada - sanitarios infantis - azul,1,1,1,3Gusmuv57nc7y9WvqZ8l7o,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+0MRfMkDqf5$Q3HBulv9PKo,PM4,FNDE - Porta Personalizada - Com visor,1,1,1,065pJQXx46pZbZeaW7QNA9,0zWX2TdHb8tua3mupbX3X0,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+0R1b$fupj7tBDD9rcaaQV8,PF2,FNDE-PF solarios R01,1,1,1,08T4qjigiBwqgE8cVPGPsD,0YL1CpO0D1$g98g3nA3uSv,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+0SBrb98$PByvY4F_NdbUlM,PA4,Porta de Correr com Travessa 27,1,1,1,0bLWp_47dRSaWI0w$AVKE0,0R1noBuJP7NuUbucKUqnq4,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+0TxphoUa5CBfpLD5xJ1OGL,PM1,Porta 27,1,1,1,22hOW9TIEsTCAA3V7V28AE,28H7jmF8X7muvuYN6q4Aef,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+0VMnVMTI13qh$ue1xvoTRQ,PM2,FNDE - Porta Personalizada - Com veneziana,1,1,1,2mKR$R67b3nf3jyZ3P1RTc,2UBUAGkKHAPPv$fThPGv9l,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+0ZwmXZs$zASevFEQdxDDon,PO4,FNDE-Portão de Ferro Tipo 2,1,1,1,2M1Gk26raPDmzWXWzCjnyX,2D09K1HojAifH2RtXolwlP,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+0_ryLaOGzAOBqfUvc1U7n3,PM2,FNDE - Porta Personalizada - Com veneziana,1,1,1,3XXffENbftcjHGr6oRCZgR,16LXPK8wnEReNUpGj57cwy,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+0fAH1U8h9C5PQ2QWeT8Iz1,PM4,FNDE - Porta Personalizada - Com visor,1,1,1,3YAVQfoJJFbB$RNzlPQIQ5,0M4t0lmxfFL9kM9j5ergqe,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+0jIcNsED50YvaGdySu6$Xb,PA5,Porta Dupla 27,1,1,1,3p$FYi5Xsn7p3qKU4Xcjf7,246JmPSAP9kRYjk1Icc_NH,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+0kUqhEow5AuB0LUtSSrV_N,PF1,PF1-portão de ferro R01,1,1,1,1FgoCBPocovgCTZKry0ymw,3FmQIyPmPEXOcKU2$4IH4l,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+0q4YSxByfFc8mvXtLdses8,PM5,FNDE - Porta Personalizada - sanitarios infantis - laranja,1,1,1,1yAmPN_v8l44hxwgbXcGzN,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+0u5Y8Arar94PBSelrT1JLM,PA5,Porta Dupla 27,1,1,1,3pcWHi7VBD$44VVnpsfczA,2_A$EmjVbEUgDIaR5Dt$T4,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+12cC5Ioe952e0vutOtETR8,PM5,FNDE - Porta Personalizada - sanitarios infantis - verde,1,1,1,22RqptW3Jnhosd$V_Du__6,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+13$TzEYPL7BwyJuoALhFMi,PM5,FNDE - Porta Personalizada - sanitarios infantis - laranja,1,1,1,1CYfXYeySjMuY_jp8ahzff,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+169fDE8fzAfwNtW5i5B13P,PM1,Porta 27,1,1,1,1ZkYZW4rp0OJJMfVyj9whM,0h8Xfsod97gQwttwI93LA4,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+1T25Pburj2K8Cu$1_qfxMU,PV1,FNDE-PV-Acesso,1,1,1,3cVreNCop62Ef0aEGWv7fI,3rgSgbA$5FgwTxrvoAQOtN,IfcWall,AL,True,True,1,https://w3id.org/bot#hasSubElement
+1TYUzaGPfAJRH9yn9Ryl8A,PA2,Porta 27,1,1,1,3JJUxtOAPr5m9wwWZzHFVF,0XAHc8zyr1YuL0AWxiP2D2,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+1ZNEbr8yzAzwIfNr8DLfEB,PA2,Porta 27,1,1,1,0myL3D$8PQoJaIwSJlJmZU,0XAHc8zyr1YuL0AWxiP2D2,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+1fc6gQjLr8S9y9TpDxmiO0,PM5,FNDE - Porta Personalizada - sanitarios infantis - azul,1,1,1,3VFgM8_ohcaXYA07SLTY8U,0scVyEQ7H1WBwab8_01NcZ,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+1m93WiavnDjA1ffwNGiG0Y,PA5,Porta Dupla 27,1,1,1,1wXsI3BlweKvJbFzStWroW,2_A$EmjVbEUgDIaR5Dt$T4,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+1mQmJozavChP$HXNvjCxQ8,PO1,FNDE-PO-2 Folhas 185,1,1,1,1wr4b$P2OiYTStvKkGpzOp,3prbokpk5BLgcouJFezjW0,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+1w5jQ1VYj8oglb4lTLm9HL,PF2,FNDE-PF solarios R01,1,1,1,3k3oVGL9IP4elieJoJtDfi,2hdyfw1F5Efvw8OQwMsveE,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+1ylx3Jc85Fp9MgHwshluRZ,PM4,FNDE - Porta Personalizada - Com visor,1,1,1,1mccZ536Vef1pbbsvT91_G,15acbSi_T1au0ex28LqHho,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+22ZRfsRw51vP3lSdz$OaVX,PA1,Porta 27,1,1,1,1Wd1axI5BMaK18bgM5VEWC,0XAHc8zyr1YuL0AWxiP2D2,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+26Bf$PJ918MAZ83NMLZGra,PM3,FNDE - Porta Personalizada - Sanitários,1,1,1,1$YQ9YES6Hc1SklKrxeAfl,1PdjHo6zvFue7eJ4JApaPN,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2LRxt_BlfCvui30eAg4USn,PA3,Porta Dupla 27,1,1,1,39Xjvv_l_kcbd4qY52MMNY,3Bw9bk8_n0duI6YtWErccu,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2RDqryaovC_OblAlg91p4L,PM2,FNDE - Porta Personalizada - Com veneziana,1,1,1,1x71j$dxyYEEoncuc4VkyQ,1v8GUEVp5BSuN5s4rGKaRA,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2T2q9$eErCvBqRcKtiwBbt,PA4,Porta de Correr com Travessa 27,1,1,1,3_F7gU0KrYcOsJ9QkFFuCt,0dOiUpzNH97uPNxrbyg6mm,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2_r5g9xjfAV9TVk2lAcJMN,PM4,FNDE - Porta Personalizada - Com visor,1,1,1,2MqX7EZ$bAjFFrdUF33nwK,3U3aBWFO9CpBgCsiQzp1pW,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2cFrzebFj5yucM5VsP3OGN,PM1,Porta 27,1,1,1,3gZI_KnHq6Okel14a7b_KY,1dZzeFgi52sxdY$SVOdXIT,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2dnkbAiS93j8MkIpnC4vEc,PA4,Porta de Correr com Travessa 27,1,1,1,2b6AV3elrypep0AgrYQMDQ,2LHycwR7z5aAV9LtOWq_Yx,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2duCFb0inEfPepwugZbI5_,PM1,Porta 27,1,1,1,1n5sQiy_3WDQE0B04DiYzH,3Lm1DxdhvDngNYlnBzUiMU,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2e4fcXX8r2eQ30U9kXib6A,PM1,Porta 27,1,1,1,2pO4AK2t$FBki25CCokn1p,3yAwqEBwf7PuJw_u$qQEyP,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+2mN81WWIr2Duv5Qp0diyV_,PM5,FNDE - Porta Personalizada - sanitarios infantis - amarelo,1,1,1,361mSX0ZdxffYm5eFD5H79,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+2u10nDQsT42OWnhQSW2H8Z,PO3,FNDE-PO-1 Folha 120,1,1,1,0E8dSFQhyKmTEPcjAnfupZ,3Ak27VgDnEHPbsNyce8LHn,IfcWall,Parede-110,True,True,1,https://w3id.org/bot#hasSubElement
+2yrZhQXXvCRwjLSFaUElAe,PA4,Porta de Correr com Travessa 27,1,1,1,37yRXoF9QvuDNbA9He0teO,0TdKPEcqr7iwpDLA2jkHfS,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+3$HZQnC5vA4PThRw0TPdvO,PA4,Porta de Correr com Travessa 27,1,1,1,3WA_8lMJW1J0YJ4oAbwZmG,2JDn2pFhf91wBy$8Zw7R82,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+36VcylwljAxhzXEsJpeekr,PM1,Porta 27,1,1,1,2emFbuPmPUg3fQIL_8nci_,3BgFgAEMH1AR1k70kqmmGX,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+3DwHjxFVTCoRGzeEKYeWeg,PM5,FNDE - Porta Personalizada - sanitarios infantis - verde,1,1,1,0OXjjsB98ins8a0sZZkPEz,3My5Kwz2j0Tx3VQDQdBCK$,IfcFurniture,DV1,False,True,1,https://w3id.org/bot#hasSubElement
+3Muyty6Jn84wD2ggZdX4nF,PA4,Porta de Correr com Travessa 27,1,1,1,0h7ZliKspr8U82Tm95vcki,36hzAYQT14BOIvjaVL9t0n,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+3UdIZm3p96ivubuyjzOrnt,PO2,FNDE-PO-1 Folha 140 180graus,1,1,1,12s7C7KUFq6ZqEfzgdhaxF,3jsNVkT0TC4eoeR3CC7hwe,IfcWall,Parede-110,True,True,1,https://w3id.org/bot#hasSubElement
+3dtlrqmAH13OjRv8PfxORZ,PM3,FNDE - Porta Personalizada - Sanitários,1,1,1,2kOdg6Tkk5v_0cWOGVZGf1,3RwYcOvUD0Wwi22QiIvBjO,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+3eSlFj_ObCUQzpQQ7szs0n,PM1,Porta 27,1,1,1,3Sv$5lxbxpOprH5zItsohu,28H7jmF8X7muvuYN6q4Aef,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+3efK_3wsb0Ow_NJDUKYKLb,PM1,Porta 27,1,1,1,1hxbwpysmlHV$5GpPNPoSq,09ixgreIj5ggRNB1f7pQOi,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+3rbVarsKbD_uuryOcy8kcj,PO1,FNDE-PO-2 Folhas 185,1,1,1,1TxSlLXJAQCpnFa6msLNpq,3prbokpk5BLgcouJFezjW0,IfcWall,AL14,True,True,1,https://w3id.org/bot#hasSubElement
+3whdmTCPbAavExR20OE5sf,PM1,Porta 27,1,1,1,2zCFgfcAl534AmiMAglBM$,0wNvZNge92zhpzT52itWk2,IfcWall,AL09,True,True,1,https://w3id.org/bot#hasSubElement
+3zOnACk6L0hem$SJb4PQhZ,PV1,FNDE-PV-Acesso,1,1,1,1uyWQ8W$hryH6rGYBtYnfV,3rgSgbA$5FgwTxrvoAQOtN,IfcWall,AL,True,True,1,https://w3id.org/bot#hasSubElement
