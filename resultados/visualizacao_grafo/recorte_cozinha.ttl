@@ -1,0 +1,25 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/site_803f3763-3344-fc0b-9adf-4e2dede129a8> a bot:Site ;
+    rdfs:label "PADRÃO" ;
+    bot:hasBuilding <https://github.com/prcgui/bim-ontology-CIV2155/id/building_00dd6c87-6a6e-f482-7490-e6613659708a> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/building_00dd6c87-6a6e-f482-7490-e6613659708a> a bot:Building ;
+    rdfs:label "CRECHE PRÉ-ESCOLA TIPO 2" ;
+    bot:hasStorey <https://github.com/prcgui/bim-ontology-CIV2155/id/storey_3ca2f253-281d-4fdd-bc52-48b872b548cd> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f> a bot:Space ;
+    rdfs:label "04" ;
+    props:ambienteIdadeDosAlunos_property_simple "-" ;
+    props:ambienteQuantidadeDeAlunos_property_simple "-" ;
+    props:ambiente_property_simple "COZINHA" ;
+    props:category_property_simple "Ambientes de Serviço" ;
+    props:globalIdIfcRoot_attribute_simple "3UFjAT4k55zg_Pqo6VMw5l" ;
+    props:longNameIfcSpatialElement_attribute_simple "COZINHA" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/storey_3ca2f253-281d-4fdd-bc52-48b872b548cd> a bot:Storey ;
+    rdfs:label "TÉRREO" ;
+    bot:hasSpace <https://github.com/prcgui/bim-ontology-CIV2155/id/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f> .
+

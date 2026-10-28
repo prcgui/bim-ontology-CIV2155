@@ -1,5 +1,11 @@
 # Referências
 
+## Representação gráfica dos resultados
+
+MATPLOTLIB DEVELOPMENT TEAM. **Annotations**. Matplotlib 3.10.7 documentation. Disponível em: <https://matplotlib.org/3.10.7/users/explain/text/annotations.html>. Acesso em: 27 out. 2026.
+
+A documentação fundamenta o uso de textos, caixas e setas na [rotina de visualização](../consultas/10_visualizacao_grafo.py). A seleção das relações utiliza as operações de navegação de grafos do RDFLib, referenciadas nesta lista. As figuras são elaborações gráficas deste estudo baseadas nas triplas do resultado corrigido.
+
 ## Conversão IFC para Linked Building Data
 
 BONDUEL, Mathias; ORASKARI, Jyrki; PAUWELS, Pieter; VERGAUWEN, Maarten; KLEIN, Ralf. The IFC to Linked Building Data Converter: Current Status. In: LINKED DATA IN ARCHITECTURE AND CONSTRUCTION WORKSHOP, 6., 2018, Londres. **Proceedings [...]**. CEUR Workshop Proceedings, v. 2159, 2018. p. 34–43. Disponível em: <https://ceur-ws.org/Vol-2159/04paper.pdf>. Acesso em: 27 out. 2026.

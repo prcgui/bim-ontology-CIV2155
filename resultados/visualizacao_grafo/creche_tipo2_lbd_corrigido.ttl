@@ -1,0 +1,543 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#>
+PREFIX omg: <https://w3id.org/omg#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX beo: <https://pi.pauwel.be/voc/buildingelement#>
+PREFIX lbd: <https://linkedbuildingdata.org/LBD#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#>
+PREFIX smls: <https://w3id.org/def/smls-owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX inst: <https://github.com/prcgui/bim-ontology-CIV2155/id/>
+PREFIX mep: <http://pi.pauwel.be/voc/distributionelement#>
+PREFIX furn: <http://pi.pauwel.be/voc/furniture#>
+PREFIX fog: <https://w3id.org/fog#>
+
+inst:space_5766c6e2-923b-472b-9f1b-dd3a5d71ad69
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "VEST. FUNC. MASC.";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1NPiRYaZj7AvyRtJfTSQrf";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "VEST. FUNC. MASC." .
+
+props:elevationIfcBuildingStorey_attribute_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC standard attribute elevationIfcBuildingStorey" .
+
+inst:site_803f3763-3344-fc0b-9adf-4e2dede129a8
+        bot:hasBuilding  inst:building_00dd6c87-6a6e-f482-7490-e6613659708a;
+        rdf:type         bot:Site;
+        props:globalIdIfcRoot_attribute_simple  "20FpTZCqJy2vhVJYtjuIce";
+        rdfs:label       "PADRÃO";
+        props:refElevationIfcSite_attribute_simple  0.0e0 .
+
+inst:space_36602c77-79f5-4b4a-a425-493788af0591
+        props:ambienteQuantidadeDeAlunos_property_simple  "24 alunos";
+        props:ambiente_property_simple  "INFANTIL 4";
+        props:ambienteIdadeDosAlunos_property_simple  "(4 a 5 anos)";
+        props:category_property_simple  "Ambientes de Aprendizagem";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0sO2ntUVLBIgGbIJU8hmMH";
+        rdfs:label                      "06";
+        props:longNameIfcSpatialElement_attribute_simple  "INFANTIL 4" .
+
+inst:space_fef23785-b12a-446a-83b7-67b82e423e0b
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "VARANDA DE SERVIÇO / DML";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3_yZU5iIf4QeEtPxWkGZuB";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "VARANDA DE SERVIÇO / DML" .
+
+inst:space_f881095a-02f9-4c97-b1e8-19e378008b2b
+        props:category_property_simple  "Ambientes Administrativos";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "HALL DE ENTRADA";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3uWGbQ0lbCbx7e6UDu08ih";
+        rdfs:label                      "01";
+        props:longNameIfcSpatialElement_attribute_simple  "HALL DE ENTRADA" .
+
+props:ambiente_property_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC property set FNDE property ambiente" .
+
+inst:space_03fbb3d2-8cec-4d81-a3b6-f4109724b3d5
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "COPA FUNCIONÁRIOS";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "03_xFIZEnDWQEsz12N9BFL";
+        rdfs:label                      "04";
+        props:longNameIfcSpatialElement_attribute_simple  "COPA FUNCIONÁRIOS" .
+
+inst:space_d547a7f0-291f-42b1-a92e-3fd73666b6c9
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "CASA DE BOMBAS";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes de Serviço";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3LHwVmAHz2iQakFzSsPhR9";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "CASA DE BOMBAS" .
+
+inst:space_706bc547-34e6-4a34-adeb-b6f6234f12e6
+        props:category_property_simple  "Ambientes Administrativos";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SALA DE ATENDIMENTO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1mQyL7DEPADAthjlOZJnBc";
+        rdfs:label                      "05";
+        props:longNameIfcSpatialElement_attribute_simple  "SALA DE ATENDIMENTO" .
+
+props:category_property_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC property set Pset_SpaceCommon property category" .
+
+lbd:x-max  rdf:type  owl:DatatypeProperty .
+
+inst:space_67e1ca91-e974-4718-87b2-808c11833127
+        props:category_property_simple  "Ambientes de Higiene";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SANIT. PCD MASC.";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1duSgHwNH768UoW8mHWp4d";
+        rdfs:label                      "06";
+        props:longNameIfcSpatialElement_attribute_simple  "SANIT. PCD MASC." .
+
+inst:space_553455d3-1d26-4a5d-9d86-05b5276fd52a
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SOLÁRIO - 3";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes Externos de Atividades";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1LD5NJ7IPANPs61RKdRzKg";
+        rdfs:label                      "29";
+        props:longNameIfcSpatialElement_attribute_simple  "SOLÁRIO - 3" .
+
+inst:space_3d5d8a91-43f4-4762-bbbd-f21ad0c6ffed
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "VEST. FUNC. FEM.";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0zNOgHG$H7OhkzyXhGnl$j";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "VEST. FUNC. FEM." .
+
+props:ambienteQuantidadeDeAlunos_property_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC property set FNDE property ambienteQuantidadeDeAlunos" .
+
+inst:space_de3ed29d-12e1-45f6-af99-d3219f5ba16f
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "COZINHA";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes de Serviço";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3UFjAT4k55zg_Pqo6VMw5l";
+        rdfs:label                      "04";
+        props:longNameIfcSpatialElement_attribute_simple  "COZINHA" .
+
+props:longNameIfcSpatialElement_attribute_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC standard attribute longNameIfcSpatialElement" .
+
+inst:building_00dd6c87-6a6e-f482-7490-e6613659708a
+        bot:hasStorey  inst:storey_40eecf3b-2a1f-a44a-93b9-e4b1dd87b9d4;
+        bot:hasStorey  inst:storey_3ca2f253-281d-4fdd-bc52-48b872b548cd;
+        rdf:type       bot:Building;
+        props:globalIdIfcRoot_attribute_simple  "00tMo7QcxqWdIGvc4sMN2A";
+        rdfs:label     "CRECHE PRÉ-ESCOLA TIPO 2" .
+
+inst:storey_40eecf3b-2a1f-a44a-93b9-e4b1dd87b9d4
+        rdf:type    bot:Storey;
+        props:globalIdIfcRoot_attribute_simple  "10xiyxAX_aIfEvvB7TXxdK";
+        rdfs:label  "COBERTURA";
+        props:elevationIfcBuildingStorey_attribute_simple  3.26e0 .
+
+lbd:y-max  rdf:type  owl:DatatypeProperty .
+
+props:ambienteIdadeDosAlunos_property_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC property set FNDE property ambienteIdadeDosAlunos" .
+
+inst:space_bbfa3934-1b3d-4529-a9c4-10714c19a7a4
+        props:ambienteQuantidadeDeAlunos_property_simple  "16 alunos";
+        props:ambiente_property_simple  "INFANTIL 1";
+        props:ambienteIdadeDosAlunos_property_simple  "(1 a 2 anos)";
+        props:category_property_simple  "Ambientes de Aprendizagem";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "2x_Zaq6pr5AQd4475C6QUa";
+        rdfs:label                      "06";
+        props:longNameIfcSpatialElement_attribute_simple  "INFANTIL 1" .
+
+lbd:hasWireframe  rdf:type  owl:DatatypeProperty .
+
+inst:space_4a1d4377-4c41-4821-a1f5-32bdd761c397
+        props:category_property_simple  "Circulações Internas";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "CIRCULAÇÃO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1A7KDtJ4588Q7rChtNOSEN";
+        rdfs:label                      "32";
+        props:longNameIfcSpatialElement_attribute_simple  "CIRCULAÇÃO" .
+
+lbd:z-max  rdf:type  owl:DatatypeProperty .
+
+inst:space_51c9e078-da44-42d8-8652-d9f22d1ecf4e
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "LIXO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1HoU1usaH2s8PIsV8j7izE";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "LIXO" .
+
+inst:space_43f05c5e-0691-4e63-8b6b-068571ae8531
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SANIT. PCD FEM.";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes de Higiene";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "13y5nU1f5EOujh1eLnheKn";
+        rdfs:label                      "07";
+        props:longNameIfcSpatialElement_attribute_simple  "SANIT. PCD FEM." .
+
+inst:space_ed8ce420-4cf1-4709-b59a-59bbb9245b23
+        props:category_property_simple  "Ambientes Externos de Atividades";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "PLAYGROUND";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3jZEGWJF572RMQMRkv95iZ";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "PLAYGROUND" .
+
+inst:space_23c44aa0-b1fd-4455-8ae9-0d7cff1ff7a4
+        props:category_property_simple  "Ambientes de Higiene";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "FRALDÁRIO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0Zn4gWiVr4LOhf3Np$7$Ua";
+        rdfs:label                      "10";
+        props:longNameIfcSpatialElement_attribute_simple  "FRALDÁRIO" .
+
+inst:space_d762493a-e4ae-4433-9c62-813f2b077a13
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "CASTELO D'ÁGUA";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes de Serviço";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3NOaawvAv4CvnYWJyh1teJ";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "CASTELO D'ÁGUA" .
+
+inst:space_87487f8c-a4d8-4bd0-97f9-b32623282fcd
+        props:category_property_simple  "Ambientes Externos de Atividades";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SOLÁRIO - 1";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "27I7_CfDXBq9VvioOZA2$D";
+        rdfs:label                      "29";
+        props:longNameIfcSpatialElement_attribute_simple  "SOLÁRIO - 1" .
+
+props:globalIdIfcRoot_attribute_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC standard attribute globalIdIfcRoot" .
+
+inst:space_41d43b3a-6fde-4dd3-94ab-5a3343b55ae4
+        props:category_property_simple  "Ambientes Administrativos";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SALA PROF. / REUNIÕES";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "11r3iwRzvDqvIhMZD3jLha";
+        rdfs:label                      "04";
+        props:longNameIfcSpatialElement_attribute_simple  "SALA PROF. / REUNIÕES" .
+
+inst:space_e960019a-b982-420f-b59a-8e8ba39f8b44
+        props:category_property_simple  "Ambientes de Higiene";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "HIGIENIZAÇÃO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3fO06QkO923xMQZekZduj4";
+        rdfs:label                      "06";
+        props:longNameIfcSpatialElement_attribute_simple  "HIGIENIZAÇÃO" .
+
+inst:space_f6222343-99a3-43d8-9f56-0ec91c2f8c48
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "CIRCULAÇÃO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Circulações Internas";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3s8YD3cQD3s9zM3iaSBun8";
+        rdfs:label                      "32";
+        props:longNameIfcSpatialElement_attribute_simple  "CIRCULAÇÃO" .
+
+inst:space_d6aa9ab4-6278-435d-834d-7f1241c1cd3e
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "GÁS";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3MgfgqOdX3NODDVn91mSq_";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "GÁS" .
+
+inst:space_fb6ec806-4cfe-4ae1-ae74-fdb80349529c
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "LAVANDERIA / ROUPARIA";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3xRiW6JFvAuQvq$RW3ILAS";
+        rdfs:label                      "05";
+        props:longNameIfcSpatialElement_attribute_simple  "LAVANDERIA / ROUPARIA" .
+
+inst:space_8600f390-0e41-48e4-b329-913a579a8477
+        props:ambienteQuantidadeDeAlunos_property_simple  "24 alunos";
+        props:ambiente_property_simple  "INFANTIL 5";
+        props:ambienteIdadeDosAlunos_property_simple  "(5 a 6 anos)";
+        props:category_property_simple  "Ambientes de Aprendizagem";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "260FEG3a58vBCfaJfNceHt";
+        rdfs:label                      "06";
+        props:longNameIfcSpatialElement_attribute_simple  "INFANTIL 5" .
+
+inst:space_132a9591-1f34-426d-b12d-5f169e5c35ca
+        props:category_property_simple  "Ambientes de Higiene";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SANIT. INFANTIL FEM.";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0JAfMH7pH2RR4jNnQUN3NA";
+        rdfs:label                      "11";
+        props:longNameIfcSpatialElement_attribute_simple  "SANIT. INFANTIL FEM." .
+
+inst:space_8e7d18cb-b8f0-473e-bb0b-f18eb0836408
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "LACTÁRIO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes de Alimentaçao / Atenção";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "2EVHZBkF17FhiByOwmWsG8";
+        rdfs:label                      "02";
+        props:longNameIfcSpatialElement_attribute_simple  "LACTÁRIO" .
+
+inst:space_f60d387e-d797-418d-9b63-1207de7b3e45
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SANIT. INFANTIL MASC.";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes de Higiene";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3s3JX_rvT1ZPjZ4WVUUpv5";
+        rdfs:label                      "11";
+        props:longNameIfcSpatialElement_attribute_simple  "SANIT. INFANTIL MASC." .
+
+inst:space_5e17dff5-4488-4291-abba-92395059a4d4
+        props:category_property_simple  "Ambientes de Alimentaçao / Atenção";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "AMAMENTAÇÃO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1U5z$rH8X2aQkwaZbGMQJK";
+        rdfs:label                      "02";
+        props:longNameIfcSpatialElement_attribute_simple  "AMAMENTAÇÃO" .
+
+lbd:x-min  rdf:type  owl:DatatypeProperty .
+
+inst:space_29b9da17-2ef2-4b72-a017-18746cd56f9c
+        props:category_property_simple  "Ambientes Administrativos";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "ADMINISTRAÇÃO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0fkTeNBl9BSg0N67HirM_S";
+        rdfs:label                      "05";
+        props:longNameIfcSpatialElement_attribute_simple  "ADMINISTRAÇÃO" .
+
+inst:space_ae015007-4728-4283-aea2-dfdf7d799ebb
+        props:category_property_simple  "Ambientes Externos de Atividades";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "PLAYGROUND";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "2k0L07HoX2WwwYtzzzUPwx";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "PLAYGROUND" .
+
+inst:space_866f4039-c7ae-4716-8b37-0fa8600f322b
+        props:category_property_simple  "Ambientes de Aprendizagem";
+        props:ambienteQuantidadeDeAlunos_property_simple  "10 alunos";
+        props:ambiente_property_simple  "BERÇARIO";
+        props:ambienteIdadeDosAlunos_property_simple  "(0 a 1 ano)";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "26Rq0vnwv75eit3wXW3p8h";
+        rdfs:label                      "06";
+        props:longNameIfcSpatialElement_attribute_simple  "BERÇARIO" .
+
+inst:space_095139dc-3826-415a-aa40-867ca7c7929f
+        props:category_property_simple  "Circulações Internas";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "CIRCULAÇÃO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "09KJdSE2P1Mgf0XdodnvAV";
+        rdfs:label                      "32";
+        props:longNameIfcSpatialElement_attribute_simple  "CIRCULAÇÃO" .
+
+inst:space_76c1deb0-2045-4362-b018-7e4fd3228245
+        props:ambienteQuantidadeDeAlunos_property_simple  "10 alunos";
+        props:ambiente_property_simple  "SALA MULTIUSO";
+        props:ambienteIdadeDosAlunos_property_simple  "(0 a 1 ano)";
+        props:category_property_simple  "Ambientes de Aprendizagem";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "1smTwm84L3Oh0OVa$J8e95";
+        rdfs:label                      "07";
+        props:longNameIfcSpatialElement_attribute_simple  "SALA MULTIUSO" .
+
+inst:space_bafcf281-109c-4e44-a23c-415bb33c335f
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "DEPÓSITO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes Administrativos";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "2w$FA149nEHA8yGLkpF3DV";
+        rdfs:label                      "05";
+        props:longNameIfcSpatialElement_attribute_simple  "DEPÓSITO" .
+
+inst:space_fc0e0d23-1e3b-44a0-9097-4078eb964812
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "SOLÁRIO - 2";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        props:category_property_simple  "Ambientes Externos de Atividades";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "3y3WqZ7Zj4e92NG7ZhbaWI";
+        rdfs:label                      "29";
+        props:longNameIfcSpatialElement_attribute_simple  "SOLÁRIO - 2" .
+
+lbd:y-min  rdf:type  owl:DatatypeProperty .
+
+inst:space_93877574-52bc-4f27-86b9-e94e8bc1a2ed
+        props:category_property_simple  "Ambientes de Higiene";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "PCD INFANTIL";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "2JXtLqKhnF9uQvwKwBmQBj";
+        rdfs:label                      "11";
+        props:longNameIfcSpatialElement_attribute_simple  "PCD INFANTIL" .
+
+inst:space_ab89d1e5-da58-487c-939e-3f75ffcb6194
+        props:category_property_simple  "Ambientes Externos de Atividades";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "PÁTIO COBERTO / REFEITÓRIO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "2hYT7bsbX8V9EUFtN$os6K";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "PÁTIO COBERTO / REFEITÓRIO" .
+
+inst:space_265787d1-8228-414d-9925-d859c736ec35
+        props:category_property_simple  "Circulações Internas";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "CIRCULAÇÃO";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0cLuVHWYX1JPabs5d7Dkmr";
+        rdfs:label                      "32";
+        props:longNameIfcSpatialElement_attribute_simple  "CIRCULAÇÃO" .
+
+inst:storey_3ca2f253-281d-4fdd-bc52-48b872b548cd
+        bot:hasSpace  inst:space_18aab817-0e5e-4a87-a50d-62157adfc891;
+        bot:hasSpace  inst:space_93877574-52bc-4f27-86b9-e94e8bc1a2ed;
+        bot:hasSpace  inst:space_67e1ca91-e974-4718-87b2-808c11833127;
+        bot:hasSpace  inst:space_36602c77-79f5-4b4a-a425-493788af0591;
+        bot:hasSpace  inst:space_d6aa9ab4-6278-435d-834d-7f1241c1cd3e;
+        bot:hasSpace  inst:space_866f4039-c7ae-4716-8b37-0fa8600f322b;
+        bot:hasSpace  inst:space_706bc547-34e6-4a34-adeb-b6f6234f12e6;
+        bot:hasSpace  inst:space_fc0e0d23-1e3b-44a0-9097-4078eb964812;
+        bot:hasSpace  inst:space_ed8ce420-4cf1-4709-b59a-59bbb9245b23;
+        bot:hasSpace  inst:space_87487f8c-a4d8-4bd0-97f9-b32623282fcd;
+        bot:hasSpace  inst:space_43f05c5e-0691-4e63-8b6b-068571ae8531;
+        bot:hasSpace  inst:space_fef23785-b12a-446a-83b7-67b82e423e0b;
+        bot:hasSpace  inst:space_553455d3-1d26-4a5d-9d86-05b5276fd52a;
+        bot:hasSpace  inst:space_ae015007-4728-4283-aea2-dfdf7d799ebb;
+        bot:hasSpace  inst:space_5766c6e2-923b-472b-9f1b-dd3a5d71ad69;
+        bot:hasSpace  inst:space_4a1d4377-4c41-4821-a1f5-32bdd761c397;
+        props:elevationIfcBuildingStorey_attribute_simple  0.16e0;
+        bot:hasSpace  inst:space_41d43b3a-6fde-4dd3-94ab-5a3343b55ae4;
+        bot:hasSpace  inst:space_095139dc-3826-415a-aa40-867ca7c7929f;
+        props:globalIdIfcRoot_attribute_simple  "0yel9JA1rFtRnIIBXojKZD";
+        bot:hasSpace  inst:space_bd6f2750-0340-48e7-9361-326f94d1f5da;
+        bot:hasSpace  inst:space_bafcf281-109c-4e44-a23c-415bb33c335f;
+        bot:hasSpace  inst:space_e960019a-b982-420f-b59a-8e8ba39f8b44;
+        bot:hasSpace  inst:space_de3ed29d-12e1-45f6-af99-d3219f5ba16f;
+        bot:hasSpace  inst:space_fb6ec806-4cfe-4ae1-ae74-fdb80349529c;
+        bot:hasSpace  inst:space_132a9591-1f34-426d-b12d-5f169e5c35ca;
+        bot:hasSpace  inst:space_8e7d18cb-b8f0-473e-bb0b-f18eb0836408;
+        bot:hasSpace  inst:space_03fbb3d2-8cec-4d81-a3b6-f4109724b3d5;
+        bot:hasSpace  inst:space_3d5d8a91-43f4-4762-bbbd-f21ad0c6ffed;
+        rdf:type      bot:Storey;
+        bot:hasSpace  inst:space_29b9da17-2ef2-4b72-a017-18746cd56f9c;
+        bot:hasSpace  inst:space_d762493a-e4ae-4433-9c62-813f2b077a13;
+        bot:hasSpace  inst:space_ab89d1e5-da58-487c-939e-3f75ffcb6194;
+        bot:hasSpace  inst:space_51c9e078-da44-42d8-8652-d9f22d1ecf4e;
+        bot:hasSpace  inst:space_f60d387e-d797-418d-9b63-1207de7b3e45;
+        bot:hasSpace  inst:space_23c44aa0-b1fd-4455-8ae9-0d7cff1ff7a4;
+        bot:hasSpace  inst:space_5e17dff5-4488-4291-abba-92395059a4d4;
+        bot:hasSpace  inst:space_f881095a-02f9-4c97-b1e8-19e378008b2b;
+        bot:hasSpace  inst:space_d547a7f0-291f-42b1-a92e-3fd73666b6c9;
+        bot:hasSpace  inst:space_8600f390-0e41-48e4-b329-913a579a8477;
+        bot:hasSpace  inst:space_f6222343-99a3-43d8-9f56-0ec91c2f8c48;
+        bot:hasSpace  inst:space_bbfa3934-1b3d-4529-a9c4-10714c19a7a4;
+        rdfs:label    "TÉRREO";
+        bot:hasSpace  inst:space_265787d1-8228-414d-9925-d859c736ec35;
+        bot:hasSpace  inst:space_76c1deb0-2045-4362-b018-7e4fd3228245 .
+
+props:refElevationIfcSite_attribute_simple
+        rdf:type      owl:DatatypeProperty;
+        rdfs:comment  "IFC standard attribute refElevationIfcSite" .
+
+lbd:hasBoundingBox  rdf:type  owl:ObjectProperty .
+
+lbd:z-min  rdf:type  owl:DatatypeProperty .
+
+inst:space_bd6f2750-0340-48e7-9361-326f94d1f5da
+        props:category_property_simple  "Ambientes de Serviço";
+        props:ambienteQuantidadeDeAlunos_property_simple  "-";
+        props:ambiente_property_simple  "DESPENSA";
+        props:ambienteIdadeDosAlunos_property_simple  "-";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "2zRoTG0q18vvDXCc_KqVNQ";
+        rdfs:label                      "03";
+        props:longNameIfcSpatialElement_attribute_simple  "DESPENSA" .
+
+inst:space_18aab817-0e5e-4a87-a50d-62157adfc891
+        props:category_property_simple  "Ambientes de Aprendizagem";
+        props:ambienteQuantidadeDeAlunos_property_simple  "20 alunos";
+        props:ambiente_property_simple  "INFANTIL 2/3";
+        props:ambienteIdadeDosAlunos_property_simple  "(2 a 4 anos)";
+        rdf:type                        bot:Space;
+        props:globalIdIfcRoot_attribute_simple  "0OghWN3bvAXwKDOXLwtyYH";
+        rdfs:label                      "06";
+        props:longNameIfcSpatialElement_attribute_simple  "INFANTIL 2/3" .

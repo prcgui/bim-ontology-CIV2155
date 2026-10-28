@@ -2,6 +2,24 @@
 
 Resultados consolidados da análise, respostas às consultas, tabelas e evidências de comparação entre os dados IFC e a representação semântica.
 
+## Visualização do grafo
+
+As figuras foram extraídas do grafo corrigido de 411 triplas e apresentam dois recortes complementares. Os arquivos SVG permitem ampliar o desenho preservando a nitidez dos textos.
+
+### Detalhe das relações e propriedades de um ambiente
+
+![Relações espaciais e propriedades do ambiente COZINHA](visualizacao_grafo/grafo_detalhe_cozinha.png)
+
+[Abrir imagem em alta resolução](visualizacao_grafo/grafo_detalhe_cozinha.png) · [Versão vetorial SVG](visualizacao_grafo/grafo_detalhe_cozinha.svg)
+
+### Organização espacial dos 41 ambientes
+
+![Organização espacial dos 41 ambientes do modelo](visualizacao_grafo/grafo_organizacao_espacial.png)
+
+[Abrir imagem em alta resolução](visualizacao_grafo/grafo_organizacao_espacial.png) · [Versão vetorial SVG](visualizacao_grafo/grafo_organizacao_espacial.svg)
+
+As setas representam relações presentes no resultado IFC–LBD. A disposição das caixas facilita a leitura e não representa localização física ou adjacência. A cobertura não apresenta ambientes vinculados neste grafo. Os nomes podem se repetir; a identidade dos ambientes é determinada pelo `GlobalId` e pela URI. O [registro das figuras, as correspondências das propriedades e os arquivos RDF utilizados](visualizacao_grafo/) permitem conferir os recortes.
+
 ## Efeito da correção de leitura textual
 
 Foram comparadas duas execuções sobre o mesmo arquivo `TIPO2-ARQ-DTV_R03.ifc`: a distribuição IFCtoLBD 2.49.0 e uma execução com correções locais em duas funções de leitura textual. Os parâmetros de conversão foram mantidos. A intervenção e sua autoria estão descritas na [célula 8](../consultas/08_correcao_textual_conversor.py); os critérios de comparação constam da [célula 9](../consultas/09_comparacao_apos_correcao.py).
