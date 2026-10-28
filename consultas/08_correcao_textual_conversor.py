@@ -15,17 +15,30 @@
 #    remove-se apenas essa abertura, preservando apóstrofos internos e "=".
 #    O comportamento anterior é mantido para tokens não textuais.
 #
-# FONTE E AUTORIA DA INTERVENÇÃO
-# A conversão continua sendo executada pelo IFCtoLBD 2.49.0 dos autores.
-# As duas alterações locais foram elaboradas para este estudo com assistência
-# de inteligência artificial. Não constituem uma versão oficial dos autores.
-# Fontes originais fixadas no commit:
-# ca7811b7132a843b85beee748d255f9b5b709e07
+# BASE TÉCNICA E ORIGEM DA ADAPTAÇÃO
+# 1. buildingSMART, IFC String Encoding: sequências X2 representam códigos
+#    Unicode de 16 bits. Fundamenta a interpretação dos caracteres no IFC.
+# https://technical.buildingsmart.org/resources/ifcimplementationguidance/string-encoding/
+# 2. Oracle, Java Language Specification, Java SE 21, seção 3.3: escapes
+#    Unicode Java representam o código hexadecimal indicado. Fundamenta a
+#    escrita das entradas da tabela como escapes, por exemplo, \\u00C7.
+# https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.3
+# 3. Código-fonte do IFCtoLBD: handleUnicode contém a tabela examinada;
+#    filterExtras remove apóstrofos e "=". A análise de IfcSpfParser (estados
+#    2 e 3) identifica a aspa inicial conservada no token textual recebido.
+#    Essa leitura fundamenta remover apenas a abertura desses tokens.
+# Fontes fixadas no commit ca7811b7132a843b85beee748d255f9b5b709e07:
 # https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoLBD/src/main/java/org/linkedbuildingdata/ifc2lbd/core/utils/StringOperations.java
 # https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoRDF/src/main/java/be/ugent/RDFWriter.java
-# Referência técnica sobre os códigos de caracteres IFC:
-# https://technical.buildingsmart.org/resources/ifcimplementationguidance/string-encoding/
-# Referência da conversão: Bonduel et al. (2018), já citada na célula 4.
+# https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoRDF/src/main/java/be/ugent/IfcSpfParser.java
+# 4. Oracle, API String, Java SE 21: startsWith identifica o prefixo;
+#    substring(1) preserva o conteúdo após o primeiro caractere.
+# https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html#substring(int)
+#
+# A implementação específica é uma adaptação local deste estudo, fundamentada
+# nessas fontes e verificada pelos testes abaixo. Não é uma correção publicada
+# pelos autores nem um trecho extraído dos artigos citados. A conversão mantém
+# o IFCtoLBD 2.49.0 e a referência geral Bonduel et al. (2018), da célula 4.
 #
 # COMO A INTERVENÇÃO É VERIFICADA
 # Confere os fontes por SHA-256; compila somente as duas classes alteradas;

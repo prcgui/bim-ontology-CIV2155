@@ -11,7 +11,8 @@
 # (2025), seção 5.2: https://doi.org/10.3390/buildings15050720
 # Consulta RDF: https://rdflib.readthedocs.io/en/latest/intro_to_graphs/
 # Execução SHACL: https://github.com/RDFLib/pySHACL#python-module-use
-# Código elaborado para este estudo com assistência de inteligência artificial.
+# A implementação da comparação é uma adaptação deste estudo apoiada nessas
+# interfaces; o artigo não fornece este código nem a correção dos caracteres.
 # As correções locais e suas fontes estão descritas na célula 8.
 
 from rdflib import RDF, RDFS

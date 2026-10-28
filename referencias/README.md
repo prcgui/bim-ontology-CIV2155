@@ -55,11 +55,26 @@ O trabalho apresenta o mapeamento de propriedades específicas de programas para
 
 BUILDINGSMART INTERNATIONAL. **IFC String Encoding**. Orientação técnica sobre codificação e decodificação de caracteres no formato IFC-SPF. Disponível em: <https://technical.buildingsmart.org/resources/ifcimplementationguidance/string-encoding/>. Acesso em: 27 out. 2026.
 
-IFCtoLBD, colaboradores. **StringOperations.java** e **RDFWriter.java**. Código-fonte do projeto IFCtoLBD, commit `ca7811b7132a843b85beee748d255f9b5b709e07`. GitHub. Acesso em: 27 out. 2026.
+ORACLE. **The Java Language Specification: Java SE 21 Edition**. Seção 3.3: Unicode Escapes. Disponível em: <https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.3>. Acesso em: 27 out. 2026.
+
+ORACLE. **String: Java SE 21 & JDK 21**. Métodos `startsWith(String)` e `substring(int)`. Disponível em: <https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html>. Acesso em: 27 out. 2026.
+
+IFCtoLBD, colaboradores. **StringOperations.java**, **RDFWriter.java** e **IfcSpfParser.java**. Código-fonte do projeto IFCtoLBD, commit `ca7811b7132a843b85beee748d255f9b5b709e07`. GitHub. Acesso em: 27 out. 2026.
 
 - [StringOperations.java: função handleUnicode](https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoLBD/src/main/java/org/linkedbuildingdata/ifc2lbd/core/utils/StringOperations.java).
 - [RDFWriter.java: função filterExtras](https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoRDF/src/main/java/be/ugent/RDFWriter.java).
+- [IfcSpfParser.java: processamento dos tokens textuais, estados 2 e 3](https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoRDF/src/main/java/be/ugent/IfcSpfParser.java#L118-L159).
 - [Célula 8: preparação, testes e execução da correção local](../consultas/08_correcao_textual_conversor.py).
 - [Célula 9: avaliação antes e depois](../consultas/09_comparacao_apos_correcao.py).
 
-A intervenção local tem duas finalidades: utilizar os códigos Unicode indicados nas sequências IFC em lugar de substituições textuais corrompidas e preservar os apóstrofos internos dos tokens de texto. A leitura dos textos é examinada em dez testes independentes, antes da conversão completa. A alteração foi elaborada para este estudo com assistência de inteligência artificial. O procedimento registra as diferenças em relação aos fontes originais e os hashes dos arquivos, sem modificar os JARs da distribuição dos autores. A referência metodológica da conversão permanece Bonduel et al. (2018).
+### Relação entre as fontes e as decisões de implementação
+
+| Decisão | Fonte e fundamento |
+| --- | --- |
+| Interpretar as sequências IFC `X2` como códigos Unicode de 16 bits. | A orientação **IFC String Encoding**, da buildingSMART, descreve essa codificação e apresenta um exemplo hexadecimal. |
+| Representar os caracteres da tabela Java por escapes como `\u00C7`. | A seção **3.3 da Java Language Specification** define a tradução de escapes Unicode em unidades UTF-16. A inspeção de **StringOperations.handleUnicode** localiza as substituições corrompidas na versão examinada. |
+| Preservar os apóstrofos internos e retirar somente a abertura do token textual recebido. | A análise conjunta de **IfcSpfParser**, estados 2 e 3, e **RDFWriter.filterExtras** mostra como o token é formado e quais caracteres são eliminados. A API **String** documenta as operações `startsWith` e `substring` usadas na adaptação. Essa regra depende do comportamento desse parser e dessa versão. |
+
+A implementação específica dessas alterações é uma **adaptação local deste estudo**, fundamentada na documentação técnica e na análise do código-fonte indicado. Não foi extraída de um artigo nem corresponde a uma correção publicada pelos autores. As referências da Oracle explicitam e verificam os mecanismos Java empregados; não constituem evidência de que o procedimento completo tenha sido publicado por ela. A referência metodológica da conversão permanece Bonduel et al. (2018).
+
+A leitura dos textos é examinada em dez testes independentes, antes da conversão completa. O procedimento registra as diferenças em relação aos fontes originais e os hashes dos arquivos, sem modificar os JARs da distribuição dos autores. A comparação posterior com o IFC constitui a evidência empírica do efeito da adaptação no recorte analisado.
