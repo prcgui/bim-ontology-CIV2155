@@ -4,6 +4,8 @@
 
 [02_integracao_arquitetura_estrutura.ipynb](02_integracao_arquitetura_estrutura.ipynb)
 
+[Abrir a cópia de desenvolvimento no Google Colab](https://colab.research.google.com/drive/1_oHXFR9fPiNCaO66wctd-6hs2ydmAIAZ).
+
 O notebook repete o procedimento em dois blocos: arquitetura ARQ-DTV e estrutura SMT, ambos do Projeto Tipo 2 do FNDE. As duas saídas permanecem separadas. São examinados identificadores, textos, recuperação dos vínculos com pavimentos, unidades e candidatos de correspondência entre modelos.
 
 A execução termina no **registro dos problemas e das decisões pendentes**, sem fundir recursos, reconciliar referenciais ou aplicar soluções aos conflitos novos. Os [resultados e registros do diagnóstico](../resultados/notebook2/) apresentam as evidências observadas.
