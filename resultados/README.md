@@ -2,6 +2,10 @@
 
 Resultados consolidados da análise, respostas às consultas, tabelas e evidências de comparação entre os dados IFC e a representação semântica.
 
+## Diagnóstico entre arquitetura e estrutura
+
+O [notebook 2 e suas evidências](notebook2/) ampliam a análise aos elementos da arquitetura e ao IFC estrutural SMT. As conversões foram concluídas separadamente, com preservação dos identificadores e textos comparados. Permanecem divergências no critério de recuperação dos vínculos com pavimentos e decisões de correspondência entre os modelos. A etapa encerra-se no registro dessas pendências, sem aplicar soluções de integração.
+
 ## Visualização do grafo
 
 As figuras foram extraídas do grafo corrigido de 411 triplas e apresentam dois recortes complementares. Os arquivos SVG permitem ampliar o desenho preservando a nitidez dos textos.

@@ -1,5 +1,15 @@
 # Referências
 
+## Inspeção de modelos e diagnóstico de integração
+
+IFCOPENSHELL. **ifcopenshell.util.element**: `get_container` e `get_pset`; **ifcopenshell.util.unit**: `calculate_unit_scale`. Documentação técnica. Disponível em: [element](https://docs.ifcopenshell.org/autoapi/ifcopenshell/util/element/index.html) e [unit](https://docs.ifcopenshell.org/autoapi/ifcopenshell/util/unit/index.html). Acesso em: 28 out. 2026. Fundamenta a leitura dos vínculos e das unidades de cada IFC. Versão utilizada: 0.8.4.
+
+IFCtoLBD, colaboradores. **IFCtoLBDConverter_CLI.java** e **IFCtoLBDConverterCore.java**. Commit `ca7811b7132a843b85beee748d255f9b5b709e07`. Disponível em: [CLI](https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoLBD/src/main/java/org/linkedbuildingdata/ifc2lbd/IFCtoLBDConverter_CLI.java) e [controle de inclusão dos elementos](https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoLBD/src/main/java/org/linkedbuildingdata/ifc2lbd/core/IFCtoLBDConverterCore.java#L1151-L1162). Acesso em: 28 out. 2026. Fundamenta a configuração explícita `--hasIfc_based_elements=true` no notebook 2, para ampliar o recorte aos elementos.
+
+W3C. **Building Topology Ontology (BOT)**. Disponível em: <https://w3c-lbd-cg.github.io/bot/>. Acesso em: 28 out. 2026. Referência dos conceitos e relações espaciais examinados. Os caminhos de consulta específicos e os critérios de diagnóstico são adaptações do estudo.
+
+W3C. **RDF 1.1 Concepts and Abstract Syntax**. Seção 4: RDF Datasets. Recomendação de 25 fev. 2014. Disponível em: <https://www.w3.org/TR/rdf11-concepts/#section-dataset>. Acesso em: 28 out. 2026. Fundamenta a distinção entre uma coleção de grafos e a decisão de identificar recursos de fontes distintas. A identificação semântica entre os modelos não foi concluída nesta etapa.
+
 ## Representação gráfica dos resultados
 
 MATPLOTLIB DEVELOPMENT TEAM. **Annotations**. Matplotlib 3.10.7 documentation. Disponível em: <https://matplotlib.org/3.10.7/users/explain/text/annotations.html>. Acesso em: 27 out. 2026.

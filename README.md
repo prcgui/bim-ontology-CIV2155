@@ -42,8 +42,13 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 | [consultas/](consultas/) | Perguntas e consultas sobre as informações representadas. |
 | [resultados/](resultados/) | Resultados consolidados, tabelas e evidências da análise. |
 | [apresentacao/](apresentacao/) | Slides da apresentação. |
+| [notebooks/](notebooks/) | Procedimentos executáveis, referências e registros de execução. |
 
 ## Procedimento metodológico
+
+### Incremento exploratório: arquitetura e estrutura
+
+O [notebook 2](notebooks/02_integracao_arquitetura_estrutura.ipynb) amplia a inspeção para os elementos do modelo arquitetônico e para o arquivo estrutural **SMT**, da mesma revisão do FNDE. A etapa repete as conversões e verificações em blocos separados e registra as dificuldades de estabelecer correspondências entre os modelos. O [IFC estrutural selecionado](dados/fnde/estrutura/) e os [resultados do diagnóstico](resultados/notebook2/) documentam o recorte. A integração semântica permanece pendente; esta versão não aplica soluções aos problemas novos encontrados.
 
 ### Transformação do modelo IFC
 
