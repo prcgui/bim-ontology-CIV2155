@@ -65,6 +65,12 @@ A representação OWL será examinada por meio dos conceitos e axiomas da BOT e 
 
 O motor de conversão será reutilizado do repositório dos autores. As rotinas de execução, consulta e comparação desenvolvidas para o estudo serão identificadas como adaptações de apoio. A versão efetivamente utilizada será referenciada separadamente do artigo de 2018, considerando a evolução do software desde sua publicação.
 
+### Verificação da organização espacial e das categorias
+
+A verificação do grafo incorpora a estratégia de consultas SPARQL e regras SHACL apresentada por [Jäkel et al. (2025), seção 5.2](https://doi.org/10.3390/buildings15050720). A [célula 6](consultas/06_verificacao_espacial_classificacao.py) compara os pavimentos pelo `GlobalId` e as categorias funcionais por `Pset_SpaceCommon.Category`. As classificações formais associadas por `IfcRelAssociatesClassification` são inventariadas separadamente. A [célula 7](consultas/07_validacao_shacl.py) verifica condições explícitas de presença, multiplicidade e tipo no grafo.
+
+Essas rotinas e as regras específicas da creche são adaptações elaboradas para este estudo com assistência de inteligência artificial. Os exemplos SHACL originais do artigo tratam de desconstrução e estão nas tabelas 3 a 5. O [PDF completo](referencias/Jaekel_et_al_2025_DCO.pdf), o [repositório da ontologia dos autores](https://github.com/janiwojaekel/dcoOntology) e o [exemplo Java de harmonização de propriedades de Oraskari et al. (2024)](https://github.com/jyrkioraskari/IFCtoLBD/blob/master/IFCtoLBD/src/main/java/examples/Example13.java) estão documentados em [referências](referencias/).
+
 ### Fundamentação científica e repercussão do artigo
 
 O artigo de **Bonduel et al. (2018)** foi apresentado no **6th Linked Data in Architecture and Construction Workshop (LDAC 2018)**, realizado em Londres entre 19 e 21 de junho de 2018, e publicado nos [anais do evento, CEUR Workshop Proceedings, v. 2159, p. 34–43](https://ceur-ws.org/Vol-2159/). Apresenta o conversor aberto IFCtoLBD e o procedimento de transformação de modelos IFC em grafos RDF organizados pelos vocabulários BOT, PRODUCT e PROPS.
