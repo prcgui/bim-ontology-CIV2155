@@ -1,5 +1,17 @@
 # Referências
 
+## Fundamentação ontológica e construtor OntologiaBIM
+
+MENEGOTTO, José Luis. **Ontologia BIM da Taxonomia Sustentável Brasileira**. *ARACÊ*, v. 8, n. 3, 2026. DOI: [10.56238/arev8n3-151](https://doi.org/10.56238/arev8n3-151). Acesso em: 28 out. 2026.
+
+- [Artigo completo em PDF, 18 páginas](Menegotto_2026_Taxonomia_Sustentavel_Brasileira.pdf).
+- [Publicação original](https://periodicos.newsciencepubl.com/arace/article/view/12722).
+- [PDF na editora](https://periodicos.newsciencepubl.com/arace/article/download/12722/13794).
+- [Repositório e materiais do autor: OntologiaBIM](https://github.com/JLMenegotto/OntologiaBIM/tree/main).
+- [Versão 5 do construtor](https://github.com/JLMenegotto/OntologiaBIM/tree/main/Vers%C3%A3o5).
+
+O artigo apresenta a formalização de conteúdos normativos da Taxonomia Sustentável Brasileira em módulos ontológicos OWL/Turtle. O repositório disponibiliza o construtor e materiais de apoio; a versão 5 utiliza C# e a API do Revit. A referência contribui para a fundamentação do enriquecimento semântico. O procedimento de conversão deste estudo parte de arquivos IFC e utiliza o IFCtoLBD, referenciado abaixo; o construtor de Menegotto não foi executado sobre os modelos da creche.
+
 ## Inspeção de modelos e diagnóstico de integração
 
 IFCOPENSHELL. **ifcopenshell.util.element**: `get_container` e `get_pset`; **ifcopenshell.util.unit**: `calculate_unit_scale`. Documentação técnica. Disponível em: [element](https://docs.ifcopenshell.org/autoapi/ifcopenshell/util/element/index.html) e [unit](https://docs.ifcopenshell.org/autoapi/ifcopenshell/util/unit/index.html). Acesso em: 28 out. 2026. Fundamenta a leitura dos vínculos e das unidades de cada IFC. Versão utilizada: 0.8.4.
