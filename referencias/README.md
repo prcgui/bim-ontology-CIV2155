@@ -50,3 +50,16 @@ ORASKARI, Jyrki; KIRNER, Lukas; ZÖCKLEIN, Marit; BRELL-COKCAN, Sigrid. **A Meth
 - [Modelos e dados de demonstração dos autores](https://github.com/jyrkioraskari/props_demo).
 
 O trabalho apresenta o mapeamento de propriedades específicas de programas para definições compartilhadas. A seção 5 indica o exemplo Java, e a seção 6 discute a harmonização dos nomes e suas limitações. Essa contribuição fundamenta a discussão sobre correspondências entre propriedades; a substituição de identificadores de propriedades por regras JSON não foi aplicada ao grafo desta etapa. O PDF é distribuído sob licença **CC BY 4.0**, indicada na primeira página.
+
+## Codificação de caracteres e intervenção local
+
+BUILDINGSMART INTERNATIONAL. **IFC String Encoding**. Orientação técnica sobre codificação e decodificação de caracteres no formato IFC-SPF. Disponível em: <https://technical.buildingsmart.org/resources/ifcimplementationguidance/string-encoding/>. Acesso em: 27 out. 2026.
+
+IFCtoLBD, colaboradores. **StringOperations.java** e **RDFWriter.java**. Código-fonte do projeto IFCtoLBD, commit `ca7811b7132a843b85beee748d255f9b5b709e07`. GitHub. Acesso em: 27 out. 2026.
+
+- [StringOperations.java: função handleUnicode](https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoLBD/src/main/java/org/linkedbuildingdata/ifc2lbd/core/utils/StringOperations.java).
+- [RDFWriter.java: função filterExtras](https://github.com/jyrkioraskari/IFCtoLBD/blob/ca7811b7132a843b85beee748d255f9b5b709e07/IFCtoRDF/src/main/java/be/ugent/RDFWriter.java).
+- [Célula 8: preparação, testes e execução da correção local](../consultas/08_correcao_textual_conversor.py).
+- [Célula 9: avaliação antes e depois](../consultas/09_comparacao_apos_correcao.py).
+
+A intervenção local tem duas finalidades: utilizar os códigos Unicode indicados nas sequências IFC em lugar de substituições textuais corrompidas e preservar os apóstrofos internos dos tokens de texto. A leitura dos textos é examinada em dez testes independentes, antes da conversão completa. A alteração foi elaborada para este estudo com assistência de inteligência artificial. O procedimento registra as diferenças em relação aos fontes originais e os hashes dos arquivos, sem modificar os JARs da distribuição dos autores. A referência metodológica da conversão permanece Bonduel et al. (2018).

@@ -71,6 +71,14 @@ A verificação do grafo incorpora a estratégia de consultas SPARQL e regras SH
 
 Essas rotinas e as regras específicas da creche são adaptações elaboradas para este estudo com assistência de inteligência artificial. Os exemplos SHACL originais do artigo tratam de desconstrução e estão nas tabelas 3 a 5. O [PDF completo](referencias/Jaekel_et_al_2025_DCO.pdf), o [repositório da ontologia dos autores](https://github.com/janiwojaekel/dcoOntology) e o [exemplo Java de harmonização de propriedades de Oraskari et al. (2024)](https://github.com/jyrkioraskari/IFCtoLBD/blob/master/IFCtoLBD/src/main/java/examples/Example13.java) estão documentados em [referências](referencias/).
 
+### Correção textual e comparação entre execuções
+
+A [célula 8](consultas/08_correcao_textual_conversor.py) documenta duas intervenções locais no código do IFCtoLBD 2.49.0: a decodificação dos caracteres Unicode isolados e a preservação de apóstrofos internos nos textos. As funções originais, o commit de origem e as alterações estão identificados no código. Trata-se de uma adaptação deste estudo, elaborada com assistência de inteligência artificial, e não de uma nova distribuição oficial do conversor.
+
+Somente as duas classes de tratamento textual são recompiladas. A intervenção é examinada com dez testes independentes e com a verificação das interfaces públicas antes da nova conversão. O mesmo IFC e os mesmos parâmetros de conversão são utilizados, com geração de uma saída separada. A [célula 9](consultas/09_comparacao_apos_correcao.py) compara as duas execuções com o IFC por igualdade textual exata e repete a verificação dos pavimentos e das regras SHACL. Os resultados originais são preservados; a avaliação não utiliza substituição de palavras nem preenchimento dos valores esperados no grafo. As fontes técnicas estão em [referências](referencias/#codificação-de-caracteres-e-intervenção-local).
+
+Na execução avaliada, as divergências em `LongName` e `Category` passaram de 13 para zero em cada campo, com os 41 identificadores e vínculos com pavimentos preservados. A [comparação consolidada e os registros da intervenção](resultados/#efeito-da-correção-de-leitura-textual) delimitam o resultado aos campos e às regras examinados.
+
 ### Fundamentação científica e repercussão do artigo
 
 O artigo de **Bonduel et al. (2018)** foi apresentado no **6th Linked Data in Architecture and Construction Workshop (LDAC 2018)**, realizado em Londres entre 19 e 21 de junho de 2018, e publicado nos [anais do evento, CEUR Workshop Proceedings, v. 2159, p. 34–43](https://ceur-ws.org/Vol-2159/). Apresenta o conversor aberto IFCtoLBD e o procedimento de transformação de modelos IFC em grafos RDF organizados pelos vocabulários BOT, PRODUCT e PROPS.

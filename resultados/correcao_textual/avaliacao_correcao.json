@@ -1,0 +1,7 @@
+{
+  "ambientes": 41,
+  "divergencias_textuais_corrigidas": 0,
+  "pavimentos_preservados": 41,
+  "conforme_shacl": true,
+  "criterio": "igualdade textual exata; sem normalizacao dos valores"
+}
