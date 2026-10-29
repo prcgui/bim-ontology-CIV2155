@@ -11,3 +11,5 @@
 /notebooks/01_Conversao_Arquitetura_IFC_LBD_v03.ipynb -text
 /referencias/notebook1_v03/** -text
 /resultados/notebook1_v03/** -text
+/referencias/notebook1_v03/*.pdf binary
+/referencias/geometria_relacoes/*.pdf binary
