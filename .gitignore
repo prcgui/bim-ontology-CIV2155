@@ -1,0 +1,3 @@
+# Derived execution files; consolidated artifacts are versioned separately.
+/consultas/ifc2sb_python_v01/saida_executada/
+/consultas/ifc2sb_python_v01/__pycache__/

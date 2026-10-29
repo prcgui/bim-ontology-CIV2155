@@ -1,0 +1,25 @@
+﻿parede,abertura,preenchimento,classe_preenchimento,nome_preenchimento,faces_recortadas,faces_com_parent_aprovado,area_coincidente_cozinha_m2,fora_bbox_cozinha,estado,validacao_arquitetonica,avisos,volume_intersecao_ambiente_parede_m3,brep_parede_valido
+0XAHc8zyr1YuL0AWxiP2D2,2r$cKNmroT$qxuf3abRC$O,3aeAlxh_13aAsFE9GaRC63,IfcWindow,JA-06,16,16,0.0,True,fora_do_ambiente_por_separacao_bbox,não realizada,[],0,True
+0XAHc8zyr1YuL0AWxiP2D2,3MO8UGVaFjiCmQc5R8Rbo7,2rpo8JwSv5ChvJw5HNm$2i,IfcWindow,JA-09,16,16,0.5249999999999994,False,evidencia_geometrica_de_coincidencia,não realizada,[],0,True
+0XAHc8zyr1YuL0AWxiP2D2,0myL3D$8PQoJaIwSJlJmZU,1ZNEbr8yzAzwIfNr8DLfEB,IfcDoor,PA2,21,21,1.7554499999999997,False,evidencia_geometrica_de_coincidencia,não realizada,[],0,True
+0XAHc8zyr1YuL0AWxiP2D2,1Wd1axI5BMaK18bgM5VEWC,22ZRfsRw51vP3lSdz$OaVX,IfcDoor,PA1,30,30,2.1784500000000024,False,evidencia_geometrica_de_coincidencia,não realizada,[],0,True
+0XAHc8zyr1YuL0AWxiP2D2,3JJUxtOAPr5m9wwWZzHFVF,1TYUzaGPfAJRH9yn9Ryl8A,IfcDoor,PA2,21,21,0.0,True,fora_do_ambiente_por_separacao_bbox,não realizada,[],0,True
+3lgLMxPtX22hHa1J_NWBcS,0UtO7$RmK0KBIlcP_ommgN,3Y94GCHOLCFx2AyfF7cwT5,IfcWindow,JA-06,18,18,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0,True
+0xvlN6VObElAHCGt3ouxRe,1OIcCLlXFtN16wff1orSEG,2Psura1WP8A94fLaBoEm9B,IfcWindow,JA-06,2,2,1.575000000000001,False,evidencia_geometrica_de_coincidencia,não realizada,[],0,True
+1v8GUEVp5BSuN5s4rGKaRA,1x71j$dxyYEEoncuc4VkyQ,2RDqryaovC_OblAlg91p4L,IfcDoor,PM2,2,2,1.925999999999997,False,evidencia_geometrica_de_coincidencia,não realizada,[],0,True
+3BgFgAEMH1AR1k70kqmmGX,2N1zc30mJSeMZs6Ai3a3hN,0wPWb0MMPB4fIt63Wr561W,IfcWindow,JA-02,32,32,0.5830000000000064,False,coincidencia_com_interpenetracao_parede_ambiente,não realizada,[],0.8042500239460195,True
+3BgFgAEMH1AR1k70kqmmGX,3_wNFBP2O1k$pk0F_LlRiM,2gFlVdRqv1I8I1BeRhOgAU,IfcWindow,JA-03,32,32,0.8419440231018638,False,coincidencia_com_interpenetracao_parede_ambiente,não realizada,[],0.8042500239460195,True
+3BgFgAEMH1AR1k70kqmmGX,2geWhLbdKUB$zMsK9H2EW6,3d_vFlGOv3KP97Xx9CDsPh,IfcWindow,JA-10,18,18,1.0125000000000008,False,coincidencia_com_interpenetracao_parede_ambiente,não realizada,[],0.8042500239460195,True
+3BgFgAEMH1AR1k70kqmmGX,3uCVFdDayM$V5pCbkr8jdI,1GA_BKTQ11re2ONp_LaBjt,IfcWindow,JA-10,18,18,1.0125000000000008,False,coincidencia_com_interpenetracao_parede_ambiente,não realizada,[],0.8042500239460195,True
+3BgFgAEMH1AR1k70kqmmGX,2emFbuPmPUg3fQIL_8nci_,36VcylwljAxhzXEsJpeekr,IfcDoor,PM1,39,39,0.0,True,fora_do_ambiente_por_separacao_bbox,não realizada,[],0.8042500239460195,True
+1MP67OoNnCXvzNtb_rZWb1,3jgqqodbWPKg146xEcFt2w,1WwmmrGEXC28n24XX__DfU,IfcWall,AL25,4,4,0.46499999999983593,False,evidencia_geometrica_de_coincidencia,não realizada,[],0,True
+0mwaX7fNvBBAXIeVJZBq96,3raAklFz$JzuoerEZBVRAT,2Wuvw8xbr5MuWJuA4De53m,IfcWall,AL22,4,4,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.41638680303484454,True
+17V7r$InT5S9X3rf$rlDOY,2EY2UZ9tzaK1X0H9g3WsHo,3YjsmNXlH0M9Qa1uC_lH61,IfcWall,AL16,4,4,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.06142536901864748,True
+1VhllNj3XBbvgUNHbDgqWs,33JyrZ8L8xsB_FyCiue2D8,2xbNdCu_H4Zg3HLTWasIQ4,IfcWall,AL17,5,5,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.04777618451796997,True
+17PQAe7i5DsBgg9Rvg7RRm,0wpD3PgaVwRVEWSOqQG6rJ,1Yq436NaT5JP4MiMyJzmiU,IfcWall,AL19,4,4,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.06142504160972193,True
+3MO8KHMKT4ifS0ALbQHueo,3E2yoUlLoywrlWd_goil_r,1AMoqYFXX6BRJcxKVqHmrr,IfcWall,AL18,5,5,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.04777621392425382,True
+1oAmkwqafCWgjoEPq64mYa,3LNTsa0yT4qJCyCSuM$ZsI,2QW$G1Kjn80hKgGN6FK712,IfcWall,AL15,5,5,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.06142157386682946,True
+1WwizIhz52jQoLkPqpIpsC,2IyWN2tOHDFysHaXBXa6gd,0m8CetgqbC3OnOpkIkk9rr,IfcWall,AL23,4,4,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.08559951893796534,True
+1WwizIhz52jQoLkPqpIpsC,0qU2hTj2G95OMUkr8onja0,1$SMxFZtnFzw$31i87svwg,IfcWall,AL24,4,4,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.08559951893796534,True
+0Vw1PHxBfD9Pid8d4aIlJG,2zSxGbVrZYCEzMPlTFdH5w,1Qgi9fV251vRB5VwiIGFG5,IfcWall,AL20,5,5,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.06823998000310832,True
+3pfXBBd114LP7U8seHQy5V,3qpCnzSMC15kOcKRFExpts,0xeworUf99ywn9AEwFgu0p,IfcWall,AL21,5,5,0.0,False,sem_intersecao_de_face_no_criterio,não realizada,[],0.06824108430550568,True

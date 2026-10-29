@@ -1,0 +1,18 @@
+{
+  "commit_autores": "96a89cdff65f13279c0c3ce67e729ad9f9f5adad",
+  "arquivos": {
+    "exportar_rdf.py": "dc2e81194d029445f2697c2f6ab2b04458355915021176a49dbf7af218ebfda1",
+    "Extracao_Corpos_CPP.json": "29068db104175e5399f4ac50790b5f0901a0eec88801e088e311215fde3aa951",
+    "ifc2sb_faces.py": "078cbc2c93c6f81854eb26738ddf26d31d34d3196c7533b8e54e734113d6a155",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "piloto.py": "71cd473ccc9bfdda5f8d89982046ca37e5991341e5412d7e4cb1c6e3b6fb828a",
+    "README.md": "5b70d51f757b14a28c0e9f96152d684b10c3056f6d56ad3ed73f724045ac7171",
+    "Referencia_IFC2SB_Extraida.cpp": "670aab23fdd18e8b1ffef2ba18504328d14f6ee4ec19fe3a040fa8dd27bfd9db",
+    "requirements.txt": "e53274fe8a41792b08235c05beefcc7e5b0ea8a5298b5c184fffd7502c17d87b",
+    "testar_adaptacao.py": "ad4a1024b82130cfc5399b1dc3dd7ebf4b12cda1b1d82f53233db3097f7c984a",
+    "referencia_cpp/Compilacao.log": "323beea87f0a9ccce1dbfd48778cdaec1a32f6610f95ac51717ebfe816bbf3c4",
+    "referencia_cpp/Execucao.log": "3f1a6d755daca8e50c14f2ede0156a938049f5e420386fb31c1e28ff26cb4d78",
+    "referencia_cpp/Referencia.cpp": "670aab23fdd18e8b1ffef2ba18504328d14f6ee4ec19fe3a040fa8dd27bfd9db",
+    "referencia_cpp/Resultado_CPP.json": "2e7cfc73670a63e77db9ce4cf0560dea2c51e5d2cc93ad1762be68bd08f83332"
+  }
+}

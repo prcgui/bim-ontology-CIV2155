@@ -31,3 +31,11 @@ As células contêm descrição da finalidade, fontes técnicas e critérios. O 
 ## Conferência da cozinha
 
 O [Notebook 4](04_Conferencia_Cozinha_IFC_RDF_v01.ipynb) foi executado em seis células de código e documenta comparação IFC–RDF, localização por malhas, figuras e controles de integridade. [Resultados e limites](../resultados/conferencia_cozinha_v01/).
+
+## Notebook 1 — revisão 04: adaptação parcial do IFC2SB em Python
+
+[Notebook completo v04](01_Conversao_Arquitetura_IFC_LBD_v04.ipynb) · [módulo novo independente, executado](01_Modulo_Geometrico_IFC2SB_Python_v01.ipynb).
+
+As seis células novas preparam fontes verificadas por hash, executam 17 controles, verificam o IFC original, processam o piloto da cozinha, exportam e consultam o RDF com coordenadas e conferem a integridade final. O notebook completo conserva as células e saídas v03, sem reexecutá-las nesta revisão. Para repetir apenas a adaptação, utilizar o módulo independente.
+
+[Código dos autores IFC2SB](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad) · [mapa de funções, adaptações e licença](../consultas/ifc2sb_python_v01/) · [resultados e limitações](../resultados/ifc2sb_python_v01/).

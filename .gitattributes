@@ -25,3 +25,8 @@
 /notebooks/05_IFC2SB_Controle_e_Creche_v01.ipynb -text
 /resultados/ifc2sb_controle_v01/** -text
 /resultados/ifc2sb_controle_v01/*.pdf binary
+# Preserve source and evidence hashes of partial Python port.
+/consultas/ifc2sb_python_v01/** -text
+/notebooks/01_Conversao_Arquitetura_IFC_LBD_v04.ipynb -text
+/notebooks/01_Modulo_Geometrico_IFC2SB_Python_v01.ipynb -text
+/resultados/ifc2sb_python_v01/** -text

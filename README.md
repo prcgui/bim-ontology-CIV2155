@@ -46,6 +46,14 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 
 ## Revisão do Notebook 1 a partir da literatura
 
+### Adaptação parcial do IFC2SB para Python — revisão 04
+
+O [Notebook 1, revisão 04](notebooks/01_Conversao_Arquitetura_IFC_LBD_v04.ipynb) acrescenta um [módulo geométrico executado em seis células](notebooks/01_Modulo_Geometrico_IFC2SB_Python_v01.ipynb). São adaptadas rotinas do [IFC2SB dos autores](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad), associado a [Fichter et al. (2021)](https://doi.org/10.26868/25222708.2021.30156), utilizando OpenCascade por meio de OCP. O [mapa de funções e diferenças](consultas/ifc2sb_python_v01/) distingue as rotinas portadas da extensão experimental de comparação ambiente–face. As células e saídas anteriores da revisão 03 são preservadas, sem nova execução da conversão nesta revisão.
+
+No piloto da cozinha, as 457 paredes foram examinadas no pré-filtro e 34 permaneceram candidatas. Foram avaliadas 24 aberturas: seis com coincidência geométrica sem interpenetração detectada no critério, quatro com coincidência e interpenetração parede–ambiente, onze sem interseção de face no critério e três separadas por bbox. Dez aberturas distintas geraram onze recortes coincidentes; os quatro casos em conflito estão incluídos nesse total e permanecem sinalizados.
+
+O [RDF e as consultas executadas](resultados/ifc2sb_python_v01/) registram a cadeia **ambiente → superfície bruta candidata → recorte de abertura → abertura → preenchimento**, com coordenadas XYZ, referencial do projeto, unidade metro, GUIDs e estados. Os 17 controles foram aprovados; nove confrontam os resultados Python com corpos C++ originais efetivamente compilados e executados. Isso não demonstra equivalência ao IFC2SB completo nem validação arquitetônica de todos os ambientes. O IFC original é preservado por SHA-256 e os conflitos não são corrigidos.
+
 ### Ensaio com implementação publicada: IFC2SB
 
 O [Notebook 5](notebooks/05_IFC2SB_Controle_e_Creche_v01.ipynb) documenta a auditoria da execução do programa C++ [IFC2SB dos autores](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad), associado a [Fichter et al. (2021)](https://doi.org/10.26868/25222708.2021.30156). O [relatório, os logs e os ajustes de compilação](resultados/ifc2sb_controle_v01/) distinguem o funcionamento do motor da adequação das relações ao problema de pesquisa.

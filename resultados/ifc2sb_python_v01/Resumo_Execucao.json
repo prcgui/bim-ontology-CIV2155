@@ -1,0 +1,24 @@
+{
+  "controles": 17,
+  "paredes_examinadas": 457,
+  "paredes_candidatas": 34,
+  "aberturas_examinadas": 24,
+  "estados": {
+    "fora_do_ambiente_por_separacao_bbox": 3,
+    "evidencia_geometrica_de_coincidencia": 6,
+    "sem_intersecao_de_face_no_criterio": 11,
+    "coincidencia_com_interpenetracao_parede_ambiente": 4
+  },
+  "rdf": {
+    "triplas": 676,
+    "superficies_candidatas": 14,
+    "recortes_coincidentes": 11,
+    "aberturas_com_recortes": 10,
+    "aberturas_separadas_sem_cadeia": 3,
+    "consulta_linhas": 11,
+    "sha256_RDF": "402dd74f390f60ea583089a4af5f50341a667d8aa3da21cb64cb623d5d519677",
+    "limite": "Grafo de evidências candidatas; não é atribuição arquitetônica validada. Relações declaradas IFC são distintas das superfícies calculadas."
+  },
+  "original_preservado": true,
+  "validacao_arquitetonica": "pendente"
+}
