@@ -1,0 +1,34 @@
+{
+  "coordenadas_TIN_Z_conferidas": [
+    {
+      "classe": "IfcSpace",
+      "guid": "3UFjAT4k55zg_Pqo6VMw5l",
+      "triangulos_conferidos": 80,
+      "xyz_iguais_exatamente_ao_cache": true
+    },
+    {
+      "classe": "IfcWall",
+      "guid": "0kzaQEp4nAreZw7__tSV0g",
+      "triangulos_conferidos": 188,
+      "xyz_iguais_exatamente_ao_cache": true
+    },
+    {
+      "classe": "IfcDoor",
+      "guid": "0SBrb98$PByvY4F_NdbUlM",
+      "triangulos_conferidos": 420,
+      "xyz_iguais_exatamente_ao_cache": true
+    },
+    {
+      "classe": "IfcWindow",
+      "guid": "19iXSPWFP0n8WvhYKoRAnc",
+      "triangulos_conferidos": 692,
+      "xyz_iguais_exatamente_ao_cache": true
+    }
+  ],
+  "ambientes_RDF": 41,
+  "relacoes_abertura": 184,
+  "relacoes_preenchimento": 183,
+  "falhas_processamento_retidas_RDF": 17,
+  "sha256_ifc_preservado": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "limite": "Confere fidelidade da serialização das malhas, não exatidão física do modelo nem pertencimento de portas a ambientes."
+}

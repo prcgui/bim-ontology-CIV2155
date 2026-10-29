@@ -1,0 +1,11 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX geom: <http://bimsparql.org/geometry#>
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/arquitetura#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT ?parede (COUNT(DISTINCT ?ambiente) AS ?quantidade_ambientes)
+WHERE { ?ambiente a bot:Space;bot:adjacentElement ?parede. }
+GROUP BY ?parede HAVING(COUNT(DISTINCT ?ambiente)>1)

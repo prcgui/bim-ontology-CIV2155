@@ -1,0 +1,138 @@
+[
+  {
+    "ambiente": "2x_Zaq6pr5AQd4475C6QUa",
+    "ambiente_nome": "INFANTIL 1",
+    "parede": "2GI0jmTGb6Fu3oKZdFAJ6r",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "2x_Zaq6pr5AQd4475C6QUa",
+    "ambiente_nome": "INFANTIL 1",
+    "parede": "1yEMeWodTFjxVF6TV0ypjb",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "2x_Zaq6pr5AQd4475C6QUa",
+    "ambiente_nome": "INFANTIL 1",
+    "parede": "2YXw45e9DDbhQtcMGsi5LC",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "0OghWN3bvAXwKDOXLwtyYH",
+    "ambiente_nome": "INFANTIL 2/3",
+    "parede": "0Lfh4iawvDJR8pWNyWEDEq",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "1smTwm84L3Oh0OVa$J8e95",
+    "ambiente_nome": "SALA MULTIUSO",
+    "parede": "0Lfh4iawvDJR8pWNyWEDEq",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "26Rq0vnwv75eit3wXW3p8h",
+    "ambiente_nome": "BERÇARIO",
+    "parede": "2R51g8UeP1k8eEe7rtS4mJ",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "3s8YD3cQD3s9zM3iaSBun8",
+    "ambiente_nome": "CIRCULAÇÃO",
+    "parede": "0Lfh4iawvDJR8pWNyWEDEq",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "0cLuVHWYX1JPabs5d7Dkmr",
+    "ambiente_nome": "CIRCULAÇÃO",
+    "parede": "28H7jmF8X7muvuYN6q4Aef",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "0cLuVHWYX1JPabs5d7Dkmr",
+    "ambiente_nome": "CIRCULAÇÃO",
+    "parede": "0NrygQZ_H7whx25tCGRkS5",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "1mQyL7DEPADAthjlOZJnBc",
+    "ambiente_nome": "SALA DE ATENDIMENTO",
+    "parede": "2R51g8UeP1k8eEe7rtS4mJ",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "1mQyL7DEPADAthjlOZJnBc",
+    "ambiente_nome": "SALA DE ATENDIMENTO",
+    "parede": "2TwdSjJcj1RxPIJZ1l8Ldo",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "0fkTeNBl9BSg0N67HirM_S",
+    "ambiente_nome": "ADMINISTRAÇÃO",
+    "parede": "2qniMwX6T8O9rzoR83SfBH",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "3uWGbQ0lbCbx7e6UDu08ih",
+    "ambiente_nome": "HALL DE ENTRADA",
+    "parede": "28H7jmF8X7muvuYN6q4Aef",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "3uWGbQ0lbCbx7e6UDu08ih",
+    "ambiente_nome": "HALL DE ENTRADA",
+    "parede": "2qniMwX6T8O9rzoR83SfBH",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "3uWGbQ0lbCbx7e6UDu08ih",
+    "ambiente_nome": "HALL DE ENTRADA",
+    "parede": "0XjYGrFCj54QBygH6JtZYe",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "3uWGbQ0lbCbx7e6UDu08ih",
+    "ambiente_nome": "HALL DE ENTRADA",
+    "parede": "3exr754PL2TuzZoomKw_Cc",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  },
+  {
+    "ambiente": "1A7KDtJ4588Q7rChtNOSEN",
+    "ambiente_nome": "CIRCULAÇÃO",
+    "parede": "2TwdSjJcj1RxPIJZ1l8Ldo",
+    "etapa": "projecao_e_intersecao_de_faces",
+    "erro": "Projeção inválida",
+    "relacao_arquitetonica_determinada": false
+  }
+]

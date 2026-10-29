@@ -1,0 +1,62 @@
+[
+  {
+    "teste": "Face comum: área analítica 1 m² e volume comum zero",
+    "aprovado": true,
+    "segundos": 0.047824599998421036
+  },
+  {
+    "teste": "Vão de 1 mm: proximidade, sem adjacência materializada",
+    "aprovado": true,
+    "segundos": 0.016079399996669963
+  },
+  {
+    "teste": "Vão de 10 mm: nenhuma relação no limiar de 2 mm",
+    "aprovado": true,
+    "segundos": 0.00014799999189563096
+  },
+  {
+    "teste": "Contato só em aresta: não constitui interface com área",
+    "aprovado": true,
+    "segundos": 0.009692899999208748
+  },
+  {
+    "teste": "Contato só em ponto: sem falsa adjacência por face",
+    "aprovado": true,
+    "segundos": 0.009685099998023361
+  },
+  {
+    "teste": "Rotação e translação 3D: contato preservado fora da planta XY",
+    "aprovado": true,
+    "segundos": 0.02126049999787938
+  },
+  {
+    "teste": "Sólido em L: sobreposição de caixas sem contato real",
+    "aprovado": true,
+    "segundos": 0.015517400010139681
+  },
+  {
+    "teste": "Interface com furo: área 0,75 m², sem preencher o vazio",
+    "aprovado": true,
+    "segundos": 0.029752499991445802
+  },
+  {
+    "teste": "Sobreposição volumétrica: não declarar adjacência disjunta",
+    "aprovado": true,
+    "segundos": 0.012674400000832975
+  },
+  {
+    "teste": "Malha aberta: recusa da validação volumétrica",
+    "aprovado": true,
+    "segundos": 0.0006270000012591481
+  },
+  {
+    "teste": "Orientação global invertida: normalização só na malha derivada",
+    "aprovado": true,
+    "segundos": 0.0006965000065974891
+  },
+  {
+    "teste": "Coordenada inválida: rejeição explícita",
+    "aprovado": true,
+    "segundos": 3.4500000765547156e-05
+  }
+]

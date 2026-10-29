@@ -1,0 +1,12 @@
+{
+  "arquivo_consultado": "C:\\Users\\prcgu\\OneDrive\\Documentos\\ChatGPT\\Artigo da Disciplina BIM\\desenvolvimento\\revisao_notebook1_v03\\execucao_notebook\\resultados\\rdf\\arquitetura_enriquecida.ttl",
+  "respostas": {
+    "01_Geometria_dos_Ambientes": 41,
+    "02_Cozinha_Paredes_Aberturas_Preenchimentos": 14,
+    "03_Justificativa_das_Adjacencias": 135,
+    "04_Proximidades_e_Contatos_Nao_Qualificados": 296,
+    "05_Paredes_Compartilhadas": 33,
+    "06_Ambientes_sem_Adjacencia_Qualificada": 12
+  },
+  "nota_cadeia": "A porta preenche uma abertura da parede adjacente. Isso não prova que a porta atende a esse cômodo."
+}

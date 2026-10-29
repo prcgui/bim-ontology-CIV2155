@@ -1,0 +1,56 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/arquitetura#> .
+@prefix geom: <http://bimsparql.org/geometry#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+civ:EvidenceShape a sh:NodeShape ;
+    sh:property [ sh:minCount 1 ;
+            sh:path prov:wasGeneratedBy ],
+        [ sh:hasValue <https://doi.org/10.1016/j.autcon.2025.106081> ;
+            sh:path rdfs:seeAlso ],
+        [ sh:minCount 1 ;
+            sh:path civ:contactGeometry ],
+        [ sh:class bot:Space ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path rdf:subject ],
+        [ sh:class bot:Element ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path rdf:object ],
+        [ sh:minCount 1 ;
+            sh:path prov:wasDerivedFrom ] ;
+    sh:targetClass civ:GeometricRelationEvidence .
+
+civ:GeometryShape a sh:NodeShape ;
+    sh:property [ sh:datatype xsd:string ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path geom:asBody ;
+            sh:pattern "^TIN Z " ],
+        [ sh:hasValue <http://qudt.org/vocab/unit/M> ;
+            sh:maxCount 1 ;
+            sh:path civ:unit ],
+        [ sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path civ:coordinateReference ],
+        [ sh:minCount 1 ;
+            sh:minExclusive 0 ;
+            sh:path civ:triangleCount ] ;
+    sh:targetClass geom:Geometry .
+
+civ:SpaceShape a sh:NodeShape ;
+    sh:property [ sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path props:globalIdIfcRoot_attribute_simple ],
+        [ sh:class geom:Geometry ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path geom:hasGeometry ] ;
+    sh:targetClass bot:Space .
+

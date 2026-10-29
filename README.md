@@ -44,6 +44,12 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 | [apresentacao/](apresentacao/) | Slides da apresentação. |
 | [notebooks/](notebooks/) | Procedimentos executáveis, referências e registros de execução. |
 
+## Revisão do Notebook 1 a partir da literatura
+
+O [Notebook 1, revisão 03, executado](notebooks/01_Conversao_Arquitetura_IFC_LBD_v03.ipynb) acrescenta geometria XYZ ao RDF e investiga as relações entre os 41 ambientes e as paredes, distinguindo dados declarados, adjacências calculadas e casos não qualificados. A revisão se apoia em Huitzil et al. (2024), Lilis et al. (2025), Zhang et al. (2018), Wang et al. (2024) e Jäkel et al. (2025), com [fontes, PDFs e natureza das adaptações](referencias/notebook1_v03/).
+
+Os [resultados e testes](resultados/notebook1_v03/) registram 2109 produtos com malha no RDF, 3 falhas de geometria e 12 testes geométricos analíticos aprovados. O IFC original permanece preservado. A revisão não demonstra completude arquitetônica nem resolve a integração com a estrutura; as limitações permanecem objeto de análise. O código de harmonização JSON de propriedades não foi aplicado.
+
 ## Procedimento metodológico
 
 ### Inspeção de portas, aberturas e elementos hospedeiros

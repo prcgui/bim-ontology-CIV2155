@@ -1,3 +1,13 @@
 # Preserve the recorded bytes of the reproducible CQ2 experiment.
 /notebooks/03_Inspecao_Portas_IFC_RDF_CQ2_v01.ipynb -text
 /resultados/notebook3/** -text
+# Preserve the recorded bytes of the spatial architecture revision.
+/notebooks/01_Arquitetura_IFC_RDF_Geometria_v02.ipynb -text
+/resultados/notebook1_revisao_espacial/** -text
+/codigo/arquitetura_espacial/** -text
+/referencias/geometria_relacoes/** -text
+# Preserve the hashes recorded by Notebook 1 revision 03.
+/consultas/notebook1_v03/** -text
+/notebooks/01_Conversao_Arquitetura_IFC_LBD_v03.ipynb -text
+/referencias/notebook1_v03/** -text
+/resultados/notebook1_v03/** -text

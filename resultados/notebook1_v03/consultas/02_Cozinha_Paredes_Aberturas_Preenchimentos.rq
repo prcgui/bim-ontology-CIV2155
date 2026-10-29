@@ -1,0 +1,14 @@
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX geom: <http://bimsparql.org/geometry#>
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/arquitetura#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+SELECT DISTINCT ?ambiente ?parede ?paredeGUID ?abertura ?preenchimento ?classe
+WHERE { ?ambiente a bot:Space; rdfs:label "COZINHA";bot:adjacentElement ?parede.
+ ?parede props:globalIdIfcRoot_attribute_simple ?paredeGUID.
+ OPTIONAL { ?parede civ:hasOpening ?abertura.
+ OPTIONAL { ?abertura civ:hasFilling ?preenchimento.?preenchimento civ:ifcClass ?classe. } }
+} ORDER BY ?paredeGUID ?abertura
