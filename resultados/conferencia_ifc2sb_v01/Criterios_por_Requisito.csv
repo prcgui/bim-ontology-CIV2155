@@ -1,0 +1,6 @@
+﻿requisito_matriz_v02,pergunta,evidencia_disponivel,condicao_pendente
+R04,O elemento delimita o ambiente?,Superfície candidata com geometria e coordenadas,Conferir a interface e definir limite arquitetônico; separar sobreposição.
+R05,Qual ambiente é atendido pela abertura/preenchimento?,Relações declaradas e recortes geométricos,Conferir interface e função em planta/cortes; não usar parede inteira como identificador de cômodo.
+R05,"O preenchimento é porta, janela ou outro elemento?",Classe e GUID do IFC,Definir classes/funções pertinentes; não invalidar IfcWall somente pelo tipo.
+R06,O elemento está contido ou atravessa o ambiente?,Geometria XYZ e operações com alcance identificado,Exigir representação e teste adequados; marcar volume indisponível como inconclusivo.
+R09,A consulta responde à questão de competência?,"24 casos, conferência interna e controles",Definir predicados e padrão-ouro independente antes da aceitação arquitetônica.

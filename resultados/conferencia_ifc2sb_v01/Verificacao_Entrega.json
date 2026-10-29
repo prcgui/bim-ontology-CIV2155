@@ -1,0 +1,11 @@
+{
+  "notebook_celulas_executadas": 6,
+  "controles_aprovados": 4,
+  "paredes": 34,
+  "casos": 24,
+  "IFC_preservado": true,
+  "piloto_preservado": true,
+  "RDF_anterior_preservado": true,
+  "helper_identico_a_v04": true,
+  "validacao_arquitetonica": "pendente"
+}

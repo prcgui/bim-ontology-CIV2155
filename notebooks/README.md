@@ -34,6 +34,8 @@ O [Notebook 4](04_Conferencia_Cozinha_IFC_RDF_v01.ipynb) foi executado em seis c
 
 ## Notebook 1 — revisão 04: adaptação parcial do IFC2SB em Python
 
+**Conferência complementar:** [Notebook 6 — conferência geométrica do piloto](06_Conferencia_Geometrica_Piloto_IFC2SB_v01.ipynb). Seis células executadas, quatro controles, 34 paredes e 24 casos. Compara as representações com e sem subtração das aberturas, verifica classes e relações e produz figuras e registros de valores inconclusivos. [Resultados, relatório e condições pendentes](../resultados/conferencia_ifc2sb_v01/).
+
 [Notebook completo v04](01_Conversao_Arquitetura_IFC_LBD_v04.ipynb) · [módulo novo independente, executado](01_Modulo_Geometrico_IFC2SB_Python_v01.ipynb).
 
 As seis células novas preparam fontes verificadas por hash, executam 17 controles, verificam o IFC original, processam o piloto da cozinha, exportam e consultam o RDF com coordenadas e conferem a integridade final. O notebook completo conserva as células e saídas v03, sem reexecutá-las nesta revisão. Para repetir apenas a adaptação, utilizar o módulo independente.

@@ -1,0 +1,27 @@
+FONTES DA CONFERÊNCIA GEOMÉTRICA DA COZINHA — CIV2155 — 29/10/2026
+
+1. FICHTER et al. Automatic generation of second level space boundary geometry from IFC models. Building Simulation, 2021, p. 1083–1090.
+DOI: https://doi.org/10.26868/25222708.2021.30156
+Código dos autores: https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad
+Contribuição: módulo parcial geométrico anteriormente adaptado. closed_space_solid e as operações auxiliares são reutilizados com atribuição e licença. Não é o IFC2SB integral.
+PDF no GitHub: https://github.com/prcgui/bim-ontology-CIV2155/blob/main/referencias/geometria_relacoes/Fichter_et_al_2021_Geracao_Limites_Espaciais.pdf
+
+2. IFCOPENSHELL. Geometry processing.
+https://docs.ifcopenshell.org/ifcopenshell-python/geometry_processing.html
+Contribuição técnica: create_shape, retorno de geometria, vértices/faces e processamento de produtos com aberturas aplicadas.
+
+3. IFCOPENSHELL. Geometry settings: disable-opening-subtractions.
+https://docs.ifcopenshell.org/ifcopenshell/geometry_settings.html#disable-opening-subtractions
+Contribuição técnica: a opção controla a subtração das geometrias IfcOpeningElement do hospedeiro. A conferência compara as configurações e registra seus limites.
+Documentação consultada: 0.9.0post1. Execução efetiva: 0.8.4, com parâmetros registrados no código.
+
+4. CADQUERY/OCP. Bindings do OpenCascade.
+https://github.com/CadQuery/OCP
+Contribuição técnica: operações booleanas e distância mínima; executado com OCP/OCCT 7.8.1.
+
+5. Esquema IFC4 carregado no IfcOpenShell: IfcRelFillsElement.
+Tipo de RelatingOpeningElement: IfcOpeningElement.
+Tipo de RelatedBuildingElement: IfcElement.
+Procedimento: introspecção do esquema, não filtro por nome. O registro está no JSON e na célula 4 do Notebook 6.
+
+Natureza do código novo: diagnóstico, rastreio e visualização específicos deste estudo. As fontes técnicas explicam as APIs; não publicam este mesmo código. A conferência é interna, sem padrão-ouro arquitetônico externo. O artigo e o código publicado fundamentam o módulo anterior, não transformam toda rotina de inspeção em algoritmo dos autores.

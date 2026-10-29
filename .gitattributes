@@ -30,3 +30,10 @@
 /notebooks/01_Conversao_Arquitetura_IFC_LBD_v04.ipynb -text
 /notebooks/01_Modulo_Geometrico_IFC2SB_Python_v01.ipynb -text
 /resultados/ifc2sb_python_v01/** -text
+# Internal geometry inspection: preserve recorded source and evidence hashes.
+/consultas/conferencia_ifc2sb_v01/** -text
+/resultados/conferencia_ifc2sb_v01/** -text
+/resultados/conferencia_ifc2sb_v01/*.pdf binary
+/resultados/conferencia_ifc2sb_v01/figuras/*.png binary
+/notebooks/06_Conferencia_Geometrica_Piloto_IFC2SB_v01.ipynb -text
+/referencias/geometria_relacoes/Fontes_Conferencia_Geometrica_Cozinha.txt -text
