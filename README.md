@@ -52,6 +52,12 @@ Os [resultados e testes](resultados/notebook1_v03/) registram 2109 produtos com 
 
 ## Procedimento metodológico
 
+### Conferência da cozinha e rastreabilidade v02
+
+O [Notebook 4](notebooks/04_Conferencia_Cozinha_IFC_RDF_v01.ipynb) confronta as cadeias do RDF com IfcRelVoidsElement/IfcRelFillsElement e examina sua localização na geometria do IFC. As 14 linhas da consulta coincidem com as relações das paredes selecionadas, mas duas aberturas estão separadas da cozinha. A conferência evidencia que preservar a cadeia parede–abertura–preenchimento não demonstra que cada preenchimento atenda ao ambiente.
+
+O [relatório com figuras, consultas e limitações](resultados/conferencia_cozinha_v01/) e a [matriz v02](resultados/matriz_rastreabilidade_v02/) distinguem fidelidade da conversão, localização geométrica e significado arquitetônico. O IFC e o RDF de origem foram preservados; a completude arquitetônica e a integração entre disciplinas não são declaradas como concluídas.
+
 ### Inspeção de portas, aberturas e elementos hospedeiros
 
 O [notebook 3](notebooks/03_Inspecao_Portas_IFC_RDF_CQ2_v01.ipynb) documenta a análise-piloto da CQ2 em 11 etapas executáveis, com finalidade, critérios e referências junto a cada consulta. A seleção utiliza a classe `IfcDoor`, percorre `IfcRelFillsElement` e `IfcRelVoidsElement` e confere os pares hospedeiro-porta no RDF por `GlobalId`.

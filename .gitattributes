@@ -13,3 +13,10 @@
 /resultados/notebook1_v03/** -text
 /referencias/notebook1_v03/*.pdf binary
 /referencias/geometria_relacoes/*.pdf binary
+# Preserve recorded bytes of the kitchen inspection and traceability matrix.
+/consultas/conferencia_cozinha_v01/** -text
+/notebooks/04_Conferencia_Cozinha_IFC_RDF_v01.ipynb -text
+/resultados/conferencia_cozinha_v01/** -text
+/resultados/matriz_rastreabilidade_v02/** -text
+/resultados/conferencia_cozinha_v01/*.pdf binary
+/resultados/matriz_rastreabilidade_v02/*.xlsx binary

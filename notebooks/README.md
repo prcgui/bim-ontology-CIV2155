@@ -21,3 +21,7 @@ O notebook repete o procedimento em dois blocos: arquitetura ARQ-DTV e estrutura
 A execução termina no **registro dos problemas e das decisões pendentes**, sem fundir recursos, reconciliar referenciais ou aplicar soluções aos conflitos novos. Os [resultados e registros do diagnóstico](../resultados/notebook2/) apresentam as evidências observadas.
 
 As células contêm descrição da finalidade, fontes técnicas e critérios. O motor reutilizado é IFCtoLBD 2.49.0, com a adaptação textual previamente documentada. A ampliação do escopo para elementos está explicitada nos parâmetros. As saídas registradas correspondem a uma execução local em Windows, com Python e Java 21; o notebook também prepara o ambiente de execução do Google Colab.
+
+## Conferência da cozinha
+
+O [Notebook 4](04_Conferencia_Cozinha_IFC_RDF_v01.ipynb) foi executado em seis células de código e documenta comparação IFC–RDF, localização por malhas, figuras e controles de integridade. [Resultados e limites](../resultados/conferencia_cozinha_v01/).

@@ -1,0 +1,17 @@
+{
+  "notebook_celulas_executadas": 6,
+  "erros_notebook": 0,
+  "paginas_PDF": 5,
+  "abas_XLSX": [
+    "Matriz",
+    "Evidencias",
+    "Metodo e Fontes",
+    "Cozinha CQ2"
+  ],
+  "matriz_requisitos_conferidos": 9,
+  "evidencias": 41,
+  "casos_independentes_nao_realizados": 8,
+  "formulas_e_resultados_XLSX_preservados": true,
+  "pacote_XLSX_CRC_valido": true,
+  "IFC_preservado": true
+}

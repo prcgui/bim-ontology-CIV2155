@@ -1,0 +1,35 @@
+﻿codigo,guid,step,nome,situacao_N1,area_estrita_m2,volume_intersecao_m3,outros_ambientes_com_aresta_RDF,aberturas_declaradas_no_IFC
+P01,0XAHc8zyr1YuL0AWxiP2D2,96249,AL09,adjacencia_geometrica_no_limiar_numerico,5.553875731856879,0.0,COPA FUNCIONÁRIOS,5
+C02,3lgLMxPtX22hHa1J_NWBcS,98844,AL09,sem_contato_de_faces_no_criterio,,,DESPENSA,1
+P09,2gY30MgeHFYR7UxJlNnU9q,101205,AL09,adjacencia_geometrica_no_limiar_numerico,18.60000276284134,4.263256414560601e-14,COPA FUNCIONÁRIOS,0
+P02,0xvlN6VObElAHCGt3ouxRe,101212,AL09,adjacencia_geometrica_no_limiar_numerico,9.277098149203718,0.0,DESPENSA,1
+P08,1v8GUEVp5BSuN5s4rGKaRA,101505,AL09,adjacencia_geometrica_no_limiar_numerico,4.126861845429637,0.0,DESPENSA,1
+C06,3BgFgAEMH1AR1k70kqmmGX,101515,AL09,contato_com_intersecao_volumetrica,13.455960780891994,0.2867416040409691,COPA FUNCIONÁRIOS; HIGIENIZAÇÃO,5
+C07,2TrBx80afAAB2BetVhdH3h,104431,AL09,proximidade_de_superficies,0.0,1.108246877547652e-11,,0
+P10,3P1RyjewH8$v4NJ0y8uBk0,105566,AL09,adjacencia_geometrica_no_limiar_numerico,5.820364090592854,0.0,SANIT. PCD MASC.,0
+P07,1iOYF1JcPEwegmKfk_tC1y,105568,AL14,adjacencia_geometrica_no_limiar_numerico,6.7267768637738214,0.0,,0
+C10,3hwckEuxT8sBzk1GABMQk8,105604,AL09,sem_contato_de_faces_no_criterio,,,DESPENSA; SANIT. PCD FEM.,0
+P03,19RZT7S6nE9gHkuX87cdTl,107252,AL09,adjacencia_geometrica_no_limiar_numerico,11.640723690859271,1.0658141036401503e-14,,0
+P04,1MP67OoNnCXvzNtb_rZWb1,107256,AL09,adjacencia_geometrica_no_limiar_numerico,4.805279501802327,0.0,,1
+P06,1WwmmrGEXC28n24XX__DfU,107290,AL25,adjacencia_geometrica_no_limiar_numerico,0.46499999999995156,0.0,,0
+C14,0mwaX7fNvBBAXIeVJZBq96,107302,AL09,sem_contato_de_faces_no_criterio,,,,1
+C15,2Wuvw8xbr5MuWJuA4De53m,107324,AL22,sem_contato_de_faces_no_criterio,,,,0
+C16,17V7r$InT5S9X3rf$rlDOY,129183,AL09,sem_contato_de_faces_no_criterio,,,,1
+C17,3YjsmNXlH0M9Qa1uC_lH61,129210,AL16,sem_contato_de_faces_no_criterio,,,,0
+C18,1VhllNj3XBbvgUNHbDgqWs,129235,AL09,sem_contato_de_faces_no_criterio,,,,1
+C19,2xbNdCu_H4Zg3HLTWasIQ4,129263,AL17,sem_contato_de_faces_no_criterio,,,,0
+C20,1AMoqYFXX6BRJcxKVqHmrr,129297,AL18,sem_contato_de_faces_no_criterio,,,,0
+C21,17PQAe7i5DsBgg9Rvg7RRm,129302,AL09,sem_contato_de_faces_no_criterio,,,,1
+C22,1Yq436NaT5JP4MiMyJzmiU,129334,AL19,sem_contato_de_faces_no_criterio,,,,0
+C23,3MO8KHMKT4ifS0ALbQHueo,129344,AL09,sem_contato_de_faces_no_criterio,,,,1
+C24,1oAmkwqafCWgjoEPq64mYa,129348,AL09,sem_contato_de_faces_no_criterio,,,,1
+C25,1WwizIhz52jQoLkPqpIpsC,129376,AL09,sem_contato_de_faces_no_criterio,,,,2
+C26,2QW$G1Kjn80hKgGN6FK712,129384,AL15,sem_contato_de_faces_no_criterio,,,,0
+C27,1$SMxFZtnFzw$31i87svwg,129445,AL24,sem_contato_de_faces_no_criterio,,,,0
+C28,0xeworUf99ywn9AEwFgu0p,129484,AL21,sem_contato_de_faces_no_criterio,,,,0
+C29,0Vw1PHxBfD9Pid8d4aIlJG,129500,AL09,sem_contato_de_faces_no_criterio,,,,1
+C30,1Qgi9fV251vRB5VwiIGFG5,129529,AL20,sem_contato_de_faces_no_criterio,,,,0
+C31,3pfXBBd114LP7U8seHQy5V,129530,AL09,sem_contato_de_faces_no_criterio,,,,1
+C32,0m8CetgqbC3OnOpkIkk9rr,132137,AL23,sem_contato_de_faces_no_criterio,,,,0
+C33,0sj_aEsMzBlPSsBHpOD6vZ,132361,AL09,sem_contato_de_faces_no_criterio,,,,0
+P05,1TlNCt8aP6oesbR1Y5mQco,132391,AL09,adjacencia_geometrica_no_limiar_numerico,0.5269999991913235,0.0,,0
