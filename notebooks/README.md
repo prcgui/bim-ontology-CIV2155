@@ -1,5 +1,11 @@
 # Notebooks do estudo
 
+## Notebook 5 — IFC2SB: controle e creche integral
+
+[Notebook de auditoria executado](05_IFC2SB_Controle_e_Creche_v01.ipynb), com cinco células Python que conferem os arquivos de execuções C++ realizadas no Colab. Não representa uma execução do C++ em Windows. O método geométrico utilizado é o [IFC2SB publicado pelos autores](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad); as rotinas de supervisão e auditoria são específicas deste estudo.
+
+[Resultados, relatório, instruções e registros completos](../resultados/ifc2sb_controle_v01/) · [PDF e fontes](../referencias/geometria_relacoes/). O controle gera limites, mas reúne ambientes. Na creche integral, o limite operacional de 600 segundos foi atingido sem arquivo de saída; não se conclui impossibilidade do método. O IFC original foi preservado.
+
 ## Notebook 3 - Inspeção de portas IFC-RDF (CQ2)
 
 [Notebook executado, com referências e saídas](03_Inspecao_Portas_IFC_RDF_CQ2_v01.ipynb).

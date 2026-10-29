@@ -20,3 +20,8 @@
 /resultados/matriz_rastreabilidade_v02/** -text
 /resultados/conferencia_cozinha_v01/*.pdf binary
 /resultados/matriz_rastreabilidade_v02/*.xlsx binary
+# Preserve published-code experiment and audit hashes.
+/consultas/ifc2sb_controle_v01/** -text
+/notebooks/05_IFC2SB_Controle_e_Creche_v01.ipynb -text
+/resultados/ifc2sb_controle_v01/** -text
+/resultados/ifc2sb_controle_v01/*.pdf binary

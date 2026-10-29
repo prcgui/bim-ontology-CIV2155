@@ -46,6 +46,16 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 
 ## Revisão do Notebook 1 a partir da literatura
 
+### Ensaio com implementação publicada: IFC2SB
+
+O [Notebook 5](notebooks/05_IFC2SB_Controle_e_Creche_v01.ipynb) documenta a auditoria da execução do programa C++ [IFC2SB dos autores](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad), associado a [Fichter et al. (2021)](https://doi.org/10.26868/25222708.2021.30156). O [relatório, os logs e os ajustes de compilação](resultados/ifc2sb_controle_v01/) distinguem o funcionamento do motor da adequação das relações ao problema de pesquisa.
+
+No controle FZK-Haus, foram produzidos quatro espaços interiores e 1.095 limites, mas os sete ambientes da entrada não foram conservados individualmente. Na creche integral, o limite operacional predefinido de 600 segundos foi atingido sem arquivo IFC de saída auditável. Esse resultado não demonstra impossibilidade do método. O IFC original foi preservado; a arquitetura completa e a integração entre disciplinas permanecem sem demonstração. O [PDF do artigo e o código dos autores](referencias/geometria_relacoes/) estão identificados nas referências.
+
+### Experimento auxiliar com geometria em Python
+
+A implementação geométrica Python da revisão 03 é uma adaptação específica deste estudo de critérios encontrados na literatura. **Não executa o GRC original de Lilis nem o IFC2SB.** Seus testes analíticos verificam operações e casos definidos, sem demonstrar completude arquitetônica ou equivalência à implementação publicada.
+
 O [Notebook 1, revisão 03, executado](notebooks/01_Conversao_Arquitetura_IFC_LBD_v03.ipynb) acrescenta geometria XYZ ao RDF e investiga as relações entre os 41 ambientes e as paredes, distinguindo dados declarados, adjacências calculadas e casos não qualificados. A revisão se apoia em Huitzil et al. (2024), Lilis et al. (2025), Zhang et al. (2018), Wang et al. (2024) e Jäkel et al. (2025), com [fontes, PDFs e natureza das adaptações](referencias/notebook1_v03/).
 
 Os [resultados e testes](resultados/notebook1_v03/) registram 2109 produtos com malha no RDF, 3 falhas de geometria e 12 testes geométricos analíticos aprovados. O IFC original permanece preservado. A revisão não demonstra completude arquitetônica nem resolve a integração com a estrutura; as limitações permanecem objeto de análise. O código de harmonização JSON de propriedades não foi aplicado.
