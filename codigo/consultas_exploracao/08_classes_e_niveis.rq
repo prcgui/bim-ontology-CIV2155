@@ -1,0 +1,5 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?grafo ?classe ?superclasse
+WHERE { GRAPH ?grafo { ?classe rdfs:subClassOf ?superclasse }
+ FILTER(?grafo IN (<https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil>, <https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia>)) }
+ORDER BY ?grafo ?classe

@@ -1,0 +1,9 @@
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+SELECT ?ambiente ?nome ?estado ?esquadrias ?modelo ?relacoes
+WHERE { ?resultado a civ:ResultadoPorAmbiente ; civ:ambiente ?ambiente ; civ:nome ?nome ; civ:estado ?estado .
+ OPTIONAL { ?resultado civ:quantidadeEsquadrias ?esquadrias }
+ OPTIONAL { SELECT ?ambiente ?modelo (COUNT(?r) AS ?relacoes) WHERE {
+ ?r a int:RelacaoEspacial ; int:ambiente ?ambiente ; int:modelo ?m . ?m int:chave ?modelo
+ } GROUP BY ?ambiente ?modelo }
+} ORDER BY ?nome ?modelo

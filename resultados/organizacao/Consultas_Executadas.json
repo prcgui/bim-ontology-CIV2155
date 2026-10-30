@@ -1,0 +1,984 @@
+[
+  {
+    "id": "01_origem_produtos",
+    "consulta": "PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nSELECT ?modelo ?grafo (COUNT(DISTINCT ?produto) AS ?produtos)\nWHERE { ?m a int:ModeloIFC ; int:chave ?modelo ; int:grafo ?grafo .\n        ?produto prov:wasDerivedFrom ?m .\n        GRAPH ?grafo { ?produto <http://lbd.arch.rwth-aachen.de/props#globalIdIfcRoot_attribute_simple> ?guid } }\nGROUP BY ?modelo ?grafo ORDER BY ?modelo\n",
+    "linhas": 3,
+    "colunas": [
+      "modelo",
+      "grafo",
+      "produtos"
+    ],
+    "resultados": [
+      {
+        "modelo": "arquitetura",
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/arquitetura",
+        "produtos": "2116"
+      },
+      {
+        "modelo": "sco",
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/sco",
+        "produtos": "19229"
+      },
+      {
+        "modelo": "smt",
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/smt",
+        "produtos": "5256"
+      }
+    ]
+  },
+  {
+    "id": "02_ambientes_e_relacoes",
+    "consulta": "PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>\nPREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>\nSELECT ?ambiente ?nome ?estado ?esquadrias ?modelo ?relacoes\nWHERE { ?resultado a civ:ResultadoPorAmbiente ; civ:ambiente ?ambiente ; civ:nome ?nome ; civ:estado ?estado .\n OPTIONAL { ?resultado civ:quantidadeEsquadrias ?esquadrias }\n OPTIONAL { SELECT ?ambiente ?modelo (COUNT(?r) AS ?relacoes) WHERE {\n ?r a int:RelacaoEspacial ; int:ambiente ?ambiente ; int:modelo ?m . ?m int:chave ?modelo\n } GROUP BY ?ambiente ?modelo }\n} ORDER BY ?nome ?modelo\n",
+    "linhas": 54,
+    "colunas": [
+      "ambiente",
+      "nome",
+      "estado",
+      "esquadrias",
+      "modelo",
+      "relacoes"
+    ],
+    "resultados": [
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_36602c77-79f5-4b4a-a425-493788af0591",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "34"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_e960019a-b982-420f-b59a-8e8ba39f8b44",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "6"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_03fbb3d2-8cec-4d81-a3b6-f4109724b3d5",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "14"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fb6ec806-4cfe-4ae1-ae74-fdb80349529c",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "4"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fc0e0d23-1e3b-44a0-9097-4078eb964812",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "38"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f881095a-02f9-4c97-b1e8-19e378008b2b",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "22"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f60d387e-d797-418d-9b63-1207de7b3e45",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "23"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_51c9e078-da44-42d8-8652-d9f22d1ecf4e",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "3"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_41d43b3a-6fde-4dd3-94ab-5a3343b55ae4",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "12"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_866f4039-c7ae-4716-8b37-0fa8600f322b",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "24"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d6aa9ab4-6278-435d-834d-7f1241c1cd3e",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "1"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ed8ce420-4cf1-4709-b59a-59bbb9245b23",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "1"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_18aab817-0e5e-4a87-a50d-62157adfc891",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "35"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_265787d1-8228-414d-9925-d859c736ec35",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "17"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bd6f2750-0340-48e7-9361-326f94d1f5da",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "3"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_5766c6e2-923b-472b-9f1b-dd3a5d71ad69",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "7"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d547a7f0-291f-42b1-a92e-3fd73666b6c9",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "14"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fef23785-b12a-446a-83b7-67b82e423e0b",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "8"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_8e7d18cb-b8f0-473e-bb0b-f18eb0836408",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "2"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_095139dc-3826-415a-aa40-867ca7c7929f",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "9"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_67e1ca91-e974-4718-87b2-808c11833127",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "7"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_23c44aa0-b1fd-4455-8ae9-0d7cff1ff7a4",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "11"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_43f05c5e-0691-4e63-8b6b-068571ae8531",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "9"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "16"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d762493a-e4ae-4433-9c62-813f2b077a13",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "2"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_29b9da17-2ef2-4b72-a017-18746cd56f9c",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "12"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f6222343-99a3-43d8-9f56-0ec91c2f8c48",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "62"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_132a9591-1f34-426d-b12d-5f169e5c35ca",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "23"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_3d5d8a91-43f4-4762-bbbd-f21ad0c6ffed",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "7"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_553455d3-1d26-4a5d-9d86-05b5276fd52a",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "37"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_76c1deb0-2045-4362-b018-7e4fd3228245",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "34"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bafcf281-109c-4e44-a23c-415bb33c335f",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "12"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_87487f8c-a4d8-4bd0-97f9-b32623282fcd",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "18"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_4a1d4377-4c41-4821-a1f5-32bdd761c397",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "7"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_93877574-52bc-4f27-86b9-e94e8bc1a2ed",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "15"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ae015007-4728-4283-aea2-dfdf7d799ebb",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "3"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_706bc547-34e6-4a34-adeb-b6f6234f12e6",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "13"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ab89d1e5-da58-487c-939e-3f75ffcb6194",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "sco",
+        "relacoes": "9"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_36602c77-79f5-4b4a-a425-493788af0591",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "64"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fc0e0d23-1e3b-44a0-9097-4078eb964812",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "84"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f881095a-02f9-4c97-b1e8-19e378008b2b",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "40"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_866f4039-c7ae-4716-8b37-0fa8600f322b",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "60"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_18aab817-0e5e-4a87-a50d-62157adfc891",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "64"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_265787d1-8228-414d-9925-d859c736ec35",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "41"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_095139dc-3826-415a-aa40-867ca7c7929f",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "12"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f6222343-99a3-43d8-9f56-0ec91c2f8c48",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "124"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_553455d3-1d26-4a5d-9d86-05b5276fd52a",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "84"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_76c1deb0-2045-4362-b018-7e4fd3228245",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "32"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bafcf281-109c-4e44-a23c-415bb33c335f",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "18"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_87487f8c-a4d8-4bd0-97f9-b32623282fcd",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "92"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_4a1d4377-4c41-4821-a1f5-32bdd761c397",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "14"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_93877574-52bc-4f27-86b9-e94e8bc1a2ed",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "18"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_706bc547-34e6-4a34-adeb-b6f6234f12e6",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "19"
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ab89d1e5-da58-487c-939e-3f75ffcb6194",
+        "nome": null,
+        "estado": null,
+        "esquadrias": null,
+        "modelo": "smt",
+        "relacoes": "312"
+      }
+    ]
+  },
+  {
+    "id": "03_cozinha_v137",
+    "consulta": "PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>\nPREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>\nPREFIX props: <http://lbd.arch.rwth-aachen.de/props#>\nSELECT ?ambiente ?elemento ?predicado ?estado ?areaM2 ?volumeM3 ?modelo ?grafo ?sha256\nWHERE { ?resultado civ:nome \"COZINHA\" ; civ:ambiente ?ambiente .\n ?elemento props:globalIdIfcRoot_attribute_simple \"0EVSuIeKOHxuDHo7zKqQBn\" .\n GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/relacoes> {\n ?r a int:RelacaoEspacial ; int:ambiente ?ambiente ; int:elementoEstrutural ?elemento ;\n int:predicado ?predicado ; int:estado ?estado ; int:areaContatoM2 ?areaM2 ; int:volumeIntersecaoM3 ?volumeM3 ; int:modelo ?m }\n ?m int:chave ?modelo ; int:grafo ?grafo ; int:sha256IFC ?sha256 . }\n",
+    "linhas": 1,
+    "colunas": [
+      "ambiente",
+      "elemento",
+      "predicado",
+      "estado",
+      "areaM2",
+      "volumeM3",
+      "modelo",
+      "grafo",
+      "sha256"
+    ],
+    "resultados": [
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f",
+        "elemento": "https://github.com/prcgui/bim-ontology-CIV2155/id/estrutura-sco/beam_0e7dce12-a146-11ef-8351-c87f54d1a2f1",
+        "predicado": "https://w3id.org/bot#adjacentElement",
+        "estado": "adjacente",
+        "areaM2": "0.4674837228519026",
+        "volumeM3": "0.0",
+        "modelo": "sco",
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/sco",
+        "sha256": "bde759756938510c56112b9544aa2a26aca08b6a229008de85c5144d2961ea93"
+      }
+    ]
+  },
+  {
+    "id": "04_ambientes_inconclusivos",
+    "consulta": "PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>\nSELECT ?ambiente ?nome ?motivo ?quantidade\nWHERE { ?r a civ:ResultadoPorAmbiente ; civ:ambiente ?ambiente ; civ:nome ?nome ;\n civ:estado \"inconclusivo_preparacao_espaco\" .\n OPTIONAL { ?r civ:motivo ?motivo } OPTIONAL { ?r civ:quantidadeEsquadrias ?quantidade } }\nORDER BY ?nome\n",
+    "linhas": 3,
+    "colunas": [
+      "ambiente",
+      "nome",
+      "motivo",
+      "quantidade"
+    ],
+    "resultados": [
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_5e17dff5-4488-4291-abba-92395059a4d4",
+        "nome": "AMAMENTAÇÃO",
+        "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito",
+        "quantidade": null
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bbfa3934-1b3d-4529-a9c4-10714c19a7a4",
+        "nome": "INFANTIL 1",
+        "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito",
+        "quantidade": null
+      },
+      {
+        "ambiente": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_8600f390-0e41-48e4-b329-913a579a8477",
+        "nome": "INFANTIL 5",
+        "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito",
+        "quantidade": null
+      }
+    ]
+  },
+  {
+    "id": "05_v137_propriedades_contextuais",
+    "consulta": "PREFIX ctx: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT ?pset ?nome ?tipo ?valor ?unidade ?prefixo ?origemUnidade ?step\nWHERE { ?conjunto a ctx:ConjuntoPropriedadesIFC ; rdfs:label ?pset ; ctx:propriedade ?p .\n ?p rdfs:label ?nome ; ctx:tipoValorIFC ?tipo ; rdf:value ?valor ; ctx:origemUnidade ?origemUnidade ; ctx:stepIFC ?step .\n OPTIONAL { ?p ctx:unidade ?u . ?u ctx:nomeUnidade ?unidade ; ctx:prefixoUnidade ?prefixo } }\nORDER BY ?pset ?nome\n",
+    "linhas": 34,
+    "colunas": [
+      "pset",
+      "nome",
+      "tipo",
+      "valor",
+      "unidade",
+      "prefixo",
+      "origemUnidade",
+      "step"
+    ],
+    "resultados": [
+      {
+        "pset": "AltoQi_Eberick-Item_01",
+        "nome": "Descrição_01",
+        "tipo": "IfcText",
+        "valor": "Concreto - C-30 - Abatimento 12 cm",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430382"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_01",
+        "nome": "Quantidade_01",
+        "tipo": "IfcVolumeMeasure",
+        "valor": "0.140544",
+        "unidade": "CUBIC_METRE",
+        "prefixo": "",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "430459"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_01",
+        "nome": "Status_01",
+        "tipo": "IfcText",
+        "valor": "Dimensionado",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432812"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_02",
+        "nome": "Descrição_02",
+        "tipo": "IfcText",
+        "valor": "Forma - Estrutura - Concreto",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430387"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_02",
+        "nome": "Quantidade_02",
+        "tipo": "IfcAreaMeasure",
+        "valor": "1.87392",
+        "unidade": "SQUARE_METRE",
+        "prefixo": "",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "431437"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_02",
+        "nome": "Status_02",
+        "tipo": "IfcText",
+        "valor": "Dimensionado",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432814"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_03",
+        "nome": "Descrição_03",
+        "tipo": "IfcText",
+        "valor": "Armadura - Aço CA50 - ø 8.0 mm",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430392"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_03",
+        "nome": "Quantidade_03",
+        "tipo": "IfcMassMeasure",
+        "valor": "4.26151",
+        "unidade": "GRAM",
+        "prefixo": "KILO",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "431968"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_03",
+        "nome": "Status_03",
+        "tipo": "IfcText",
+        "valor": "Dimensionado",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432815"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_04",
+        "nome": "Descrição_04",
+        "tipo": "IfcText",
+        "valor": "Armadura - Aço CA60 - ø 5.0 mm",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430398"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_04",
+        "nome": "Quantidade_04",
+        "tipo": "IfcMassMeasure",
+        "valor": "2.04999",
+        "unidade": "GRAM",
+        "prefixo": "KILO",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "432114"
+      },
+      {
+        "pset": "AltoQi_Eberick-Item_04",
+        "nome": "Status_04",
+        "tipo": "IfcText",
+        "valor": "Dimensionado",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432816"
+      },
+      {
+        "pset": "AltoQi_Eberick_Cargas",
+        "nome": "Acidental (Q)",
+        "tipo": "IfcReal",
+        "valor": "0.0",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430361"
+      },
+      {
+        "pset": "AltoQi_Eberick_Cargas",
+        "nome": "Adicional (G2)",
+        "tipo": "IfcReal",
+        "valor": "0.0",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430363"
+      },
+      {
+        "pset": "AltoQi_Eberick_Cargas",
+        "nome": "Cargas de parede (G2)",
+        "tipo": "IfcReal",
+        "valor": "1116.0",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430369"
+      },
+      {
+        "pset": "AltoQi_Eberick_Cargas",
+        "nome": "Solo (S)",
+        "tipo": "IfcReal",
+        "valor": "0.0",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432811"
+      },
+      {
+        "pset": "AltoQi_Eberick_Cargas",
+        "nome": "Subpressão (AS)",
+        "tipo": "IfcReal",
+        "valor": "0.0",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432821"
+      },
+      {
+        "pset": "AltoQi_Eberick_Cargas",
+        "nome": "Água (A)",
+        "tipo": "IfcReal",
+        "valor": "0.0",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432912"
+      },
+      {
+        "pset": "AltoQi_Eberick_Elemento",
+        "nome": "Elemento",
+        "tipo": "IfcText",
+        "valor": "Viga",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430410"
+      },
+      {
+        "pset": "AltoQi_Eberick_Elemento",
+        "nome": "Elevação",
+        "tipo": "IfcLengthMeasure",
+        "valor": "0.0",
+        "unidade": "METRE",
+        "prefixo": "CENTI",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "430415"
+      },
+      {
+        "pset": "AltoQi_Eberick_Elemento",
+        "nome": "Seção_bw",
+        "tipo": "IfcLengthMeasure",
+        "valor": "20.0",
+        "unidade": "METRE",
+        "prefixo": "CENTI",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "432800"
+      },
+      {
+        "pset": "AltoQi_Eberick_Elemento",
+        "nome": "Seção_h",
+        "tipo": "IfcLengthMeasure",
+        "valor": "30.0",
+        "unidade": "METRE",
+        "prefixo": "CENTI",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "432806"
+      },
+      {
+        "pset": "AltoQi_Eberick_Elemento",
+        "nome": "Taxa de armadura",
+        "tipo": "IfcText",
+        "valor": "0.17 %",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432823"
+      },
+      {
+        "pset": "AltoQi_Eberick_Elemento",
+        "nome": "Tipo",
+        "tipo": "IfcText",
+        "valor": "retangular",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432910"
+      },
+      {
+        "pset": "AltoQi_Eberick_Padrão",
+        "nome": "Ambiente",
+        "tipo": "IfcText",
+        "valor": "Interno",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430366"
+      },
+      {
+        "pset": "AltoQi_Eberick_Padrão",
+        "nome": "Classe de concreto",
+        "tipo": "IfcText",
+        "valor": "C-30",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430373"
+      },
+      {
+        "pset": "AltoQi_Eberick_Padrão",
+        "nome": "Cobrimento",
+        "tipo": "IfcLengthMeasure",
+        "valor": "2.0",
+        "unidade": "METRE",
+        "prefixo": "CENTI",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "430374"
+      },
+      {
+        "pset": "Pset_BeamCommon",
+        "nome": "IsExternal",
+        "tipo": "IfcBoolean",
+        "valor": "false",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430424"
+      },
+      {
+        "pset": "Pset_BeamCommon",
+        "nome": "LoadBearing",
+        "tipo": "IfcBoolean",
+        "valor": "true",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430425"
+      },
+      {
+        "pset": "Pset_BeamCommon",
+        "nome": "Reference",
+        "tipo": "IfcText",
+        "valor": "Viga C-30 - Seção Retangular 20 X 30",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432775"
+      },
+      {
+        "pset": "Pset_ConcreteElementGeneral",
+        "nome": "ConcreteCover",
+        "tipo": "IfcPositiveLengthMeasure",
+        "valor": "2.0",
+        "unidade": "METRE",
+        "prefixo": "CENTI",
+        "origemUnidade": "unidades_do_projeto_por_tipo_da_medida",
+        "step": "430377"
+      },
+      {
+        "pset": "Pset_ConcreteElementGeneral",
+        "nome": "ConstructionMethod",
+        "tipo": "IfcLabel",
+        "valor": "InSitu",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430380"
+      },
+      {
+        "pset": "Pset_ConcreteElementGeneral",
+        "nome": "ExposureClass",
+        "tipo": "IfcLabel",
+        "valor": "1",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "430422"
+      },
+      {
+        "pset": "Pset_ConcreteElementGeneral",
+        "nome": "StrengthClass",
+        "tipo": "IfcLabel",
+        "valor": "C-30",
+        "unidade": null,
+        "prefixo": null,
+        "origemUnidade": "nao_declarada_ou_nao_dimensional",
+        "step": "432819"
+      }
+    ]
+  },
+  {
+    "id": "06_guids_repetidos_por_modelo",
+    "consulta": "PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX props: <http://lbd.arch.rwth-aachen.de/props#>\nSELECT ?modelo ?guid (COUNT(DISTINCT ?produto) AS ?repeticoes)\nWHERE { ?m a int:ModeloIFC ; int:chave ?modelo . ?produto prov:wasDerivedFrom ?m ; props:globalIdIfcRoot_attribute_simple ?guid }\nGROUP BY ?modelo ?guid HAVING(COUNT(DISTINCT ?produto)>1)\n",
+    "linhas": 0,
+    "colunas": [
+      "modelo",
+      "guid",
+      "repeticoes"
+    ],
+    "resultados": []
+  },
+  {
+    "id": "07_armaduras_sem_avaliacao_geometrica",
+    "consulta": "PREFIX beo: <https://pi.pauwel.be/voc/buildingelement#>\nPREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nSELECT (COUNT(DISTINCT ?elemento) AS ?armaduras_sem_registro_espacial)\nWHERE { GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/sco> { ?elemento a beo:ReinforcingBar }\n ?elemento prov:wasDerivedFrom <https://github.com/prcgui/bim-ontology-CIV2155/id/integracao/modelo/sco> .\n FILTER NOT EXISTS { GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/relacoes> { ?r int:elementoEstrutural ?elemento } } }\n",
+    "linhas": 1,
+    "colunas": [
+      "armaduras_sem_registro_espacial"
+    ],
+    "resultados": [
+      {
+        "armaduras_sem_registro_espacial": "17755"
+      }
+    ]
+  },
+  {
+    "id": "08_classes_e_niveis",
+    "consulta": "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?grafo ?classe ?superclasse\nWHERE { GRAPH ?grafo { ?classe rdfs:subClassOf ?superclasse }\n FILTER(?grafo IN (<https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil>, <https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia>)) }\nORDER BY ?grafo ?classe\n",
+    "linhas": 11,
+    "colunas": [
+      "grafo",
+      "classe",
+      "superclasse"
+    ],
+    "resultados": [
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia",
+        "classe": "https://w3id.org/bot#Building",
+        "superclasse": "https://w3id.org/bot#Zone"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia",
+        "classe": "https://w3id.org/bot#Site",
+        "superclasse": "https://w3id.org/bot#Zone"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia",
+        "classe": "https://w3id.org/bot#Space",
+        "superclasse": "https://w3id.org/bot#Zone"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia",
+        "classe": "https://w3id.org/bot#Storey",
+        "superclasse": "https://w3id.org/bot#Zone"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil",
+        "classe": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#ResultadoPorAmbiente",
+        "superclasse": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil",
+        "classe": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#ConjuntoPropriedadesIFC",
+        "superclasse": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil",
+        "classe": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#OcorrenciaPropriedadeIFC",
+        "superclasse": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil",
+        "classe": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional",
+        "superclasse": "http://www.w3.org/ns/prov#Entity"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil",
+        "classe": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#UnidadeIFC",
+        "superclasse": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil",
+        "classe": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#ModeloIFC",
+        "superclasse": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional"
+      },
+      {
+        "grafo": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil",
+        "classe": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#RelacaoEspacial",
+        "superclasse": "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional"
+      }
+    ]
+  }
+]

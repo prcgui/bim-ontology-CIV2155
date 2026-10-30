@@ -19,3 +19,8 @@ Os artigos completos permanecem no acervo de referências do trabalho; esta past
 ## Referências aplicadas no Notebook 2
 
 A [bibliografia da integração](integracao/README.md) acrescenta o processo de checagem geométrica de Lilis et al. (2025), agora efetivamente aplicado, o artigo BOT de Rasmussen et al. (2021), com cópia aberta, e as normas RDF Datasets/N-Quads. A tabela distingue os conceitos das fontes das adaptações próprias e das limitações que permaneceram.
+
+
+## Referências aplicadas no Notebook 3
+
+A [bibliografia da organização e exploração](organizacao/README.md) relaciona contexto de integração, orientação a objetivos, propriedades contextualizadas, navegação visual, BOT, SHACL, PROV-O e IFC4. Cada fonte tem sua contribuição e limite explicitados. A matriz integral das alternativas e a cobertura real das leituras permanecem no Drive.

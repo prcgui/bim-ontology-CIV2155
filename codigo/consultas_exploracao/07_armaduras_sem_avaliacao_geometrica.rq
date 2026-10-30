@@ -1,0 +1,7 @@
+PREFIX beo: <https://pi.pauwel.be/voc/buildingelement#>
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT (COUNT(DISTINCT ?elemento) AS ?armaduras_sem_registro_espacial)
+WHERE { GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/sco> { ?elemento a beo:ReinforcingBar }
+ ?elemento prov:wasDerivedFrom <https://github.com/prcgui/bim-ontology-CIV2155/id/integracao/modelo/sco> .
+ FILTER NOT EXISTS { GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/relacoes> { ?r int:elementoEstrutural ?elemento } } }

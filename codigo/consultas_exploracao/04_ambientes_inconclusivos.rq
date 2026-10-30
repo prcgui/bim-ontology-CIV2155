@@ -1,0 +1,6 @@
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+SELECT ?ambiente ?nome ?motivo ?quantidade
+WHERE { ?r a civ:ResultadoPorAmbiente ; civ:ambiente ?ambiente ; civ:nome ?nome ;
+ civ:estado "inconclusivo_preparacao_espaco" .
+ OPTIONAL { ?r civ:motivo ?motivo } OPTIONAL { ?r civ:quantidadeEsquadrias ?quantidade } }
+ORDER BY ?nome

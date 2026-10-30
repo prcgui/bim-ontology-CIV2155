@@ -1,0 +1,9 @@
+{
+  "produtos": 26601,
+  "ambientes": 41,
+  "quadruplas_no_indice": 394067,
+  "literais_extensos_omitidos_por_predicado": {},
+  "sha256_n2": "8fb829827ec1ad3b02285b0f24d8d8329c7c999bf3904c50533c37e3294f5959",
+  "escopo": "Triplas diretas dos produtos e registros selecionados. Geometria extensa e recursos auxiliares permanecem no Dataset integral.",
+  "bytes": 20793969
+}

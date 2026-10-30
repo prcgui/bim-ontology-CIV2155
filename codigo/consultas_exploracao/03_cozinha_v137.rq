@@ -1,0 +1,10 @@
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+SELECT ?ambiente ?elemento ?predicado ?estado ?areaM2 ?volumeM3 ?modelo ?grafo ?sha256
+WHERE { ?resultado civ:nome "COZINHA" ; civ:ambiente ?ambiente .
+ ?elemento props:globalIdIfcRoot_attribute_simple "0EVSuIeKOHxuDHo7zKqQBn" .
+ GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/relacoes> {
+ ?r a int:RelacaoEspacial ; int:ambiente ?ambiente ; int:elementoEstrutural ?elemento ;
+ int:predicado ?predicado ; int:estado ?estado ; int:areaContatoM2 ?areaM2 ; int:volumeIntersecaoM3 ?volumeM3 ; int:modelo ?m }
+ ?m int:chave ?modelo ; int:grafo ?grafo ; int:sha256IFC ?sha256 . }

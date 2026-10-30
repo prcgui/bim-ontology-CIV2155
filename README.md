@@ -2,7 +2,7 @@
 
 **Trabalho aplicado à arquitetura e às estruturas do projeto FNDE Proinfância Tipo 2, revisão R03.**
 
-O [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) converte a arquitetura IFC em RDF e acrescenta associações geométricas entre ambientes, paredes, aberturas e esquadrias. O [Notebook 2](notebooks/02_Integracao_Arquitetura_Estrutura.ipynb) aplica o mesmo extrator às estruturas e conecta seus elementos aos ambientes, preservando as fontes. Ambos reúnem o procedimento executável, as explicações e as referências.
+O [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) converte a arquitetura IFC em RDF e acrescenta associações geométricas entre ambientes, paredes, aberturas e esquadrias. O [Notebook 2](notebooks/02_Integracao_Arquitetura_Estrutura.ipynb) aplica o mesmo extrator às estruturas e conecta seus elementos aos ambientes, preservando as fontes. O [Notebook 3](notebooks/03_Organizacao_e_Exploracao.ipynb) acrescenta organização semântica, consultas, validação e exploração integrada. Os três reúnem o procedimento executável, as explicações e as referências.
 
 **Ver o RDF:** [Imagens em caixas](resultados/grafo_rdf/README.md) · [Explorar a aplicação](https://prcgui.github.io/bim-ontology-CIV2155/) · [Código da aplicação](visualizacao/README.md).
 
@@ -33,3 +33,12 @@ O [Notebook 2](notebooks/02_Integracao_Arquitetura_Estrutura.ipynb) repete o ext
 [Método e limitações da integração](docs/Integracao_Arquitetura_Estrutura.md) · [Resultados e Dataset RDF](resultados/integracao/README.md) · [Referências aplicadas, incluindo o novo artigo BOT](referencias/integracao/README.md) · [Abrir N2 no Colab](https://colab.research.google.com/github/prcgui/bim-ontology-CIV2155/blob/main/notebooks/02_Integracao_Arquitetura_Estrutura.ipynb).
 
 ![Integração por tipo de relação](resultados/integracao/Relacoes_Por_Modelo.png)
+
+
+## Organização e exploração dos resultados
+
+O [Notebook 3](notebooks/03_Organizacao_e_Exploracao.ipynb) conserva os cinco grafos do N2 e acrescenta um perfil, o esquema BOT de referência, contexto de propriedades e proveniência da execução. O resultado contém **416.603 quádruplas em nove grafos**, oito consultas executadas e um contrato SHACL conforme na projeção documentada. Na viga V137, **9 conjuntos e 34 propriedades** foram recuperados com seus nomes, valores, tipos e unidades de origem.
+
+[Explorador integrado](https://prcgui.github.io/bim-ontology-CIV2155/) · [Explorador N1 preservado](https://prcgui.github.io/bim-ontology-CIV2155/arquitetura-n1.html) · [Método e limites](docs/Organizacao_e_Exploracao.md) · [Resultados primários](resultados/organizacao/README.md) · [Referências aplicadas](referencias/organizacao/README.md) · [Abrir N3 no Colab](https://colab.research.google.com/github/prcgui/bim-ontology-CIV2155/blob/main/notebooks/03_Organizacao_e_Exploracao.ipynb).
+
+A extensão melhora o contexto e a verificação das informações. Não demonstra aumento de acurácia geométrica ou ganho mensurado de usabilidade. Os três ambientes inconclusivos permanecem sem contagem. O manuscrito atual não foi localizado nas pastas de redação verificadas; foi preparado um [texto delimitado para incorporação](docs/Contribuicoes_para_Artigo.md), sem afirmar revisão ou paginação do artigo completo.

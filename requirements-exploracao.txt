@@ -1,0 +1,4 @@
+# Usado em conjunto com requirements.txt. N3 não precisa repetir o motor Java.
+pyshacl==0.30.1
+owlrl==7.1.4
+html5rdf==1.2.1

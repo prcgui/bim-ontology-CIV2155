@@ -35,3 +35,10 @@ Os arquivos intermediários da execução ficam em `.execucao/`, fora do conteú
 | `03_modelos_integrados.rq`, `04_relacoes_estrutura_ambientes.rq` | Consultas executadas sobre os grafos nomeados. |
 
 `converter_ifc.py` aceita hash de origem, namespace e limite de memória como parâmetros. Os padrões do N1 foram preservados. Para a extensão maiúscula do SCO, usa uma cópia de trabalho byte a byte com extensão `.ifc`, compatível com a CLI do motor. [Fontes e limites das adaptações](../referencias/integracao/README.md).
+
+
+## Organização e exploração no Notebook 3
+
+`organizar_dataset.py` carrega o resultado validado do N2, preserva suas identidades e grafos, recupera Psets diretamente associados à V137, executa o contrato SHACL e oito consultas e gera o índice e o Dataset organizado. `Perfil_Organizacao.ttl` contém o perfil próprio; `Restricoes_Organizacao.ttl` declara o contrato. Os oito arquivos em `consultas_exploracao/` são as perguntas efetivamente executadas. As dependências adicionais estão em `requirements-exploracao.txt`.
+
+A [explicação metodológica](../docs/Organizacao_e_Exploracao.md) distingue o perfil dos dados originais, a POC da harmonização global e a conformidade SHACL de certificação do projeto. O [código do explorador](../visualizacao/explorador-integrado.html) usa o índice produzido pelo notebook. Ensaios e auditorias permanecem no Drive.

@@ -1,0 +1,40 @@
+@prefix ctx: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#> .
+@prefix int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#> .
+@prefix civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ctx: a owl:Ontology ;
+  rdfs:label "Perfil de organização e propriedades contextualizadas CIV2155"@pt ;
+  rdfs:comment "Extensão própria, separada dos cinco grafos do N2. Distingue registros informacionais dos recursos físicos descritos por BOT. Não implementa gOCED/gUFO nem cria equivalências entre modelos."@pt ;
+  rdfs:seeAlso <https://www.w3.org/TR/prov-o/>,
+    <https://standards.buildingsmart.org/IFC/RELEASE/IFC4/FINAL/HTML/schema/ifcpropertyresource/lexical/ifcpropertysinglevalue.htm> .
+
+ctx:RegistroInformacional a owl:Class ; rdfs:subClassOf prov:Entity ;
+  rdfs:label "Registro informacional"@pt ;
+  rdfs:comment "Recurso que registra uma representação, resultado ou evidência do estudo. Sua classificação não transforma a entidade descrita em registro nem afirma identidade entre ambos."@pt .
+int:ModeloIFC rdfs:subClassOf ctx:RegistroInformacional ; rdfs:label "Modelo IFC de origem"@pt .
+int:RelacaoEspacial rdfs:subClassOf ctx:RegistroInformacional ; rdfs:label "Evidência de relação espacial"@pt .
+civ:ResultadoPorAmbiente rdfs:subClassOf ctx:RegistroInformacional ; rdfs:label "Resultado por ambiente"@pt .
+ctx:ConjuntoPropriedadesIFC a owl:Class ; rdfs:subClassOf ctx:RegistroInformacional ; rdfs:label "Conjunto de propriedades IFC"@pt .
+ctx:OcorrenciaPropriedadeIFC a owl:Class ; rdfs:subClassOf ctx:RegistroInformacional ;
+  rdfs:label "Propriedade em seu conjunto de origem"@pt ;
+  rdfs:comment "Registro contextual identificado pelo arquivo, Pset e STEP da propriedade. Não representa um novo produto físico."@pt .
+ctx:UnidadeIFC a owl:Class ; rdfs:subClassOf ctx:RegistroInformacional ; rdfs:label "Unidade declarada no IFC"@pt .
+
+ctx:conjuntoPropriedades a owl:ObjectProperty ; rdfs:label "conjunto de propriedades"@pt ; rdfs:range ctx:ConjuntoPropriedadesIFC .
+ctx:propriedade a owl:ObjectProperty ; rdfs:domain ctx:ConjuntoPropriedadesIFC ; rdfs:range ctx:OcorrenciaPropriedadeIFC .
+ctx:conjuntoFonte a owl:ObjectProperty ; rdfs:domain ctx:OcorrenciaPropriedadeIFC ; rdfs:range ctx:ConjuntoPropriedadesIFC .
+ctx:produto a owl:ObjectProperty ; rdfs:label "produto descrito"@pt .
+ctx:unidade a owl:ObjectProperty ; rdfs:range ctx:UnidadeIFC .
+ctx:stepIFC a owl:DatatypeProperty ; rdfs:range xsd:integer .
+ctx:globalIdPset a owl:DatatypeProperty ; rdfs:range xsd:string .
+ctx:tipoIFC a owl:DatatypeProperty ; rdfs:range xsd:string .
+ctx:tipoValorIFC a owl:DatatypeProperty ; rdfs:range xsd:string .
+ctx:origemUnidade a owl:DatatypeProperty ; rdfs:range xsd:string .
+ctx:tipoUnidade a owl:DatatypeProperty ; rdfs:range xsd:string .
+ctx:nomeUnidade a owl:DatatypeProperty ; rdfs:range xsd:string .
+ctx:prefixoUnidade a owl:DatatypeProperty ; rdfs:range xsd:string .
+ctx:estadoLeitura a owl:DatatypeProperty ; rdfs:range xsd:string .

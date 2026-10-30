@@ -1,0 +1,15 @@
+{
+  "conforme": true,
+  "inferencia": "none",
+  "triplas_da_projecao": 200962,
+  "duracao_s": 59.127,
+  "alvos": {
+    "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#ProdutoIndexado": 26601,
+    "https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#ModeloIFC": 3,
+    "https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#RelacaoEspacial": 1652,
+    "https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#ResultadoPorAmbiente": 41,
+    "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#ConjuntoPropriedadesIFC": 9,
+    "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#OcorrenciaPropriedadeIFC": 34
+  },
+  "alcance": "Contrato de identidade, proveniência, resultados, vínculos e POC de propriedades. Não certifica qualidade estrutural, alinhamento, completude IFC nem consistência OWL global."
+}

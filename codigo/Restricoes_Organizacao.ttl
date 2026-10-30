@@ -1,0 +1,104 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ctx: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#> .
+@prefix int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#> .
+@prefix civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#> .
+@prefix b: <https://github.com/prcgui/bim-ontology-CIV2155/id/integracao/> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Contrato próprio do estudo, baseado na linguagem W3C SHACL (2017).
+# Executado na projeção explícita documentada no Notebook 3. Sem inferência.
+# ctx:ProdutoIndexado é apenas alvo local dessa projeção de validação.
+ctx:ProdutoShape a sh:NodeShape ; sh:targetClass ctx:ProdutoIndexado ;
+ sh:nodeKind sh:IRI ;
+ sh:property [ sh:path props:globalIdIfcRoot_attribute_simple ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 22 ; sh:maxLength 22 ] ;
+ sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:maxCount 1 ; sh:class int:ModeloIFC ; sh:nodeKind sh:IRI ] .
+
+ctx:ModeloShape a sh:NodeShape ; sh:targetClass int:ModeloIFC ;
+ sh:property [ sh:path int:chave ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("arquitetura" "smt" "sco") ] ;
+ sh:property [ sh:path int:grafo ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+ sh:property [ sh:path int:sha256IFC ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^[0-9a-f]{64}$" ] .
+
+ctx:RelacaoShape a sh:NodeShape ; sh:targetClass int:RelacaoEspacial ;
+ sh:property [ sh:path int:ambiente ; sh:minCount 1 ; sh:maxCount 1 ; sh:class bot:Space ] ;
+ sh:property [ sh:path int:elementoEstrutural ; sh:minCount 1 ; sh:maxCount 1 ; sh:class ctx:ProdutoIndexado ] ;
+ sh:property [ sh:path int:modelo ; sh:minCount 1 ; sh:maxCount 1 ; sh:class int:ModeloIFC ] ;
+ sh:property [ sh:path int:predicado ; sh:minCount 1 ; sh:maxCount 1 ; sh:in (bot:containsElement bot:intersectingElement bot:adjacentElement) ] ;
+ sh:property [ sh:path int:estado ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("contido" "intersecciona" "adjacente") ] ;
+ sh:property [ sh:path int:volumeIntersecaoM3 ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ; sh:minInclusive 0 ] ;
+ sh:property [ sh:path int:volumeElementoM3 ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ; sh:minExclusive 0 ] ;
+ sh:property [ sh:path int:areaContatoM2 ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ; sh:minInclusive 0 ] ;
+ sh:sparql [ sh:message "Estado incompatível com o predicado BOT registrado." ; sh:select """
+ PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+ PREFIX bot: <https://w3id.org/bot#>
+ SELECT $this WHERE { $this int:estado ?estado ; int:predicado ?p .
+ FILTER((?estado = "contido" && ?p != bot:containsElement) ||
+ (?estado = "intersecciona" && ?p != bot:intersectingElement) ||
+ (?estado = "adjacente" && ?p != bot:adjacentElement)) }
+ """ ] .
+
+ctx:ResultadoShape a sh:NodeShape ; sh:targetClass civ:ResultadoPorAmbiente ;
+ sh:property [ sh:path civ:ambiente ; sh:minCount 1 ; sh:maxCount 1 ; sh:class bot:Space ] ;
+ sh:property [ sh:path civ:estado ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("associacao_executada" "associacao_executada_com_pendencias" "inconclusivo_preparacao_espaco") ] ;
+ sh:property [ sh:path civ:quantidadeEsquadrias ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minInclusive 0 ] ;
+ sh:sparql [ sh:message "Ambiente inconclusivo não pode receber contagem artificial." ; sh:select """
+ PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+ SELECT $this WHERE { $this civ:estado "inconclusivo_preparacao_espaco" ; civ:quantidadeEsquadrias ?n }
+ """ ] ;
+ sh:sparql [ sh:message "Resultado executado deve declarar a contagem de esquadrias." ; sh:select """
+ PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+ SELECT $this WHERE { $this civ:estado ?estado . FILTER(?estado != "inconclusivo_preparacao_espaco")
+ FILTER NOT EXISTS { $this civ:quantidadeEsquadrias ?n } }
+ """ ] .
+
+ctx:PsetShape a sh:NodeShape ; sh:targetClass ctx:ConjuntoPropriedadesIFC ;
+ sh:property [ sh:path ctx:produto ; sh:minCount 1 ; sh:maxCount 1 ; sh:class ctx:ProdutoIndexado ] ;
+ sh:property [ sh:path ctx:globalIdPset ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path ctx:propriedade ; sh:minCount 1 ; sh:class ctx:OcorrenciaPropriedadeIFC ] .
+ctx:PropriedadeShape a sh:NodeShape ; sh:targetClass ctx:OcorrenciaPropriedadeIFC ;
+ sh:property [ sh:path ctx:conjuntoFonte ; sh:minCount 1 ; sh:maxCount 1 ; sh:class ctx:ConjuntoPropriedadesIFC ] ;
+ sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path ctx:stepIFC ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ; sh:minExclusive 0 ] ;
+ sh:property [ sh:path ctx:tipoValorIFC ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+ sh:property [ sh:path rdf:value ; sh:minCount 1 ; sh:maxCount 1 ] ;
+ sh:property [ sh:path ctx:unidade ; sh:maxCount 1 ; sh:class ctx:UnidadeIFC ] ;
+ sh:sparql [ sh:message "Medida dimensional selecionada deve indicar unidade recuperada do IFC." ; sh:select """
+ PREFIX ctx: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#>
+ SELECT $this WHERE { $this ctx:tipoValorIFC ?t .
+ FILTER(?t IN ("IfcLengthMeasure", "IfcPositiveLengthMeasure", "IfcAreaMeasure", "IfcVolumeMeasure", "IfcMassMeasure"))
+ FILTER NOT EXISTS { $this ctx:unidade ?u } }
+ """ ] ;
+ sh:sparql [ sh:message "Tipo de unidade incompatível com o tipo nominal da medida IFC." ; sh:select """
+ PREFIX ctx: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#>
+ SELECT $this WHERE { $this ctx:tipoValorIFC ?t ; ctx:unidade ?u . ?u ctx:tipoUnidade ?tipo .
+ FILTER((?t = "IfcAreaMeasure" && ?tipo != "AREAUNIT") ||
+ (?t = "IfcVolumeMeasure" && ?tipo != "VOLUMEUNIT") ||
+ (?t = "IfcMassMeasure" && ?tipo != "MASSUNIT") ||
+ (?t IN ("IfcLengthMeasure", "IfcPositiveLengthMeasure") && ?tipo != "LENGTHUNIT")) }
+ """ ] .
+
+# As verificações entre registros executam uma vez no estudo, sem produto cartesiano por alvo.
+ctx:CoerenciaShape a sh:NodeShape ; sh:targetNode b:estudo ;
+ sh:sparql [ sh:message "Registro aponta para relação BOT ausente." ; sh:select """
+ PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+ SELECT $this ?r WHERE { ?r a int:RelacaoEspacial ; int:ambiente ?a ; int:elementoEstrutural ?e ; int:predicado ?p .
+ FILTER NOT EXISTS { ?a ?p ?e } }
+ """ ] ;
+ sh:sparql [ sh:message "Modelo da relação difere da proveniência do elemento." ; sh:select """
+ PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+ PREFIX prov: <http://www.w3.org/ns/prov#>
+ SELECT $this ?r WHERE { ?r a int:RelacaoEspacial ; int:modelo ?m ; int:elementoEstrutural ?e .
+ FILTER NOT EXISTS { ?e prov:wasDerivedFrom ?m } }
+ """ ] ;
+ sh:sparql [ sh:message "GUID repetido em produtos distintos do mesmo modelo." ; sh:select """
+ PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+ PREFIX prov: <http://www.w3.org/ns/prov#>
+ SELECT $this ?e WHERE {
+ ?e props:globalIdIfcRoot_attribute_simple ?guid ; prov:wasDerivedFrom ?m .
+ ?outro props:globalIdIfcRoot_attribute_simple ?guid ; prov:wasDerivedFrom ?m .
+ FILTER(?e != ?outro) }
+ """ ] .

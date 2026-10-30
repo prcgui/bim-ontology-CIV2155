@@ -1,0 +1,7 @@
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?modelo ?grafo (COUNT(DISTINCT ?produto) AS ?produtos)
+WHERE { ?m a int:ModeloIFC ; int:chave ?modelo ; int:grafo ?grafo .
+        ?produto prov:wasDerivedFrom ?m .
+        GRAPH ?grafo { ?produto <http://lbd.arch.rwth-aachen.de/props#globalIdIfcRoot_attribute_simple> ?guid } }
+GROUP BY ?modelo ?grafo ORDER BY ?modelo

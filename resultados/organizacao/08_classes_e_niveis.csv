@@ -1,0 +1,12 @@
+﻿grafo,classe,superclasse
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia,https://w3id.org/bot#Building,https://w3id.org/bot#Zone
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia,https://w3id.org/bot#Site,https://w3id.org/bot#Zone
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia,https://w3id.org/bot#Space,https://w3id.org/bot#Zone
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/bot-referencia,https://w3id.org/bot#Storey,https://w3id.org/bot#Zone
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil,https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#ResultadoPorAmbiente,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#ConjuntoPropriedadesIFC,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#OcorrenciaPropriedadeIFC,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional,http://www.w3.org/ns/prov#Entity
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#UnidadeIFC,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil,https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#ModeloIFC,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional
+https://github.com/prcgui/bim-ontology-CIV2155/grafo/perfil,https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#RelacaoEspacial,https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#RegistroInformacional

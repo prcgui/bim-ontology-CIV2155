@@ -1,0 +1,35 @@
+﻿pset,nome,tipo,valor,unidade,prefixo,origemUnidade,step
+AltoQi_Eberick-Item_01,Descrição_01,IfcText,Concreto - C-30 - Abatimento 12 cm,,,nao_declarada_ou_nao_dimensional,430382
+AltoQi_Eberick-Item_01,Quantidade_01,IfcVolumeMeasure,0.140544,CUBIC_METRE,,unidades_do_projeto_por_tipo_da_medida,430459
+AltoQi_Eberick-Item_01,Status_01,IfcText,Dimensionado,,,nao_declarada_ou_nao_dimensional,432812
+AltoQi_Eberick-Item_02,Descrição_02,IfcText,Forma - Estrutura - Concreto,,,nao_declarada_ou_nao_dimensional,430387
+AltoQi_Eberick-Item_02,Quantidade_02,IfcAreaMeasure,1.87392,SQUARE_METRE,,unidades_do_projeto_por_tipo_da_medida,431437
+AltoQi_Eberick-Item_02,Status_02,IfcText,Dimensionado,,,nao_declarada_ou_nao_dimensional,432814
+AltoQi_Eberick-Item_03,Descrição_03,IfcText,Armadura - Aço CA50 - ø 8.0 mm,,,nao_declarada_ou_nao_dimensional,430392
+AltoQi_Eberick-Item_03,Quantidade_03,IfcMassMeasure,4.26151,GRAM,KILO,unidades_do_projeto_por_tipo_da_medida,431968
+AltoQi_Eberick-Item_03,Status_03,IfcText,Dimensionado,,,nao_declarada_ou_nao_dimensional,432815
+AltoQi_Eberick-Item_04,Descrição_04,IfcText,Armadura - Aço CA60 - ø 5.0 mm,,,nao_declarada_ou_nao_dimensional,430398
+AltoQi_Eberick-Item_04,Quantidade_04,IfcMassMeasure,2.04999,GRAM,KILO,unidades_do_projeto_por_tipo_da_medida,432114
+AltoQi_Eberick-Item_04,Status_04,IfcText,Dimensionado,,,nao_declarada_ou_nao_dimensional,432816
+AltoQi_Eberick_Cargas,Acidental (Q),IfcReal,0.0,,,nao_declarada_ou_nao_dimensional,430361
+AltoQi_Eberick_Cargas,Adicional (G2),IfcReal,0.0,,,nao_declarada_ou_nao_dimensional,430363
+AltoQi_Eberick_Cargas,Cargas de parede (G2),IfcReal,1116.0,,,nao_declarada_ou_nao_dimensional,430369
+AltoQi_Eberick_Cargas,Solo (S),IfcReal,0.0,,,nao_declarada_ou_nao_dimensional,432811
+AltoQi_Eberick_Cargas,Subpressão (AS),IfcReal,0.0,,,nao_declarada_ou_nao_dimensional,432821
+AltoQi_Eberick_Cargas,Água (A),IfcReal,0.0,,,nao_declarada_ou_nao_dimensional,432912
+AltoQi_Eberick_Elemento,Elemento,IfcText,Viga,,,nao_declarada_ou_nao_dimensional,430410
+AltoQi_Eberick_Elemento,Elevação,IfcLengthMeasure,0.0,METRE,CENTI,unidades_do_projeto_por_tipo_da_medida,430415
+AltoQi_Eberick_Elemento,Seção_bw,IfcLengthMeasure,20.0,METRE,CENTI,unidades_do_projeto_por_tipo_da_medida,432800
+AltoQi_Eberick_Elemento,Seção_h,IfcLengthMeasure,30.0,METRE,CENTI,unidades_do_projeto_por_tipo_da_medida,432806
+AltoQi_Eberick_Elemento,Taxa de armadura,IfcText,0.17 %,,,nao_declarada_ou_nao_dimensional,432823
+AltoQi_Eberick_Elemento,Tipo,IfcText,retangular,,,nao_declarada_ou_nao_dimensional,432910
+AltoQi_Eberick_Padrão,Ambiente,IfcText,Interno,,,nao_declarada_ou_nao_dimensional,430366
+AltoQi_Eberick_Padrão,Classe de concreto,IfcText,C-30,,,nao_declarada_ou_nao_dimensional,430373
+AltoQi_Eberick_Padrão,Cobrimento,IfcLengthMeasure,2.0,METRE,CENTI,unidades_do_projeto_por_tipo_da_medida,430374
+Pset_BeamCommon,IsExternal,IfcBoolean,false,,,nao_declarada_ou_nao_dimensional,430424
+Pset_BeamCommon,LoadBearing,IfcBoolean,true,,,nao_declarada_ou_nao_dimensional,430425
+Pset_BeamCommon,Reference,IfcText,Viga C-30 - Seção Retangular 20 X 30,,,nao_declarada_ou_nao_dimensional,432775
+Pset_ConcreteElementGeneral,ConcreteCover,IfcPositiveLengthMeasure,2.0,METRE,CENTI,unidades_do_projeto_por_tipo_da_medida,430377
+Pset_ConcreteElementGeneral,ConstructionMethod,IfcLabel,InSitu,,,nao_declarada_ou_nao_dimensional,430380
+Pset_ConcreteElementGeneral,ExposureClass,IfcLabel,1,,,nao_declarada_ou_nao_dimensional,430422
+Pset_ConcreteElementGeneral,StrengthClass,IfcLabel,C-30,,,nao_declarada_ou_nao_dimensional,432819

@@ -1,0 +1,8 @@
+PREFIX ctx: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?pset ?nome ?tipo ?valor ?unidade ?prefixo ?origemUnidade ?step
+WHERE { ?conjunto a ctx:ConjuntoPropriedadesIFC ; rdfs:label ?pset ; ctx:propriedade ?p .
+ ?p rdfs:label ?nome ; ctx:tipoValorIFC ?tipo ; rdf:value ?valor ; ctx:origemUnidade ?origemUnidade ; ctx:stepIFC ?step .
+ OPTIONAL { ?p ctx:unidade ?u . ?u ctx:nomeUnidade ?unidade ; ctx:prefixoUnidade ?prefixo } }
+ORDER BY ?pset ?nome

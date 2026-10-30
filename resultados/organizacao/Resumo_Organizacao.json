@@ -1,0 +1,26 @@
+{
+  "produtos": 26601,
+  "psets_poc": 9,
+  "propriedades_poc": 34,
+  "relacoes_n2": 1652,
+  "pares_n1": 101,
+  "shacl_conforme": true,
+  "grafos": {
+    "arquitetura": 80234,
+    "smt": 84933,
+    "sco": 205194,
+    "relacoes": 18194,
+    "proveniencia": 26620,
+    "perfil": 56,
+    "bot-referencia": 957,
+    "propriedades-contextuais": 406,
+    "execucao-n3": 9
+  },
+  "quadruplas": 416603,
+  "cinco_grafos_n2_inalterados": true,
+  "reabertura_sem_alteracao_de_termos": true,
+  "sha256_entrada_n2": "8fb829827ec1ad3b02285b0f24d8d8329c7c999bf3904c50533c37e3294f5959",
+  "sha256_saida": "bc13ed84f73be01875cc33fd932285a68adc2043c94d2d9127bf898fa9c60ecf",
+  "inicio_utc": "2026-10-30T19:19:06.941259+00:00",
+  "fim_utc": "2026-10-30T19:22:29.664819+00:00"
+}

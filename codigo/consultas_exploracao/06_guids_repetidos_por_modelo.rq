@@ -1,0 +1,6 @@
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+SELECT ?modelo ?guid (COUNT(DISTINCT ?produto) AS ?repeticoes)
+WHERE { ?m a int:ModeloIFC ; int:chave ?modelo . ?produto prov:wasDerivedFrom ?m ; props:globalIdIfcRoot_attribute_simple ?guid }
+GROUP BY ?modelo ?guid HAVING(COUNT(DISTINCT ?produto)>1)
