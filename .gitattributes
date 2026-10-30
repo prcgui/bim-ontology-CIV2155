@@ -51,3 +51,11 @@
 /resultados/interfaces_hibridas_v01/*.png binary
 /notebooks/01_Conversao_Arquitetura_IFC_LBD_v06.ipynb -text
 /notebooks/08_Interfaces_Hibridas_Cozinha_v01.ipynb -text
+# Lilis partial experiment: preserve input/output hashes across platforms.
+/consultas/lilis_hibrido_v01/** -text
+/resultados/lilis_hibrido_v01/** -text
+/referencias/lilis_hibrido_v01/** -text
+/referencias/lilis_hibrido_v01/*.pdf binary
+/resultados/lilis_hibrido_v01/*.png binary
+/notebooks/01_Conversao_Arquitetura_IFC_LBD_v07.ipynb -text
+/notebooks/09_Lilis_Hibrido_Cozinha_v01.ipynb -text

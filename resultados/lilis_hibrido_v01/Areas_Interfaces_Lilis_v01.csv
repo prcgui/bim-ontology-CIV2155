@@ -1,0 +1,15 @@
+﻿interface,parede,area_bruta_m2,area_uniao_recortes_m2,area_residual_m2,area_uniao_recortes_apoiados_3D_m2,area_residual_apos_recortes_apoiados_3D_m2,conservacao_area,nota
+I_W01_F045_R15_P0,0XAHc8zyr1YuL0AWxiP2D2,3.502860249909614,2.1784500000000024,1.3244102499096118,2.1784500000000024,1.3244102499096118,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W01_F045_R21_P0,0XAHc8zyr1YuL0AWxiP2D2,6.509915481947264,2.2804499999999956,4.229465481947268,2.2804499999999956,4.229465481947268,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W03_F000_R08_P0,2gY30MgeHFYR7UxJlNnU9q,18.60000276284134,0.0,18.60000276284134,0.0,18.60000276284134,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W04_F000_R13_P0,0xvlN6VObElAHCGt3ouxRe,10.852098149203716,1.5750000000000006,9.277098149203715,1.5750000000000006,9.277098149203715,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W05_F000_R14_P0,1v8GUEVp5BSuN5s4rGKaRA,6.052861845429634,1.9259999999999966,4.126861845429637,1.9259999999999966,4.126861845429637,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W06_F061_R00_P0,3BgFgAEMH1AR1k70kqmmGX,16.47990478960083,3.4499440231018967,13.029960766498931,3.4499440231018608,13.029960766498967,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W08_F068_R12_P0,3P1RyjewH8$v4NJ0y8uBk0,5.820364090592854,0.0,5.820364090592854,0.0,5.820364090592854,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W09_F061_R12_P0,1iOYF1JcPEwegmKfk_tC1y,6.7267768637738214,0.0,6.7267768637738214,0.0,6.7267768637738214,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W11_F000_R20_P0,19RZT7S6nE9gHkuX87cdTl,5.5878618454296385,0.0,5.5878618454296385,0.0,5.5878618454296385,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W11_F002_R16_P0,19RZT7S6nE9gHkuX87cdTl,6.052861845429634,0.0,6.052861845429634,0.0,6.052861845429634,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W12_F000_R17_P0,1MP67OoNnCXvzNtb_rZWb1,2.6351397509011396,0.06199999999984449,2.573139750901295,0.0,2.6351397509011396,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W12_F001_R18_P0,1MP67OoNnCXvzNtb_rZWb1,0.4649999999999956,0.4029999999999914,0.062000000000004184,0.4029999999999914,0.062000000000004184,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W12_F002_R19_P0,1MP67OoNnCXvzNtb_rZWb1,2.170139750901139,0.06199999999984449,2.108139750901294,0.06199999999984449,2.108139750901294,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.
+I_W34_F060_R15_P0,1TlNCt8aP6oesbR1Y5mQco,0.5269999991913235,0.0,0.5269999991913235,0.0,0.5269999991913235,True,Resíduo geométrico; não área certificada de parede opaca ou de vidro.

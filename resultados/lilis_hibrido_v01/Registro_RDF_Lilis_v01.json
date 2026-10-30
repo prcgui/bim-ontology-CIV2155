@@ -1,0 +1,11 @@
+{
+  "triplas_entrada": 2559,
+  "triplas_saida": 3244,
+  "linhas_consulta": 12,
+  "triplas_anteriores_preservadas": true,
+  "roundtrip_sem_alteracao": true,
+  "sha256_rdf_entrada": "b7aaac0a610bbcdd139a3bb9846622c28b42fce4a133339c2befd00a1584e292",
+  "sha256_rdf_saida": "693a18b2bbeff9ee58baa758f00819404ec5ca33ea7df91d8a766043af1f7095",
+  "novas_adjacencias_BOT_certificadas": 0,
+  "validacao_arquitetonica": "pendente"
+}

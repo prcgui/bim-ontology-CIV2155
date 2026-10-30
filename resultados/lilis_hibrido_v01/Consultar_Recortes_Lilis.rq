@@ -1,0 +1,6 @@
+PREFIX lil: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/lilis-piloto#>
+SELECT ?recorte ?interface ?abertura ?area ?apoio3D ?areaSemApoio WHERE {
+ ?recorte a lil:RecorteCandidato; lil:interfaceAnterior ?interface;
+ lil:abertura ?abertura; lil:areaM2 ?area;
+ lil:apoioVolume3DNoCriterio ?apoio3D; lil:areaSemApoioVolume3DM2 ?areaSemApoio .
+} ORDER BY ?recorte
