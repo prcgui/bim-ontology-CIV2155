@@ -2,6 +2,12 @@
 
 Projeto acadêmico desenvolvido no âmbito da disciplina CIV2155, dedicado à organização e à representação semântica de informações BIM por meio de ontologias.
 
+## Ensaio parcial de Lilis · Notebook 1 v07
+
+[Notebook 1 v07](notebooks/01_Conversao_Arquitetura_IFC_LBD_v07.ipynb) · [Notebook 9 independente](notebooks/09_Lilis_Hibrido_Cozinha_v01.ipynb) · [Resultados e limites](resultados/lilis_hibrido_v01/).
+
+As oito células novas foram executadas com 20 controles aprovados e aplicam operadores de projeção e subtração de Lilis et al. (2026) ao piloto da cozinha. As dez aberturas distintas do híbrido anterior foram mantidas. São 12 recortes locais candidatos: 11 com apoio no volume 3D e um adicional de 0,062 m² por projeção, mantido para conferência. O RDF conserva todas as 2.559 triplas anteriores e passa a 3.244. A contribuição observada é a comparação de recortes e o cálculo rastreável dos resíduos; não foi demonstrado ganho de acurácia arquitetônica. Alpha wrap e o método completo não foram implementados.
+
 ## Interfaces híbridas da cozinha · Notebook 1 v06
 
 O [Notebook 1 v06](notebooks/01_Conversao_Arquitetura_IFC_LBD_v06.ipynb) e o [Notebook 8 independente](notebooks/08_Interfaces_Hibridas_Cozinha_v01.ipynb) combinam recortes da adaptação parcial IFC2SB, sinais do ensaio Krijnen/CGAL e operações geométricas adaptadas de Kiavarz et al. (2023). As oito células novas foram executadas; as etapas anteriores do Notebook 1 são preservadas sem reexecução.
@@ -10,7 +16,7 @@ Foram produzidas 14 interfaces qualificadas geometricamente no critério experim
 
 [Resultados e limitações](resultados/interfaces_hibridas_v01/) · [Código](consultas/interfaces_hibridas_v01/) · [Artigos e adaptações](referencias/interfaces_hibridas_v01/) · [Figura consultada do RDF](resultados/interfaces_hibridas_v01/Grafo_RDF_Recorte_Interface.png).
 
-Para Lilis et al. (2026), foi executada somente uma triagem de pré-condições, distinta do algoritmo de geração de limites 2LSB. Volumes compostos e interseções entre espaços permanecem registrados, sem reparação. A validação arquitetônica independente e a expansão aos demais ambientes continuam pendentes.
+Na revisão 06, Lilis et al. (2026) foi usado somente na triagem de pré-condições. A revisão 07 acima acrescenta a adaptação parcial dos operadores de geração. Volumes compostos e interseções entre espaços permanecem registrados, sem reparação global. A validação arquitetônica independente e a expansão aos demais ambientes continuam pendentes.
 
 ## Avaliação geométrica complementar · Krijnen / CGAL
 
@@ -179,7 +185,7 @@ KIAVARZ, Hamid; JADIDI, Mojgan; RAJABIFARD, Abbas; SOHN, Gunho. An Automated Spa
 
 LILIS, Georgios Nektarios et al. Automated generation of building energy model geometry from BIM-derived space and opening volumes. **Automation in Construction**, v. 185, 106840, 2026. DOI: [10.1016/j.autcon.2026.106840](https://doi.org/10.1016/j.autcon.2026.106840).
 
-**Contribuição nesta etapa:** fundamentação da triagem de pré-condições do §6. O método de geração de limites 2LSB não foi implementado. [PDF e registro](referencias/interfaces_hibridas_v01/).
+**Contribuição atual (revisão 07):** além da triagem anterior do §6, foram adaptados e executados parcialmente os operadores IP/IPS, PSS, pares entre espaços e maxA/recortes de abertura (Alg. 1–3 e 5). Os 20 controles passaram; o piloto manteve dez aberturas associadas, com 12 recortes candidatos, dos quais 11 têm apoio no volume 3D. O recorte adicional de 0,062 m² permanece candidato. Alpha wrap/Alg. 4 e o método completo não foram implementados. A contribuição observada é geométrica e comparativa, sem ganho de acurácia arquitetônica demonstrado. [Notebook 9 executado](notebooks/09_Lilis_Hibrido_Cozinha_v01.ipynb) · [Notebook 1 v07](notebooks/01_Conversao_Arquitetura_IFC_LBD_v07.ipynb) · [Resultados](resultados/lilis_hibrido_v01/) · [PDF, fontes e adaptações](referencias/lilis_hibrido_v01/).
 
 BONDUEL, Mathias; ORASKARI, Jyrki; PAUWELS, Pieter; VERGAUWEN, Maarten; KLEIN, Ralf. The IFC to Linked Building Data Converter: Current Status. In: LINKED DATA IN ARCHITECTURE AND CONSTRUCTION WORKSHOP, 6., 2018, Londres. **Proceedings [...]**. CEUR Workshop Proceedings, v. 2159, 2018. p. 34–43. Disponível em: <https://ceur-ws.org/Vol-2159/04paper.pdf>. Acesso em: 27 out. 2026.
 

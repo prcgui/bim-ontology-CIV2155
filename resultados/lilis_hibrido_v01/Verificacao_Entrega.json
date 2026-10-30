@@ -1,0 +1,60 @@
+{
+  "notebooks": [
+    {
+      "notebook": "09_Lilis_Hibrido_Cozinha_v01.ipynb",
+      "celulas_codigo": 8,
+      "celulas_novas_executadas": 8,
+      "erros": 0,
+      "sha256": "e632cc5f05250b9012f89e50af1cbb9414a5d7023b1a2066bbae44c80cddae62"
+    },
+    {
+      "notebook": "01_Conversao_Arquitetura_IFC_LBD_v07.ipynb",
+      "celulas_codigo": 40,
+      "celulas_novas_executadas": 8,
+      "erros": 0,
+      "sha256": "43285e4c699bf1cde7f75e7b0aecb9834f1b49f795b19787ac6dcce00f6eca27"
+    }
+  ],
+  "ifc_original_preservado": true,
+  "rdf_anterior_preservado": true,
+  "snapshot_pacote": "7507e4e318942ca7cd11b22f4a37a71cdeb9895d",
+  "blobs": [
+    {
+      "arquivo": "resultados/lilis_hibrido_v01/Pacote_Lilis_Hibrido_v01.zip",
+      "sha256": "919be6dc320376d615000fdfb508571b6a7bff8cfe9dbfac1eafd04f1caf6b1c",
+      "identico_ao_snapshot": true
+    },
+    {
+      "arquivo": "referencias/lilis_hibrido_v01/Automated generation of building energy model geometry from BIM-derived space and opening volumes.pdf",
+      "sha256": "3e3b951f816ac83e8e6221c8530e23df23d5eb2cca24f44703d7575e15199636",
+      "identico_ao_snapshot": true
+    },
+    {
+      "arquivo": "referencias/lilis_hibrido_v01/Fontes_e_Adaptacoes_Lilis_v01.json",
+      "sha256": "cb151fc772cd50f8b2cf600b6af627db5add0b853a0e10314757df7a5aee9a6e",
+      "identico_ao_snapshot": true
+    }
+  ],
+  "resumo": {
+    "aberturas_ifc_examinadas": 184,
+    "aberturas_no_ensaio_local": 26,
+    "faces_espaco": 23,
+    "pares_faces_espacos_candidatos": 11,
+    "recortes_brutos_alg5": 33,
+    "recortes_hibridos": 12,
+    "aberturas_associadas_antes": 10,
+    "aberturas_associadas_apos": 10,
+    "novas_associacoes_candidatas": [],
+    "associacoes_anteriores_nao_reproduzidas": [],
+    "interfaces_com_area_residual": 14,
+    "area_bruta_interfaces_m2": 91.98278742515194,
+    "area_recortes_uniao_m2": 11.936844023101573,
+    "area_residual_m2": 80.04594340205037,
+    "recortes_com_apoio_volume_3D": 11,
+    "recortes_sem_apoio_volume_3D": 1,
+    "area_uniao_recortes_apoiados_3D_m2": 11.874844023101693,
+    "area_residual_apos_recortes_apoiados_3D_m2": 80.10794340205024,
+    "tolerancia_area_conferencia_m2": 1e-07
+  },
+  "escopo": "Adaptação parcial executada; alpha wrap e validação arquitetônica independente pendentes."
+}

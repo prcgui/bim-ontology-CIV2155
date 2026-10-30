@@ -3654,7 +3654,7 @@ lid:ensaio a prov:Activity ;
     lil:distanciaPrincipalM 0.3 ;
     lil:sha256IFC "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a" ;
     lil:sha256RDFBase "b7aaac0a610bbcdd139a3bb9846622c28b42fce4a133339c2befd00a1584e292" ;
-    lil:sha256Resultado "3a94d6e2805a0c3a6a1a121cda04ad865104b4f5c8b957ce1f706326110b0914" .
+    lil:sha256Resultado "108fd1fb8de8430430069b33a29da7ff32e46e863258bdc145d52658e3fd74e4" .
 
 krid:ensaio a prov:Activity ;
     rdfs:comment "Ensaio de operações CGAL/Nef isoladas com geometria OFF de IfcOpenShell/OpenCascade; não é reprodução integral do método de 2020."@pt ;

@@ -1,5 +1,11 @@
 # Notebooks do estudo
 
+## Notebook 9 e Notebook 1 v07 — ensaio parcial de Lilis
+
+[Notebook 9 executado](09_Lilis_Hibrido_Cozinha_v01.ipynb) · [Notebook 1 completo v07](01_Conversao_Arquitetura_IFC_LBD_v07.ipynb) · [Resultados, fontes e limites](../resultados/lilis_hibrido_v01/).
+
+Oito células novas executam 20 controles e a adaptação parcial de IP/IPS, PSS e maxA no IFC original. Mantêm as dez aberturas associadas do piloto, com 12 recortes candidatos: 11 apoiados no volume 3D e um adicional de 0,062 m² por projeção. O RDF preserva as 2.559 triplas anteriores e passa a 3.244. O notebook explica as diferenças em relação ao artigo, a sensibilidade à distância e a contribuição geométrica observada. Alpha wrap e validação arquitetônica independente permanecem pendentes. A v07 preserva as saídas históricas e identifica explicitamente as oito células reexecutadas.
+
 ## Notebook 5 — IFC2SB: controle e creche integral
 
 [Notebook de auditoria executado](05_IFC2SB_Controle_e_Creche_v01.ipynb), com cinco células Python que conferem os arquivos de execuções C++ realizadas no Colab. Não representa uma execução do C++ em Windows. O método geométrico utilizado é o [IFC2SB publicado pelos autores](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad); as rotinas de supervisão e auditoria são específicas deste estudo.
