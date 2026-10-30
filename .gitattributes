@@ -73,3 +73,11 @@
 /referencias/multiambientes_v01/*.pdf binary
 /resultados/multiambientes_v01/**/*.png binary
 /notebooks/01_Conversao_Arquitetura_IFC_LBD_v09.ipynb -text
+
+# Literature-driven improvement: preserve execution inputs and outputs.
+/consultas/aprimoramento_n1_v10/** -text
+/referencias/aprimoramento_n1_v10/** -text
+/resultados/aprimoramento_n1_v10/** -text
+/referencias/aprimoramento_n1_v10/*.pdf binary
+/resultados/aprimoramento_n1_v10/**/*.png binary
+/notebooks/01_Conversao_Arquitetura_IFC_LBD_v10.ipynb -text

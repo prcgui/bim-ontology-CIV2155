@@ -1,0 +1,33 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ma: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/aprimoramento#> .
+@prefix shape: <https://github.com/prcgui/bim-ontology-CIV2155/shapes/aprimoramento-v10/> .
+
+shape:Resultado a sh:NodeShape ; sh:targetClass ma:ResultadoPorAmbiente ;
+ sh:property [sh:path ma:ambiente; sh:minCount 1; sh:maxCount 1; sh:class bot:Space; sh:nodeKind sh:IRI] ;
+ sh:property [sh:path ma:nome; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:string] ;
+ sh:property [sh:path ma:estado; sh:minCount 1; sh:maxCount 1;
+   sh:in ("associacao_executada" "associacao_executada_com_pendencias" "inconclusivo_preparacao_espaco")] ;
+ sh:property [sh:path ma:quantidadeEsquadrias; sh:maxCount 1; sh:datatype xsd:integer; sh:minInclusive 0] ;
+ sh:sparql [sh:message "Inconclusão exige motivo e não admite quantidade ou associação primária.";
+ sh:select """PREFIX ma: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/aprimoramento#>
+ SELECT $this WHERE { $this ma:estado "inconclusivo_preparacao_espaco" .
+ FILTER(EXISTS {$this ma:quantidadeEsquadrias ?n} || EXISTS {$this ma:esquadriaAssociada ?e} || NOT EXISTS {$this ma:motivo ?m}) }"""] ;
+ sh:sparql [sh:message "Quantidade deve corresponder ao conjunto de esquadrias do resultado executado.";
+ sh:select """PREFIX ma: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/aprimoramento#>
+ SELECT $this WHERE {
+ $this ma:estado ?estado . FILTER(STRSTARTS(STR(?estado),"associacao_"))
+ OPTIONAL {$this ma:quantidadeEsquadrias ?n}
+ {SELECT $this (COUNT(DISTINCT ?e) AS ?qt) WHERE {
+ $this a ma:ResultadoPorAmbiente . OPTIONAL {$this ma:esquadriaAssociada ?e}
+ } GROUP BY $this}
+ FILTER(!BOUND(?n) || ?n != ?qt) }"""] ;
+ sh:sparql [sh:message "Dois resultados v10 apontam ao mesmo espaço.";
+ sh:select """PREFIX ma: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/aprimoramento#>
+ SELECT $this WHERE {$this ma:ambiente ?space. ?outro a ma:ResultadoPorAmbiente; ma:ambiente ?space. FILTER($this != ?outro)}"""] .
+
+shape:Regiao a sh:NodeShape ; sh:targetClass ma:RegiaoParticionada ;
+ sh:property [sh:path ma:areaM2; sh:minCount 1; sh:maxCount 1; sh:minExclusive 0] ;
+ sh:property [sh:path ma:interfaceFonte; sh:minCount 1; sh:nodeKind sh:IRI] ;
+ sh:property [sh:path ma:paredeHospedeira; sh:minCount 1; sh:nodeKind sh:IRI] .

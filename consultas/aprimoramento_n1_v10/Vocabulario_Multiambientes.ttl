@@ -1,0 +1,25 @@
+@prefix mu: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/aprimoramento#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bot: <https://w3id.org/bot#> .
+mu:ResultadoPorAmbiente a rdfs:Class ; rdfs:label "Resultado de processamento por ambiente"@pt ;
+ rdfs:comment "Registro da revisão v10, inclusive inconclusão. Não equivale a aprovação arquitetônica."@pt .
+mu:ConferenciaDocumental a rdfs:Class ; rdfs:label "Conferência documental de uma associação"@pt .
+mu:ambiente a rdf:Property ; rdfs:domain mu:ResultadoPorAmbiente ; rdfs:range bot:Space .
+mu:resultadoV09 a rdf:Property ; rdfs:domain bot:Space ; rdfs:range mu:ResultadoPorAmbiente .
+mu:esquadriaAssociada a rdf:Property ; rdfs:domain mu:ResultadoPorAmbiente ; rdfs:range bot:Element ;
+ rdfs:comment "Porta/janela com recorte qualificado na interface do espaço. Não inferir acesso funcional ou propriedade exclusiva do ambiente."@pt .
+mu:quantidadeEsquadrias a rdf:Property ; rdfs:comment "Disponível apenas após associação executada. Ausência em registro inconclusivo não significa zero esquadrias."@pt .
+mu:elementoInternoCandidato a rdf:Property ; rdfs:comment "Localização por vértices IN/ON com ao menos um IN; não certifica contenção integral ou função."@pt .
+mu:componenteSemFillsVoidsCandidato a rdf:Property ; rdfs:comment "Proximidade de componente sem preenchimento declarado; não cria relação IFC de preenchimento ou decomposição."@pt .
+mu:interfaceCandidata a rdf:Property ; rdfs:comment "Fragmento geométrico, cuja quantidade depende da segmentação do IFC; não corresponde à contagem de paredes físicas."@pt .
+mu:estado a rdf:Property ; rdfs:label "Estado do processamento"@pt .
+mu:motivo a rdf:Property ; rdfs:label "Motivo da inconclusão"@pt .
+
+mu:RegiaoParticionada a rdfs:Class ; rdfs:label "Região de união geométrica com fontes preservadas"@pt .
+mu:regiaoParticionada a rdf:Property ; rdfs:comment "Área sem contagem repetida; mantém paredes concorrentes, sem eleger a correta."@pt .
+mu:metodoPreparo a rdf:Property ; rdfs:comment "Método sobre geometria derivada; IFC original não modificado."@pt .
+mu:projecaoPlanarEspacoM a rdf:Property ; rdfs:comment "Maior deslocamento normal de vértices na normalização planar da face do espaço."@pt .
+mu:projecaoPlanarParedeM a rdf:Property ; rdfs:comment "Maior deslocamento normal de vértices na normalização planar da face da parede."@pt .
+
+mu:CandidatoComFolga a rdfs:Class ; rdfs:comment "Projeção separada da face do espaço; não é associação primária nem contato comprovado."@pt .
