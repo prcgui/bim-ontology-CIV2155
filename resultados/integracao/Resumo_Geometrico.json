@@ -1,0 +1,63 @@
+{
+  "parametros": {
+    "margem_aabb_m": 0.0001,
+    "volume_min_m3": 1e-09,
+    "volume_relativo_min": 1e-08,
+    "area_comum_min_m2": 1e-06,
+    "distancia_busca_contato_m": 0.0001,
+    "tolerancia_contencao_rel": 1e-07
+  },
+  "ambientes": 41,
+  "ambientes_com_solido": 38,
+  "ambientes_inconclusivos": 3,
+  "por_modelo": [
+    {
+      "modelo": "smt",
+      "elementos_ifc": 5253,
+      "alvos_geometricos": 3861,
+      "caixas_disponiveis": 3861,
+      "elementos_com_candidatos": 1035,
+      "elementos_com_preparo_inconclusivo": 0,
+      "pares_examinados": 1190,
+      "estados": {
+        "intersecciona": 758,
+        "contido": 196,
+        "sem_relacao_no_criterio": 108,
+        "proximo_sem_superficie_comum": 4,
+        "adjacente": 124
+      },
+      "metodos_preparo": {
+        "caminho_estrito_v09_preservado": 1035
+      },
+      "classes_fora_do_recorte": {
+        "IfcElementAssembly": 1365,
+        "IfcVoidingFeature": 27
+      }
+    },
+    {
+      "modelo": "sco",
+      "elementos_ifc": 19223,
+      "alvos_geometricos": 1468,
+      "caixas_disponiveis": 1468,
+      "elementos_com_candidatos": 535,
+      "elementos_com_preparo_inconclusivo": 0,
+      "pares_examinados": 863,
+      "estados": {
+        "sem_relacao_no_criterio": 212,
+        "proximo_sem_superficie_comum": 77,
+        "adjacente": 467,
+        "intersecciona": 105,
+        "contido": 2
+      },
+      "metodos_preparo": {
+        "caminho_estrito_v09_preservado": 535
+      },
+      "classes_fora_do_recorte": {
+        "IfcReinforcingBar": 17755
+      }
+    }
+  ],
+  "relacoes_positivas": 1652,
+  "pares": 2053,
+  "referencial": "Coordenadas de engenharia dos IFCs, com placements aplicados e comprimentos em metros; sem transformação inferida entre modelos."
+}

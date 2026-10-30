@@ -1,8 +1,8 @@
 # BIM e grafos de conhecimento · CIV2155
 
-**Trabalho aplicado ao projeto arquitetônico FNDE Proinfância Tipo 2, revisão R03.**
+**Trabalho aplicado à arquitetura e às estruturas do projeto FNDE Proinfância Tipo 2, revisão R03.**
 
-O trabalho converte um modelo IFC em RDF e acrescenta associações geométricas entre ambientes, paredes, aberturas e esquadrias. O [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) reúne o procedimento executável, as explicações e as referências.
+O [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) converte a arquitetura IFC em RDF e acrescenta associações geométricas entre ambientes, paredes, aberturas e esquadrias. O [Notebook 2](notebooks/02_Integracao_Arquitetura_Estrutura.ipynb) aplica o mesmo extrator às estruturas e conecta seus elementos aos ambientes, preservando as fontes. Ambos reúnem o procedimento executável, as explicações e as referências.
 
 **Ver o RDF:** [Imagens em caixas](resultados/grafo_rdf/README.md) · [Explorar a aplicação](https://prcgui.github.io/bim-ontology-CIV2155/) · [Código da aplicação](visualizacao/README.md).
 
@@ -11,9 +11,9 @@ O trabalho converte um modelo IFC em RDF e acrescenta associações geométricas
 | Para conhecer o trabalho | Onde consultar |
 |---|---|
 | O que foi feito e como | [Método e alcance](docs/Metodo_e_Alcance.md) |
-| Qual código foi usado | [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) · [Módulos e consultas](codigo/README.md) |
+| Qual código foi usado | [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) · [Notebook 2](notebooks/02_Integracao_Arquitetura_Estrutura.ipynb) · [Módulos e consultas](codigo/README.md) |
 | O que foi analisado | [Modelo IFC e pranchas R03](dados/README.md) · [Análise dos resultados](docs/Analise_dos_Resultados.md) |
-| Quais resultados foram obtidos | [Resultados finais](resultados/README.md) · [Esquadrias por ambiente](resultados/Esquadrias_Por_Ambiente.csv) · [Grafo RDF](resultados/Arquitetura_Analisada.zip) |
+| Quais resultados foram obtidos | [Arquitetura](resultados/README.md) · [Integração arquitetura e estrutura](resultados/integracao/README.md) |
 | Quais fontes sustentam a implementação | [Referências utilizadas](referencias/README.md) |
 
 **Resultado principal:** dos 41 espaços do IFC, 38 chegaram à associação geométrica e três permaneceram inconclusivos. Foram obtidos **101 pares ambiente–esquadria, envolvendo 66 esquadrias distintas**. Um elemento pode aparecer associado a mais de um ambiente.
@@ -25,3 +25,11 @@ Na amostra documental de 14 ambientes, foram recuperados 39 dos 43 casos positiv
 Para executar, abra o notebook no [Google Colab](https://colab.research.google.com/github/prcgui/bim-ontology-CIV2155/blob/main/notebooks/01_Arquitetura_IFC_RDF.ipynb), ou instale as [dependências](requirements.txt) em Python 3.12 e execute as células na ordem. O preparo geométrico é refeito a partir do IFC. A conversão semântica já realizada é reutilizada por padrão; o notebook explica como repeti-la com Java 21.
 
 Este repositório apresenta a rotina selecionada e os seus resultados. O [arquivo técnico no Google Drive](https://drive.google.com/drive/u/0/folders/1kVGXvERWXieeMeURrJF07tuLaADdrJ_O) reúne auditorias, testes, ensaios comparativos e versões anteriores. A reorganização da versão principal preserva o histórico de commits.
+
+## Arquitetura e estruturas
+
+O [Notebook 2](notebooks/02_Integracao_Arquitetura_Estrutura.ipynb) repete o extrator do N1 nos modelos ARQ, SMT e SCO, preserva o enriquecimento arquitetônico e reúne as fontes em cinco grafos nomeados. Foram observados **1.652 pares com relação geométrica**, envolvendo **1.333 elementos estruturais distintos**, nos 38 ambientes com sólido aceito. Os três inconclusivos permanecem sem contagem.
+
+[Método e limitações da integração](docs/Integracao_Arquitetura_Estrutura.md) · [Resultados e Dataset RDF](resultados/integracao/README.md) · [Referências aplicadas, incluindo o novo artigo BOT](referencias/integracao/README.md) · [Abrir N2 no Colab](https://colab.research.google.com/github/prcgui/bim-ontology-CIV2155/blob/main/notebooks/02_Integracao_Arquitetura_Estrutura.ipynb).
+
+![Integração por tipo de relação](resultados/integracao/Relacoes_Por_Modelo.png)

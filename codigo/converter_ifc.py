@@ -9,8 +9,16 @@ import os, subprocess, zipfile, hashlib, time
 from urllib.request import urlretrieve
 from rdflib import Graph
 
-def converter(ifc, destino, trabalho):
-    import difflib,hashlib,json,os,re,subprocess,time
+def converter(ifc, destino, trabalho, *,
+              ifc_sha256='0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a',
+              base_uri='https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/',
+              java_heap='4g'):
+    """Mesmo extrator para diferentes disciplinas; origem e namespace explícitos.
+
+    Os padrões preservam a chamada e as identidades usadas pelo Notebook 1.
+    O Notebook 2 informa os hashes e namespaces de cada modelo estrutural.
+    """
+    import difflib,hashlib,json,os,re,subprocess,time,shutil
     from pathlib import Path
     from urllib.request import urlretrieve
     from rdflib import Graph
@@ -18,8 +26,19 @@ def converter(ifc, destino, trabalho):
     ROOT=Path(trabalho).resolve();ROOT.mkdir(parents=True,exist_ok=True)
     PASTA_RESULTADOS=ROOT/'conversao';PASTA_RESULTADOS.mkdir(exist_ok=True)
     sha256=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
-    if sha256(ifc)!='0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a':
-        raise ValueError('IFC diferente do analisado no estudo.')
+    if not re.fullmatch(r'[0-9a-f]{64}',ifc_sha256) or sha256(ifc)!=ifc_sha256:
+        raise ValueError('IFC diferente da fonte declarada.')
+    if not base_uri.startswith(('https://','http://')) or not base_uri.endswith('/'):
+        raise ValueError('Informar namespace absoluto terminado em /.')
+    if not re.fullmatch(r'[1-9][0-9]*[mg]',java_heap):
+        raise ValueError('Limite de memória Java inválido.')
+    entrada_motor=Path(ifc).resolve()
+    if not entrada_motor.name.endswith('.ifc'):
+        # A CLI 2.49.0 acrescenta .ifc ao nome com extensão .IFC maiúscula.
+        # Compatibilizar só o nome de uma cópia de trabalho, mantendo os bytes.
+        entrada_motor=ROOT/'entrada_motor.ifc'
+        shutil.copyfile(ifc,entrada_motor)
+        if sha256(entrada_motor)!=ifc_sha256:raise ValueError('Cópia de entrada alterada.')
     MOTOR=Path(os.environ.get("CIV2155_MOTOR",ROOT/"motor"));MOTOR.mkdir(parents=True,exist_ok=True)
     pacote_motor=MOTOR/"IFCtoLBD.zip"
     if not pacote_motor.exists():urlretrieve("https://github.com/jyrkioraskari/IFCtoLBD/releases/download/2.49.0/IFCtoLBD.zip",pacote_motor)
@@ -118,8 +137,8 @@ def converter(ifc, destino, trabalho):
     classpath_corrigido = str(classes_corrigidas) + os.pathsep + classpath
 
     destino=rdf_destino;destino.parent.mkdir(parents=True,exist_ok=True)
-    cmd=[str(java),'-Xmx4g','-Dfile.encoding=UTF-8','-cp',classpath_corrigido,classe_cli,str(Path(ifc).resolve()),
-      '--url=https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/',
+    cmd=[str(java),'-Xmx'+java_heap,'-Dfile.encoding=UTF-8','-cp',classpath_corrigido,classe_cli,str(entrada_motor),
+      '--url='+base_uri,
       '--target_file='+str(destino),'--level=1','--hasBuildingElements=true',
       '--hasBuildingElementProperties=true','--hasIfc_based_elements=true',
       '--hasSeparateBuildingElementsModel=false','--hasSeparatePropertiesModel=false',

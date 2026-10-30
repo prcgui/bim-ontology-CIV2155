@@ -1,0 +1,337 @@
+{
+  "modelos": [
+    {
+      "modelo": "arquitetura",
+      "arquivo": "TIPO2-ARQ-DTV_R03.ifc",
+      "sha256_ifc": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+      "produtos_ifc": 2116,
+      "elementos_ifc": 2071,
+      "espacos_ifc": 41,
+      "produtos_identificados_no_rdf": 2116,
+      "triplas": 80234,
+      "fator_comprimento_para_m": 1,
+      "contextos_geometricos": [
+        {
+          "tipo": "Model",
+          "precisao_unidade_projeto": 1e-05,
+          "wcs": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "norte": [
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "posicionamentos_espaciais": [
+        {
+          "classe": "IfcSite",
+          "guid": "20FpTZCqJy2vhVJYtjuIce",
+          "nome": "PADRÃO",
+          "origem_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "elevacao_declarada_m": null
+        },
+        {
+          "classe": "IfcBuilding",
+          "guid": "00tMo7QcxqWdIGvc4sMN2A",
+          "nome": "CRECHE PRÉ-ESCOLA TIPO 2",
+          "origem_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "elevacao_declarada_m": null
+        },
+        {
+          "classe": "IfcBuildingStorey",
+          "guid": "10xiyxAX_aIfEvvB7TXxdK",
+          "nome": "COBERTURA",
+          "origem_m": [
+            0.0,
+            0.0,
+            3.26
+          ],
+          "elevacao_declarada_m": 3.26
+        },
+        {
+          "classe": "IfcBuildingStorey",
+          "guid": "0yel9JA1rFtRnIIBXojKZD",
+          "nome": "TÉRREO",
+          "origem_m": [
+            0.0,
+            0.0,
+            0.16
+          ],
+          "elevacao_declarada_m": 0.16
+        }
+      ],
+      "map_conversion_declarada": 0,
+      "classes_ifc": {
+        "IfcCovering": 631,
+        "IfcDoor": 53,
+        "IfcRailing": 15,
+        "IfcRamp": 5,
+        "IfcRoof": 152,
+        "IfcShadingDevice": 44,
+        "IfcStair": 1,
+        "IfcWall": 457,
+        "IfcWindow": 39,
+        "IfcTank": 2,
+        "IfcLightFixture": 130,
+        "IfcSanitaryTerminal": 154,
+        "IfcWasteTerminal": 34,
+        "IfcOpeningElement": 184,
+        "IfcFurniture": 170,
+        "IfcBuilding": 1,
+        "IfcBuildingStorey": 2,
+        "IfcSite": 1,
+        "IfcSpace": 41
+      }
+    },
+    {
+      "modelo": "smt",
+      "arquivo": "TIPO2-SMT-MOD_R03.ifc",
+      "sha256_ifc": "2d94e5927884963b4bb92720cf7c79fdfd9b968ca1c5117e165fe88afbfd692a",
+      "produtos_ifc": 5256,
+      "elementos_ifc": 5253,
+      "espacos_ifc": 0,
+      "produtos_identificados_no_rdf": 5256,
+      "triplas": 84933,
+      "fator_comprimento_para_m": 0.001,
+      "contextos_geometricos": [
+        {
+          "tipo": "Model",
+          "precisao_unidade_projeto": 0.2,
+          "wcs": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "norte": [
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "posicionamentos_espaciais": [
+        {
+          "classe": "IfcSite",
+          "guid": "1lNmxy4WP9oOzPtw$YqX9B",
+          "nome": "PADRÃO",
+          "origem_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "elevacao_declarada_m": null
+        },
+        {
+          "classe": "IfcBuilding",
+          "guid": "05SOw_RdrAjQj7lp21exdK",
+          "nome": "CRECHE PRÉ-ESCOLA TIPO 2",
+          "origem_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "elevacao_declarada_m": null
+        },
+        {
+          "classe": "IfcBuildingStorey",
+          "guid": "1hdQblJHj7gPb3fMM9XPsr",
+          "nome": "COBERTURA",
+          "origem_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "elevacao_declarada_m": 0.0
+        }
+      ],
+      "map_conversion_declarada": 0,
+      "classes_ifc": {
+        "IfcBeam": 2518,
+        "IfcPlate": 1091,
+        "IfcRoof": 252,
+        "IfcElementAssembly": 1365,
+        "IfcVoidingFeature": 27,
+        "IfcBuilding": 1,
+        "IfcBuildingStorey": 1,
+        "IfcSite": 1
+      }
+    },
+    {
+      "modelo": "sco",
+      "arquivo": "TIPO2-SCO-MOD_R03.IFC",
+      "sha256_ifc": "bde759756938510c56112b9544aa2a26aca08b6a229008de85c5144d2961ea93",
+      "produtos_ifc": 19229,
+      "elementos_ifc": 19223,
+      "espacos_ifc": 0,
+      "produtos_identificados_no_rdf": 19229,
+      "triplas": 205194,
+      "fator_comprimento_para_m": 0.01,
+      "contextos_geometricos": [
+        {
+          "tipo": "Model",
+          "precisao_unidade_projeto": 1e-05,
+          "wcs": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "norte": null
+        }
+      ],
+      "posicionamentos_espaciais": [
+        {
+          "classe": "IfcSite",
+          "guid": "1T6DYpthX4ghtdbI4okyeV",
+          "nome": "PADRÃO",
+          "origem_m": [
+            -40.0,
+            0.0,
+            0.0
+          ],
+          "elevacao_declarada_m": null
+        },
+        {
+          "classe": "IfcBuilding",
+          "guid": "2cKmqfmXv27gasD6lIbErG",
+          "nome": "CRECHE PRÉ-ESCOLA TIPO 2",
+          "origem_m": [
+            -40.0,
+            0.0,
+            -0.14
+          ],
+          "elevacao_declarada_m": null
+        },
+        {
+          "classe": "IfcBuildingStorey",
+          "guid": "2E1VL72l1EYwJI$Mllp_9B",
+          "nome": "FUNDAÇÃO",
+          "origem_m": [
+            -40.0,
+            0.0,
+            -0.14
+          ],
+          "elevacao_declarada_m": -0.14
+        },
+        {
+          "classe": "IfcBuildingStorey",
+          "guid": "37aq1vEsn4dQ0oyWcjKKws",
+          "nome": "VIGA BALDRAME",
+          "origem_m": [
+            -40.0,
+            0.0,
+            0.16
+          ],
+          "elevacao_declarada_m": 0.16
+        },
+        {
+          "classe": "IfcBuildingStorey",
+          "guid": "1xvQe0RV1FWAlTQjwy0OZr",
+          "nome": "TERREO",
+          "origem_m": [
+            -40.0,
+            0.0,
+            3.2600000000000002
+          ],
+          "elevacao_declarada_m": 3.2600000000000002
+        },
+        {
+          "classe": "IfcBuildingStorey",
+          "guid": "3f9n0sGjj8Ew2pnz0Kd1D7",
+          "nome": "COBERTURA",
+          "origem_m": [
+            -40.0,
+            0.0,
+            4.5600000000000005
+          ],
+          "elevacao_declarada_m": 4.5600000000000005
+        }
+      ],
+      "map_conversion_declarada": 0,
+      "classes_ifc": {
+        "IfcBeam": 614,
+        "IfcColumn": 561,
+        "IfcFooting": 170,
+        "IfcPile": 118,
+        "IfcSlab": 5,
+        "IfcReinforcingBar": 17755,
+        "IfcBuilding": 1,
+        "IfcBuildingStorey": 4,
+        "IfcSite": 1
+      }
+    }
+  ],
+  "criterio": "Mesmos IFCs R03; unidades normalizadas na geometria, placements declarados aplicados. Sem equivalência por nome ou translação inferida. Ausência de MapConversion impede declarar georreferenciamento validado."
+}

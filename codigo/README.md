@@ -23,3 +23,15 @@ O ponto de entrada é o [Notebook 1](../notebooks/01_Arquitetura_IFC_RDF.ipynb).
 **IFCtoLBD:** o motor é obtido da distribuição oficial 2.49.0, verificada por hash. Duas classes de fontes fixadas recebem as alterações usadas para preservar Unicode e apóstrofos nos textos STEP. Compilam-se as classes modificadas e elas precedem os JARs originais no caminho de execução. As bibliotecas e fontes externas mantêm suas licenças.
 
 Os arquivos intermediários da execução ficam em `.execucao/`, fora do conteúdo versionado. Os dados publicados estão em `resultados/`; as trilhas de auditoria e os ensaios ficam no Drive indicado no README principal.
+
+## Rotina usada no Notebook 2
+
+| Arquivo | Função |
+|---|---|
+| `integrar_modelos.py` | Repete a extração comum nos três IFCs, confere identidades e nomes, reúne os grafos com proveniência, serializa em N-Quads e executa as consultas. |
+| `relacoes_interdisciplinares.py` | Reutiliza o preparo conservador do N1 e verifica contenção, interseção e superfície comum nos pares espaço–estrutura. |
+| `apresentar_integracao.py` | Produz o gráfico de contagens e o exemplo RDF da cozinha, conferido no Dataset. |
+| `Vocabulario_Integracao.ttl` | Registros qualificados dos vínculos, unidades, identidade dos modelos e proveniência. |
+| `03_modelos_integrados.rq`, `04_relacoes_estrutura_ambientes.rq` | Consultas executadas sobre os grafos nomeados. |
+
+`converter_ifc.py` aceita hash de origem, namespace e limite de memória como parâmetros. Os padrões do N1 foram preservados. Para a extensão maiúscula do SCO, usa uma cópia de trabalho byte a byte com extensão `.ifc`, compatível com a CLI do motor. [Fontes e limites das adaptações](../referencias/integracao/README.md).

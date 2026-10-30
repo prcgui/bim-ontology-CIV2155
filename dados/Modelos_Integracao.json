@@ -1,0 +1,30 @@
+{
+  "fonte_oficial": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/proinfancia/projetos-arquitetonicos-para-construcao/projeto-tipo-2",
+  "pacote_estrutura": "https://www.fnde.gov.br/digap/projetos/Creche_Pre_Escola_Tipo_2/R03_2025/IFC/Projeto_Estrutural.rar",
+  "modelos": {
+    "arquitetura": {
+      "arquivo": "TIPO2-ARQ-DTV_R03.ifc",
+      "zip": "dados/TIPO2-ARQ-DTV_R03.ifc.zip",
+      "sha256_zip": "19053ddc0698742ab28b1af2b8ee573bfe96ef5fec4f148d115cc4c8d8bfc770",
+      "sha256_ifc": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+      "fator_comprimento_para_m": 1,
+      "namespace": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/"
+    },
+    "smt": {
+      "arquivo": "TIPO2-SMT-MOD_R03.ifc",
+      "zip": "dados/TIPO2-SMT-MOD_R03.ifc.zip",
+      "sha256_zip": "438a18dba8b2b656383127d9fbcd0ebf44bd4e55a07bfd822af8026209982048",
+      "sha256_ifc": "2d94e5927884963b4bb92720cf7c79fdfd9b968ca1c5117e165fe88afbfd692a",
+      "fator_comprimento_para_m": 0.001,
+      "namespace": "https://github.com/prcgui/bim-ontology-CIV2155/id/estrutura-smt/"
+    },
+    "sco": {
+      "arquivo": "TIPO2-SCO-MOD_R03.IFC",
+      "zip": "dados/TIPO2-SCO-MOD_R03.IFC.zip",
+      "sha256_zip": "9f9f0574df57606690d85cf1c875b067dd6df21e2e28a2d65bc53bfa26408efe",
+      "sha256_ifc": "bde759756938510c56112b9544aa2a26aca08b6a229008de85c5144d2961ea93",
+      "fator_comprimento_para_m": 0.01,
+      "namespace": "https://github.com/prcgui/bim-ontology-CIV2155/id/estrutura-sco/"
+    }
+  }
+}

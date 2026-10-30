@@ -1,0 +1,26 @@
+{
+  "grafos_nomeados": {
+    "arquitetura": 80234,
+    "smt": 84933,
+    "sco": 205194,
+    "relacoes": 18194,
+    "proveniencia": 26620
+  },
+  "quadruplas": 415175,
+  "relacoes_interdisciplinares": 1652,
+  "pares_n1_preservados": 101,
+  "origens_preservadas": true,
+  "owl_sameAs_inferido": false,
+  "preservacao_semantica_por_grafo": true,
+  "formato_dataset": "N-Quads",
+  "por_modelo": {
+    "smt": 1078,
+    "sco": 574
+  },
+  "por_relacao": {
+    "intersecciona": 863,
+    "contido": 198,
+    "adjacente": 591
+  },
+  "alcance": "Federação RDF e relações geométricas no referencial dos arquivos. Não certifica coordenação de projeto, função ou adequação estrutural."
+}

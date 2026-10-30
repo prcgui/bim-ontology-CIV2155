@@ -1,0 +1,16 @@
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?ambiente ?nome_ambiente ?modelo ?elemento ?nome_elemento ?estado ?volume_m3 ?area_m2 WHERE {
+  GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/arquitetura> {
+    ?resultado civ:ambiente ?ambiente ; civ:nome ?nome_ambiente .
+  }
+  GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/relacoes> {
+    ?relacao a int:RelacaoEspacial ; int:ambiente ?ambiente ; int:elementoEstrutural ?elemento ;
+      int:modelo ?fonte ; int:estado ?estado ; int:volumeIntersecaoM3 ?volume_m3 ; int:areaContatoM2 ?area_m2 .
+  }
+  GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/proveniencia> {
+    ?fonte int:chave ?modelo ; int:grafo ?grafo_estrutura .
+  }
+  OPTIONAL { GRAPH ?grafo_estrutura { ?elemento rdfs:label ?nome_elemento . } }
+} ORDER BY ?nome_ambiente ?modelo ?nome_elemento ?elemento

@@ -1,0 +1,8 @@
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+SELECT ?chave ?grafo (COUNT(?objeto) AS ?produtos) WHERE {
+  GRAPH <https://github.com/prcgui/bim-ontology-CIV2155/grafo/proveniencia> {
+    ?modelo a int:ModeloIFC ; int:chave ?chave ; int:grafo ?grafo .
+    ?objeto <http://www.w3.org/ns/prov#wasDerivedFrom> ?modelo .
+  }
+  GRAPH ?grafo { ?objeto <http://lbd.arch.rwth-aachen.de/props#globalIdIfcRoot_attribute_simple> ?guid . }
+} GROUP BY ?chave ?grafo ORDER BY ?chave

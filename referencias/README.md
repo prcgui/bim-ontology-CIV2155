@@ -15,3 +15,7 @@ A lista relaciona a contribuição efetivamente usada e distingue código dos au
 Documentação técnica usada: [IfcOpenShell](https://docs.ifcopenshell.org/), [Open CASCADE ShapeFix](https://dev.opencascade.org/doc/refman/html/class_shape_fix___shape.html), [Shapely](https://shapely.readthedocs.io/), [RDFLib](https://rdflib.readthedocs.io/), [SPARQL 1.1](https://www.w3.org/TR/sparql11-query/), [codificação de strings IFC](https://technical.buildingsmart.org/resources/ifcimplementationguidance/string-encoding/) e [strings Java 21](https://docs.oracle.com/javase/21/docs/api/java.base/java/lang/String.html).
 
 Os artigos completos permanecem no acervo de referências do trabalho; esta pasta apresenta a bibliografia aplicada. As atribuições e licenças de código derivado permanecem nos cabeçalhos, em [codigo/README.md](../codigo/README.md) e no arquivo de licença.
+
+## Referências aplicadas no Notebook 2
+
+A [bibliografia da integração](integracao/README.md) acrescenta o processo de checagem geométrica de Lilis et al. (2025), agora efetivamente aplicado, o artigo BOT de Rasmussen et al. (2021), com cópia aberta, e as normas RDF Datasets/N-Quads. A tabela distingue os conceitos das fontes das adaptações próprias e das limitações que permaneceram.

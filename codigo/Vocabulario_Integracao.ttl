@@ -1,0 +1,21 @@
+@prefix int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+int: a owl:Ontology ; rdfs:label "Integração de arquitetura e estruturas CIV2155"@pt .
+int:EstudoMultimodelos a owl:Class .
+int:ModeloIFC a owl:Class .
+int:RelacaoEspacial a owl:Class ; rdfs:comment "Evidência de uma relação espaço-elemento, condicionada ao referencial e critério geométrico registrados."@pt .
+int:modelo a owl:ObjectProperty .
+int:grafo a owl:ObjectProperty .
+int:ambiente a owl:ObjectProperty .
+int:elementoEstrutural a owl:ObjectProperty .
+int:predicado a owl:ObjectProperty .
+int:chave a owl:DatatypeProperty .
+int:estado a owl:DatatypeProperty .
+int:sha256IFC a owl:DatatypeProperty .
+int:fatorComprimentoParaMetro a owl:DatatypeProperty .
+int:volumeIntersecaoM3 a owl:DatatypeProperty ; rdfs:range xsd:double .
+int:volumeElementoM3 a owl:DatatypeProperty ; rdfs:range xsd:double .
+int:areaContatoM2 a owl:DatatypeProperty ; rdfs:range xsd:double .
+int:referencial a owl:DatatypeProperty .
