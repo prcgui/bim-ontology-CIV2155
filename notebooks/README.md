@@ -41,3 +41,9 @@ O [Notebook 4](04_Conferencia_Cozinha_IFC_RDF_v01.ipynb) foi executado em seis c
 As seis células novas preparam fontes verificadas por hash, executam 17 controles, verificam o IFC original, processam o piloto da cozinha, exportam e consultam o RDF com coordenadas e conferem a integridade final. O notebook completo conserva as células e saídas v03, sem reexecutá-las nesta revisão. Para repetir apenas a adaptação, utilizar o módulo independente.
 
 [Código dos autores IFC2SB](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad) · [mapa de funções, adaptações e licença](../consultas/ifc2sb_python_v01/) · [resultados e limitações](../resultados/ifc2sb_python_v01/).
+
+## Notebook 1 · revisão 05 · avaliação complementar CGAL
+
+[Notebook 1 v05](01_Conversao_Arquitetura_IFC_LBD_v05.ipynb) · [Notebook 7: auditoria independente do ensaio Krijnen](07_Auditoria_Krijnen_CGAL_v01.ipynb).
+
+As novas células auditam registros reais dos testes C++/CGAL executados em Linux e incorporam 68 avaliações ao RDF. Seis células de código foram executadas na auditoria; a opção de reiniciar o motor ficou desativada e é identificada separadamente. As células anteriores do Notebook 1 permanecem como registro, sem reexecução. [Resultados e alcance](../resultados/krijnen_cgal_v01/) · [Código e instruções](../consultas/krijnen_cgal_v01/) · [Artigo e fonte dos autores](../referencias/krijnen_cgal_v01/).

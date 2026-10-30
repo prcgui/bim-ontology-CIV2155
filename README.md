@@ -8,6 +8,8 @@ O [ensaio parcial de Krijnen et al. (2020)](resultados/krijnen_cgal_v01/) acresc
 
 A implementação reutiliza operações do [código dos autores citado no artigo](https://doi.org/10.5281/zenodo.3633653) e explicita as diferenças de interpretação IFC e de preparação geométrica. [Fontes e PDF](referencias/krijnen_cgal_v01/) · [Código do ensaio](consultas/krijnen_cgal_v01/) · [Comparação por parede](resultados/krijnen_cgal_v01/Comparacao_Paredes_IFC2SB_CGAL_v01.csv). A reprodução integral do programa de 2020 e a delimitação semântica completa não são declaradas como concluídas.
 
+O [Notebook 1, revisão 05](notebooks/01_Conversao_Arquitetura_IFC_LBD_v05.ipynb) incorpora as avaliações ao RDF. O [Notebook 7](notebooks/07_Auditoria_Krijnen_CGAL_v01.ipynb) reúne a auditoria executada dos registros e a opção de reexecução do motor em Linux. As etapas anteriores do Notebook 1 são preservadas como registro e não foram reexecutadas nessa revisão.
+
 ## Tema
 
 **Transformação de dados BIM em OWL: estudo do projeto padrão de uma creche do FNDE.**
