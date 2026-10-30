@@ -41,4 +41,8 @@ O [Notebook 3](notebooks/03_Organizacao_e_Exploracao.ipynb) conserva os cinco gr
 
 [Explorador integrado](https://prcgui.github.io/bim-ontology-CIV2155/) · [Explorador N1 preservado](https://prcgui.github.io/bim-ontology-CIV2155/arquitetura-n1.html) · [Método e limites](docs/Organizacao_e_Exploracao.md) · [Resultados primários](resultados/organizacao/README.md) · [Referências aplicadas](referencias/organizacao/README.md) · [Abrir N3 no Colab](https://colab.research.google.com/github/prcgui/bim-ontology-CIV2155/blob/main/notebooks/03_Organizacao_e_Exploracao.ipynb).
 
-A extensão melhora o contexto e a verificação das informações. Não demonstra aumento de acurácia geométrica ou ganho mensurado de usabilidade. Os três ambientes inconclusivos permanecem sem contagem. O manuscrito atual não foi localizado nas pastas de redação verificadas; foi preparado um [texto delimitado para incorporação](docs/Contribuicoes_para_Artigo.md), sem afirmar revisão ou paginação do artigo completo.
+A extensão melhora o contexto e a verificação das informações. Não demonstra aumento de acurácia geométrica ou ganho mensurado de usabilidade. Os três ambientes inconclusivos permanecem sem contagem.
+
+## Limitações e requisitos para o artigo
+
+A [matriz de limitações, evidências e requisitos](docs/Matriz_Limitacoes_e_Requisitos.md) relaciona dez dificuldades aos requisitos de informação da consulta pretendida, com referências e limites por caso. A [estrutura do artigo](docs/Estrutura_do_Artigo.md) organiza o raciocínio e distingue resultados demonstrados de recomendações ainda não testadas. O [rascunho assistido em Word e o material de redação](https://drive.google.com/drive/u/0/folders/1_0SFMbtcwTkfS2TFBsXS2E5VSXTXy5fJ) ficam no Drive; as revisões editoriais e os registros de conferência permanecem no arquivo técnico.
