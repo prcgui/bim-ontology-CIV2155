@@ -1,0 +1,4 @@
+﻿procedimento,TP,FP,FN,TN,precisao_no_recorte,sensibilidade_no_recorte,casos_determinados,indeterminados,previsoes_fora_da_referencia
+Consulta_N1_v03_parede_abertura,4,2,4,4,0.6666666666666666,0.5,14,1,[]
+IFC2SB_parcial_v04,8,0,0,6,1.0,1.0,14,1,[]
+Hibrido_consolidado_v08,8,0,0,6,1.0,1.0,14,1,[]

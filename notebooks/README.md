@@ -1,5 +1,15 @@
 # Notebooks do estudo
 
+## Notebook 1 v08 — rotina consolidada e conferência no projeto
+
+[Versão atual executada](01_Conversao_Arquitetura_IFC_LBD_v08.ipynb) · [Resultados e evidências](../resultados/consolidacao_hibrido_v01/) · [Pranchas e referência documental](../referencias/consolidacao_hibrido_v01/).
+
+Oito células reorganizam o fluxo em uma chamada de previsão, conferência posterior e integração ao grafo completo. São 59 controles aprovados. IFC2SB e Kiavarz são reexecutados; a conversão e os resultados CGAL anteriores são reaproveitados por hash. A previsão não recebe a referência documental como entrada. Lilis permanece opcional e desativado no núcleo da execução registrada.
+
+Nos 14 casos determinados, o híbrido associa corretamente oito esquadrias e exclui seis objetos vizinhos; a JA-09 permanece indeterminada devido ao conflito entre pranchas. O IFC2SB parcial v04 já mantém esses mesmos acertos. A comparação com a listagem v03 é exploratória: avalia o que ocorreria ao usá-la como pertencimento, apesar da advertência original de que o caminho por parede não demonstra essa relação. A conferência não é cega nem revista por especialista e não certifica todos os 41 cômodos ou todas as superfícies.
+
+O arquivo preserva o grafo principal anterior e acrescenta relações específicas para esquadrias, outros preenchimentos, candidatos internos e componentes sem FillsVoids. As versões anteriores permanecem históricas; a v08 é um notebook reorganizado, sem acumular novamente todas as células anteriores.
+
 ## Notebook 9 e Notebook 1 v07 — ensaio parcial de Lilis
 
 [Notebook 9 executado](09_Lilis_Hibrido_Cozinha_v01.ipynb) · [Notebook 1 completo v07](01_Conversao_Arquitetura_IFC_LBD_v07.ipynb) · [Resultados, fontes e limites](../resultados/lilis_hibrido_v01/).

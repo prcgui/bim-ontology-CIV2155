@@ -1,0 +1,173 @@
+{
+  "fonte_referencia": "C:\\Users\\prcgu\\OneDrive\\Documentos\\ChatGPT\\Artigo da Disciplina BIM\\desenvolvimento\\consolidacao_hibrido_v01\\execucao_notebook\\referencias\\Referencia_Documental_Cozinha_R03.json",
+  "sha256_referencia": "eecfa8e1b0a00998cdc42502bfcc23cfd8a5646c6f534de594794556c23382f0",
+  "relacao_avaliada": "Porta/janela principal localizada em um limite da cozinha; não contenção volumétrica integral, abertura física de folha ou ligação funcional comprovada em uso.",
+  "metricas": [
+    {
+      "procedimento": "Consulta_N1_v03_parede_abertura",
+      "TP": 4,
+      "FP": 2,
+      "FN": 4,
+      "TN": 4,
+      "precisao_no_recorte": 0.6666666666666666,
+      "sensibilidade_no_recorte": 0.5,
+      "casos_determinados": 14,
+      "indeterminados": 1,
+      "previsoes_fora_da_referencia": []
+    },
+    {
+      "procedimento": "IFC2SB_parcial_v04",
+      "TP": 8,
+      "FP": 0,
+      "FN": 0,
+      "TN": 6,
+      "precisao_no_recorte": 1.0,
+      "sensibilidade_no_recorte": 1.0,
+      "casos_determinados": 14,
+      "indeterminados": 1,
+      "previsoes_fora_da_referencia": []
+    },
+    {
+      "procedimento": "Hibrido_consolidado_v08",
+      "TP": 8,
+      "FP": 0,
+      "FN": 0,
+      "TN": 6,
+      "precisao_no_recorte": 1.0,
+      "sensibilidade_no_recorte": 1.0,
+      "casos_determinados": 14,
+      "indeterminados": 1,
+      "previsoes_fora_da_referencia": []
+    }
+  ],
+  "recuperados_vs_consulta_v03": [
+    "0wPWb0MMPB4fIt63Wr561W",
+    "1GA_BKTQ11re2ONp_LaBjt",
+    "2gFlVdRqv1I8I1BeRhOgAU",
+    "3d_vFlGOv3KP97Xx9CDsPh"
+  ],
+  "associacoes_indevidas_removidas_vs_v03": [
+    "1TYUzaGPfAJRH9yn9Ryl8A",
+    "3aeAlxh_13aAsFE9GaRC63"
+  ],
+  "diferencas_esquadrias_vs_IFC2SB_v04": {
+    "adicionadas": [],
+    "removidas": []
+  },
+  "casos_documentais_indeterminados": [
+    {
+      "id": "R09",
+      "guid": "2rpo8JwSv5ChvJw5HNm$2i",
+      "nome": "JA-09",
+      "pertence_a_cozinha": "indeterminado",
+      "tipo_documental": "janela",
+      "justificativa": "A planta geral 02 mostra JA-09 no lado leste da cozinha, acima da PA2. A planta ampliada 24 e a vista 02 da prancha 25 não representam essa janela. O IFC contém JA-09 nessa posição. Divergência documental preservada.",
+      "evidencia": "02: planta geral; conflito com 24: planta e 25: vista 02"
+    }
+  ],
+  "componentes_sem_FillsVoids": {
+    "metricas_separadas": {
+      "TP": 2,
+      "FP": 0,
+      "FN": 0,
+      "TN": 1,
+      "precisao_no_recorte": 1.0,
+      "sensibilidade_no_recorte": 1.0,
+      "casos_determinados": 3,
+      "indeterminados": 1,
+      "previsoes_fora_da_referencia": []
+    },
+    "casos": [
+      {
+        "id": "A01",
+        "guid": "3NmG5SvsDBEQCwLVxHBEXO",
+        "nome": "V02",
+        "pertence_a_cozinha": "sim",
+        "justificativa": "Componente do lado externo da JA-10 norte; as ampliações indicam requadro para tela mosquiteiro. A correspondência funcional é uma leitura documental por posição, não IfcRelFillsElement.",
+        "evidencia": "24: planta, projeção do requadro; 25: vista 04",
+        "preenchimento_alvo": "3d_vFlGOv3KP97Xx9CDsPh",
+        "previsto": true,
+        "resultado_conferencia": "acerto_associacao"
+      },
+      {
+        "id": "A02",
+        "guid": "1ROl3k7M13kBxaPL3_nLJR",
+        "nome": "V02",
+        "pertence_a_cozinha": "sim",
+        "justificativa": "Componente do lado externo da JA-10 central; requadro para tela mosquiteiro indicado na ampliação.",
+        "evidencia": "24: planta, projeção do requadro; 25: vista 04",
+        "preenchimento_alvo": "1GA_BKTQ11re2ONp_LaBjt",
+        "previsto": true,
+        "resultado_conferencia": "acerto_associacao"
+      },
+      {
+        "id": "A03",
+        "guid": "3HRLDPQD53HOaeAXMXycXp",
+        "nome": "V02",
+        "pertence_a_cozinha": "indeterminado",
+        "justificativa": "Componente junto à JA-09 do IFC. A própria JA-09 diverge entre a planta geral e as ampliações.",
+        "evidencia": "02; conflito com 24 e 25",
+        "preenchimento_alvo": "2rpo8JwSv5ChvJw5HNm$2i",
+        "previsto": true,
+        "resultado_conferencia": "indeterminado_documental"
+      },
+      {
+        "id": "A04",
+        "guid": "3aOIzdLML6AxJa_cBrbrhU",
+        "nome": "V02",
+        "pertence_a_cozinha": "nao",
+        "justificativa": "Componente junto à janela externa da despensa, sem ligação direta com a cozinha.",
+        "evidencia": "02; 26: despensa",
+        "preenchimento_alvo": "3Y94GCHOLCFx2AyfF7cwT5",
+        "previsto": false,
+        "resultado_conferencia": "acerto_exclusao"
+      }
+    ]
+  },
+  "elementos_internos": {
+    "referenciados": 10,
+    "candidatos_encontrados": 10,
+    "referenciados_recuperados": [
+      "0m8CetgqbC3OnOpkIkk9rr",
+      "0xeworUf99ywn9AEwFgu0p",
+      "1$SMxFZtnFzw$31i87svwg",
+      "1AMoqYFXX6BRJcxKVqHmrr",
+      "1Qgi9fV251vRB5VwiIGFG5",
+      "1Yq436NaT5JP4MiMyJzmiU",
+      "2QW$G1Kjn80hKgGN6FK712",
+      "2Wuvw8xbr5MuWJuA4De53m",
+      "2xbNdCu_H4Zg3HLTWasIQ4",
+      "3YjsmNXlH0M9Qa1uC_lH61"
+    ],
+    "nao_recuperados": [],
+    "fora_referencia": [],
+    "limite": "Candidatos internos por localização e compatibilidade visual com alvenarias de apoio. Sem ensaio independente de todas as paredes, lajes, coberturas, mobiliário ou instalações."
+  },
+  "outros_preenchimentos": [
+    {
+      "id": "A011",
+      "interface": "I_W12_F002_R19_P0",
+      "parede": "1MP67OoNnCXvzNtb_rZWb1",
+      "abertura": "3jgqqodbWPKg146xEcFt2w",
+      "preenchimento": "1WwmmrGEXC28n24XX__DfU",
+      "classe_preenchimento": "IfcWall",
+      "nome_preenchimento": "AL25",
+      "relacao_voids": "2iCJSw0TjZmstCBc7tNC0X",
+      "relacao_fills": "0ZhOqG0gpW5vGDKLHPMbnd",
+      "recortes_ifc2sb": [
+        "W12_O01_F02"
+      ],
+      "area_recorte_m2": 0.061999999999844485,
+      "wkt": "POLYGON Z ((-10.492553802191201 11.750135485677349 0.16, -10.492553802191201 11.770135485677299 0.16, -10.492553802191201 11.770135485677299 3.2600000000000002, -10.492553802191201 11.750135485677349 3.2599999999999998, -10.492553802191201 11.750135485677349 0.16))",
+      "qualificada_no_criterio": true,
+      "validacao_arquitetonica": "pendente"
+    }
+  ],
+  "limites": [
+    "Caso único e conferência não cega; não demonstra desempenho em outros edifícios ou cômodos.",
+    "A comparação principal abrange 8 casos positivos, 6 negativos e 1 indeterminado; não estima taxa global em todos os produtos IFC.",
+    "Somente portas/janelas principais são usadas nas métricas. Componentes V02 e alvenarias têm avaliação separada.",
+    "Paredes/interfaces recebem inspeção documental localizada; não há padrão-ouro exaustivo de todas as 14 superfícies 3D."
+  ],
+  "conclusao": "Ganho frente à consulta transitiva v03: quatro esquadrias recuperadas e duas associações vizinhas removidas. Sem ganho de contagem frente ao IFC2SB parcial v04. A rotina agrega interfaces, proveniência, dez candidatos internos e componentes sem FillsVoids. JA-09 permanece indeterminada documentalmente."
+}

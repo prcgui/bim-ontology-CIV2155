@@ -1,5 +1,9 @@
 # Resultados
 
+## Consolidação do Notebook 1 v08 e conferência documental da cozinha
+
+[Relatório, comparações e grafo completo](consolidacao_hibrido_v01/) · [Notebook executado](../notebooks/01_Conversao_Arquitetura_IFC_LBD_v08.ipynb). A conferência usa as pranchas oficiais R03 02 e 24–26. Nos 14 casos determinados: oito associações corretas, seis exclusões corretas e nenhuma omissão; JA-09 indeterminada por conflito documental. O IFC2SB parcial já alcançava o mesmo conjunto de esquadrias. A consolidação acrescenta organização por interface, candidatos internos/componentes e integração ao grafo completo preservado. As referências, o caráter exploratório da comparação com a listagem por parede e os limites da avaliação estão detalhados nos resultados.
+
 ## Lilis no código híbrido da cozinha
 
 O [ensaio parcial executado](lilis_hibrido_v01/) adapta projeção, interseção e subtração de polígonos a partir de Lilis et al. (2026). Mantém dez aberturas distintas; produz 12 recortes candidatos, com 11 apoiados pelo volume 3D e um adicional de 0,062 m² por projeção. Os 20 controles passaram. O RDF preserva 2.559 triplas e passa a 3.244. A contribuição observada é geométrica e comparativa, sem melhora de acurácia arquitetônica demonstrada. Alpha wrap e validação arquitetônica permanecem pendentes. [Notebook 9 executado](../notebooks/09_Lilis_Hibrido_Cozinha_v01.ipynb) · [Notebook 1 v07](../notebooks/01_Conversao_Arquitetura_IFC_LBD_v07.ipynb).

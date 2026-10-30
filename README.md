@@ -2,6 +2,24 @@
 
 Projeto acadêmico desenvolvido no âmbito da disciplina CIV2155, dedicado à organização e à representação semântica de informações BIM por meio de ontologias.
 
+## Notebook 1 v08 · rotina consolidada e conferência documental da cozinha
+
+[Notebook 1 v08 executado](notebooks/01_Conversao_Arquitetura_IFC_LBD_v08.ipynb) · [Resultados e relatório](resultados/consolidacao_hibrido_v01/) · [Rotina única](consultas/consolidacao_hibrido_v01/) · [Pranchas oficiais e referência caso a caso](referencias/consolidacao_hibrido_v01/).
+
+A rotina reexecuta os recortes IFC2SB parciais e as interfaces adaptadas de Kiavarz, mantendo as avaliações CGAL como entradas verificadas. Lilis permanece comparação opcional. O complemento é ligado por GUID às identidades do grafo completo anterior, que permanece preservado. O perfil está restrito à cozinha FNDE ARQ-DTV R03.
+
+Na conferência das pranchas 02, 24, 25 e 26, oito esquadrias têm referência positiva e seis objetos vizinhos têm referência negativa. O híbrido acertou esses 14 casos, com zero associações indevidas e zero omissões. A JA-09 ficou indeterminada por divergência entre a planta geral e as ampliações. A conferência é documental, assistida por IA, sem revisão cega por especialista.
+
+| Procedimento no mesmo recorte | Associações corretas | Indevidas | Omissões |
+|---|---:|---:|---:|
+| Listagem v03 por parede, se usada como hipótese de pertencimento | 4 | 2 | 4 |
+| IFC2SB parcial v04 | 8 | 0 | 0 |
+| Híbrido consolidado v08 | 8 | 0 | 0 |
+
+A v03 já advertia que a cadeia parede–abertura–preenchimento **não prova pertencimento ao cômodo**. A primeira linha avalia essa listagem como hipótese exploratória; não transforma a advertência da v03 em uma alegação de classificação arquitetônica. O ganho demonstrado é frente à utilização da listagem por parede para essa pergunta. Frente ao IFC2SB parcial, o híbrido mantém os acertos e acrescenta organização por interface, proveniência e integração ao grafo principal.
+
+A saída distingue nove esquadrias geometricamente associadas (incluindo a JA-09 pendente), outro preenchimento IfcWall AL25, dez elementos internos candidatos e três componentes sem FillsVoids candidatos. Esses conjuntos têm significados diferentes e não são somados como nove ou vinte e três “portas e janelas”. A validação exaustiva de superfícies, demais categorias e outros cômodos permanece pendente. As versões v03–v07 continuam preservadas como histórico.
+
 ## Ensaio parcial de Lilis · Notebook 1 v07
 
 [Notebook 1 v07](notebooks/01_Conversao_Arquitetura_IFC_LBD_v07.ipynb) · [Notebook 9 independente](notebooks/09_Lilis_Hibrido_Cozinha_v01.ipynb) · [Resultados e limites](resultados/lilis_hibrido_v01/).

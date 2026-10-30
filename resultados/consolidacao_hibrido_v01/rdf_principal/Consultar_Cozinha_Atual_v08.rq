@@ -1,0 +1,10 @@
+PREFIX con: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/consolidado#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?ambiente ?elemento ?guid ?nome ?abertura ?statusDocumental WHERE {
+ ?ambiente props:globalIdIfcRoot_attribute_simple ?guidAmbiente; con:esquadriaAssociada ?elemento .
+ FILTER(STR(?guidAmbiente) = "3UFjAT4k55zg_Pqo6VMw5l")
+ ?elemento props:globalIdIfcRoot_attribute_simple ?guid; con:aberturaFonte ?abertura .
+ OPTIONAL { ?elemento rdfs:label ?nome }
+ OPTIONAL { ?elemento con:statusDocumental ?statusDocumental }
+} ORDER BY ?guid

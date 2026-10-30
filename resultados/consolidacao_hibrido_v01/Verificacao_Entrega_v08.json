@@ -1,0 +1,81 @@
+{
+  "notebook": "01_Conversao_Arquitetura_IFC_LBD_v08.ipynb",
+  "celulas_executadas": 8,
+  "erros": 0,
+  "sha256_notebook": "1653ba4fb1d669f098f5688d9f086a8911337ae5a48792ce404dff13f0405dd8",
+  "snapshot_pacote": "8301fc9238e0e15a6874b7dc8f4d5882e8695cef",
+  "sha256_pacote": "b06d5c3dd942991250f03c25cd7fa4a7ef9e7910878c448a78e18237670ba8df",
+  "controles_aprovados": 59,
+  "metricas": [
+    {
+      "procedimento": "Consulta_N1_v03_parede_abertura",
+      "TP": 4,
+      "FP": 2,
+      "FN": 4,
+      "TN": 4,
+      "precisao_no_recorte": 0.6666666666666666,
+      "sensibilidade_no_recorte": 0.5,
+      "casos_determinados": 14,
+      "indeterminados": 1,
+      "previsoes_fora_da_referencia": []
+    },
+    {
+      "procedimento": "IFC2SB_parcial_v04",
+      "TP": 8,
+      "FP": 0,
+      "FN": 0,
+      "TN": 6,
+      "precisao_no_recorte": 1.0,
+      "sensibilidade_no_recorte": 1.0,
+      "casos_determinados": 14,
+      "indeterminados": 1,
+      "previsoes_fora_da_referencia": []
+    },
+    {
+      "procedimento": "Hibrido_consolidado_v08",
+      "TP": 8,
+      "FP": 0,
+      "FN": 0,
+      "TN": 6,
+      "precisao_no_recorte": 1.0,
+      "sensibilidade_no_recorte": 1.0,
+      "casos_determinados": 14,
+      "indeterminados": 1,
+      "previsoes_fora_da_referencia": []
+    }
+  ],
+  "figuras": [
+    {
+      "arquivo": "Comparacao_Acertos_Erros_Omissoes.png",
+      "identica_a_figura_inspecionada": true,
+      "sha256": "bc1ebc957df48e83f825a59ab7520f9f639ae3bed5cc51595480c6aed359ff40"
+    },
+    {
+      "arquivo": "Mapa_Casos_Conferidos_IFC.png",
+      "identica_a_figura_inspecionada": true,
+      "sha256": "4812a406f88c5b8b0f123aa6ea4693e9f4514ade305ffa69988b241462aad0bb"
+    },
+    {
+      "arquivo": "Elementos_Internos_Candidatos.png",
+      "identica_a_figura_inspecionada": true,
+      "sha256": "ad2e7f8cecad922ab1f66ef56764aea114b78fc33d8059df4de9f22c7e87ba91"
+    }
+  ],
+  "integracao": {
+    "triplas_base_historica": 117591,
+    "triplas_uniao_atual": 120191,
+    "triplas_complemento": 2649,
+    "produtos_mapeados_por_GUID": 75,
+    "esquadrias_consulta_distintas": 9,
+    "linhas_consulta_com_labels": 9,
+    "prefixo_base_preservado_bytes": 186157711,
+    "sha256_prefixo_base": "7694e6bc327485ae320de14e51cc3229f43b0574e922a84454129428387af9db",
+    "sha256_saida": "caa11e9c3e0e196df14a3a3265b35498e6ad6b9b46d5df569cb9602887f5db14",
+    "consulta_reaberta_aprovada": true,
+    "limite": "Preserva o grafo anterior e seus diagnósticos; a consulta atual usa con:esquadriaAssociada, sem transitividade via parede."
+  },
+  "fontes_e_pranchas_por_hash": true,
+  "base_original_preservada": true,
+  "nota_editorial": "Escopo da comparação v03 explicitado em Markdown/HTML após execução; código e resultados numéricos preservados.",
+  "limites": "Conferência documental assistida por IA, caso único; JA-09 pendente; sem validação exaustiva de superfícies ou outros ambientes."
+}
