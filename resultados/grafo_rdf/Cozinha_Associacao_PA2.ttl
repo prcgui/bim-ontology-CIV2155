@@ -1,0 +1,48 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/analise/recorte/3UFjAT4k55zg_Pqo6VMw5l/A003> a civ:RecorteAbertura ;
+    civ:aberturaFonte <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/ifcowl_ifcopeningelement_30f150cd-fc86-5ac9-3912-e9c4ef4f08de> ;
+    civ:areaM2 1.75545e+00 ;
+    civ:interfaceFonte <https://github.com/prcgui/bim-ontology-CIV2155/id/analise/interface/3UFjAT4k55zg_Pqo6VMw5l/0XAHc8zyr1YuL0AWxiP2D2_F045_R21_P0> ;
+    civ:preenchimento <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/door_635ce975-23cf-4af7-a4a9-5f520d56938b> ;
+    civ:qualificada true .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/analise/resultado/3UFjAT4k55zg_Pqo6VMw5l> a civ:ResultadoPorAmbiente ;
+    civ:ambiente <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f> ;
+    civ:esquadriaAssociada <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/door_635ce975-23cf-4af7-a4a9-5f520d56938b> ;
+    civ:estado "associacao_executada" ;
+    civ:interface <https://github.com/prcgui/bim-ontology-CIV2155/id/analise/interface/3UFjAT4k55zg_Pqo6VMw5l/0XAHc8zyr1YuL0AWxiP2D2_F045_R21_P0> ;
+    civ:nome "COZINHA" ;
+    civ:quantidadeEsquadrias 9 .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/ifcowl_ifcopeningelement_30f150cd-fc86-5ac9-3912-e9c4ef4f08de> a <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#IfcOpeningElement>,
+        bot:Element ;
+    rdfs:label "PA2" ;
+    props:globalIdIfcRoot_attribute_simple "0myL3D$8PQoJaIwSJlJmZU" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f> a bot:Space ;
+    rdfs:label "04" ;
+    props:globalIdIfcRoot_attribute_simple "3UFjAT4k55zg_Pqo6VMw5l" ;
+    civ:resultado <https://github.com/prcgui/bim-ontology-CIV2155/id/analise/resultado/3UFjAT4k55zg_Pqo6VMw5l> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/wall_21291988-f7cd-418b-8540-2a0eec642342> a <https://pi.pauwel.be/voc/buildingelement#Wall>,
+        <https://pi.pauwel.be/voc/buildingelement#Wall-NOTDEFINED>,
+        bot:Element ;
+    rdfs:label "AL09" ;
+    props:globalIdIfcRoot_attribute_simple "0XAHc8zyr1YuL0AWxiP2D2" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/analise/interface/3UFjAT4k55zg_Pqo6VMw5l/0XAHc8zyr1YuL0AWxiP2D2_F045_R21_P0> a civ:Interface ;
+    civ:areaM2 6.509915e+00 ;
+    civ:paredeHospedeira <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/wall_21291988-f7cd-418b-8540-2a0eec642342> ;
+    civ:qualificada true .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/door_635ce975-23cf-4af7-a4a9-5f520d56938b> a <https://pi.pauwel.be/voc/buildingelement#Door>,
+        <https://pi.pauwel.be/voc/buildingelement#Door-NOTDEFINED>,
+        bot:Element ;
+    rdfs:label "PA2" ;
+    props:globalIdIfcRoot_attribute_simple "1ZNEbr8yzAzwIfNr8DLfEB" .
+

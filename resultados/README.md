@@ -1,5 +1,7 @@
 # Resultados da rotina selecionada
 
+[Ver o RDF em caixas, como na apresentação](grafo_rdf/README.md) · [Explorar os dados na aplicação](https://prcgui.github.io/bim-ontology-CIV2155/).
+
 | Resultado | Arquivo |
 |---|---|
 | Síntese da execução e do grafo entregue | [Resumo.json](Resumo.json) |

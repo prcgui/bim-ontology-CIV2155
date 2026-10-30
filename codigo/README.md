@@ -14,6 +14,7 @@ O ponto de entrada é o [Notebook 1](../notebooks/01_Arquitetura_IFC_RDF.ipynb).
 | `Vocabulario.ttl` | Define as classes e propriedades usadas nos resultados geométricos. |
 | `01_ambientes.rq`, `02_esquadrias.rq` | Consultas SPARQL executadas sobre o grafo entregue. |
 | `apresentar.py` | Produz a figura de cobertura mostrada no notebook e no repositório. |
+| `visualizar_rdf.py` | Lê o grafo entregue e desenha os recortes RDF em caixas: organização espacial, identidade da cozinha e associação com PA2. |
 
 **IFC2SB:** fonte RWTH-E3D/IFC2SB, commit `96a89cdff65f13279c0c3ce67e729ad9f9f5adad`. Foram adaptadas rotinas de `Kernel_pre.cpp`, `Kernel_occ.cpp` e `cFace.cpp`, conforme cabeçalho do módulo. Copyright de Eric Fichter e licença GPL-3.0-or-later preservados em [COPYING](COPYING). A adaptação utiliza OCP em Python e não executa integralmente o programa dos autores, o outer hull ou sua reconstrução completa de limites.
 

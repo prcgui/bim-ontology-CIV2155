@@ -1,0 +1,224 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/site_803f3763-3344-fc0b-9adf-4e2dede129a8> a bot:Site ;
+    rdfs:label "PADRÃO" ;
+    bot:hasBuilding <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/building_00dd6c87-6a6e-f482-7490-e6613659708a> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/building_00dd6c87-6a6e-f482-7490-e6613659708a> a bot:Building ;
+    rdfs:label "CRECHE PRÉ-ESCOLA TIPO 2" ;
+    bot:hasStorey <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/storey_3ca2f253-281d-4fdd-bc52-48b872b548cd>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/storey_40eecf3b-2a1f-a44a-93b9-e4b1dd87b9d4> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_03fbb3d2-8cec-4d81-a3b6-f4109724b3d5> a bot:Space ;
+    rdfs:label "04" ;
+    props:longNameIfcSpatialElement_attribute_simple "COPA FUNCIONÁRIOS" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_095139dc-3826-415a-aa40-867ca7c7929f> a bot:Space ;
+    rdfs:label "32" ;
+    props:longNameIfcSpatialElement_attribute_simple "CIRCULAÇÃO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_132a9591-1f34-426d-b12d-5f169e5c35ca> a bot:Space ;
+    rdfs:label "11" ;
+    props:longNameIfcSpatialElement_attribute_simple "SANIT. INFANTIL FEM." .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_18aab817-0e5e-4a87-a50d-62157adfc891> a bot:Space ;
+    rdfs:label "06" ;
+    props:longNameIfcSpatialElement_attribute_simple "INFANTIL 2/3" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_23c44aa0-b1fd-4455-8ae9-0d7cff1ff7a4> a bot:Space ;
+    rdfs:label "10" ;
+    props:longNameIfcSpatialElement_attribute_simple "FRALDÁRIO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_265787d1-8228-414d-9925-d859c736ec35> a bot:Space ;
+    rdfs:label "32" ;
+    props:longNameIfcSpatialElement_attribute_simple "CIRCULAÇÃO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_29b9da17-2ef2-4b72-a017-18746cd56f9c> a bot:Space ;
+    rdfs:label "05" ;
+    props:longNameIfcSpatialElement_attribute_simple "ADMINISTRAÇÃO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_36602c77-79f5-4b4a-a425-493788af0591> a bot:Space ;
+    rdfs:label "06" ;
+    props:longNameIfcSpatialElement_attribute_simple "INFANTIL 4" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_3d5d8a91-43f4-4762-bbbd-f21ad0c6ffed> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "VEST. FUNC. FEM." .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_41d43b3a-6fde-4dd3-94ab-5a3343b55ae4> a bot:Space ;
+    rdfs:label "04" ;
+    props:longNameIfcSpatialElement_attribute_simple "SALA PROF. / REUNIÕES" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_43f05c5e-0691-4e63-8b6b-068571ae8531> a bot:Space ;
+    rdfs:label "07" ;
+    props:longNameIfcSpatialElement_attribute_simple "SANIT. PCD FEM." .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_4a1d4377-4c41-4821-a1f5-32bdd761c397> a bot:Space ;
+    rdfs:label "32" ;
+    props:longNameIfcSpatialElement_attribute_simple "CIRCULAÇÃO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_51c9e078-da44-42d8-8652-d9f22d1ecf4e> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "LIXO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_553455d3-1d26-4a5d-9d86-05b5276fd52a> a bot:Space ;
+    rdfs:label "29" ;
+    props:longNameIfcSpatialElement_attribute_simple "SOLÁRIO - 3" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_5766c6e2-923b-472b-9f1b-dd3a5d71ad69> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "VEST. FUNC. MASC." .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_5e17dff5-4488-4291-abba-92395059a4d4> a bot:Space ;
+    rdfs:label "02" ;
+    props:longNameIfcSpatialElement_attribute_simple "AMAMENTAÇÃO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_67e1ca91-e974-4718-87b2-808c11833127> a bot:Space ;
+    rdfs:label "06" ;
+    props:longNameIfcSpatialElement_attribute_simple "SANIT. PCD MASC." .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_706bc547-34e6-4a34-adeb-b6f6234f12e6> a bot:Space ;
+    rdfs:label "05" ;
+    props:longNameIfcSpatialElement_attribute_simple "SALA DE ATENDIMENTO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_76c1deb0-2045-4362-b018-7e4fd3228245> a bot:Space ;
+    rdfs:label "07" ;
+    props:longNameIfcSpatialElement_attribute_simple "SALA MULTIUSO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_8600f390-0e41-48e4-b329-913a579a8477> a bot:Space ;
+    rdfs:label "06" ;
+    props:longNameIfcSpatialElement_attribute_simple "INFANTIL 5" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_866f4039-c7ae-4716-8b37-0fa8600f322b> a bot:Space ;
+    rdfs:label "06" ;
+    props:longNameIfcSpatialElement_attribute_simple "BERÇARIO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_87487f8c-a4d8-4bd0-97f9-b32623282fcd> a bot:Space ;
+    rdfs:label "29" ;
+    props:longNameIfcSpatialElement_attribute_simple "SOLÁRIO - 1" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_8e7d18cb-b8f0-473e-bb0b-f18eb0836408> a bot:Space ;
+    rdfs:label "02" ;
+    props:longNameIfcSpatialElement_attribute_simple "LACTÁRIO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_93877574-52bc-4f27-86b9-e94e8bc1a2ed> a bot:Space ;
+    rdfs:label "11" ;
+    props:longNameIfcSpatialElement_attribute_simple "PCD INFANTIL" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ab89d1e5-da58-487c-939e-3f75ffcb6194> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "PÁTIO COBERTO / REFEITÓRIO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ae015007-4728-4283-aea2-dfdf7d799ebb> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "PLAYGROUND" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bafcf281-109c-4e44-a23c-415bb33c335f> a bot:Space ;
+    rdfs:label "05" ;
+    props:longNameIfcSpatialElement_attribute_simple "DEPÓSITO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bbfa3934-1b3d-4529-a9c4-10714c19a7a4> a bot:Space ;
+    rdfs:label "06" ;
+    props:longNameIfcSpatialElement_attribute_simple "INFANTIL 1" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bd6f2750-0340-48e7-9361-326f94d1f5da> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "DESPENSA" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d547a7f0-291f-42b1-a92e-3fd73666b6c9> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "CASA DE BOMBAS" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d6aa9ab4-6278-435d-834d-7f1241c1cd3e> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "GÁS" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d762493a-e4ae-4433-9c62-813f2b077a13> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "CASTELO D'ÁGUA" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f> a bot:Space ;
+    rdfs:label "04" ;
+    props:longNameIfcSpatialElement_attribute_simple "COZINHA" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_e960019a-b982-420f-b59a-8e8ba39f8b44> a bot:Space ;
+    rdfs:label "06" ;
+    props:longNameIfcSpatialElement_attribute_simple "HIGIENIZAÇÃO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ed8ce420-4cf1-4709-b59a-59bbb9245b23> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "PLAYGROUND" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f60d387e-d797-418d-9b63-1207de7b3e45> a bot:Space ;
+    rdfs:label "11" ;
+    props:longNameIfcSpatialElement_attribute_simple "SANIT. INFANTIL MASC." .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f6222343-99a3-43d8-9f56-0ec91c2f8c48> a bot:Space ;
+    rdfs:label "32" ;
+    props:longNameIfcSpatialElement_attribute_simple "CIRCULAÇÃO" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f881095a-02f9-4c97-b1e8-19e378008b2b> a bot:Space ;
+    rdfs:label "01" ;
+    props:longNameIfcSpatialElement_attribute_simple "HALL DE ENTRADA" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fb6ec806-4cfe-4ae1-ae74-fdb80349529c> a bot:Space ;
+    rdfs:label "05" ;
+    props:longNameIfcSpatialElement_attribute_simple "LAVANDERIA / ROUPARIA" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fc0e0d23-1e3b-44a0-9097-4078eb964812> a bot:Space ;
+    rdfs:label "29" ;
+    props:longNameIfcSpatialElement_attribute_simple "SOLÁRIO - 2" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fef23785-b12a-446a-83b7-67b82e423e0b> a bot:Space ;
+    rdfs:label "03" ;
+    props:longNameIfcSpatialElement_attribute_simple "VARANDA DE SERVIÇO / DML" .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/storey_3ca2f253-281d-4fdd-bc52-48b872b548cd> a bot:Storey ;
+    rdfs:label "TÉRREO" ;
+    bot:hasSpace <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_03fbb3d2-8cec-4d81-a3b6-f4109724b3d5>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_095139dc-3826-415a-aa40-867ca7c7929f>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_132a9591-1f34-426d-b12d-5f169e5c35ca>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_18aab817-0e5e-4a87-a50d-62157adfc891>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_23c44aa0-b1fd-4455-8ae9-0d7cff1ff7a4>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_265787d1-8228-414d-9925-d859c736ec35>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_29b9da17-2ef2-4b72-a017-18746cd56f9c>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_36602c77-79f5-4b4a-a425-493788af0591>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_3d5d8a91-43f4-4762-bbbd-f21ad0c6ffed>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_41d43b3a-6fde-4dd3-94ab-5a3343b55ae4>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_43f05c5e-0691-4e63-8b6b-068571ae8531>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_4a1d4377-4c41-4821-a1f5-32bdd761c397>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_51c9e078-da44-42d8-8652-d9f22d1ecf4e>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_553455d3-1d26-4a5d-9d86-05b5276fd52a>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_5766c6e2-923b-472b-9f1b-dd3a5d71ad69>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_5e17dff5-4488-4291-abba-92395059a4d4>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_67e1ca91-e974-4718-87b2-808c11833127>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_706bc547-34e6-4a34-adeb-b6f6234f12e6>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_76c1deb0-2045-4362-b018-7e4fd3228245>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_8600f390-0e41-48e4-b329-913a579a8477>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_866f4039-c7ae-4716-8b37-0fa8600f322b>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_87487f8c-a4d8-4bd0-97f9-b32623282fcd>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_8e7d18cb-b8f0-473e-bb0b-f18eb0836408>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_93877574-52bc-4f27-86b9-e94e8bc1a2ed>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ab89d1e5-da58-487c-939e-3f75ffcb6194>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ae015007-4728-4283-aea2-dfdf7d799ebb>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bafcf281-109c-4e44-a23c-415bb33c335f>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bbfa3934-1b3d-4529-a9c4-10714c19a7a4>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bd6f2750-0340-48e7-9361-326f94d1f5da>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d547a7f0-291f-42b1-a92e-3fd73666b6c9>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d6aa9ab4-6278-435d-834d-7f1241c1cd3e>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_d762493a-e4ae-4433-9c62-813f2b077a13>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_e960019a-b982-420f-b59a-8e8ba39f8b44>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ed8ce420-4cf1-4709-b59a-59bbb9245b23>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f60d387e-d797-418d-9b63-1207de7b3e45>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f6222343-99a3-43d8-9f56-0ec91c2f8c48>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_f881095a-02f9-4c97-b1e8-19e378008b2b>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fb6ec806-4cfe-4ae1-ae74-fdb80349529c>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fc0e0d23-1e3b-44a0-9097-4078eb964812>,
+        <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fef23785-b12a-446a-83b7-67b82e423e0b> .
+
+<https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/storey_40eecf3b-2a1f-a44a-93b9-e4b1dd87b9d4> a bot:Storey ;
+    rdfs:label "COBERTURA" .
+

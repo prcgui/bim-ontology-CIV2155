@@ -4,6 +4,10 @@
 
 O trabalho converte um modelo IFC em RDF e acrescenta associações geométricas entre ambientes, paredes, aberturas e esquadrias. O [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) reúne o procedimento executável, as explicações e as referências.
 
+**Ver o RDF:** [Imagens em caixas](resultados/grafo_rdf/README.md) · [Explorar a aplicação](https://prcgui.github.io/bim-ontology-CIV2155/) · [Código da aplicação](visualizacao/README.md).
+
+![Recorte RDF da cozinha, com recursos, relações e valores](resultados/grafo_rdf/Cozinha_Identidade.png)
+
 | Para conhecer o trabalho | Onde consultar |
 |---|---|
 | O que foi feito e como | [Método e alcance](docs/Metodo_e_Alcance.md) |
