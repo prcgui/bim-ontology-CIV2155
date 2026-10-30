@@ -1,0 +1,6 @@
+PREFIX mu: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/aprimoramento#>
+SELECT ?resultado ?ambiente ?nome ?estado ?quantidade ?esquadria WHERE {
+ ?resultado a mu:ResultadoPorAmbiente; mu:ambiente ?ambiente; mu:nome ?nome; mu:estado ?estado .
+ OPTIONAL {?resultado mu:quantidadeEsquadrias ?quantidade}
+ OPTIONAL {?resultado mu:esquadriaAssociada ?esquadria}
+} ORDER BY ?nome ?resultado ?esquadria

@@ -1,5 +1,9 @@
 # Resultados
 
+## Aprimoramento orientado pela literatura · Notebook 1 v10
+
+[Análise minuciosa, comparação e grafo](aprimoramento_n1_v10/) · [Notebook 1 v10](../notebooks/01_Conversao_Arquitetura_IFC_LBD_v10.ipynb). A triagem dos 57 documentos bibliográficos/técnicos do acervo inicial orientou preparo controlado, normalização planar rastreada e novas auditorias. Associação em 38/41 espaços, contra 29/41; 101 pares com os 74 anteriores preservados. Na mesma amostra documental: 39/43 positivos confirmados, uma omissão processada, três positivos sem resultado por preparo, 37 exclusões corretas e dois negativos não avaliáveis; JA-09 indeterminada. São 106 controles, ablação, ensaio 2D separado e validação SHACL da união RDF. As limitações e a natureza não cega da amostra permanecem explícitas.
+
 ## Aplicação multiambientes · Notebook 1 v09
 
 [Cobertura dos 41 espaços, relatório e grafo](multiambientes_v01/) · [Notebook 1 v09](../notebooks/01_Conversao_Arquitetura_IFC_LBD_v09.ipynb). O núcleo chegou à associação em 29 espaços e registrou preparo inconclusivo em 12, mantendo os motivos e contagens indisponíveis. Na amostra documental de 14 ambientes: 35 associações e 33 exclusões corretas nos casos processados; oito positivos não recuperados pelo preparo de três ambientes; JA-09 indeterminada. A aplicação computacional aos 41 espaços e a conferência da amostra são apresentadas separadamente.

@@ -1,0 +1,130 @@
+{
+  "total": 16,
+  "aprovados": 16,
+  "controles": [
+    {
+      "controle": "geometria_valida_mantem_caminho_estrito",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "abertura_de_faces_vira_solido_sem_caixa",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "healing_nao_inventa_face_ausente",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "limiar_healing_limitado_a_um_decimo_de_milimetro",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "guardas_rejeitam_corpo_deslocado",
+      "aprovado": true,
+      "evidencia": {
+        "faces_entrada": 6,
+        "faces_saida": 6,
+        "delta_area_rel": 0.0,
+        "delta_bbox_max_m": 0.010000000000000009,
+        "hausdorff_vertices_m": 0.010000000000000009,
+        "aceito_guardas": false
+      }
+    },
+    {
+      "controle": "projecao_micrometrica_rastreada",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "deformacao_de_um_milimetro_nao_e_planaridade_numerica",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "falha_isolada_nao_apaga_faces_hospedeiras",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "particao_conserva_uniao_sem_somar_sobreposicao",
+      "aprovado": true,
+      "evidencia": {
+        "soma_m2": 4.0,
+        "uniao_m2": 3.0,
+        "particao_m2": 3.0,
+        "excesso_m2": 1.0,
+        "erro_balanco_m2": 0.0
+      }
+    },
+    {
+      "controle": "particao_preserva_hospedeiros_concorrentes",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "particao_nao_preenche_vazio",
+      "aprovado": true,
+      "evidencia": {
+        "soma_m2": 12.0,
+        "uniao_m2": 12.0,
+        "particao_m2": 12.0,
+        "excesso_m2": 0.0,
+        "erro_balanco_m2": 0.0
+      }
+    },
+    {
+      "controle": "todos_vertices_internos_nao_provam_contencao_em_sala_concava",
+      "aprovado": true,
+      "evidencia": {
+        "volume_elemento_m3": 0.9999999999999998,
+        "volume_comum_m3": 0.4999999999999999,
+        "volume_fora_m3": 0.4999999999999999,
+        "limiar_volume_m3": 9.999999999999997e-07,
+        "contencao_confirmada": false,
+        "balanco_volume_erro_m3": 0.0
+      }
+    },
+    {
+      "controle": "contencao_volumetrica_corpo_interno",
+      "aprovado": true,
+      "evidencia": {
+        "volume_elemento_m3": 0.12499999999999993,
+        "volume_comum_m3": 0.12499999999999993,
+        "volume_fora_m3": 0,
+        "limiar_volume_m3": 1.2499999999999991e-07,
+        "contencao_confirmada": true,
+        "balanco_volume_erro_m3": 0.0
+      }
+    },
+    {
+      "controle": "contencao_sem_solido_fica_inconclusiva",
+      "aprovado": true,
+      "evidencia": null
+    },
+    {
+      "controle": "secao_2d_de_dimensoes_conhecidas",
+      "aprovado": true,
+      "evidencia": {
+        "estado": "contorno_fechado_2d",
+        "area_m2": 1.0,
+        "poligonos_encontrados": 1,
+        "segmentos": 8,
+        "linhas_soltas_m": 0.0,
+        "wkt": "POLYGON ((1 0, 0.5 0, 0 0, 0 0.5, 0 1, 0.5 1, 1 1, 1 0.5, 1 0))",
+        "limite": "Maior polígono fechado do corte, preservando seus anéis. Pode representar somente parte de espaço desconectado."
+      }
+    },
+    {
+      "controle": "ausencia_contorno_nao_vira_caixa",
+      "aprovado": true,
+      "evidencia": {
+        "estado": "sem_segmentos_no_corte"
+      }
+    }
+  ],
+  "limite": "Controles analíticos/adversariais; avaliação documental é outro conjunto de evidências."
+}

@@ -1,0 +1,226 @@
+{
+  "operador": "Common + Cut OCP; não GRC/BSP integral.",
+  "limite": "Relação geométrica local. Não cria função arquitetônica, decomposição ou pertencimento exclusivo.",
+  "pares_candidatos": 27,
+  "confirmados": 0,
+  "nao_confirmados": 0,
+  "inconclusivos": 27,
+  "pares": [
+    {
+      "ambiente": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_ambiente": "SANIT. INFANTIL FEM.",
+      "elemento": "2L$9waG2TC5g5VjZE0t0bK",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_ambiente": "SANIT. INFANTIL FEM.",
+      "elemento": "04KJ3J$y19LviDc9Eza6_b",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_ambiente": "FRALDÁRIO",
+      "elemento": "1kE0u_4S51RPLinctTD4M5",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_ambiente": "FRALDÁRIO",
+      "elemento": "0N66074MP95vkag8oEpujo",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_ambiente": "SOLÁRIO - 3",
+      "elemento": "1yty2pSeX2SgtkXm5_yeFd",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_ambiente": "SOLÁRIO - 1",
+      "elemento": "17A$kKFPz1QRO4AkXZq9Cu",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_ambiente": "SOLÁRIO - 1",
+      "elemento": "0RIIfjoFv2qPH3v65nNt4f",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_ambiente": "LACTÁRIO",
+      "elemento": "15dbTLfPH0lBmsln5RXR83",
+      "nome_elemento": "AL12",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_ambiente": "LACTÁRIO",
+      "elemento": "2Esc5vIAb7jOL88Q1X99d4",
+      "nome_elemento": "AL10",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_ambiente": "LACTÁRIO",
+      "elemento": "1ZesdQjiz8wfUQN29rClDo",
+      "nome_elemento": "AL16",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "2CKgoUE9r1GPTG$33eqXC_",
+      "nome_elemento": "AL17",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "1xC3fj6Y965RsYetO3jGnH",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_ambiente": "SANIT. INFANTIL MASC.",
+      "elemento": "1dbXBqGF91ffBc3tXx9_VD",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_ambiente": "SANIT. INFANTIL MASC.",
+      "elemento": "0p6v3tt8fChfkIVZ9uhgj9",
+      "nome_elemento": "AL14",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "2Wuvw8xbr5MuWJuA4De53m",
+      "nome_elemento": "AL22",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "3YjsmNXlH0M9Qa1uC_lH61",
+      "nome_elemento": "AL16",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "2xbNdCu_H4Zg3HLTWasIQ4",
+      "nome_elemento": "AL17",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "1AMoqYFXX6BRJcxKVqHmrr",
+      "nome_elemento": "AL18",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "1Yq436NaT5JP4MiMyJzmiU",
+      "nome_elemento": "AL19",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "2QW$G1Kjn80hKgGN6FK712",
+      "nome_elemento": "AL15",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "0m8CetgqbC3OnOpkIkk9rr",
+      "nome_elemento": "AL23",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "1$SMxFZtnFzw$31i87svwg",
+      "nome_elemento": "AL24",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "0xeworUf99ywn9AEwFgu0p",
+      "nome_elemento": "AL21",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_ambiente": "COZINHA",
+      "elemento": "1Qgi9fV251vRB5VwiIGFG5",
+      "nome_elemento": "AL20",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_ambiente": "LAVANDERIA / ROUPARIA",
+      "elemento": "3wrSpADY537goiB5IH9_1c",
+      "nome_elemento": "AL16",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_ambiente": "LAVANDERIA / ROUPARIA",
+      "elemento": "1KJCZ14dHE48YA$iwrOdG1",
+      "nome_elemento": "AL09",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    },
+    {
+      "ambiente": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_ambiente": "SOLÁRIO - 2",
+      "elemento": "2mRw$N9kzCdfNGH4O4ocTu",
+      "nome_elemento": "AL18",
+      "estado": "inconclusivo_operador_ou_operando",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito"
+    }
+  ]
+}

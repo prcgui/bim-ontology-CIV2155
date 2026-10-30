@@ -1,0 +1,174 @@
+{
+  "notebook": "01_Conversao_Arquitetura_IFC_LBD_v10.ipynb",
+  "sha256_notebook": "c8bf09850dc8979979148d115524b5f749190517b8876daf06306b6c31d83b1a",
+  "celulas_executadas": 11,
+  "erros": 0,
+  "snapshot": "bfd8eb0fc844c30ad1619552d164f94cc8c143ef",
+  "controles_aprovados": 106,
+  "pacotes": [
+    {
+      "arquivo": "Pacote_Codigo_Entradas_v10.zip",
+      "sha256": "f5fc541a4d52b30198091df514c8db8af27eee7e3ec92d8c093210036b433300",
+      "identico_ao_snapshot": true
+    },
+    {
+      "arquivo": "Pacote_Preparo_Geometrico_v10.zip",
+      "sha256": "ac732e14b02735afd6aec3541795126d2335765b574d7d5e7ba789a16b48bd55",
+      "identico_ao_snapshot": true
+    },
+    {
+      "arquivo": "Codigo_Ablacao_Healing_Sem_Projecao.zip",
+      "sha256": "0df76c2908e3e1521b0ed325cc0576a68e0415aecf6bc6a0d0894a39ab333209",
+      "identico_ao_snapshot": true
+    }
+  ],
+  "figuras": [
+    {
+      "arquivo": "Comparacao_Cobertura_e_Acertos_v10.png",
+      "sha256": "d80eb0082cba40d68d902fe7a9f617072f4bf8764ecd64cf2b2c2c081768cd94",
+      "identica_a_figura_inspecionada": true
+    },
+    {
+      "arquivo": "Sobreposicao_das_Interfaces_v10.png",
+      "sha256": "49bee206802aabac601ffde43f29ef294d75a2a6578724128a075606f5dad49d",
+      "identica_a_figura_inspecionada": true
+    }
+  ],
+  "pdfs_originais_verificados": 73,
+  "preparo_reexecutado_nas_celulas": false,
+  "ablacao_reexecutada": true,
+  "lote": {
+    "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+    "parametros_comuns": {
+      "desvio_max_projecao_planar_m": 0.0001,
+      "distancia_planos_m": 0.0001,
+      "area_min_m2": 1e-08,
+      "tol_normal": 1e-10,
+      "sonda_principal_m": 0.001,
+      "tolerancia_classificacao_m": 1e-07,
+      "tolerancia_contorno_parental_m2": 1e-07,
+      "tolerancia_internos_m": 1e-05,
+      "distancia_componente_m": 0.25,
+      "margem_componente_m": 0.02
+    },
+    "estados": {
+      "inconclusivo_preparacao_espaco": 3,
+      "associacao_executada_com_pendencias": 6,
+      "associacao_executada": 32
+    },
+    "espacos_solicitados": 41,
+    "espacos_com_associacao_executada": 38,
+    "espacos_inconclusivos": 3,
+    "pares_ambiente_esquadria": 101,
+    "esquadrias_distintas_associadas": 66,
+    "cache_catalogo_sha256": "1f235043804095cdf0640ce02a7fe5ba042cbf33896f58ac7c4c93356af2f8b0",
+    "preparo_global": {
+      "espacos": 41,
+      "espacos_com_volume_aceito": 38,
+      "paredes": 457,
+      "paredes_preparadas": 457,
+      "paredes_inconclusivas": 0,
+      "aberturas_ifc": 184,
+      "produtos_examinados": 188
+    },
+    "CGAL_Krijnen": "não reexecutado; sinais da cozinha não transplantados",
+    "Lilis_2026": "não aplicado aos novos ambientes",
+    "limite": "Aplicação geométrica em 41 espaços; não confundir execução com validação documental de todos os casos.",
+    "ifc_original_preservado": true,
+    "segundos_associacao": 214.65239120000024
+  },
+  "comparacao": {
+    "total": 12,
+    "aprovados": 12,
+    "controles": [
+      {
+        "controle": "mesmos_41_GUIDs_de_espacos",
+        "aprovado": true
+      },
+      {
+        "controle": "nenhum_par_associado_da_v09_foi_perdido",
+        "aprovado": true
+      },
+      {
+        "controle": "todos_29_BReps_aceitos_anteriores_preservados_por_hash",
+        "aprovado": true
+      },
+      {
+        "controle": "recuperacoes_com_guardas_e_sem_descarte_de_faces",
+        "aprovado": true
+      },
+      {
+        "controle": "preparo_457_paredes_sem_recorte_inconclusivo",
+        "aprovado": true
+      },
+      {
+        "controle": "falhas_remanescentes_preservadas_sem_zero_falso",
+        "aprovado": true
+      },
+      {
+        "controle": "amostra_documental_e_denominadores_originais_preservados",
+        "aprovado": true
+      },
+      {
+        "controle": "ganho_de_associacoes_documentalmente_confirmadas",
+        "aprovado": true
+      },
+      {
+        "controle": "sem_associacoes_indevidas_nos_negativos_da_amostra",
+        "aprovado": true
+      },
+      {
+        "controle": "cobertura_efetiva_aumentou",
+        "aprovado": true
+      },
+      {
+        "controle": "todas_particoes_satisfazem_balanco_de_area",
+        "aprovado": true
+      },
+      {
+        "controle": "proveniencia_preservada_em_todas_as_regioes",
+        "aprovado": true
+      }
+    ],
+    "pares_v09": 74,
+    "pares_v10": 101,
+    "pares_novos": 27,
+    "pares_perdidos": 0,
+    "espacos_recuperados": 9,
+    "tp_v09": 35,
+    "tp_v10": 39,
+    "recuperacao_v09": 0.813953488372093,
+    "recuperacao_v10": 0.9069767441860465,
+    "metodo": "Comparação pareada no mesmo IFC e amostra de desenvolvimento. Não é teste externo independente."
+  },
+  "conferencia": {
+    "TP": 39,
+    "FP": 0,
+    "FN": 1,
+    "TN": 37,
+    "indeterminados": 1,
+    "positivos_nao_recuperados_por_preparacao": 3,
+    "negativos_nao_avaliaveis_por_preparacao": 2
+  },
+  "grafo": {
+    "triplas_base_v09": 137832,
+    "triplas_uniao_v10": 252844,
+    "espacos_consultados": 41,
+    "pares_ambiente_esquadria_consultados": 101,
+    "interfaces_registradas": 3011,
+    "regioes_particionadas": 7666,
+    "inconclusivos_sem_contagem_falsa_zero": 3,
+    "base_v09_preservada_bytes": 189322603,
+    "sha256_base_v09": "465d99d0a6276fa21de625ff1e4f3eb34b4bec992e5fd4d183a86c1411973b15",
+    "sha256_saida": "b77e6e8e031e6c221d2d3e403ff8eac508995763c32b895c2de41cc87ece062f",
+    "grafo_reaberto_e_consultado": true,
+    "limite": "Propriedades mu: identificam o resultado desta revisão; não substituem registros históricos nem certificam completude arquitetônica."
+  },
+  "shacl": {
+    "conforme": true,
+    "resultados_v10": 41,
+    "violacoes": 0,
+    "limite": "Conformidade às shapes declaradas do vocabulário v10. Não comprova correção geométrica ou arquitetônica."
+  },
+  "limite": "Triagem de 57 documentos e sete análises aprofundadas. Mesmo IFC e amostra de desenvolvimento não cega. Ganho não equivale a completude arquitetônica ou desempenho comprovado em outro edifício."
+}

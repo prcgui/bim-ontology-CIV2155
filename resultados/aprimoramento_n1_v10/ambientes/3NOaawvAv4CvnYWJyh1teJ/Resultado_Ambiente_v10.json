@@ -1,0 +1,51 @@
+{
+  "ambiente": "3NOaawvAv4CvnYWJyh1teJ",
+  "nome": "CASTELO D'ÁGUA",
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "parametros": {
+    "desvio_max_projecao_planar_m": 0.0001,
+    "distancia_planos_m": 0.0001,
+    "area_min_m2": 1e-08,
+    "tol_normal": 1e-10,
+    "sonda_principal_m": 0.001,
+    "tolerancia_classificacao_m": 1e-07,
+    "tolerancia_contorno_parental_m2": 1e-07,
+    "tolerancia_internos_m": 1e-05,
+    "distancia_componente_m": 0.25,
+    "margem_componente_m": 0.02
+  },
+  "preparacao_geometrica": {
+    "faces_entrada": 60,
+    "faces_saida": 60,
+    "arestas_livres": 0,
+    "solidos_entrada": 0,
+    "solidos_saida": 1,
+    "volume_m3": 6.239466806411888,
+    "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+    "metodo_v10": "caminho_estrito_v09_preservado"
+  },
+  "sha256_brep": "4fec6dadae6d30eca98bb5fac0bd23f30f4aa6e51bc55574c6aecd6e135aa60a",
+  "estado": "associacao_executada",
+  "interfaces": [],
+  "recortes_aberturas": [],
+  "esquadrias_associadas": [],
+  "outros_preenchimentos": [],
+  "elementos_internos_candidatos": [],
+  "componentes_sem_FillsVoids_candidatos": [],
+  "problemas": [],
+  "CGAL_Krijnen": "não reexecutado para estes pares; resultados da cozinha não reutilizados em outros ambientes",
+  "Lilis_2026": "não executado no lote; mantém módulo comparativo e referências da revisão anterior",
+  "paredes_prefiltradas": 0,
+  "paredes_globais_sem_geometria": [],
+  "resumo": {
+    "interfaces": 0,
+    "interfaces_qualificadas": 0,
+    "paredes_com_interface": 0,
+    "esquadrias": 0,
+    "outros_preenchimentos": 0,
+    "internos": 0,
+    "componentes": 0,
+    "problemas": 0
+  },
+  "segundos": 0.012013800000204355
+}

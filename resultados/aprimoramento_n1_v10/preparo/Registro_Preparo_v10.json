@@ -1,0 +1,953 @@
+{
+  "resumo": {
+    "espacos": 41,
+    "espacos_com_volume_aceito": 38,
+    "paredes": 457,
+    "paredes_preparadas": 457,
+    "paredes_inconclusivas": 0,
+    "aberturas_ifc": 184,
+    "produtos_examinados": 188
+  },
+  "catalogo_sha256": "1f235043804095cdf0640ce02a7fe5ba042cbf33896f58ac7c4c93356af2f8b0",
+  "espacos": [
+    {
+      "guid": "2x_Zaq6pr5AQd4475C6QUa",
+      "nome": "INFANTIL 1",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito",
+      "preparacao": null,
+      "tentativas_recuperacao": [
+        {
+          "tolerancia_m": 1e-06,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        },
+        {
+          "tolerancia_m": 1e-05,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        },
+        {
+          "tolerancia_m": 0.0001,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        }
+      ]
+    },
+    {
+      "guid": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome": "INFANTIL 2/3",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 162,
+        "faces_saida": 162,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 111.68311641151543,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome": "INFANTIL 4",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Ambiente não forma uma única casca fechada; sem reparação automática",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 3,
+            "arestas_multiplas": 0,
+            "aceito": false
+          },
+          {
+            "tolerancia_m": 1e-05,
+            "cascas": 1,
+            "arestas_livres": 3,
+            "arestas_multiplas": 0,
+            "aceito": false
+          },
+          {
+            "tolerancia_m": 0.0001,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 111.89336077117125,
+            "guardas": {
+              "faces_entrada": 151,
+              "faces_saida": 151,
+              "delta_area_rel": 0.0,
+              "delta_bbox_max_m": 2.1256227899613123e-05,
+              "hausdorff_vertices_m": 2.8666404000343704e-05,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 111.89336077117125,
+        "faces_entrada": 151,
+        "faces_saida": 151,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "260FEG3a58vBCfaJfNceHt",
+      "nome": "INFANTIL 5",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito",
+      "preparacao": null,
+      "tentativas_recuperacao": [
+        {
+          "tolerancia_m": 1e-06,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        },
+        {
+          "tolerancia_m": 1e-05,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        },
+        {
+          "tolerancia_m": 0.0001,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        }
+      ]
+    },
+    {
+      "guid": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome": "SANIT. INFANTIL FEM.",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 76,
+        "faces_saida": 76,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 49.977049815172045,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1smTwm84L3Oh0OVa$J8e95",
+      "nome": "SALA MULTIUSO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 65,
+        "faces_saida": 65,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 121.77506849689007,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome": "SANIT. INFANTIL MASC.",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 74,
+        "faces_saida": 74,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 49.975622022684355,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "26Rq0vnwv75eit3wXW3p8h",
+      "nome": "BERÇARIO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Sólido do ambiente inválido",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 113.34484709362667,
+            "guardas": {
+              "faces_entrada": 222,
+              "faces_saida": 222,
+              "delta_area_rel": 0.0,
+              "delta_bbox_max_m": 4.835851139972647e-06,
+              "hausdorff_vertices_m": 0.0,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 113.34484709362667,
+        "faces_entrada": 222,
+        "faces_saida": 222,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome": "PCD INFANTIL",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 60,
+        "faces_saida": 60,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 23.5207274005677,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome": "SOLÁRIO - 3",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 164,
+        "faces_saida": 164,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 84.38151910497089,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "2w$FA149nEHA8yGLkpF3DV",
+      "nome": "DEPÓSITO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Ambiente não forma uma única casca fechada; sem reparação automática",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 6,
+            "arestas_multiplas": 0,
+            "aceito": false
+          },
+          {
+            "tolerancia_m": 1e-05,
+            "cascas": 1,
+            "arestas_livres": 6,
+            "arestas_multiplas": 0,
+            "aceito": false
+          },
+          {
+            "tolerancia_m": 0.0001,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 23.612668746414148,
+            "guardas": {
+              "faces_entrada": 56,
+              "faces_saida": 56,
+              "delta_area_rel": 3.296663783312637e-08,
+              "delta_bbox_max_m": 2.6129373381422738e-05,
+              "hausdorff_vertices_m": 1.5562753002740237e-05,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 23.612668746414148,
+        "faces_entrada": 56,
+        "faces_saida": 56,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome": "CIRCULAÇÃO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 288,
+        "faces_saida": 288,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 220.31804595029644,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome": "SOLÁRIO - 2",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 164,
+        "faces_saida": 164,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 84.37940108482691,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome": "CASA DE BOMBAS",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 16,
+        "faces_saida": 16,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 10.21518,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3jZEGWJF572RMQMRkv95iZ",
+      "nome": "PLAYGROUND",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 6,
+        "faces_saida": 6,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 130.97168692614676,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome": "CIRCULAÇÃO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Sólido do ambiente inválido",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 169.7174855880745,
+            "guardas": {
+              "faces_entrada": 52,
+              "faces_saida": 52,
+              "delta_area_rel": 0.0,
+              "delta_bbox_max_m": 3.5846179304854786e-06,
+              "hausdorff_vertices_m": 0.0,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 169.7174855880745,
+        "faces_entrada": 52,
+        "faces_saida": 52,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 456,
+        "faces_saida": 456,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 450.8508923901451,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1mQyL7DEPADAthjlOZJnBc",
+      "nome": "SALA DE ATENDIMENTO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 132,
+        "faces_saida": 132,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 23.530497344117606,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1U5z$rH8X2aQkwaZbGMQJK",
+      "nome": "AMAMENTAÇÃO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática; recuperação controlada sem candidato aceito",
+      "preparacao": null,
+      "tentativas_recuperacao": [
+        {
+          "tolerancia_m": 1e-06,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        },
+        {
+          "tolerancia_m": 1e-05,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        },
+        {
+          "tolerancia_m": 0.0001,
+          "cascas": 1,
+          "arestas_livres": 5,
+          "arestas_multiplas": 0,
+          "aceito": false
+        }
+      ]
+    },
+    {
+      "guid": "3fO06QkO923xMQZekZduj4",
+      "nome": "HIGIENIZAÇÃO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Sólido do ambiente inválido",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 13.954313465326447,
+            "guardas": {
+              "faces_entrada": 12,
+              "faces_saida": 12,
+              "delta_area_rel": 0.0,
+              "delta_bbox_max_m": 7.816712255248603e-08,
+              "hausdorff_vertices_m": 0.0,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 13.954313465326447,
+        "faces_entrada": 12,
+        "faces_saida": 12,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "11r3iwRzvDqvIhMZD3jLha",
+      "nome": "SALA PROF. / REUNIÕES",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 20,
+        "faces_saida": 20,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 50.23072892294327,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome": "CIRCULAÇÃO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 22,
+        "faces_saida": 22,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 11.530249694044706,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "13y5nU1f5EOujh1eLnheKn",
+      "nome": "SANIT. PCD FEM.",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 26,
+        "faces_saida": 26,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 9.234596001097811,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1duSgHwNH768UoW8mHWp4d",
+      "nome": "SANIT. PCD MASC.",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 20,
+        "faces_saida": 20,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 9.234668729800141,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "0fkTeNBl9BSg0N67HirM_S",
+      "nome": "ADMINISTRAÇÃO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Sólido do ambiente inválido",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 60.1694236134637,
+            "guardas": {
+              "faces_entrada": 27,
+              "faces_saida": 27,
+              "delta_area_rel": 0.0,
+              "delta_bbox_max_m": 3.954686356166803e-08,
+              "hausdorff_vertices_m": 0.0,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 60.1694236134637,
+        "faces_entrada": 27,
+        "faces_saida": 27,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome": "COZINHA",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 23,
+        "faces_saida": 23,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 109.52494948221211,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome": "DESPENSA",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 6,
+        "faces_saida": 6,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 18.723119253331895,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome": "LAVANDERIA / ROUPARIA",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Sólido do ambiente inválido",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 20.511722006447634,
+            "guardas": {
+              "faces_entrada": 9,
+              "faces_saida": 9,
+              "delta_area_rel": 0.0,
+              "delta_bbox_max_m": 6.362350180921794e-06,
+              "hausdorff_vertices_m": 0.0,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 20.511722006447634,
+        "faces_entrada": 9,
+        "faces_saida": 9,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "03_xFIZEnDWQEsz12N9BFL",
+      "nome": "COPA FUNCIONÁRIOS",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 12,
+        "faces_saida": 12,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 62.83115676899904,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome": "VEST. FUNC. FEM.",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 13,
+        "faces_saida": 13,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 10.881752466201023,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome": "HALL DE ENTRADA",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Sólido do ambiente inválido",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 87.36151615321049,
+            "guardas": {
+              "faces_entrada": 50,
+              "faces_saida": 50,
+              "delta_area_rel": 0.0,
+              "delta_bbox_max_m": 1.069544165677172e-06,
+              "hausdorff_vertices_m": 0.0,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 87.36151615321049,
+        "faces_entrada": 50,
+        "faces_saida": 50,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome": "VEST. FUNC. MASC.",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 13,
+        "faces_saida": 13,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 10.894843905516677,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome": "VARANDA DE SERVIÇO / DML",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 14,
+        "faces_saida": 14,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 85.73107514736817,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3MgfgqOdX3NODDVn91mSq_",
+      "nome": "GÁS",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 10,
+        "faces_saida": 10,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 2.9386771575632067,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "2EVHZBkF17FhiByOwmWsG8",
+      "nome": "LACTÁRIO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 6,
+        "faces_saida": 6,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 23.25080004388098,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome": "CASTELO D'ÁGUA",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 60,
+        "faces_saida": 60,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 6.239466806411888,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "27I7_CfDXBq9VvioOZA2$D",
+      "nome": "SOLÁRIO - 1",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 409,
+        "faces_saida": 409,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 84.3358333033826,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome": "PLAYGROUND",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 6,
+        "faces_saida": 6,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 166.59457189966201,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1HoU1usaH2s8PIsV8j7izE",
+      "nome": "LIXO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 6,
+        "faces_saida": 6,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 4.095380820846636,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome": "FRALDÁRIO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "metodo_v10": "ShapeFix_Shape_e_costura_controlada",
+        "falha_inicial": "Sólido do ambiente inválido",
+        "tentativas": [
+          {
+            "tolerancia_m": 1e-06,
+            "cascas": 1,
+            "arestas_livres": 0,
+            "arestas_multiplas": 0,
+            "aceito": true,
+            "valido": true,
+            "volume_m3": 38.29374955464221,
+            "guardas": {
+              "faces_entrada": 30,
+              "faces_saida": 30,
+              "delta_area_rel": 5.588207556275008e-16,
+              "delta_bbox_max_m": 8.78774537937943e-06,
+              "hausdorff_vertices_m": 3.23669905729291e-07,
+              "aceito_guardas": true
+            }
+          }
+        ],
+        "volume_m3": 38.29374955464221,
+        "faces_entrada": 30,
+        "faces_saida": 30,
+        "limite": "Guardas geométricas não substituem avaliação documental; não foi criado tampão ou caixa."
+      },
+      "tentativas_recuperacao": null
+    },
+    {
+      "guid": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome": "CIRCULAÇÃO",
+      "estado": "volume_fechado_aceito",
+      "motivo": null,
+      "preparacao": {
+        "faces_entrada": 113,
+        "faces_saida": 113,
+        "arestas_livres": 0,
+        "solidos_entrada": 0,
+        "solidos_saida": 1,
+        "volume_m3": 13.737014468524128,
+        "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global",
+        "metodo_v10": "caminho_estrito_v09_preservado"
+      },
+      "tentativas_recuperacao": null
+    }
+  ],
+  "aberturas_reconstituídas": [
+    {
+      "parede": "0XHVx1C1b04fjHb90$yL5l",
+      "abertura": "1l3VHjTo7GMWl9guYEVInB",
+      "estado": "solido_reconstruido_da_casca_original_sem_caixa"
+    },
+    {
+      "parede": "1GKbDcMY96ChGXKh3SI8sC",
+      "abertura": "0LXyx3L8G6TYskhIjl6t4X",
+      "estado": "solido_reconstruido_da_casca_original_sem_caixa"
+    },
+    {
+      "parede": "1VZWKkqNX1exe$cdMTNb_3",
+      "abertura": "25hqr1DcBlfzbvn2WJFYTd",
+      "estado": "solido_reconstruido_da_casca_original_sem_caixa"
+    },
+    {
+      "parede": "2gVUMoiorDfx8HbUyq4RrZ",
+      "abertura": "0ZMQEJxpJqmZFvU4i103so",
+      "estado": "solido_reconstruido_da_casca_original_sem_caixa"
+    }
+  ]
+}

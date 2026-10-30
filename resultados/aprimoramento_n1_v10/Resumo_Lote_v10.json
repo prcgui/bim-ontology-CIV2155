@@ -1,0 +1,40 @@
+{
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "parametros_comuns": {
+    "desvio_max_projecao_planar_m": 0.0001,
+    "distancia_planos_m": 0.0001,
+    "area_min_m2": 1e-08,
+    "tol_normal": 1e-10,
+    "sonda_principal_m": 0.001,
+    "tolerancia_classificacao_m": 1e-07,
+    "tolerancia_contorno_parental_m2": 1e-07,
+    "tolerancia_internos_m": 1e-05,
+    "distancia_componente_m": 0.25,
+    "margem_componente_m": 0.02
+  },
+  "estados": {
+    "inconclusivo_preparacao_espaco": 3,
+    "associacao_executada_com_pendencias": 6,
+    "associacao_executada": 32
+  },
+  "espacos_solicitados": 41,
+  "espacos_com_associacao_executada": 38,
+  "espacos_inconclusivos": 3,
+  "pares_ambiente_esquadria": 101,
+  "esquadrias_distintas_associadas": 66,
+  "cache_catalogo_sha256": "1f235043804095cdf0640ce02a7fe5ba042cbf33896f58ac7c4c93356af2f8b0",
+  "preparo_global": {
+    "espacos": 41,
+    "espacos_com_volume_aceito": 38,
+    "paredes": 457,
+    "paredes_preparadas": 457,
+    "paredes_inconclusivas": 0,
+    "aberturas_ifc": 184,
+    "produtos_examinados": 188
+  },
+  "CGAL_Krijnen": "não reexecutado; sinais da cozinha não transplantados",
+  "Lilis_2026": "não aplicado aos novos ambientes",
+  "limite": "Aplicação geométrica em 41 espaços; não confundir execução com validação documental de todos os casos.",
+  "ifc_original_preservado": true,
+  "segundos_associacao": 214.65239120000024
+}

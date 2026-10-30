@@ -1,0 +1,27 @@
+{
+  "espacos_v09": 29,
+  "espacos_v10": 38,
+  "pares_v09": 74,
+  "pares_v10": 101,
+  "documental_v09": {
+    "TP": 35,
+    "FP": 0,
+    "FN": 0,
+    "TN": 33,
+    "indeterminados": 1,
+    "positivos_nao_recuperados_por_preparacao": 8,
+    "negativos_nao_avaliaveis_por_preparacao": 6
+  },
+  "documental_v10": {
+    "TP": 39,
+    "FP": 0,
+    "FN": 1,
+    "TN": 37,
+    "indeterminados": 1,
+    "positivos_nao_recuperados_por_preparacao": 3,
+    "negativos_nao_avaliaveis_por_preparacao": 2
+  },
+  "controles": 106,
+  "literatura_documentos": 57,
+  "grafo_triplas": 252844
+}

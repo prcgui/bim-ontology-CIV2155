@@ -1,0 +1,84 @@
+{
+  "total": 13,
+  "aprovados": 13,
+  "controles": [
+    {
+      "controle": "resultado_executado_zero_real_e_valido",
+      "aprovado": true,
+      "conformidade_esperada": true,
+      "violacoes": 0
+    },
+    {
+      "controle": "contagem_incompativel_rejeitada",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "estado_nao_declarado_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "contagem_negativa_rejeitada",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 2
+    },
+    {
+      "controle": "estado_ausente_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "inconclusivo_com_zero_falso_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "inconclusivo_sem_contagem_e_valido",
+      "aprovado": true,
+      "conformidade_esperada": true,
+      "violacoes": 0
+    },
+    {
+      "controle": "inconclusivo_com_associacao_primaria_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "ambiente_sem_tipo_space_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "resultado_com_dois_ambientes_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "dois_resultados_para_um_ambiente_rejeitados",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 4
+    },
+    {
+      "controle": "inconclusivo_sem_motivo_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    },
+    {
+      "controle": "executado_sem_contagem_rejeitado",
+      "aprovado": true,
+      "conformidade_esperada": false,
+      "violacoes": 1
+    }
+  ]
+}

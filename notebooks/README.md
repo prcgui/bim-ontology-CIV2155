@@ -1,5 +1,13 @@
 # Notebooks do estudo
 
+## Notebook 1 v10 — literatura e aprimoramento
+
+[Versão atual](01_Conversao_Arquitetura_IFC_LBD_v10.ipynb) · [Análise e resultados](../resultados/aprimoramento_n1_v10/) · [Decisões sobre 57 documentos e fontes](../referencias/aprimoramento_n1_v10/).
+
+Onze células verificam as entradas, reutilizam o preparo fixado com opção de regeneração, executam controles, aplicam a rotina aos 41 espaços, conferem a mesma amostra documental, auditam superfícies/volumes, repetem a ablação em processo separado e o ensaio 2D, comparam a v09/v10 e integram/validam o grafo completo. São 106 controles aprovados. O preparo global foi executado nesta revisão e preservado por hash; a conversão semântica anterior é reutilizada explicitamente.
+
+Foram 38 espaços com associação e três inconclusivos; os 74 pares anteriores e os 29 BReps já aceitos foram preservados. A v10 registra 101 pares. Na amostra de 14 ambientes, 39 dos 43 positivos foram recuperados, com uma omissão após execução e três positivos sem resultado por preparo. Os 37 negativos avaliados foram excluídos corretamente; dois negativos ficaram não avaliáveis e JA-09 continua indeterminada. A amostra é de desenvolvimento, assistida por IA, sem revisão cega/externa. Métodos adotados, experimentais e não selecionados são explicados junto às etapas e no relatório.
+
 ## Notebook 1 v09 — aplicação multiambientes
 
 [Versão atual](01_Conversao_Arquitetura_IFC_LBD_v09.ipynb) · [Resultados e relatório](../resultados/multiambientes_v01/) · [Referência documental](../referencias/multiambientes_v01/).

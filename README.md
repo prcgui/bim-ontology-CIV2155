@@ -2,6 +2,20 @@
 
 Projeto acadêmico desenvolvido no âmbito da disciplina CIV2155, dedicado à organização e à representação semântica de informações BIM por meio de ontologias.
 
+## Notebook 1 v10 · aprimoramento orientado pela literatura
+
+[Notebook 1 v10](notebooks/01_Conversao_Arquitetura_IFC_LBD_v10.ipynb) · [Análise minuciosa e ensaios](resultados/aprimoramento_n1_v10/) · [Código](consultas/aprimoramento_n1_v10/) · [Literatura, decisões e fontes](referencias/aprimoramento_n1_v10/).
+
+O acervo inicial de 73 PDFs contém 63 conteúdos distintos: seis pranchas e 57 documentos bibliográficos/técnicos. A triagem de todo o acervo e a leitura dirigida das propostas prioritárias orientaram a recuperação controlada de BRep, o preparo de aberturas por suas próprias faces, a normalização planar rastreada, a partição de áreas, as tentativas de confirmação volumétrica e os contratos SHACL. O relatório registra a decisão sobre cada documento e sete análises aprofundadas. Não se afirma reprodução de todos os experimentos publicados.
+
+**A associação passou de 29 para 38 dos 41 espaços**, com três inconclusivos. Todos os 457 recortes de parede foram preparados. Os 29 BReps aceitos anteriormente permanecem idênticos por hash e os 74 pares ambiente–esquadria anteriores foram preservados; a v10 registra 101 pares e 66 esquadrias distintas. Pares não equivalem a peças físicas.
+
+Na mesma amostra documental de 14 ambientes, os positivos confirmados passaram de **35/43 (81,4%) para 39/43 (90,7%)**, incluindo os não recuperados por preparo no denominador. Permanecem uma omissão após execução, três positivos sem resultado por preparo e JA-09 indeterminada. Nos negativos avaliados, houve 37 exclusões corretas e nenhuma associação indevida; dois negativos ficaram não avaliáveis. A amostra é intencional, assistida por IA e usada no desenvolvimento, sem avaliação cega ou externa.
+
+**106 controles aprovados**, além da reexecução dos lotes, ablação sem normalização planar, ensaio 2D, auditorias e validação SHACL do grafo completo. O ensaio 2D encontrou contornos nos 41 espaços, mas somente 33 positivos, e não substituiu o núcleo 3D. A v10 preserva o grafo v09 e registra separadamente regiões concorrentes, contenções inconclusivas e candidatos com folga.
+
+Infantil 1, Infantil 5 e Amamentação continuam inconclusivos. A JA-04 da Administração permanece omissão primária, com candidato projetado a aproximadamente 10 mm da face do espaço. Há 23 pares de espaços sobrepostos e hospedeiros concorrentes em 28 espaços. Esses diagnósticos não foram apagados nem corrigidos silenciosamente no IFC. Os resultados não comprovam completude de todas as associações/interfaces ou ganho geral de velocidade. Referências, adaptações e licenças permanecem explícitas no Notebook 1.
+
 ## Notebook 1 v09 · aplicação aos 41 ambientes
 
 [Notebook 1 v09](notebooks/01_Conversao_Arquitetura_IFC_LBD_v09.ipynb) · [Cobertura, relatório e resultados](resultados/multiambientes_v01/) · [Código generalizado](consultas/multiambientes_v01/) · [Amostra documental e fontes](referencias/multiambientes_v01/).

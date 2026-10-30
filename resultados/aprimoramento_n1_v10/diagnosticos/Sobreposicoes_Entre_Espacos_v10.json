@@ -1,0 +1,4967 @@
+{
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "espacos_com_solido": 38,
+  "pares_examinados": 703,
+  "pares_com_sobreposicao": 23,
+  "pares_inconclusivos": 0,
+  "pares": [
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_b": "INFANTIL 4",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_b": "SANIT. INFANTIL FEM.",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.02587631503596995
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_b": "SALA MULTIUSO",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_b": "SANIT. INFANTIL MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_b": "BERÇARIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_b": "PCD INFANTIL",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_b": "SOLÁRIO - 3",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.04221374461234167
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.023993089871817596
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0OghWN3bvAXwKDOXLwtyYH",
+      "nome_a": "INFANTIL 2/3",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_b": "SANIT. INFANTIL FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_b": "SALA MULTIUSO",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_b": "SANIT. INFANTIL MASC.",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.02592159619569717
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_b": "BERÇARIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_b": "PCD INFANTIL",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_b": "SOLÁRIO - 3",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.023838552995025297
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.042213763529676006
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome_a": "INFANTIL 4",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_b": "SALA MULTIUSO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_b": "SANIT. INFANTIL MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_b": "BERÇARIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_b": "PCD INFANTIL",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_b": "SOLÁRIO - 3",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.016021188751166007
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.015661623813697814
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0JAfMH7pH2RR4jNnQUN3NA",
+      "nome_a": "SANIT. INFANTIL FEM.",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_b": "SANIT. INFANTIL MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_b": "BERÇARIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_b": "PCD INFANTIL",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_b": "SOLÁRIO - 3",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.04044316988623099
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1smTwm84L3Oh0OVa$J8e95",
+      "nome_a": "SALA MULTIUSO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_b": "BERÇARIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_b": "PCD INFANTIL",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_b": "SOLÁRIO - 3",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.015661548207187702
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.016020898210572163
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s3JX_rvT1ZPjZ4WVUUpv5",
+      "nome_a": "SANIT. INFANTIL MASC.",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_b": "PCD INFANTIL",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_b": "SOLÁRIO - 3",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.020657434073129487
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.00297363618852604
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "26Rq0vnwv75eit3wXW3p8h",
+      "nome_a": "BERÇARIO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.010769536576235222
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_b": "SOLÁRIO - 3",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.012060101983808436
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2JXtLqKhnF9uQvwKwBmQBj",
+      "nome_a": "PCD INFANTIL",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_b": "DEPÓSITO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1LD5NJ7IPANPs61RKdRzKg",
+      "nome_a": "SOLÁRIO - 3",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.01608060844328074
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2w$FA149nEHA8yGLkpF3DV",
+      "nome_a": "DEPÓSITO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_b": "SOLÁRIO - 2",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.00113183642372996
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_b": "CASA DE BOMBAS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3y3WqZ7Zj4e92NG7ZhbaWI",
+      "nome_a": "SOLÁRIO - 2",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3LHwVmAHz2iQakFzSsPhR9",
+      "nome_a": "CASA DE BOMBAS",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.00018852973424970143
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3jZEGWJF572RMQMRkv95iZ",
+      "nome_a": "PLAYGROUND",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_b": "PÁTIO COBERTO / REFEITÓRIO",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 6.099933980079528e-05
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_b": "SALA DE ATENDIMENTO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2hYT7bsbX8V9EUFtN$os6K",
+      "nome_a": "PÁTIO COBERTO / REFEITÓRIO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "3fO06QkO923xMQZekZduj4",
+      "nome_b": "HIGIENIZAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1mQyL7DEPADAthjlOZJnBc",
+      "nome_a": "SALA DE ATENDIMENTO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_b": "SALA PROF. / REUNIÕES",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3fO06QkO923xMQZekZduj4",
+      "nome_a": "HIGIENIZAÇÃO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "11r3iwRzvDqvIhMZD3jLha",
+      "nome_a": "SALA PROF. / REUNIÕES",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "13y5nU1f5EOujh1eLnheKn",
+      "nome_b": "SANIT. PCD FEM.",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.0007199999999999923
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.0007200001716611447
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.01606847311824946
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "09KJdSE2P1Mgf0XdodnvAV",
+      "nome_a": "CIRCULAÇÃO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "1duSgHwNH768UoW8mHWp4d",
+      "nome_b": "SANIT. PCD MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "13y5nU1f5EOujh1eLnheKn",
+      "nome_a": "SANIT. PCD FEM.",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_b": "ADMINISTRAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1duSgHwNH768UoW8mHWp4d",
+      "nome_a": "SANIT. PCD MASC.",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_b": "COZINHA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "volume_comum_acima_limiar",
+      "volume_m3": 0.0016000157680490662
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_a": "ADMINISTRAÇÃO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_b": "DESPENSA",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3UFjAT4k55zg_Pqo6VMw5l",
+      "nome_a": "COZINHA",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_b": "LAVANDERIA / ROUPARIA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2zRoTG0q18vvDXCc_KqVNQ",
+      "nome_a": "DESPENSA",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_b": "COPA FUNCIONÁRIOS",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome_a": "LAVANDERIA / ROUPARIA",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_b": "VEST. FUNC. FEM.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "03_xFIZEnDWQEsz12N9BFL",
+      "nome_a": "COPA FUNCIONÁRIOS",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_b": "HALL DE ENTRADA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0zNOgHG$H7OhkzyXhGnl$j",
+      "nome_a": "VEST. FUNC. FEM.",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_b": "VEST. FUNC. MASC.",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome_a": "HALL DE ENTRADA",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_b": "VARANDA DE SERVIÇO / DML",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1NPiRYaZj7AvyRtJfTSQrf",
+      "nome_a": "VEST. FUNC. MASC.",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_b": "GÁS",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_a": "VARANDA DE SERVIÇO / DML",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_a": "GÁS",
+      "b": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_b": "LACTÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_a": "GÁS",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_a": "GÁS",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_a": "GÁS",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_a": "GÁS",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_a": "GÁS",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3MgfgqOdX3NODDVn91mSq_",
+      "nome_a": "GÁS",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_a": "LACTÁRIO",
+      "b": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_b": "CASTELO D'ÁGUA",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_a": "LACTÁRIO",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_a": "LACTÁRIO",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_a": "LACTÁRIO",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_a": "LACTÁRIO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2EVHZBkF17FhiByOwmWsG8",
+      "nome_a": "LACTÁRIO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_a": "CASTELO D'ÁGUA",
+      "b": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_b": "SOLÁRIO - 1",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_a": "CASTELO D'ÁGUA",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_a": "CASTELO D'ÁGUA",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_a": "CASTELO D'ÁGUA",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "3NOaawvAv4CvnYWJyh1teJ",
+      "nome_a": "CASTELO D'ÁGUA",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_a": "SOLÁRIO - 1",
+      "b": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_b": "PLAYGROUND",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_a": "SOLÁRIO - 1",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_a": "SOLÁRIO - 1",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_volume_comum_acima_limiar",
+      "volume_m3": 0
+    },
+    {
+      "a": "27I7_CfDXBq9VvioOZA2$D",
+      "nome_a": "SOLÁRIO - 1",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_a": "PLAYGROUND",
+      "b": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_b": "LIXO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_a": "PLAYGROUND",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "2k0L07HoX2WwwYtzzzUPwx",
+      "nome_a": "PLAYGROUND",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_a": "LIXO",
+      "b": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_b": "FRALDÁRIO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "1HoU1usaH2s8PIsV8j7izE",
+      "nome_a": "LIXO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    },
+    {
+      "a": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome_a": "FRALDÁRIO",
+      "b": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_b": "CIRCULAÇÃO",
+      "estado": "sem_sobreposicao_interior_bbox_no_criterio"
+    }
+  ],
+  "operador": "Common OCP sobre sólidos derivados; não é CGAL/Nef nem algoritmo integral de Lilis.",
+  "limite": "Sobreposição volumétrica é diagnóstico, não correção do IFC ou veto automático a toda abertura.",
+  "segundos": 3.1243823999993765
+}

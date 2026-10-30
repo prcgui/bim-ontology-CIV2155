@@ -1,0 +1,836 @@
+{
+  "ambiente": "3fO06QkO923xMQZekZduj4",
+  "nome": "HIGIENIZAÇÃO",
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "parametros": {
+    "distancia_planos_m": 0.0001,
+    "area_min_m2": 1e-08,
+    "tol_normal": 1e-10,
+    "sonda_principal_m": 0.001,
+    "tolerancia_classificacao_m": 1e-07,
+    "tolerancia_contorno_parental_m2": 1e-07,
+    "tolerancia_internos_m": 1e-05,
+    "distancia_componente_m": 0.25,
+    "margem_componente_m": 0.02
+  },
+  "estado": "associacao_executada_com_pendencias",
+  "interfaces": [
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.7379647031468578,
+      "distancia_planos_m": 1.34202855271651e-07,
+      "produto_escalar": -1.0,
+      "id": "2_GKsOHFbB0hV8mCtfdI0P_F000_R07_P0",
+      "parede": "2_GKsOHFbB0hV8mCtfdI0P",
+      "nome_parede": "AL14",
+      "face_parede": 0,
+      "face_ambiente": "R07",
+      "wkt": "POLYGON Z ((-17.340050658894199 10.200135544099 3.2600000000000002, -17.340050658894199 8.4002216217930208 3.2600000000000002, -17.340050659890156 8.4002216217930208 2.8500000000000005, -17.340050659890156 10.200135519715619 2.8500000000000005, -17.340050658894199 10.200135544099 3.2600000000000002))",
+      "normal_ambiente": [
+        -1.0,
+        0.0,
+        2.429159850757049e-09
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -17.340050659392176,
+          9.30017857075432,
+          3.0550000000000006
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R05",
+            "distancia_m": 2.500032037699457,
+            "xyz_m": [
+              -14.84001862169272,
+              9.30017857075432,
+              3.0550000000000006
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 1.6199223903764486,
+      "distancia_planos_m": 2.1863184726685984e-09,
+      "produto_escalar": -1.0,
+      "id": "37DNoIdzDD$vbRHMCSmIfI_F044_R07_P0",
+      "parede": "37DNoIdzDD$vbRHMCSmIfI",
+      "nome_parede": "AL14",
+      "face_parede": 44,
+      "face_ambiente": "R07",
+      "wkt": "POLYGON Z ((-17.340050666327429 8.4002216217930208 0.20000000000000021, -17.340050666327429 10.200135362115716 0.20000000000000001, -17.340050664141184 10.200135415640212 1.0999999999999999, -17.340050664141184 8.4002216217930208 1.0999999999999999, -17.340050666327429 8.4002216217930208 0.20000000000000021))",
+      "normal_ambiente": [
+        -1.0,
+        0.0,
+        2.429159850757049e-09
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -17.34005066523431,
+          9.30017849195437,
+          0.65
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R05",
+            "distancia_m": 2.500032043541589,
+            "xyz_m": [
+              -14.84001862169272,
+              9.30017849195437,
+              0.65
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.03639827475032534,
+      "distancia_planos_m": 1.5229152918017786e-16,
+      "produto_escalar": -1.0,
+      "id": "37DNoIdzDD$vbRHMCSmIfI_F045_R00_P0",
+      "parede": "37DNoIdzDD$vbRHMCSmIfI",
+      "nome_parede": "AL14",
+      "face_parede": 45,
+      "face_ambiente": "R00",
+      "wkt": "POLYGON Z ((-17.360050666327428 8.3802216217930194 0.20000000000000015, -17.360050666327428 10.200135356516512 0.20000000000000015, -17.340050666327503 10.200135362115716 0.20000000000000015, -17.340050666327503 8.3802216217930194 0.20000000000000015, -17.360050666327428 8.3802216217930194 0.20000000000000015))",
+      "normal_ambiente": [
+        -1.6765046302714944e-17,
+        0.0,
+        1.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -17.350050666327466,
+          9.290178489154766,
+          0.20000000000000015
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R10",
+            "distancia_m": 0.04000000000000015,
+            "xyz_m": [
+              -17.350050666327466,
+              9.290178489154766,
+              0.16
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.17999137968207757,
+      "distancia_planos_m": 2.4292344577443036e-09,
+      "produto_escalar": -1.0,
+      "id": "37DNoIdzDD$vbRHMCSmIfI_F053_R07_P0",
+      "parede": "37DNoIdzDD$vbRHMCSmIfI",
+      "nome_parede": "AL14",
+      "face_parede": 53,
+      "face_ambiente": "R07",
+      "wkt": "POLYGON Z ((-17.340050664141184 8.4002216217930208 1.0999999999999999, -17.340050664141184 10.200135415640212 1.0999999999999999, -17.340050663898268 10.200135421587378 1.2, -17.340050663898268 8.4002216217930208 1.2, -17.340050664141184 8.4002216217930208 1.0999999999999999))",
+      "normal_ambiente": [
+        -1.0,
+        0.0,
+        2.429159850757049e-09
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -17.340050664019728,
+          9.300178518716617,
+          1.15
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R05",
+            "distancia_m": 2.5000320423270086,
+            "xyz_m": [
+              -14.84001862169272,
+              9.300178518716617,
+              1.15
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.07279654938893972,
+      "distancia_planos_m": 9.562718616962229e-09,
+      "produto_escalar": -1.0,
+      "id": "37DNoIdzDD$vbRHMCSmIfI_F057_R08_P0",
+      "parede": "37DNoIdzDD$vbRHMCSmIfI",
+      "nome_parede": "AL14",
+      "face_parede": 57,
+      "face_ambiente": "R08",
+      "wkt": "POLYGON Z ((-17.360050666327428 10.200135356516512 0.20000000000000001, -17.360050666327428 8.3802216217930194 0.20000000000000001, -17.360050666327428 8.3802216217930194 0.16, -17.360050666327428 10.200135356516512 0.16, -17.360050666327428 10.200135356516512 0.20000000000000001))",
+      "normal_ambiente": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -17.360050666327428,
+          9.290178489154766,
+          0.18
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R03",
+            "distancia_m": 2.5400320446347084,
+            "xyz_m": [
+              -14.82001862169272,
+              9.290178489154766,
+              0.18
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 3.7078225473263506,
+      "distancia_planos_m": 7.433303750303825e-09,
+      "produto_escalar": -1.0,
+      "id": "37DNoIdzDD$vbRHMCSmIfI_F081_R07_P0",
+      "parede": "37DNoIdzDD$vbRHMCSmIfI",
+      "nome_parede": "AL14",
+      "face_parede": 81,
+      "face_ambiente": "R07",
+      "wkt": "POLYGON Z ((-17.340050663898268 8.4002216217930208 1.2000000035762799, -17.340050663898268 10.200135421587378 1.2000000035762799, -17.340050658894199 10.200135544099 3.2600000000000002, -17.340050658894199 8.4002216217930208 3.2600000000000002, -17.340050663898268 8.4002216217930208 1.2000000035762799))",
+      "normal_ambiente": [
+        -1.0,
+        0.0,
+        2.429159850757049e-09
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -17.340050661396234,
+          9.3001785216902,
+          2.2300000017881403
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R05",
+            "distancia_m": 2.5000320397035143,
+            "xyz_m": [
+              -14.84001862169272,
+              9.3001785216902,
+              2.2300000017881403
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.0336293587156932,
+      "distancia_planos_m": 1.9453998321271774e-16,
+      "produto_escalar": -1.0,
+      "id": "3BgFgAEMH1AR1k70kqmmGX_F014_R00_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "nome_parede": "AL09",
+      "face_parede": 14,
+      "face_ambiente": "R00",
+      "wkt": "POLYGON Z ((-14.82001862169272 10.20013606762455 0.20000000000000021, -14.82001862169272 8.5651999999999795 0.20000000000000021, -14.834987490783309 8.5651999999999795 0.20000000000000021, -14.834987490783309 8.3802216217930194 0.20000000000000021, -14.840018614540199 8.3802216217930194 0.20000000000000021, -14.840018614540199 10.200136062025347 0.20000000000000021, -14.82001862169272 10.20013606762455 0.20000000000000021))",
+      "normal_ambiente": [
+        -1.6765046302714944e-17,
+        0.0,
+        1.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -14.830018618116458,
+          9.382668031012663,
+          0.2000000000000002
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R10",
+            "distancia_m": 0.0400000000000002,
+            "xyz_m": [
+              -14.830018618116458,
+              9.382668031012663,
+              0.16
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 1.6199229276600169,
+      "distancia_planos_m": 7.152520353770342e-09,
+      "produto_escalar": -1.0,
+      "id": "3BgFgAEMH1AR1k70kqmmGX_F015_R05_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "nome_parede": "AL09",
+      "face_parede": 15,
+      "face_ambiente": "R05",
+      "wkt": "POLYGON Z ((-14.840018621692719 8.4002216217930208 1.1000000000000001, -14.840018621692719 10.200135909694067 1.1000000000000001, -14.840018621692719 10.200136062025345 0.20000000000000018, -14.840018621692719 8.4002216217930208 0.20000000000000018, -14.840018621692719 8.4002216217930208 1.1000000000000001))",
+      "normal_ambiente": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -14.84001862169272,
+          9.300178765743544,
+          0.6499999999999999
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R07",
+            "distancia_m": 2.5000320435415873,
+            "xyz_m": [
+              -17.34005066523431,
+              9.300178765743544,
+              0.6499999999999999
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.17999142794381914,
+      "distancia_planos_m": 7.152520353770342e-09,
+      "produto_escalar": -1.0,
+      "id": "3BgFgAEMH1AR1k70kqmmGX_F019_R05_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "nome_parede": "AL09",
+      "face_parede": 19,
+      "face_ambiente": "R05",
+      "wkt": "POLYGON Z ((-14.840018621692719 8.4002216217930208 1.1999999999999997, -14.840018621692719 10.200135892768369 1.1999999999999997, -14.840018621692719 10.200135909694067 1.1000000000000001, -14.840018621692719 8.4002216217930208 1.1000000000000001, -14.840018621692719 8.4002216217930208 1.1999999999999997))",
+      "normal_ambiente": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -14.84001862169272,
+          9.300178757280696,
+          1.15
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R07",
+            "distancia_m": 2.5000320423270073,
+            "xyz_m": [
+              -17.340050664019728,
+              9.300178757280696,
+              1.15
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.06539744270498284,
+      "distancia_planos_m": 7.152520353770342e-09,
+      "produto_escalar": -1.0,
+      "id": "3BgFgAEMH1AR1k70kqmmGX_F027_R03_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "nome_parede": "AL09",
+      "face_parede": 27,
+      "face_ambiente": "R03",
+      "wkt": "POLYGON Z ((-14.82001862169272 8.5651999999999795 0.20000000000000001, -14.82001862169272 10.20013606762455 0.20000000000000001, -14.82001862169272 10.20013606762455 0.16, -14.82001862169272 8.5651999999999795 0.16, -14.82001862169272 8.5651999999999795 0.20000000000000001))",
+      "normal_ambiente": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -14.82001862169272,
+          9.382668033812266,
+          0.18
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R08",
+            "distancia_m": 2.5400320446347084,
+            "xyz_m": [
+              -17.360050666327428,
+              9.382668033812266,
+              0.18
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 3.7078230326427715,
+      "distancia_planos_m": 4.440892098500626e-14,
+      "produto_escalar": -1.0,
+      "id": "3BgFgAEMH1AR1k70kqmmGX_F049_R05_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "nome_parede": "AL09",
+      "face_parede": 49,
+      "face_ambiente": "R05",
+      "wkt": "POLYGON Z ((-14.840018621692719 8.4002216217930208 3.2600000000000002, -14.840018621692719 10.200135544099 3.2600000000000002, -14.840018621692719 10.200135892768369 1.2000000035762799, -14.840018621692719 8.4002216217930208 1.2000000035762799, -14.840018621692719 8.4002216217930208 3.2600000000000002))",
+      "normal_ambiente": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -14.84001862169272,
+          9.30017858294601,
+          2.23000000178814
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R07",
+            "distancia_m": 2.5000320397035147,
+            "xyz_m": [
+              -17.340050661396234,
+              9.30017858294601,
+              2.23000000178814
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.050501245450266206,
+      "distancia_planos_m": 1.9546206075936705e-16,
+      "produto_escalar": -1.0,
+      "id": "3yAwqEBwf7PuJw_u$qQEyP_F014_R00_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "nome_parede": "AL09",
+      "face_parede": 14,
+      "face_ambiente": "R00",
+      "wkt": "POLYGON Z ((-14.834987490783309 8.3802216217930194 0.20000000000000021, -17.360050666327428 8.3802216217930194 0.20000000000000015, -17.360050666327428 8.4002216146404791 0.20000000000000015, -14.834987490783309 8.4002216146404791 0.20000000000000021, -14.834987490783309 8.3802216217930194 0.20000000000000021))",
+      "normal_ambiente": [
+        -1.6765046302714944e-17,
+        0.0,
+        1.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -16.09751907855537,
+          8.39022161821675,
+          0.20000000000000018
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R10",
+            "distancia_m": 0.040000000000000174,
+            "xyz_m": [
+              -16.09751907855537,
+              8.39022161821675,
+              0.16
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 2.2500288391874284,
+      "distancia_planos_m": 7.152541670052415e-09,
+      "produto_escalar": -1.0,
+      "id": "3yAwqEBwf7PuJw_u$qQEyP_F015_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "nome_parede": "AL09",
+      "face_parede": 15,
+      "face_ambiente": "R06",
+      "wkt": "POLYGON Z ((-17.340050664141184 8.4002216217930208 1.1000000000000001, -14.840018621692719 8.4002216217930208 1.1000000000000001, -14.840018621692719 8.4002216217930208 0.20000000000000018, -17.340050666327429 8.4002216217930208 0.20000000000000018, -17.340050664141184 8.4002216217930208 1.1000000000000001))",
+      "normal_ambiente": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "qualificada_no_criterio": false,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -16.09003464291695,
+          8.40022162179302,
+          0.6499999999999999
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [],
+        "qualificacao_local": "inconclusiva_nas_sondas",
+        "qualificada_no_criterio": false
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.25000320423269984,
+      "distancia_planos_m": 7.152541670052415e-09,
+      "produto_escalar": -1.0,
+      "id": "3yAwqEBwf7PuJw_u$qQEyP_F019_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "nome_parede": "AL09",
+      "face_parede": 19,
+      "face_ambiente": "R06",
+      "wkt": "POLYGON Z ((-17.340050663898268 8.4002216217930208 1.1999999999999997, -14.840018621692719 8.4002216217930208 1.1999999999999997, -14.840018621692719 8.4002216217930208 1.1000000000000001, -17.340050664141184 8.4002216217930208 1.1000000000000001, -17.340050663898268 8.4002216217930208 1.1999999999999997))",
+      "normal_ambiente": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "qualificada_no_criterio": false,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -16.090034642795494,
+          8.40022162179302,
+          1.15
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [],
+        "qualificacao_local": "inconclusiva_nas_sondas",
+        "qualificada_no_criterio": false
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 0.10100252702176478,
+      "distancia_planos_m": 7.152539893695575e-09,
+      "produto_escalar": -1.0,
+      "id": "3yAwqEBwf7PuJw_u$qQEyP_F027_R09_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "nome_parede": "AL09",
+      "face_parede": 27,
+      "face_ambiente": "R09",
+      "wkt": "POLYGON Z ((-14.834987490783309 8.3802216217930194 0.16, -17.360050666327428 8.3802216217930194 0.16, -17.360050666327428 8.3802216217930194 0.20000000000000001, -14.834987490783309 8.3802216217930194 0.20000000000000001, -14.834987490783309 8.3802216217930194 0.16))",
+      "normal_ambiente": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "qualificada_no_criterio": false,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -16.09751907855537,
+          8.38022162179302,
+          0.18
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [],
+        "qualificacao_local": "inconclusiva_nas_sondas",
+        "qualificada_no_criterio": false
+      },
+      "sondas_estaveis": true
+    },
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 5.150065992848427,
+      "distancia_planos_m": 2.3092638912203256e-14,
+      "produto_escalar": -1.0,
+      "id": "3yAwqEBwf7PuJw_u$qQEyP_F049_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "nome_parede": "AL09",
+      "face_parede": 49,
+      "face_ambiente": "R06",
+      "wkt": "POLYGON Z ((-14.840018621692719 8.4002216217930208 3.2600000000000002, -14.840018621692719 8.4002216217930208 1.2000000035762799, -17.340050663898268 8.4002216217930208 1.2000000035762799, -17.340050658894199 8.4002216217930208 3.2600000000000002, -14.840018621692719 8.4002216217930208 3.2600000000000002))",
+      "normal_ambiente": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "qualificada_no_criterio": false,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -16.09003464029346,
+          8.40022162179302,
+          2.23000000178814
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [],
+        "qualificacao_local": "inconclusiva_nas_sondas",
+        "qualificada_no_criterio": false
+      },
+      "sondas_estaveis": true
+    }
+  ],
+  "recortes_aberturas": [
+    {
+      "id": "A001",
+      "interface": "3BgFgAEMH1AR1k70kqmmGX_F014_R00_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "abertura": "2emFbuPmPUg3fQIL_8nci_",
+      "preenchimento": "36VcylwljAxhzXEsJpeekr",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 0.01799999356273127,
+      "wkt": "POLYGON Z ((-14.82001862169272 10.127635499620709 0.20000000000000021, -14.82001862169272 9.2276354996207104 0.20000000000000021, -14.840018614540199 9.2276354996207104 0.20000000000000021, -14.840018614540199 10.127635499620709 0.20000000000000021, -14.82001862169272 10.127635499620709 0.20000000000000021))",
+      "qualificada_no_criterio": true
+    },
+    {
+      "id": "A002",
+      "interface": "3BgFgAEMH1AR1k70kqmmGX_F015_R05_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "abertura": "2emFbuPmPUg3fQIL_8nci_",
+      "preenchimento": "36VcylwljAxhzXEsJpeekr",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 0.8369999999999996,
+      "wkt": "POLYGON Z ((-14.840018621692719 10.127635499620709 0.20000000000000018, -14.840018621692719 9.2276354996207104 0.20000000000000018, -14.840018621692719 9.2126354996207098 0.20000000000000018, -14.840018621692719 9.2126354996207098 1.1000000000000001, -14.840018621692719 9.2276354996207104 1.1000000000000001, -14.840018621692719 10.127635499620709 1.1000000000000001, -14.840018621692719 10.14263549962071 1.1000000000000001, -14.840018621692719 10.14263549962071 0.20000000000000018, -14.840018621692719 10.127635499620709 0.20000000000000018))",
+      "qualificada_no_criterio": true
+    },
+    {
+      "id": "A003",
+      "interface": "3BgFgAEMH1AR1k70kqmmGX_F019_R05_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "abertura": "2emFbuPmPUg3fQIL_8nci_",
+      "preenchimento": "36VcylwljAxhzXEsJpeekr",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 0.09299999999999965,
+      "wkt": "POLYGON Z ((-14.840018621692719 10.127635499620709 1.1000000000000001, -14.840018621692719 9.2276354996207104 1.1000000000000001, -14.840018621692719 9.2126354996207098 1.1000000000000001, -14.840018621692719 9.2126354996207098 1.1999999999999997, -14.840018621692719 9.2276354996207104 1.1999999999999997, -14.840018621692719 10.127635499620709 1.1999999999999997, -14.840018621692719 10.14263549962071 1.1999999999999997, -14.840018621692719 10.14263549962071 1.1000000000000001, -14.840018621692719 10.127635499620709 1.1000000000000001))",
+      "qualificada_no_criterio": true
+    },
+    {
+      "id": "A004",
+      "interface": "3BgFgAEMH1AR1k70kqmmGX_F049_R05_P0",
+      "parede": "3BgFgAEMH1AR1k70kqmmGX",
+      "abertura": "2emFbuPmPUg3fQIL_8nci_",
+      "preenchimento": "36VcylwljAxhzXEsJpeekr",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 1.0741499966740593,
+      "wkt": "POLYGON Z ((-14.840018621692719 9.2276354996207104 1.2000000035762799, -14.840018621692719 9.2126354996207098 1.2000000035762799, -14.840018621692719 9.2126354996207098 2.355, -14.840018621692719 10.14263549962071 2.355, -14.840018621692719 10.14263549962071 1.2000000035762799, -14.840018621692719 10.127635499620709 1.2000000035762799, -14.840018621692719 9.2276354996207104 1.2000000035762799))",
+      "qualificada_no_criterio": true
+    },
+    {
+      "id": "A005",
+      "interface": "3yAwqEBwf7PuJw_u$qQEyP_F014_R00_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "abertura": "2pO4AK2t$FBki25CCokn1p",
+      "preenchimento": "2e4fcXX8r2eQ30U9kXib6A",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 0.017999993562713684,
+      "wkt": "POLYGON Z ((-14.9150686571737 8.3802216217930194 0.20000000000000021, -15.815068657173699 8.3802216217930194 0.20000000000000018, -15.815068657173699 8.4002216146404791 0.20000000000000018, -14.9150686571737 8.4002216146404791 0.20000000000000021, -14.9150686571737 8.3802216217930194 0.20000000000000021))",
+      "qualificada_no_criterio": true
+    },
+    {
+      "id": "A006",
+      "interface": "3yAwqEBwf7PuJw_u$qQEyP_F015_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "abertura": "3s6zV7KKj71f7f9Tg0rl4h",
+      "preenchimento": "0NmyrWXaf3LQDxEPAA0o3c",
+      "classe": "IfcWindow",
+      "nome": "JA-01",
+      "area_m2": 0.020999999974064845,
+      "wkt": "POLYGON Z ((-15.965068657173701 8.4002216217930208 1.1000000000000001, -15.965068657173701 8.4002216217930208 1.0700000000370502, -16.665068657173698 8.4002216217930208 1.0700000000370502, -16.665068657173698 8.4002216217930208 1.1000000000000001, -15.965068657173701 8.4002216217930208 1.1000000000000001))",
+      "qualificada_no_criterio": false
+    },
+    {
+      "id": "A007",
+      "interface": "3yAwqEBwf7PuJw_u$qQEyP_F015_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "abertura": "2pO4AK2t$FBki25CCokn1p",
+      "preenchimento": "2e4fcXX8r2eQ30U9kXib6A",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 0.8369999999999996,
+      "wkt": "POLYGON Z ((-14.9150686571737 8.4002216217930208 0.20000000000000018, -15.815068657173699 8.4002216217930208 0.20000000000000018, -15.830068657173699 8.4002216217930208 0.20000000000000018, -15.830068657173699 8.4002216217930208 1.1000000000000001, -15.815068657173699 8.4002216217930208 1.1000000000000001, -14.9150686571737 8.4002216217930208 1.1000000000000001, -14.9000686571737 8.4002216217930208 1.1000000000000001, -14.9000686571737 8.4002216217930208 0.20000000000000018, -14.9150686571737 8.4002216217930208 0.20000000000000018))",
+      "qualificada_no_criterio": false
+    },
+    {
+      "id": "A008",
+      "interface": "3yAwqEBwf7PuJw_u$qQEyP_F019_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "abertura": "3s6zV7KKj71f7f9Tg0rl4h",
+      "preenchimento": "0NmyrWXaf3LQDxEPAA0o3c",
+      "classe": "IfcWindow",
+      "nome": "JA-01",
+      "area_m2": 0.06999999999999951,
+      "wkt": "POLYGON Z ((-15.965068657173701 8.4002216217930208 1.1000000000000001, -16.665068657173698 8.4002216217930208 1.1000000000000001, -16.665068657173698 8.4002216217930208 1.1999999999999997, -15.965068657173701 8.4002216217930208 1.1999999999999997, -15.965068657173701 8.4002216217930208 1.1000000000000001))",
+      "qualificada_no_criterio": false
+    },
+    {
+      "id": "A009",
+      "interface": "3yAwqEBwf7PuJw_u$qQEyP_F019_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "abertura": "2pO4AK2t$FBki25CCokn1p",
+      "preenchimento": "2e4fcXX8r2eQ30U9kXib6A",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 0.09299999999999965,
+      "wkt": "POLYGON Z ((-14.9150686571737 8.4002216217930208 1.1000000000000001, -15.815068657173699 8.4002216217930208 1.1000000000000001, -15.830068657173699 8.4002216217930208 1.1000000000000001, -15.830068657173699 8.4002216217930208 1.1999999999999997, -15.815068657173699 8.4002216217930208 1.1999999999999997, -14.9150686571737 8.4002216217930208 1.1999999999999997, -14.9000686571737 8.4002216217930208 1.1999999999999997, -14.9000686571737 8.4002216217930208 1.1000000000000001, -14.9150686571737 8.4002216217930208 1.1000000000000001))",
+      "qualificada_no_criterio": false
+    },
+    {
+      "id": "A010",
+      "interface": "3yAwqEBwf7PuJw_u$qQEyP_F049_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "abertura": "3s6zV7KKj71f7f9Tg0rl4h",
+      "preenchimento": "0NmyrWXaf3LQDxEPAA0o3c",
+      "classe": "IfcWindow",
+      "nome": "JA-01",
+      "area_m2": 0.7839999975225361,
+      "wkt": "POLYGON Z ((-16.665068657173698 8.4002216217930208 1.2000000035762799, -16.665068657173698 8.4002216217930208 2.3200000000370498, -15.965068657173701 8.4002216217930208 2.3200000000370498, -15.965068657173701 8.4002216217930208 1.2000000035762799, -16.665068657173698 8.4002216217930208 1.2000000035762799))",
+      "qualificada_no_criterio": false
+    },
+    {
+      "id": "A011",
+      "interface": "3yAwqEBwf7PuJw_u$qQEyP_F049_R06_P0",
+      "parede": "3yAwqEBwf7PuJw_u$qQEyP",
+      "abertura": "2pO4AK2t$FBki25CCokn1p",
+      "preenchimento": "2e4fcXX8r2eQ30U9kXib6A",
+      "classe": "IfcDoor",
+      "nome": "PM1",
+      "area_m2": 1.0741499966740593,
+      "wkt": "POLYGON Z ((-15.815068657173699 8.4002216217930208 1.2000000035762799, -15.830068657173699 8.4002216217930208 1.2000000035762799, -15.830068657173699 8.4002216217930208 2.355, -14.9000686571737 8.4002216217930208 2.355, -14.9000686571737 8.4002216217930208 1.2000000035762799, -14.9150686571737 8.4002216217930208 1.2000000035762799, -15.815068657173699 8.4002216217930208 1.2000000035762799))",
+      "qualificada_no_criterio": false
+    }
+  ],
+  "esquadrias_associadas": [
+    {
+      "guid": "36VcylwljAxhzXEsJpeekr",
+      "nome": "PM1",
+      "classe": "IfcDoor",
+      "interfaces": [
+        "3BgFgAEMH1AR1k70kqmmGX_F014_R00_P0",
+        "3BgFgAEMH1AR1k70kqmmGX_F015_R05_P0",
+        "3BgFgAEMH1AR1k70kqmmGX_F019_R05_P0",
+        "3BgFgAEMH1AR1k70kqmmGX_F049_R05_P0"
+      ],
+      "aberturas": [
+        "2emFbuPmPUg3fQIL_8nci_"
+      ]
+    },
+    {
+      "guid": "2e4fcXX8r2eQ30U9kXib6A",
+      "nome": "PM1",
+      "classe": "IfcDoor",
+      "interfaces": [
+        "3yAwqEBwf7PuJw_u$qQEyP_F014_R00_P0"
+      ],
+      "aberturas": [
+        "2pO4AK2t$FBki25CCokn1p"
+      ]
+    }
+  ],
+  "outros_preenchimentos": [],
+  "elementos_internos_candidatos": [],
+  "componentes_sem_FillsVoids_candidatos": [],
+  "problemas": [
+    {
+      "face_espaco": "R04",
+      "motivo": "Face não planar no critério"
+    }
+  ],
+  "CGAL_Krijnen": "não reexecutado para estes pares; resultados da cozinha não reutilizados em outros ambientes",
+  "Lilis_2026": "não executado no lote; mantém módulo comparativo e referências da revisão anterior",
+  "paredes_prefiltradas": 5,
+  "paredes_globais_sem_geometria": [],
+  "resumo": {
+    "interfaces": 16,
+    "interfaces_qualificadas": 12,
+    "paredes_com_interface": 4,
+    "esquadrias": 2,
+    "outros_preenchimentos": 0,
+    "internos": 0,
+    "componentes": 0,
+    "problemas": 1
+  },
+  "segundos": 0.12522609999996348
+}

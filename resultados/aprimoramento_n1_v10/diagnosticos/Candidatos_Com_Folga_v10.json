@@ -1,0 +1,118 @@
+{
+  "parametros_exploratorios": {
+    "folga_max_m": 0.02,
+    "area_min_m2": 0.01
+  },
+  "limite": "Candidato apenas. Projeção separada não prova contato, preenchimento ou pertencimento. Sem referência documental na seleção; resultados primários não alterados.",
+  "candidatos": [
+    {
+      "ambiente": "0fkTeNBl9BSg0N67HirM_S",
+      "nome_ambiente": "ADMINISTRAÇÃO",
+      "elemento": "3lu5KpkPXClBfg$0bz1fae",
+      "nome_elemento": "JA-04",
+      "parede": "2qniMwX6T8O9rzoR83SfBH",
+      "abertura": "3KENYXTxX9HDk_wc8cZiTx",
+      "face_espaco": "R09",
+      "distancia_m": 0.010000003576341222,
+      "area_projetada_m2": 2.1999999872163394,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "1A7KDtJ4588Q7rChtNOSEN",
+      "nome_ambiente": "CIRCULAÇÃO",
+      "elemento": "3whdmTCPbAavExR20OE5sf",
+      "nome_elemento": "PM1",
+      "parede": "0wNvZNge92zhpzT52itWk2",
+      "abertura": "2zCFgfcAl534AmiMAglBM$",
+      "face_espaco": "R05",
+      "distancia_m": 0.0024661324711249843,
+      "area_projetada_m2": 0.013500000000000503,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "1ZNEbr8yzAzwIfNr8DLfEB",
+      "nome_elemento": "PA2",
+      "parede": "0XAHc8zyr1YuL0AWxiP2D2",
+      "abertura": "0myL3D$8PQoJaIwSJlJmZU",
+      "face_espaco": "R03",
+      "distancia_m": 0.00013582517819976658,
+      "area_projetada_m2": 0.3485999999999993,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "22ZRfsRw51vP3lSdz$OaVX",
+      "nome_elemento": "PA1",
+      "parede": "0XAHc8zyr1YuL0AWxiP2D2",
+      "abertura": "1Wd1axI5BMaK18bgM5VEWC",
+      "face_espaco": "R03",
+      "distancia_m": 0.00013582517819976658,
+      "area_projetada_m2": 0.42230000000000084,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "1TYUzaGPfAJRH9yn9Ryl8A",
+      "nome_elemento": "PA2",
+      "parede": "0XAHc8zyr1YuL0AWxiP2D2",
+      "abertura": "3JJUxtOAPr5m9wwWZzHFVF",
+      "face_espaco": "R03",
+      "distancia_m": 0.00013582517819976658,
+      "area_projetada_m2": 0.3320000000000001,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "3aeAlxh_13aAsFE9GaRC63",
+      "nome_elemento": "JA-06",
+      "parede": "0XAHc8zyr1YuL0AWxiP2D2",
+      "abertura": "2r$cKNmroT$qxuf3abRC$O",
+      "face_espaco": "R03",
+      "distancia_m": 0.00013582517820154294,
+      "area_projetada_m2": 1.575,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "2rpo8JwSv5ChvJw5HNm$2i",
+      "nome_elemento": "JA-09",
+      "parede": "0XAHc8zyr1YuL0AWxiP2D2",
+      "abertura": "3MO8UGVaFjiCmQc5R8Rbo7",
+      "face_espaco": "R03",
+      "distancia_m": 0.00013582517820154294,
+      "area_projetada_m2": 0.5249999999999994,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "3_yZU5iIf4QeEtPxWkGZuB",
+      "nome_ambiente": "VARANDA DE SERVIÇO / DML",
+      "elemento": "3Y94GCHOLCFx2AyfF7cwT5",
+      "nome_elemento": "JA-06",
+      "parede": "3lgLMxPtX22hHa1J_NWBcS",
+      "abertura": "0UtO7$RmK0KBIlcP_ommgN",
+      "face_espaco": "R03",
+      "distancia_m": 0.00013582517820154294,
+      "area_projetada_m2": 1.574999999999998,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    },
+    {
+      "ambiente": "3s8YD3cQD3s9zM3iaSBun8",
+      "nome_ambiente": "CIRCULAÇÃO",
+      "elemento": "2LRxt_BlfCvui30eAg4USn",
+      "nome_elemento": "PA3",
+      "parede": "3Bw9bk8_n0duI6YtWErccu",
+      "abertura": "39Xjvv_l_kcbd4qY52MMNY",
+      "face_espaco": "R70",
+      "distancia_m": 0.00011708577296687395,
+      "area_projetada_m2": 1.8174499941706594,
+      "estado": "candidato_com_folga_nao_promovido_a_associacao"
+    }
+  ],
+  "total": 9
+}

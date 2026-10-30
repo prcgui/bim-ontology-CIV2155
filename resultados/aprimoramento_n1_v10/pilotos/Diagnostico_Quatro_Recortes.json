@@ -1,0 +1,122 @@
+[
+  {
+    "parede": "0XHVx1C1b04fjHb90$yL5l",
+    "solidos_parede": 1,
+    "brep_parede_valido": true,
+    "aberturas": [
+      {
+        "guid": "1l3VHjTo7GMWl9guYEVInB",
+        "solidos": 0,
+        "faces": 10,
+        "brep_valido": true,
+        "preenchimentos": [
+          "07hVXVaxX9lBCOTUP3bdrU"
+        ],
+        "ensaio_preparo_isolado": {
+          "estado": "solido_aceito_pelo_helper_atual",
+          "preparacao": {
+            "faces_entrada": 10,
+            "faces_saida": 10,
+            "arestas_livres": 0,
+            "solidos_entrada": 0,
+            "solidos_saida": 1,
+            "volume_m3": 0.003982625293056218,
+            "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global"
+          },
+          "volume_comum_com_parede_m3": 0.003982625293056218,
+          "limite": "Não executa o recorte de faces nem a associação; não altera o código ou IFC."
+        }
+      }
+    ]
+  },
+  {
+    "parede": "1GKbDcMY96ChGXKh3SI8sC",
+    "solidos_parede": 1,
+    "brep_parede_valido": true,
+    "aberturas": [
+      {
+        "guid": "0LXyx3L8G6TYskhIjl6t4X",
+        "solidos": 0,
+        "faces": 10,
+        "brep_valido": true,
+        "preenchimentos": [
+          "0vmBr6bS12uBHZxb33BDm_"
+        ],
+        "ensaio_preparo_isolado": {
+          "estado": "solido_aceito_pelo_helper_atual",
+          "preparacao": {
+            "faces_entrada": 10,
+            "faces_saida": 10,
+            "arestas_livres": 0,
+            "solidos_entrada": 0,
+            "solidos_saida": 1,
+            "volume_m3": 0.003982653330142233,
+            "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global"
+          },
+          "volume_comum_com_parede_m3": 0.003982653330142233,
+          "limite": "Não executa o recorte de faces nem a associação; não altera o código ou IFC."
+        }
+      }
+    ]
+  },
+  {
+    "parede": "1VZWKkqNX1exe$cdMTNb_3",
+    "solidos_parede": 1,
+    "brep_parede_valido": true,
+    "aberturas": [
+      {
+        "guid": "25hqr1DcBlfzbvn2WJFYTd",
+        "solidos": 0,
+        "faces": 10,
+        "brep_valido": true,
+        "preenchimentos": [
+          "2$SJG8OM1F09X5iX_5EU3u"
+        ],
+        "ensaio_preparo_isolado": {
+          "estado": "solido_aceito_pelo_helper_atual",
+          "preparacao": {
+            "faces_entrada": 10,
+            "faces_saida": 10,
+            "arestas_livres": 0,
+            "solidos_entrada": 0,
+            "solidos_saida": 1,
+            "volume_m3": 0.003982653330129397,
+            "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global"
+          },
+          "volume_comum_com_parede_m3": 0.003982653330129397,
+          "limite": "Não executa o recorte de faces nem a associação; não altera o código ou IFC."
+        }
+      }
+    ]
+  },
+  {
+    "parede": "2gVUMoiorDfx8HbUyq4RrZ",
+    "solidos_parede": 1,
+    "brep_parede_valido": true,
+    "aberturas": [
+      {
+        "guid": "0ZMQEJxpJqmZFvU4i103so",
+        "solidos": 0,
+        "faces": 10,
+        "brep_valido": true,
+        "preenchimentos": [
+          "2_GGZmW41A4gFlLSZnhyj3"
+        ],
+        "ensaio_preparo_isolado": {
+          "estado": "solido_aceito_pelo_helper_atual",
+          "preparacao": {
+            "faces_entrada": 10,
+            "faces_saida": 10,
+            "arestas_livres": 0,
+            "solidos_entrada": 0,
+            "solidos_saida": 1,
+            "volume_m3": 0.0039826246230982645,
+            "procedimento": "subconjunto Sewing/MakeSolid do IFC2SB; sem remoção de faces nem reparação global"
+          },
+          "volume_comum_com_parede_m3": 0.0039826246230982645,
+          "limite": "Não executa o recorte de faces nem a associação; não altera o código ou IFC."
+        }
+      }
+    ]
+  }
+]
