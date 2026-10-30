@@ -29,8 +29,8 @@ def off_wkt(path):
     return 'MULTIPOLYGON Z ('+', '.join(polys)+')'
 def consolidate(execution_root,base_rdf,out):
     er=Path(execution_root);out=Path(out);out.mkdir(parents=True,exist_ok=True)
-    ex=json.loads((er/'Execucao.json').read_text());cfg=json.loads((er/'entrada/Registro_Entrada.json').read_text())
-    control=json.loads((er/'Controles.json').read_text())
+    ex=json.loads((er/'Execucao.json').read_text(encoding='utf8'));cfg=json.loads((er/'entrada/Registro_Entrada.json').read_text(encoding='utf8'))
+    control=json.loads((er/'Controles.json').read_text(encoding='utf8'))
     expected_controls=14 if ex.get('preparacao_componentes') else 12
     assert control['aprovados']==control['total']==expected_controls
     B=Namespace('https://github.com/prcgui/bim-ontology-CIV2155/id/krijnen-piloto-'+('v02/' if expected_controls==14 else 'v01/'))

@@ -56,7 +56,7 @@
   "avaliacoes_rdf": 68,
   "rdf_entrada_preservado": true,
   "sha256_rdf_entrada": "402dd74f390f60ea583089a4af5f50341a667d8aa3da21cb64cb623d5d519677",
-  "sha256_rdf_saida": "efc430c44173b4000b934e88dd6ed6e6d7405f495628c1c5445641f2eef47ff1",
+  "sha256_rdf_saida": "0a68c9ce3864e9f9345d1497b07030966de51b6a6048f7883057c9ddc6a44fcb",
   "sha256_ifc_original": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
   "comparacao": "Sinais geométricos de natureza distinta; maior contagem não demonstra maior precisão. Sem padrão-ouro arquitetônico.",
   "contribuicao": "Módulo opcional de avaliação geométrica com tolerância e coordenadas integrado ao RDF do piloto; não gera limites semânticos automaticamente.",

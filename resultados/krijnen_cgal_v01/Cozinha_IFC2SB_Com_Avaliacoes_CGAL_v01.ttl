@@ -2240,7 +2240,7 @@ inst:execucao a prov:Activity ;
 inst:referencial-projeto-metros rdfs:label "Referencial cartesiano do projeto IFC; coordenadas em metros. Não georreferenciado como CRS84."@pt .
 
 krid:ensaio a prov:Activity ;
-    rdfs:comment "Ensaio de operaÃ§Ãµes CGAL/Nef isoladas com geometria OFF de IfcOpenShell/OpenCascade; nÃ£o Ã© reproduÃ§Ã£o integral do mÃ©todo de 2020."@pt ;
+    rdfs:comment "Ensaio de operações CGAL/Nef isoladas com geometria OFF de IfcOpenShell/OpenCascade; não é reprodução integral do método de 2020."@pt ;
     prov:used <https://doi.org/10.5281/zenodo.3633653> ;
     prov:wasDerivedFrom <https://doi.org/10.46421/2706-6568.37.2020.paper008> ;
     kr:sha256Entrada "524cd165de6fc1dd35e69f658d2b6d184f13e4c3b72ae6d43cc1b36476e0bd0d" .
