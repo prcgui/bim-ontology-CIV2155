@@ -1,0 +1,145 @@
+{
+  "escopo": "Generalização do núcleo IFC2SB parcial + Kiavarz aos 41 IfcSpace do mesmo IFC; não generalização integral de todos os programas científicos.",
+  "fonte_ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "fontes": [
+    {
+      "autor": "Bonduel et al. (2018)",
+      "uri": "https://ceur-ws.org/Vol-2159/04paper.pdf",
+      "uso": "Conversão IFCtoLBD anterior preservada na base v08; não reexecutada."
+    },
+    {
+      "autor": "Fichter et al. (2021)",
+      "uri": "https://doi.org/10.26868/25222708.2021.30156",
+      "uso": "Helper parcial de recortes, ancestralidade e preparo Sewing/MakeSolid; origem GPL preservada.",
+      "codigo": "https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad"
+    },
+    {
+      "autor": "Kiavarz et al. (2023)",
+      "uri": "https://doi.org/10.3390/buildings13020350",
+      "uso": "Projeção/interseção de faces, orientação, raios e sondas adaptados, §§4.2.2–4.4 e Tabelas 4–5."
+    },
+    {
+      "autor": "Krijnen et al. (2020)",
+      "uri": "https://doi.org/10.46421/2706-6568.37.2020.paper008",
+      "uso": "Referência/diagnóstico anterior preservado; CGAL/Nef não foi reexecutado nem transplantado aos novos pares."
+    },
+    {
+      "autor": "Lilis et al. (2026)",
+      "uri": "https://doi.org/10.1016/j.autcon.2026.106840",
+      "uso": "Referência e operadores comparativos parciais mantidos; 20 controles repetidos. Fluxo do artigo não aplicado no lote."
+    },
+    {
+      "autor": "Zhang et al. (2018)",
+      "uri": "https://doi.org/10.3233/SW-180297",
+      "uso": "Representação GEOM das geometrias e coordenadas no RDF."
+    },
+    {
+      "autor": "FNDE Tipo 2 R03",
+      "uri": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/proinfancia/projetos-arquitetonicos-para-construcao/projeto-tipo-2",
+      "uso": "Pranchas 02, 20, 24–27; amostra documental de 14 ambientes, não cega."
+    }
+  ],
+  "extensoes_do_estudo": [
+    "Recortar cada parede uma única vez e compartilhar a geometria entre todos os espaços, com hashes de integridade.",
+    "Executar os mesmos filtros, projeções e sondas sem limiares específicos por nome de ambiente.",
+    "Registrar explicitamente os 12 espaços inconclusivos, sem converter ausência de resultado em zero esquadrias.",
+    "Diagnosticar sobreposição de sólidos entre espaços com Common OCP; operação atual do estudo, não CGAL/Nef.",
+    "Separar referência documental e previsão, preservando oito positivos não recuperados por preparo e JA-09 indeterminada.",
+    "RDF por resultado e ambiente com namespace v09, preservando a base completa v08 por cópia exata.",
+    "Seis controles de generalização e cinco de regressão da cozinha, além dos 54 controles anteriores de operadores."
+  ],
+  "preparo_global": {
+    "espacos": 41,
+    "espacos_com_volume_aceito": 29,
+    "paredes": 457,
+    "paredes_preparadas": 453,
+    "paredes_inconclusivas": 4,
+    "aberturas_ifc": 184,
+    "produtos_examinados": 188
+  },
+  "preparo_modo": "Executado nesta revisão no IFC original antes de gerar o pacote. Notebook reutiliza o preparo verificado e reexecuta associação, diagnósticos, conferência e integração. Pode regenerar o preparo com preparar_geometria.preparar.",
+  "arquivos": [
+    {
+      "arquivo": "apresentar_lote.py",
+      "sha256": "52bfd1e0ec10dd37d922642ce5a96acfb8da35e8117c4ab05fddb268b8026702"
+    },
+    {
+      "arquivo": "auditar_lote.py",
+      "sha256": "220407037ec6eed4ce3fb52dec62f2eb08113f68d61c257a6a94cfebeaba4517"
+    },
+    {
+      "arquivo": "controles_lilis.py",
+      "sha256": "ccc8498a5332be2c1aad126a92987496044a5b1c9610992f33a222ed161fc18a"
+    },
+    {
+      "arquivo": "COPYING",
+      "sha256": "d0495053051967ebe76fb1facd287d79d1ed800da1be75cf501a556bc39a0472"
+    },
+    {
+      "arquivo": "faces_kiavarz.py",
+      "sha256": "56cea8cd8a1f8f8e8e2ae31dc8070b8ead426e606a659250a50edc938a8eadd9"
+    },
+    {
+      "arquivo": "ifc2sb_faces.py",
+      "sha256": "078cbc2c93c6f81854eb26738ddf26d31d34d3196c7533b8e54e734113d6a155"
+    },
+    {
+      "arquivo": "integrar_lote_rdf.py",
+      "sha256": "df9a83aac712d8f5f07f87169aaabb26dc363ebe5c8df77fecb9d93940882dcf"
+    },
+    {
+      "arquivo": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "arquivo": "operadores_lilis.py",
+      "sha256": "837541fe9290f70840904c8ed7e286049f31c4bb16bae50b5496535bdcbddad7"
+    },
+    {
+      "arquivo": "preparar_geometria.py",
+      "sha256": "6e0b601ab9e06a4901dde2cf823f3c4f3c3a211703b3dd98cff91a383432e67a"
+    },
+    {
+      "arquivo": "rotina_multiambientes.py",
+      "sha256": "c309bb6aff8d5388b487bfe0d68d58ac6eabaa38c11e3dbfe9e867342c0cf792"
+    },
+    {
+      "arquivo": "testar_adaptacao.py",
+      "sha256": "ad4a1024b82130cfc5399b1dc3dd7ebf4b12cda1b1d82f53233db3097f7c984a"
+    },
+    {
+      "arquivo": "testar_faces.py",
+      "sha256": "31a8eb99d7b6a2559f0ae80537008f880749223be51dc1194d25927e09190909"
+    },
+    {
+      "arquivo": "testar_generalizacao.py",
+      "sha256": "5f8d75f0bdd3e19947ad00a85443343860059b5efe551a9f1d40912e0934e169"
+    },
+    {
+      "arquivo": "Vocabulario_Multiambientes.ttl",
+      "sha256": "00439361d84ef4556d425fefd007d579f14e780bbf5f41e3105c307a6c4a06e1"
+    },
+    {
+      "arquivo": "referencia_cpp/Compilacao.log",
+      "sha256": "323beea87f0a9ccce1dbfd48778cdaec1a32f6610f95ac51717ebfe816bbf3c4"
+    },
+    {
+      "arquivo": "referencia_cpp/Execucao.log",
+      "sha256": "3f1a6d755daca8e50c14f2ede0156a938049f5e420386fb31c1e28ff26cb4d78"
+    },
+    {
+      "arquivo": "referencia_cpp/Referencia.cpp",
+      "sha256": "670aab23fdd18e8b1ffef2ba18504328d14f6ee4ec19fe3a040fa8dd27bfd9db"
+    },
+    {
+      "arquivo": "referencia_cpp/Resultado_CPP.json",
+      "sha256": "2e7cfc73670a63e77db9ce4cf0560dea2c51e5d2cc93ad1762be68bd08f83332"
+    }
+  ],
+  "limites": [
+    "Mesmo IFC e edifício; não demonstra desempenho em outros modelos.",
+    "Preparo conservador de uma única casca; sem reparação global ou fallback por caixas.",
+    "Conferência assistida por IA em amostra intencional; demais espaços não recebem aprovação documental por extrapolação.",
+    "Não valida exaustivamente superfícies 3D, todas as paredes ou todas as categorias."
+  ]
+}

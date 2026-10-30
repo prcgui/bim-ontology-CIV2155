@@ -66,3 +66,10 @@
 /referencias/consolidacao_hibrido_v01/*.pdf binary
 /resultados/consolidacao_hibrido_v01/**/*.png binary
 /notebooks/01_Conversao_Arquitetura_IFC_LBD_v08.ipynb -text
+# Multi-space application: keep hashes stable across platforms.
+/consultas/multiambientes_v01/** -text
+/resultados/multiambientes_v01/** -text
+/referencias/multiambientes_v01/** -text
+/referencias/multiambientes_v01/*.pdf binary
+/resultados/multiambientes_v01/**/*.png binary
+/notebooks/01_Conversao_Arquitetura_IFC_LBD_v09.ipynb -text
