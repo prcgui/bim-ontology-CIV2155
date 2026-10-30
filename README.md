@@ -2,6 +2,12 @@
 
 Projeto acadêmico desenvolvido no âmbito da disciplina CIV2155, dedicado à organização e à representação semântica de informações BIM por meio de ontologias.
 
+## Avaliação geométrica complementar · Krijnen / CGAL
+
+O [ensaio parcial de Krijnen et al. (2020)](resultados/krijnen_cgal_v01/) acrescenta ao fluxo uma avaliação por operações CGAL/Nef, com parâmetros de tolerância e proveniência no RDF. A preparação por componentes fechados permitiu concluir 68 testes das 34 paredes candidatas da cozinha, com 14 controles analíticos aprovados. O novo grafo preserva as 676 triplas anteriores e contém 1.946 triplas, incluindo 68 avaliações. Os sinais distinguem contato, interseção volumétrica e inconclusão; não confirmam automaticamente paredes delimitadoras.
+
+A implementação reutiliza operações do [código dos autores citado no artigo](https://doi.org/10.5281/zenodo.3633653) e explicita as diferenças de interpretação IFC e de preparação geométrica. [Fontes e PDF](referencias/krijnen_cgal_v01/) · [Código do ensaio](consultas/krijnen_cgal_v01/) · [Comparação por parede](resultados/krijnen_cgal_v01/Comparacao_Paredes_IFC2SB_CGAL_v01.csv). A reprodução integral do programa de 2020 e a delimitação semântica completa não são declaradas como concluídas.
+
 ## Tema
 
 **Transformação de dados BIM em OWL: estudo do projeto padrão de uma creche do FNDE.**

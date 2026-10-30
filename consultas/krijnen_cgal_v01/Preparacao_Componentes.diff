@@ -1,0 +1,44 @@
+--- v01/ensaio_nef.cpp
++++ v02/ensaio_nef_componentes.cpp
+@@ -47,6 +47,23 @@
+     if(n.is_empty())throw std::runtime_error("Conversão Nef vazia");
+     return n;
+ }
++
++// Extensão CIV2155: união dos componentes individualmente fechados e válidos.
++// Nef Boolean set union: manual CGAL 5.6, Nef_3. Não desloca coordenadas.
++N load_components(const std::string& path){
++    auto pos=path.find_last_of("/\\");auto dir=path.substr(0,pos+1);
++    std::ifstream list(path+".partes");
++    if(!list)throw std::runtime_error("Lista de componentes ausente");
++    N result;std::string name;int count=0;
++    while(std::getline(list,name)){
++        if(name.empty())continue;
++        auto part=load((dir+name).c_str());
++        result+=part;++count;
++    }
++    if(!count)throw std::runtime_error("Lista de componentes vazia");
++    return result;
++}
++
+ void emit(const N& x,const std::string& prefix){
+     auto reg=x.regularization();
+     bool has_volume=!reg.is_empty();
+@@ -76,9 +93,16 @@
+                 std::cout<<"{\"caso\":\""<<test.first<<"\",\"eps_m\":"<<eps<<",\"resultado\":";emit(x,"");std::cout<<"}\n";
+             }
+         }
++
++        for(double offset:{.5,2.}){
++            P b0=box(0,0,0,1,1,1),b1=box(offset,0,0,1,1,1);
++            N merged=create_nef_polyhedron(b0);merged+=create_nef_polyhedron(b1);
++            std::cout<<"{\"caso\":\""<<(offset==.5?"uniao_sobreposta":"uniao_separada")<<"\",\"eps_m\":0,\"resultado\":";
++            emit(merged,"");std::cout<<"}\n";
++        }
+     }else{
+         if(argc!=6)throw std::runtime_error("par A.off B.off eps prefixo");
+-        N a=load(argv[2]),b=load(argv[3]);double eps=std::stod(argv[4]);
++        N a=load_components(argv[2]),b=load_components(argv[3]);double eps=std::stod(argv[4]);
+         if(eps>0){P p=box(-eps,-eps,-eps,2*eps,2*eps,2*eps);N cube=create_nef_polyhedron(p);
+             a=CGAL::minkowski_sum_3(a,cube);b=CGAL::minkowski_sum_3(b,cube);}
+         // Interseção não regularizada, como o trecho dos autores. A regularização

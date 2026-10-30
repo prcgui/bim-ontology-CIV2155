@@ -1,0 +1,240 @@
+[
+  {
+    "codigo": "W01",
+    "guid": "0XAHc8zyr1YuL0AWxiP2D2",
+    "solidos_brep_entrada": 9,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W02",
+    "guid": "3lgLMxPtX22hHa1J_NWBcS",
+    "solidos_brep_entrada": 10,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W03",
+    "guid": "2gY30MgeHFYR7UxJlNnU9q",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W04",
+    "guid": "0xvlN6VObElAHCGt3ouxRe",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W05",
+    "guid": "1v8GUEVp5BSuN5s4rGKaRA",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W06",
+    "guid": "3BgFgAEMH1AR1k70kqmmGX",
+    "solidos_brep_entrada": 11,
+    "volume_ocp_registrado_m3": 0.8042500239460195,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W07",
+    "guid": "2TrBx80afAAB2BetVhdH3h",
+    "solidos_brep_entrada": 15,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W08",
+    "guid": "3P1RyjewH8$v4NJ0y8uBk0",
+    "solidos_brep_entrada": 11,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W09",
+    "guid": "1iOYF1JcPEwegmKfk_tC1y",
+    "solidos_brep_entrada": 11,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W10",
+    "guid": "3hwckEuxT8sBzk1GABMQk8",
+    "solidos_brep_entrada": 11,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W11",
+    "guid": "19RZT7S6nE9gHkuX87cdTl",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W12",
+    "guid": "1MP67OoNnCXvzNtb_rZWb1",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W13",
+    "guid": "1WwmmrGEXC28n24XX__DfU",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W14",
+    "guid": "0mwaX7fNvBBAXIeVJZBq96",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.41638680303484454,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W15",
+    "guid": "2Wuvw8xbr5MuWJuA4De53m",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W16",
+    "guid": "17V7r$InT5S9X3rf$rlDOY",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.06142536901864748,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W17",
+    "guid": "3YjsmNXlH0M9Qa1uC_lH61",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W18",
+    "guid": "1VhllNj3XBbvgUNHbDgqWs",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.04777618451796997,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W19",
+    "guid": "2xbNdCu_H4Zg3HLTWasIQ4",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W20",
+    "guid": "1AMoqYFXX6BRJcxKVqHmrr",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W21",
+    "guid": "17PQAe7i5DsBgg9Rvg7RRm",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.06142504160972193,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W22",
+    "guid": "1Yq436NaT5JP4MiMyJzmiU",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W23",
+    "guid": "3MO8KHMKT4ifS0ALbQHueo",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.04777621392425382,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W24",
+    "guid": "1oAmkwqafCWgjoEPq64mYa",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.06142157386682946,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W25",
+    "guid": "1WwizIhz52jQoLkPqpIpsC",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.08559951893796534,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W26",
+    "guid": "2QW$G1Kjn80hKgGN6FK712",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W27",
+    "guid": "1$SMxFZtnFzw$31i87svwg",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W28",
+    "guid": "0xeworUf99ywn9AEwFgu0p",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W29",
+    "guid": "0Vw1PHxBfD9Pid8d4aIlJG",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.06823998000310832,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W30",
+    "guid": "1Qgi9fV251vRB5VwiIGFG5",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W31",
+    "guid": "3pfXBBd114LP7U8seHQy5V",
+    "solidos_brep_entrada": 1,
+    "volume_ocp_registrado_m3": 0.06824108430550568,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W32",
+    "guid": "0m8CetgqbC3OnOpkIkk9rr",
+    "solidos_brep_entrada": 0,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W33",
+    "guid": "0sj_aEsMzBlPSsBHpOD6vZ",
+    "solidos_brep_entrada": 8,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  },
+  {
+    "codigo": "W34",
+    "guid": "1TlNCt8aP6oesbR1Y5mQco",
+    "solidos_brep_entrada": 10,
+    "volume_ocp_registrado_m3": 0,
+    "criterio": "Sem TopAbs_SOLID na entrada, a soma vazia de volumes do Common não demonstra volume comum zero."
+  }
+]

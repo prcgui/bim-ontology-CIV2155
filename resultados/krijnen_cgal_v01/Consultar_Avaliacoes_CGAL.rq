@@ -1,0 +1,7 @@
+PREFIX kr: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/krijnen-piloto#>
+SELECT ?parede ?eps ?naoVazio ?volume ?estado WHERE {
+ ?a a kr:AvaliacaoGeometrica; kr:paredeExaminada ?parede;
+    kr:paddingMeiaArestaM ?eps; kr:estadoExecucao ?estado .
+ OPTIONAL { ?a kr:intersecaoNaoVazia ?naoVazio }
+ OPTIONAL { ?a kr:volumeComumM3 ?volume }
+} ORDER BY ?parede ?eps

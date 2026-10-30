@@ -1,0 +1,23 @@
+[
+  {
+    "arquivo_2020": "validation_utils.h",
+    "sha256_2020": "95e43c2284bbc959b48d4d1f0a54a6b3be1643d2720d54527d450f7b5c018fb2",
+    "arquivo_branch_2021": "Krijnen_validation_utils.h",
+    "sha256_branch_2021": "1137d6962d9300bb399d29315736abe8ea7cce58c604470434668a2583a9dc59",
+    "identicos": false
+  },
+  {
+    "arquivo_2020": "validation_utils.cpp",
+    "sha256_2020": "a2736600a6e258ec0a8303210109dceeeae582ea967b20da9fa887fb42d6714c",
+    "arquivo_branch_2021": "Krijnen_validation_utils.cpp",
+    "sha256_branch_2021": "a2736600a6e258ec0a8303210109dceeeae582ea967b20da9fa887fb42d6714c",
+    "identicos": true
+  },
+  {
+    "arquivo_2020": "validate_space_boundaries.cpp",
+    "sha256_2020": "06c7e1ae9ee411dcca67e3c5dab9145adc772ab92848b4c2cf33d9822bdf325a",
+    "arquivo_branch_2021": "Krijnen_space_boundaries.cpp",
+    "sha256_branch_2021": "f4e63e8c8fc3ce132ecb41f0e1c4fecadea9ddd04f6a9f5d2dae3ffd2376aad8",
+    "identicos": false
+  }
+]
