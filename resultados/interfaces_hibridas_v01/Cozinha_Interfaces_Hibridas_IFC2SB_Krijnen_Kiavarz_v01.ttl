@@ -2892,7 +2892,7 @@ hid:execucao a prov:Activity ;
         <https://doi.org/10.3390/buildings13020350>,
         <https://doi.org/10.46421/2706-6568.37.2020.paper008> ;
     hiv:sha256IFC "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a" ;
-    hiv:sha256Resultado "b3a026bf3037ab8c7ef065b81c2cb2c1ae2d126f23f66fea043b8fba946c57cd" .
+    hiv:sha256Resultado "b3bf0e37a560f1de32ccb81d493ef5aec2ef1cffebe5c364df8d9c592036d658" .
 
 krid:ensaio a prov:Activity ;
     rdfs:comment "Ensaio de operações CGAL/Nef isoladas com geometria OFF de IfcOpenShell/OpenCascade; não é reprodução integral do método de 2020."@pt ;

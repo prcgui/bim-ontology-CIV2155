@@ -2,6 +2,16 @@
 
 Projeto acadêmico desenvolvido no âmbito da disciplina CIV2155, dedicado à organização e à representação semântica de informações BIM por meio de ontologias.
 
+## Interfaces híbridas da cozinha · Notebook 1 v06
+
+O [Notebook 1 v06](notebooks/01_Conversao_Arquitetura_IFC_LBD_v06.ipynb) e o [Notebook 8 independente](notebooks/08_Interfaces_Hibridas_Cozinha_v01.ipynb) combinam recortes da adaptação parcial IFC2SB, sinais do ensaio Krijnen/CGAL e operações geométricas adaptadas de Kiavarz et al. (2023). As oito células novas foram executadas; as etapas anteriores do Notebook 1 são preservadas sem reexecução.
+
+Foram produzidas 14 interfaces qualificadas geometricamente no critério experimental, em dez paredes, e 11 recortes locais associados a dez das 24 aberturas examinadas. O RDF preserva as 1.946 triplas anteriores e contém 2.559 triplas, com coordenadas, proveniência e avaliações negativas. Os 17 controles analíticos foram aprovados. As contagens coincidem com o piloto anterior; a contribuição é a combinação operacional e rastreável, sem demonstração de maior acurácia arquitetônica.
+
+[Resultados e limitações](resultados/interfaces_hibridas_v01/) · [Código](consultas/interfaces_hibridas_v01/) · [Artigos e adaptações](referencias/interfaces_hibridas_v01/) · [Figura consultada do RDF](resultados/interfaces_hibridas_v01/Grafo_RDF_Recorte_Interface.png).
+
+Para Lilis et al. (2026), foi executada somente uma triagem de pré-condições, distinta do algoritmo de geração de limites 2LSB. Volumes compostos e interseções entre espaços permanecem registrados, sem reparação. A validação arquitetônica independente e a expansão aos demais ambientes continuam pendentes.
+
 ## Avaliação geométrica complementar · Krijnen / CGAL
 
 O [ensaio parcial de Krijnen et al. (2020)](resultados/krijnen_cgal_v01/) acrescenta ao fluxo uma avaliação por operações CGAL/Nef, com parâmetros de tolerância e proveniência no RDF. A preparação por componentes fechados permitiu concluir 68 testes das 34 paredes candidatas da cozinha, com 14 controles analíticos aprovados. O novo grafo preserva as 676 triplas anteriores e contém 1.946 triplas, incluindo 68 avaliações. Os sinais distinguem contato, interseção volumétrica e inconclusão; não confirmam automaticamente paredes delimitadoras.
@@ -162,6 +172,14 @@ Entre as publicações recentes que citam o trabalho, destacam-se os seguintes e
 A presença de citações entre 2024 e 2026 indica continuidade de uso e discussão da abordagem. A escolha metodológica neste estudo se apoia nessa pertinência temática e no acesso ao artigo e ao código dos autores; a contagem de citações é um indicador complementar de repercussão.
 
 ## Referências metodológicas
+
+KIAVARZ, Hamid; JADIDI, Mojgan; RAJABIFARD, Abbas; SOHN, Gunho. An Automated Space-Based Graph Generation Framework for Building Energy Consumption Estimation. **Buildings**, v. 13, n. 2, 350, 2023. DOI: [10.3390/buildings13020350](https://doi.org/10.3390/buildings13020350).
+
+**Contribuição nesta etapa:** adaptação dos procedimentos de faces, raios, projeção e interseção dos §§4.2.2–4.4 e Tabelas 4–5. O pseudocódigo publicado não é apresentado como programa executável completo. As alterações de API e de critérios estão registradas. [PDF e fontes](referencias/interfaces_hibridas_v01/) · [Página dos autores](https://www.ausmlab.com/publications/an-automated-space-based-graph-generation-framewor) · [Biblioteca Shapely usada no artigo e nesta adaptação](https://github.com/shapely/shapely).
+
+LILIS, Georgios Nektarios et al. Automated generation of building energy model geometry from BIM-derived space and opening volumes. **Automation in Construction**, v. 185, 106840, 2026. DOI: [10.1016/j.autcon.2026.106840](https://doi.org/10.1016/j.autcon.2026.106840).
+
+**Contribuição nesta etapa:** fundamentação da triagem de pré-condições do §6. O método de geração de limites 2LSB não foi implementado. [PDF e registro](referencias/interfaces_hibridas_v01/).
 
 BONDUEL, Mathias; ORASKARI, Jyrki; PAUWELS, Pieter; VERGAUWEN, Maarten; KLEIN, Ralf. The IFC to Linked Building Data Converter: Current Status. In: LINKED DATA IN ARCHITECTURE AND CONSTRUCTION WORKSHOP, 6., 2018, Londres. **Proceedings [...]**. CEUR Workshop Proceedings, v. 2159, 2018. p. 34–43. Disponível em: <https://ceur-ws.org/Vol-2159/04paper.pdf>. Acesso em: 27 out. 2026.
 

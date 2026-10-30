@@ -47,3 +47,9 @@ As seis células novas preparam fontes verificadas por hash, executam 17 control
 [Notebook 1 v05](01_Conversao_Arquitetura_IFC_LBD_v05.ipynb) · [Notebook 7: auditoria independente do ensaio Krijnen](07_Auditoria_Krijnen_CGAL_v01.ipynb).
 
 As novas células auditam registros reais dos testes C++/CGAL executados em Linux e incorporam 68 avaliações ao RDF. Seis células de código foram executadas na auditoria; a opção de reiniciar o motor ficou desativada e é identificada separadamente. As células anteriores do Notebook 1 permanecem como registro, sem reexecução. [Resultados e alcance](../resultados/krijnen_cgal_v01/) · [Código e instruções](../consultas/krijnen_cgal_v01/) · [Artigo e fonte dos autores](../referencias/krijnen_cgal_v01/).
+
+## Notebook 1 · revisão 06 · interfaces híbridas
+
+[Notebook 1 v06](01_Conversao_Arquitetura_IFC_LBD_v06.ipynb) · [Notebook 8 independente](08_Interfaces_Hibridas_Cozinha_v01.ipynb).
+
+Oito células novas executadas: importação e integridade do IFC, 17 controles, combinação das interfaces, comparação OCP–Shapely, RDF e consulta, triagem de pré-condições de Lilis, visualização extraída do RDF e verificação final. Os recortes IFC2SB e sinais CGAL são entradas reais da etapa; as operações de Kiavarz são adaptações explicitadas do procedimento/pseudocódigo publicado. A triagem de Lilis não gera 2LSB. As células anteriores do Notebook 1 foram preservadas, sem reexecução nesta revisão. [Código](../consultas/interfaces_hibridas_v01/) · [Fontes e diferenças](../referencias/interfaces_hibridas_v01/) · [Resultados e limites](../resultados/interfaces_hibridas_v01/).

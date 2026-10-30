@@ -43,3 +43,11 @@
 /docs/modelo_conceitual_v01/*.png binary
 /referencias/modelo_conceitual_v01/** -text
 /referencias/modelo_conceitual_v01/*.pdf binary
+# Hybrid interface experiment: preserve source/evidence hashes and binary PDFs.
+/consultas/interfaces_hibridas_v01/** -text
+/resultados/interfaces_hibridas_v01/** -text
+/referencias/interfaces_hibridas_v01/** -text
+/referencias/interfaces_hibridas_v01/*.pdf binary
+/resultados/interfaces_hibridas_v01/*.png binary
+/notebooks/01_Conversao_Arquitetura_IFC_LBD_v06.ipynb -text
+/notebooks/08_Interfaces_Hibridas_Cozinha_v01.ipynb -text

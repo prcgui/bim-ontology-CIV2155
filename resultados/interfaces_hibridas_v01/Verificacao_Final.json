@@ -1,0 +1,29 @@
+{
+  "notebooks": [
+    {
+      "notebook": "08_Interfaces_Hibridas_Cozinha_v01.ipynb",
+      "celulas_codigo": 8,
+      "erros": 0
+    },
+    {
+      "notebook": "01_Conversao_Arquitetura_IFC_LBD_v06.ipynb",
+      "celulas_codigo": 32,
+      "erros": 0
+    }
+  ],
+  "ifc_original_preservado": true,
+  "triplas_anteriores_preservadas": 1946,
+  "triplas_resultado": 2559,
+  "controles_analiticos": 17,
+  "interfaces": 14,
+  "aberturas_associadas": 10,
+  "avaliacoes_de_aberturas": 24,
+  "comparacao_areas": {
+    "interfaces_comparadas": 14,
+    "pares_correspondentes": 14,
+    "maior_diferenca_area_m2": 8.881784197001252e-14,
+    "natureza": "Conferência entre operadores, condicionada à mesma entrada e seleção; não validação arquitetônica independente."
+  },
+  "lilis_2026": "Somente triagem de pré-condições; não foi executado o algoritmo de geração de limites.",
+  "validacao_arquitetonica_independente": "pendente"
+}
