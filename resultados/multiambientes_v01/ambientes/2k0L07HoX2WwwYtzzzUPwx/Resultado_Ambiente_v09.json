@@ -1,0 +1,82 @@
+{
+  "ambiente": "2k0L07HoX2WwwYtzzzUPwx",
+  "nome": "PLAYGROUND",
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "parametros": {
+    "distancia_planos_m": 0.0001,
+    "area_min_m2": 1e-08,
+    "tol_normal": 1e-10,
+    "sonda_principal_m": 0.001,
+    "tolerancia_classificacao_m": 1e-07,
+    "tolerancia_contorno_parental_m2": 1e-07,
+    "tolerancia_internos_m": 1e-05,
+    "distancia_componente_m": 0.25,
+    "margem_componente_m": 0.02
+  },
+  "estado": "associacao_executada",
+  "interfaces": [
+    {
+      "estado": "recorte_geometrico_candidato",
+      "area_m2": 12.93211003512263,
+      "distancia_planos_m": 2.5842439299594844e-11,
+      "produto_escalar": -1.0,
+      "id": "2HM9nJQ7L9G9lvSqOF7dzu_F000_R05_P0",
+      "parede": "2HM9nJQ7L9G9lvSqOF7dzu",
+      "nome_parede": "AL14",
+      "face_parede": 0,
+      "face_ambiente": "R05",
+      "wkt": "POLYGON Z ((-18.74005052568727 44.810000000025845 0.16, -18.74005052568727 44.810000000025845 2.2800000000000002, -24.840102429047 44.810000000025845 2.2800000000000002, -24.840102429047 44.810000000025845 0.16, -18.74005052568727 44.810000000025845 0.16))",
+      "normal_ambiente": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "qualificada_no_criterio": true,
+      "sondas": {
+        "ponto_amostra_xyz_m": [
+          -21.790076477367137,
+          44.810000000025845,
+          1.22
+        ],
+        "sonda_positiva": "IN",
+        "sonda_negativa": "OUT",
+        "passo_sonda_m": 0.001,
+        "intersecoes_raio_positivo": [
+          {
+            "face": "R00",
+            "distancia_m": 8.809791348523348,
+            "xyz_m": [
+              -21.790076477367137,
+              36.0002086515025,
+              1.22
+            ]
+          }
+        ],
+        "qualificacao_local": "apoiada_pelas_sondas_e_raio",
+        "qualificada_no_criterio": true
+      },
+      "sondas_estaveis": true
+    }
+  ],
+  "recortes_aberturas": [],
+  "esquadrias_associadas": [],
+  "outros_preenchimentos": [],
+  "elementos_internos_candidatos": [],
+  "componentes_sem_FillsVoids_candidatos": [],
+  "problemas": [],
+  "CGAL_Krijnen": "não reexecutado para estes pares; resultados da cozinha não reutilizados em outros ambientes",
+  "Lilis_2026": "não executado no lote; mantém módulo comparativo e referências da revisão anterior",
+  "paredes_prefiltradas": 4,
+  "paredes_globais_sem_geometria": [],
+  "resumo": {
+    "interfaces": 1,
+    "interfaces_qualificadas": 1,
+    "paredes_com_interface": 1,
+    "esquadrias": 0,
+    "outros_preenchimentos": 0,
+    "internos": 0,
+    "componentes": 0,
+    "problemas": 0
+  },
+  "segundos": 0.012939300009747967
+}

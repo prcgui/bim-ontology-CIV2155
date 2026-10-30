@@ -1,0 +1,13 @@
+{
+  "triplas_base_v08": 120191,
+  "triplas_uniao_v09": 137832,
+  "espacos_consultados": 41,
+  "pares_ambiente_esquadria_consultados": 74,
+  "interfaces_registradas": 1950,
+  "inconclusivos_sem_contagem_falsa_zero": 12,
+  "base_v08_preservada_bytes": 187127277,
+  "sha256_base_v08": "caa11e9c3e0e196df14a3a3265b35498e6ad6b9b46d5df569cb9602887f5db14",
+  "sha256_saida": "465d99d0a6276fa21de625ff1e4f3eb34b4bec992e5fd4d183a86c1411973b15",
+  "grafo_reaberto_e_consultado": true,
+  "limite": "Propriedades mu: identificam o resultado desta revisão; não substituem registros históricos nem certificam completude arquitetônica."
+}

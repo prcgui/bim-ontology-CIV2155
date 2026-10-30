@@ -1,5 +1,9 @@
 # Resultados
 
+## Aplicação multiambientes · Notebook 1 v09
+
+[Cobertura dos 41 espaços, relatório e grafo](multiambientes_v01/) · [Notebook 1 v09](../notebooks/01_Conversao_Arquitetura_IFC_LBD_v09.ipynb). O núcleo chegou à associação em 29 espaços e registrou preparo inconclusivo em 12, mantendo os motivos e contagens indisponíveis. Na amostra documental de 14 ambientes: 35 associações e 33 exclusões corretas nos casos processados; oito positivos não recuperados pelo preparo de três ambientes; JA-09 indeterminada. A aplicação computacional aos 41 espaços e a conferência da amostra são apresentadas separadamente.
+
 ## Consolidação do Notebook 1 v08 e conferência documental da cozinha
 
 [Relatório, comparações e grafo completo](consolidacao_hibrido_v01/) · [Notebook executado](../notebooks/01_Conversao_Arquitetura_IFC_LBD_v08.ipynb). A conferência usa as pranchas oficiais R03 02 e 24–26. Nos 14 casos determinados: oito associações corretas, seis exclusões corretas e nenhuma omissão; JA-09 indeterminada por conflito documental. O IFC2SB parcial já alcançava o mesmo conjunto de esquadrias. A consolidação acrescenta organização por interface, candidatos internos/componentes e integração ao grafo completo preservado. As referências, o caráter exploratório da comparação com a listagem por parede e os limites da avaliação estão detalhados nos resultados.

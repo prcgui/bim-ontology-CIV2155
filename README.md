@@ -2,6 +2,18 @@
 
 Projeto acadêmico desenvolvido no âmbito da disciplina CIV2155, dedicado à organização e à representação semântica de informações BIM por meio de ontologias.
 
+## Notebook 1 v09 · aplicação aos 41 ambientes
+
+[Notebook 1 v09](notebooks/01_Conversao_Arquitetura_IFC_LBD_v09.ipynb) · [Cobertura, relatório e resultados](resultados/multiambientes_v01/) · [Código generalizado](consultas/multiambientes_v01/) · [Amostra documental e fontes](referencias/multiambientes_v01/).
+
+O núcleo IFC2SB parcial + Kiavarz foi aplicado aos 41 IfcSpace do IFC original, com parâmetros comuns e preparo compartilhado das paredes. **29 espaços chegaram à associação e 12 ficaram inconclusivos no preparo.** Dos 29, vinte não tiveram pendências registradas nesse recorte e nove tiveram pendências de faces/recortes. Isso descreve execução, não aprovação arquitetônica completa.
+
+Foram registrados 74 pares ambiente–esquadria, envolvendo 57 esquadrias distintas. A mesma porta pode delimitar dois cômodos; os pares não são quantitativos de peças. O grafo completo v08 foi preservado e recebeu os estados e evidências da v09, incluindo os inconclusivos sem contagem falsa de zero.
+
+A conferência documental abrange 14 ambientes, sendo 13 além da cozinha: despensa, copa, vestiários, sanitários PCD, sala de atendimento, sala de professores, lactário, Infantil 2/3, Administração, Infantil 1 e Lavanderia/Rouparia. Na parte processada, houve 35 associações e 33 exclusões corretas, sem associação indevida ou omissão após associação nos casos determinados. **Oito referências positivas não foram recuperadas** por causa do preparo inconclusivo dos três últimos ambientes. A JA-09 da cozinha permanece indeterminada. A amostra é intencional e assistida por IA, sem revisão cega por especialista.
+
+Há evidência de funcionamento em dez novos cômodos processados da amostra. Não se afirma cobertura completa do edifício: além dos 12 espaços inconclusivos, quatro recortes de parede não foram concluídos pelo módulo parcial e foram encontradas sobreposições em 12 pares de espaços aceitos. Os diagnósticos novos usam OCP; CGAL/Krijnen da cozinha não foi transplantado e o fluxo integral de Lilis não foi executado. Referências, atribuição, licenças e o papel de cada etapa permanecem explícitos no notebook.
+
 ## Notebook 1 v08 · rotina consolidada e conferência documental da cozinha
 
 [Notebook 1 v08 executado](notebooks/01_Conversao_Arquitetura_IFC_LBD_v08.ipynb) · [Resultados e relatório](resultados/consolidacao_hibrido_v01/) · [Rotina única](consultas/consolidacao_hibrido_v01/) · [Pranchas oficiais e referência caso a caso](referencias/consolidacao_hibrido_v01/).

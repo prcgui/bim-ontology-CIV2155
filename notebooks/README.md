@@ -1,5 +1,13 @@
 # Notebooks do estudo
 
+## Notebook 1 v09 — aplicação multiambientes
+
+[Versão atual](01_Conversao_Arquitetura_IFC_LBD_v09.ipynb) · [Resultados e relatório](../resultados/multiambientes_v01/) · [Referência documental](../referencias/multiambientes_v01/).
+
+Oito células carregam código e preparo verificados, repetem controles, reexecutam a associação nos 41 espaços, conferem documentos, verificam regressão da cozinha e integram a saída ao grafo completo v08 preservado. O preparo global foi executado nesta revisão e fica disponível no pacote, com opção de regeneração. A conversão semântica anterior é reutilizada por hash. São 65 controles: 54 dos operadores, cinco de regressão e seis da generalização.
+
+A etapa de associação foi executada em 29 espaços; 12 ficaram inconclusivos no preparo. Foram registrados 74 pares ambiente–esquadria. A conferência documental cobre 14 ambientes, 13 novos: 35 associações corretas, 33 exclusões corretas, oito referências positivas não recuperadas por preparo e JA-09 indeterminada. Os inconclusivos não são contados como exclusões corretas. A amostra não demonstra completude dos demais espaços ou validação integral das superfícies. O papel de cada método, as referências e o que não foi reexecutado estão explicados junto às células.
+
 ## Notebook 1 v08 — rotina consolidada e conferência no projeto
 
 [Versão atual executada](01_Conversao_Arquitetura_IFC_LBD_v08.ipynb) · [Resultados e evidências](../resultados/consolidacao_hibrido_v01/) · [Pranchas e referência documental](../referencias/consolidacao_hibrido_v01/).

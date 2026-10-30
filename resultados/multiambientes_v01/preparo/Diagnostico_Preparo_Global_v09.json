@@ -1,0 +1,161 @@
+{
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "resumo": {
+    "espacos": 41,
+    "espacos_com_volume_aceito": 29,
+    "paredes": 457,
+    "paredes_preparadas": 453,
+    "paredes_inconclusivas": 4,
+    "aberturas_ifc": 184,
+    "produtos_examinados": 188
+  },
+  "recortes_inconclusivos": [
+    {
+      "guid": "0XHVx1C1b04fjHb90$yL5l",
+      "estado": "inconclusivo_geometria",
+      "bbox": [
+        -26.240106353873802,
+        31.90017896394708,
+        3.2599899999999997,
+        -25.689517746578808,
+        32.10019897730566,
+        4.770009999999999
+      ],
+      "arquivo": "paredes/0XHVx1C1b04fjHb90$yL5l.json",
+      "sha256": "4e179a57d0fa5ad1ae6ce26cb5c583175b93fa48782013548e83bd41987884ec",
+      "faces_parentais": 0,
+      "recortes": 0,
+      "faces_nao_cobertas": 0,
+      "motivo": "ValueError: Forma sem sólido: fallback de unify_shape por caixa não portado"
+    },
+    {
+      "guid": "1GKbDcMY96ChGXKh3SI8sC",
+      "estado": "inconclusivo_geometria",
+      "bbox": [
+        -26.24010635387379,
+        34.60015799755483,
+        3.2599899999999997,
+        -25.68951774653944,
+        34.800187037389776,
+        4.770009999999999
+      ],
+      "arquivo": "paredes/1GKbDcMY96ChGXKh3SI8sC.json",
+      "sha256": "a3ee0b4f929df172cc2e6dfeac719bd3c922b459d9e68380a6fd92ffb3c11cac",
+      "faces_parentais": 0,
+      "recortes": 0,
+      "faces_nao_cobertas": 0,
+      "motivo": "ValueError: Forma sem sólido: fallback de unify_shape por caixa não portado"
+    },
+    {
+      "guid": "1VZWKkqNX1exe$cdMTNb_3",
+      "estado": "inconclusivo_geometria",
+      "bbox": [
+        -17.890022368576645,
+        34.60015737862122,
+        3.2599899999999997,
+        -17.34004052568731,
+        34.800186382024634,
+        4.770009999999999
+      ],
+      "arquivo": "paredes/1VZWKkqNX1exe$cdMTNb_3.json",
+      "sha256": "7d5a0eb42063ddfaf050c322e13ab7ae32578c4b11815ee19b20495ec12443f7",
+      "faces_parentais": 0,
+      "recortes": 0,
+      "faces_nao_cobertas": 0,
+      "motivo": "ValueError: Forma sem sólido: fallback de unify_shape por caixa não portado"
+    },
+    {
+      "guid": "2gVUMoiorDfx8HbUyq4RrZ",
+      "estado": "inconclusivo_geometria",
+      "bbox": [
+        -17.890022368615966,
+        31.900178345063196,
+        3.2599899999999997,
+        -17.340040525687304,
+        32.100198358372,
+        4.770009999999999
+      ],
+      "arquivo": "paredes/2gVUMoiorDfx8HbUyq4RrZ.json",
+      "sha256": "0d58fe072d1639aa45b1b1411f0de3631d0fa8c9e48ea4d8fb7bc29e00496299",
+      "faces_parentais": 0,
+      "recortes": 0,
+      "faces_nao_cobertas": 0,
+      "motivo": "ValueError: Forma sem sólido: fallback de unify_shape por caixa não portado"
+    }
+  ],
+  "espacos_inconclusivos": [
+    {
+      "guid": "2x_Zaq6pr5AQd4475C6QUa",
+      "nome": "INFANTIL 1",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática"
+    },
+    {
+      "guid": "0sO2ntUVLBIgGbIJU8hmMH",
+      "nome": "INFANTIL 4",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática"
+    },
+    {
+      "guid": "260FEG3a58vBCfaJfNceHt",
+      "nome": "INFANTIL 5",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática"
+    },
+    {
+      "guid": "26Rq0vnwv75eit3wXW3p8h",
+      "nome": "BERÇARIO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Sólido do ambiente inválido"
+    },
+    {
+      "guid": "2w$FA149nEHA8yGLkpF3DV",
+      "nome": "DEPÓSITO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática"
+    },
+    {
+      "guid": "0cLuVHWYX1JPabs5d7Dkmr",
+      "nome": "CIRCULAÇÃO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Sólido do ambiente inválido"
+    },
+    {
+      "guid": "1U5z$rH8X2aQkwaZbGMQJK",
+      "nome": "AMAMENTAÇÃO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Ambiente não forma uma única casca fechada; sem reparação automática"
+    },
+    {
+      "guid": "3fO06QkO923xMQZekZduj4",
+      "nome": "HIGIENIZAÇÃO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Sólido do ambiente inválido"
+    },
+    {
+      "guid": "0fkTeNBl9BSg0N67HirM_S",
+      "nome": "ADMINISTRAÇÃO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Sólido do ambiente inválido"
+    },
+    {
+      "guid": "3xRiW6JFvAuQvq$RW3ILAS",
+      "nome": "LAVANDERIA / ROUPARIA",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Sólido do ambiente inválido"
+    },
+    {
+      "guid": "3uWGbQ0lbCbx7e6UDu08ih",
+      "nome": "HALL DE ENTRADA",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Sólido do ambiente inválido"
+    },
+    {
+      "guid": "0Zn4gWiVr4LOhf3Np$7$Ua",
+      "nome": "FRALDÁRIO",
+      "estado": "inconclusivo_preparacao_espaco",
+      "motivo": "Sólido do ambiente inválido"
+    }
+  ],
+  "origem": "Catálogo do preparo global fixado no pacote; não é nova execução do recorte."
+}
