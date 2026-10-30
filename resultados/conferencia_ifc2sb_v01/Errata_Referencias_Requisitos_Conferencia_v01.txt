@@ -1,0 +1,7 @@
+ERRATA DE REFERÊNCIA A REQUISITOS — 29/10/2026
+
+Documento de origem: resultados/conferencia_ifc2sb_v01/Criterios_por_Requisito.csv e tabela da seção 4 do relatório v01 (p. 5).
+Na matriz de rastreabilidade v02, delimitação de paredes é R03; relação porta-abertura-hospedeiro é R04. R05 identifica elementos estruturais.
+Correções dos identificadores: linha 1, R04 -> R03; linhas 2 e 3, R05 -> R04. R06 e R09 são mantidos como requisitos de apoio.
+O arquivo Criterios_por_Requisito_Retificados_v02.csv registra a correspondência correta. As referências históricas de R06 foram reaproveitadas como apoio espacial, sem transformar localização arquitetônica em integração executada.
+As perguntas, as medições geométricas e os resultados computacionais anteriores permanecem inalterados. Os arquivos v01 são preservados para rastreabilidade. O novo R10 é uma extensão específica da localização de elementos, separada dos nove requisitos originais.

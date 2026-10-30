@@ -1,0 +1,10 @@
+﻿id,assunto,regra
+MC01,Identidade,Usar modelo/versão + GUID. Preservar GUIDs de relações; nomes repetidos não identificam objetos.
+MC02,Granulação,Registrar a parcela pertinente da parede. Não inferir que todas as aberturas de uma parede compartilhada pertencem ao mesmo cômodo.
+MC03,Níveis de evidência,"Distinguir dado declarado IFC, medição geométrica e decisão arquitetônica independente. Esses estados não são uma escala numérica de confiança."
+MC04,Compatibilidade BOT,adjacentElement e intersectingElement são disjuntas na BOT consultada. Não afirmar ambas para o mesmo par a partir de sinais geométricos locais/globais; manter as avaliações separadas até qualificar o mapeamento.
+MC05,Representação,Geometria válida como BRep pode não formar um único sólido fechado. Operações indisponíveis ficam sem valor e com motivo; não recebem zero.
+MC06,Ausência,"Resultado vazio de consulta não prova ausência arquitetônica. Distinguir dado ausente, relação não representada, falha de processamento e hipótese contrariada."
+MC07,Função,"Contato e interseção não provam acesso, conexão funcional ou ambiente atendido. A função exige evidência própria."
+MC08,Tolerâncias,"Os limiares numéricos do piloto são parâmetros experimentais, não tolerâncias normativas nem critérios universais de aceitação."
+MC09,Consistência espacial,"Registrar referencial do projeto, unidades e transformações. Coordenadas XYZ disponíveis não demonstram alinhamento entre arquitetura e SMT."

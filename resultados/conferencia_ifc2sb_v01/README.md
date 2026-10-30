@@ -14,6 +14,8 @@ A conferência usa nova leitura do mesmo IFC e o mesmo ecossistema geométrico. 
 
 ## Arquivos
 
+**Retificação das referências a requisitos:** na primeira linha do quadro de critérios do relatório v01, p. 5, deve constar R03; nas duas linhas seguintes, R04. São corrigidos somente os identificadores de referência à matriz v02. As medições e os arquivos computacionais históricos permanecem inalterados. Consultar a [errata](Errata_Referencias_Requisitos_Conferencia_v01.txt) e o [CSV retificado v02](Criterios_por_Requisito_Retificados_v02.csv). A [consolidação das questões e do modelo conceitual](../../docs/modelo_conceitual_v01/CIV2155_Questoes_de_Competencia_Modelo_Conceitual_v01.pdf) registra o mapeamento e a extensão R10 separadamente.
+
 - `Conferencia_Geometrica_Cozinha.json`: dados, versões/parametrização, GUIDs de relações e objetos, limites XYZ, métricas, valores indisponíveis e motivos.
 - `Casos_Arquitetonicos_Cozinha.csv`, `Paredes_Brutas_e_Com_Vazios.csv`, `Preenchimentos_Vs_Cozinha.csv`: dados individuais de 24 casos e 34 paredes.
 - `Matriz_Casos_e_Condicoes_de_Aceitacao.csv` e `Criterios_por_Requisito.csv`: condições pendentes vinculadas a R04, R05, R06 e R09; não substituem a matriz v02 nem aprovam automaticamente associações.

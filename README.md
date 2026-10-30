@@ -46,6 +46,14 @@ O recorte compreende a arquitetura e a organização dos ambientes. A comparaç�
 
 ## Revisão do Notebook 1 a partir da literatura
 
+### Questões de competência e modelo conceitual de referência
+
+A [especificação consolidada em PDF](docs/modelo_conceitual_v01/CIV2155_Questoes_de_Competencia_Modelo_Conceitual_v01.pdf) define três questões arquitetônicas: paredes delimitadoras, aberturas/preenchimentos associados às interfaces e localização de elementos no volume do ambiente. Mantém também CQ1, de controle dos ambientes, e CQ3, relativa às condições da integração com SMT. Para cada questão são registrados significado da relação, resposta esperada, informação necessária e critérios de aceitação, rejeição delimitada e inconclusão.
+
+O modelo distingue declaração IFC, evidência geométrica e decisão arquitetônica independente. A [tabela editável de questões e critérios](docs/modelo_conceitual_v01/Questoes_de_Competencia_e_Criterios_v01.csv), o [esquema conceitual](docs/modelo_conceitual_v01/Modelo_Conceitual_Referencia_v01.svg) e a [especificação estruturada](docs/modelo_conceitual_v01/Especificacao_Questoes_Modelo_Conceitual_v01.json) relacionam as perguntas à matriz existente e ao programa da disciplina. R10 formaliza a localização de elementos, preservando os nove identificadores anteriores; sua inclusão não representa nova verificação geométrica.
+
+As [referências e seus localizadores](referencias/modelo_conceitual_v01/Fontes_e_Localizadores.txt) incluem Noy e McGuinness (2001), a especificação BOT e o OWL 2 Primer. Os PDFs de Noy e McGuinness e do OWL 2 Primer e a cópia do vocabulário BOT consultado estão disponíveis em [referências](referencias/modelo_conceitual_v01/). A consolidação é um modelo-alvo de avaliação; não acrescenta instâncias ou relações arquitetônicas confirmadas ao RDF.
+
 ### Adaptação parcial do IFC2SB para Python — revisão 04
 
 O [Notebook 1, revisão 04](notebooks/01_Conversao_Arquitetura_IFC_LBD_v04.ipynb) acrescenta um [módulo geométrico executado em seis células](notebooks/01_Modulo_Geometrico_IFC2SB_Python_v01.ipynb). São adaptadas rotinas do [IFC2SB dos autores](https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad), associado a [Fichter et al. (2021)](https://doi.org/10.26868/25222708.2021.30156), utilizando OpenCascade por meio de OCP. O [mapa de funções e diferenças](consultas/ifc2sb_python_v01/) distingue as rotinas portadas da extensão experimental de comparação ambiente–face. As células e saídas anteriores da revisão 03 são preservadas, sem nova execução da conversão nesta revisão.

@@ -8,7 +8,7 @@
   "Matriz_Casos_e_Condicoes_de_Aceitacao.csv": "d1437b7bb627bf0ae82bc0a35a276572eadfecf6389ddde07dfd6ef0bd432770",
   "Paredes_Brutas_e_Com_Vazios.csv": "3f96cecdb2afa2fa9640358450cb0f0a0f5234740ee72685f4d0150726a55169",
   "Preenchimentos_Vs_Cozinha.csv": "52405d6fe8128150d40f44ab068ca19b692d58614cf00950af1f0900be447a73",
-  "README.md": "98a717d8bc0da04df1a0451afe52c5fcb5e1092d367bb98769136695629f51a2",
+  "README.md": "c701efac612ef7385b7f3f906eaefddc7b3f7060244bac7808e4f0eb7d7c3b76",
   "Relatorio_Conferencia_Geometrica_IFC2SB_v01.pdf": "b5fd3920db4fdfd67efa3d1ebd6aeb8e4ae555deecade36b8d2313f13d45904d",
   "Verificacao_Entrega.json": "87768147077a0d20821be2093cb860696315a64ac694430e327ae51fd2c1de6d",
   "figuras/C01.png": "f7916cded2037052a42a2b891de35c6ae5a2350c88c1d38ada6314867916f858",
@@ -35,5 +35,7 @@
   "figuras/C22.png": "ca1d7adddc285c4bd88d38cc546ab8a3714206190edd160fb8d206db090f9d0a",
   "figuras/C23.png": "cb17a54b3d58ce0eab1b2b92d666ee1a0e9392850d11411f036dbd8c4a378eff",
   "figuras/C24.png": "e7681af93cfd9e357a590da9c359dac67b0d351b2c9c936de2a1ea00ef47ec91",
-  "figuras/Comparacao_Volumes_Paredes.png": "af216f78c7f967af1eb6dfc1537c0017a2dab709c83698308011fb2baa7c03f7"
+  "figuras/Comparacao_Volumes_Paredes.png": "af216f78c7f967af1eb6dfc1537c0017a2dab709c83698308011fb2baa7c03f7",
+  "Errata_Referencias_Requisitos_Conferencia_v01.txt": "6bb715cd6faea322bf71cf70f0fa86c6836662de62c5d96913fb2d82f3d20dc4",
+  "Criterios_por_Requisito_Retificados_v02.csv": "82ed96df15a57eefc216067ca34c79e4fbd8fa3a733b479772f39fc908325769"
 }

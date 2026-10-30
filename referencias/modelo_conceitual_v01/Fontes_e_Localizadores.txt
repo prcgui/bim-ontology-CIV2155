@@ -1,0 +1,39 @@
+QUESTÕES DE COMPETÊNCIA E MODELO CONCEITUAL — FONTES E ALCANCE
+
+F01 — Noy e McGuinness (2001). Ontology Development 101: A Guide to Creating Your First Ontology.
+https://protege.stanford.edu/publications/ontology_development/ontology101.pdf
+Seção 3, Step 1 e Competency questions, p. 5; Step 4 e Step 5 para conceitos/propriedades.
+Guia técnico-acadêmico de Stanford; não é artigo de periódico.
+Contribuição: Finalidade, escopo, perguntas de competência e revisão iterativa. Não prescreve este conjunto de perguntas.
+
+F02 — Linked Building Data Community Group. Building Topology Ontology (BOT).
+https://w3c-lbd-cg.github.io/bot/
+Elementos e zonas: containsElement, adjacentElement, intersectingElement; seção Interfaces.
+Especificação pública do grupo de comunidade; a página se identifica como Public Draft, não como Recomendação W3C.
+Contribuição: Distinção dos termos e incompatibilidade entre adjacentElement/intersectingElement para o mesmo par. Não estabelece o algoritmo geométrico de aceitação.
+
+F03 — W3C. OWL 2 Web Ontology Language Primer. Second Edition, 2012.
+https://www.w3.org/TR/owl2-primer/
+Seção 2: hipótese de mundo aberto; seção 4: classes e propriedades.
+Primer informativo publicado como Recomendação W3C.
+Contribuição: Separação entre descrição e dados; ausência de afirmação não implica falsidade.
+
+F04 — Programa da disciplina CIV2155. Segundo semestre de 2026.
+
+Arquivo local CIV2155_Programa_da_Disciplina.pdf, p. 2.
+Documento da disciplina fornecido pelo pesquisador.
+Contribuição: Temas da disciplina; a correlação com as questões é interpretação analítica deste estudo.
+
+D09 — Notebook 1 v04 e Resultado_Piloto.json.
+https://github.com/prcgui/bim-ontology-CIV2155/tree/main/resultados/ifc2sb_python_v01
+Registro do piloto da cozinha e seu RDF.
+Evidência empírica do estudo.
+Contribuição: Superfícies candidatas e recortes com coordenadas; alcance da avaliação preservado.
+
+D10 — Notebook 6 e Conferencia_Geometrica_Cozinha.json.
+https://github.com/prcgui/bim-ontology-CIV2155/tree/main/resultados/conferencia_ifc2sb_v01
+24 casos e 34 paredes; valores indisponíveis e distinção global/local.
+Conferência interna do mesmo IFC.
+Contribuição: Casos que motivam critérios; não padrão-ouro arquitetônico independente.
+
+As questões, o R10, os critérios e a correlação com as aulas são escolhas de especificação deste estudo. As fontes fundamentam a metodologia e a semântica; não validam automaticamente os resultados da creche.
