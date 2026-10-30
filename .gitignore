@@ -1,6 +1,5 @@
-# Derived execution files; consolidated artifacts are versioned separately.
-/consultas/ifc2sb_python_v01/saida_executada/
-/consultas/ifc2sb_python_v01/__pycache__/
-/consultas/conferencia_ifc2sb_v01/saida_executada/
-/consultas/conferencia_ifc2sb_v01/__pycache__/
-/consultas/conferencia_ifc2sb_v01/Entrada_Piloto.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.execucao/
+.venv/

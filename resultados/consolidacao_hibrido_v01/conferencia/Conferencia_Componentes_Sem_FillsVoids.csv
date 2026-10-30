@@ -1,5 +1,0 @@
-﻿id,guid,nome,pertence_a_cozinha,justificativa,evidencia,preenchimento_alvo,previsto,resultado_conferencia
-A01,3NmG5SvsDBEQCwLVxHBEXO,V02,sim,"Componente do lado externo da JA-10 norte; as ampliações indicam requadro para tela mosquiteiro. A correspondência funcional é uma leitura documental por posição, não IfcRelFillsElement.","24: planta, projeção do requadro; 25: vista 04",3d_vFlGOv3KP97Xx9CDsPh,True,acerto_associacao
-A02,1ROl3k7M13kBxaPL3_nLJR,V02,sim,Componente do lado externo da JA-10 central; requadro para tela mosquiteiro indicado na ampliação.,"24: planta, projeção do requadro; 25: vista 04",1GA_BKTQ11re2ONp_LaBjt,True,acerto_associacao
-A03,3HRLDPQD53HOaeAXMXycXp,V02,indeterminado,Componente junto à JA-09 do IFC. A própria JA-09 diverge entre a planta geral e as ampliações.,02; conflito com 24 e 25,2rpo8JwSv5ChvJw5HNm$2i,True,indeterminado_documental
-A04,3aOIzdLML6AxJa_cBrbrhU,V02,nao,"Componente junto à janela externa da despensa, sem ligação direta com a cozinha.",02; 26: despensa,3Y94GCHOLCFx2AyfF7cwT5,False,acerto_exclusao

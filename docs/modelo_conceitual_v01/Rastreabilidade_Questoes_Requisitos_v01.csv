@@ -1,6 +1,0 @@
-﻿questao,requisitos,situacao
-CQ1,R01; R02; R09,Controle histórico dos 41 ambientes; não reexecutado nesta consolidação.
-CQ2.1,R03; R06; R09,14 superfícies brutas candidatas no piloto da cozinha; arquitetura não validada.
-CQ2.2,R03; R04; R09,24 cadeias conferidas; 10 aberturas com 11 recortes coincidentes. Os preenchimentos incluem IfcWall.
-CQ2.3,R10 (novo); R06 e R09 (apoio),Fração volumétrica dos 24 preenchimentos indisponível no procedimento conservador. Nenhuma inclusão arquitetônica confirmada.
-CQ3,R05; R06; R07; R08; R09,Requisitos para discussão das limitações; nenhum novo ensaio com SMT nesta consolidação.

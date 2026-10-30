@@ -1,0 +1,25 @@
+@prefix civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+civ: a owl:Ontology ; rdfs:label "Vocabulário da análise arquitetônica CIV2155"@pt .
+civ:ResultadoPorAmbiente a owl:Class .
+civ:Interface a owl:Class ; rdfs:comment "Interseção poligonal candidata entre face de espaço e face parental de parede."@pt .
+civ:RecorteAbertura a owl:Class .
+civ:resultado a owl:ObjectProperty .
+civ:ambiente a owl:ObjectProperty .
+civ:esquadriaAssociada a owl:ObjectProperty ; rdfs:comment "Associação no critério geométrico; não equivale a função arquitetônica certificada."@pt .
+civ:interface a owl:ObjectProperty .
+civ:interfaceFonte a owl:ObjectProperty .
+civ:paredeHospedeira a owl:ObjectProperty .
+civ:aberturaFonte a owl:ObjectProperty .
+civ:preenchimento a owl:ObjectProperty .
+civ:referencial a owl:ObjectProperty .
+civ:estado a owl:DatatypeProperty .
+civ:nome a owl:DatatypeProperty .
+civ:motivo a owl:DatatypeProperty .
+civ:quantidadeEsquadrias a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:comment "Ausente quando o ambiente está inconclusivo."@pt .
+civ:areaM2 a owl:DatatypeProperty ; rdfs:range xsd:double .
+civ:qualificada a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+civ:sha256IFC a owl:DatatypeProperty .
+civ:sha256BaseSemantica a owl:DatatypeProperty .

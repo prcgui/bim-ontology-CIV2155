@@ -1,0 +1,19 @@
+{
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "espacos_solicitados": 41,
+  "espacos_com_associacao": 38,
+  "espacos_inconclusivos": 3,
+  "estados": {
+    "associacao_executada": 32,
+    "associacao_executada_com_pendencias": 6,
+    "inconclusivo_preparacao_espaco": 3
+  },
+  "pares_ambiente_esquadria": 101,
+  "esquadrias_distintas": 66,
+  "interfaces_candidatas": 3011,
+  "recortes_aberturas": 222,
+  "triplas_base_semantica": 56961,
+  "triplas_grafo_entregue": 80234,
+  "coordenadas": "Referencial cartesiano do IFC; metros; não CRS84.",
+  "alcance": "Associação geométrica no mesmo IFC; conferência documental em 14 ambientes. Não certifica completude arquitetônica."
+}

@@ -1,8 +1,0 @@
-﻿conceito,definicao_operacional,alinhamento_e_limite
-Ambiente,Extensão espacial 3D do cômodo; identidade por modelo e GUID.,bot:Space como referência; não é a mesma coisa que sua malha ou sólido.
-Elemento construtivo / parede,Objeto do modelo; a parede pode participar de interfaces com mais de um ambiente.,bot:Element como referência para elementos físicos; preservar classe IFC.
-Abertura,"Região declarada associada a um hospedeiro, identificada separadamente do preenchimento.",Conceito IFC; não presumir equivalência automática a bot:Element.
-Preenchimento,Papel exercido pelo elemento relacionado à abertura no IFC.,"Pode ter classe IfcDoor, IfcWindow, IfcWall ou outra. Papel e classe não são sinônimos."
-Interface,"Relação qualificada entre participantes, como ambiente e parede.",bot:Interface é referência de modelagem; superfície calculada não recebe automaticamente essa classe.
-Geometria / superfície / recorte,Representação computacional ligada ao objeto ou à relação investigada.,"Registrar formato, coordenadas, unidade e referencial; distinguir superfície bruta de área líquida."
-Avaliação de relação,"Registro que liga uma hipótese a suas fontes, critérios, métricas e situação.",Mantém sinais locais e globais separados; não é um novo objeto físico da edificação.

@@ -1,9 +1,0 @@
-PREFIX bot: <https://w3id.org/bot#>
-PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/arquitetura#>
-PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
-SELECT DISTINCT ?paredeGUID ?aberturaGUID ?preenchimentoGUID WHERE {
- ?ambiente props:globalIdIfcRoot_attribute_simple "3UFjAT4k55zg_Pqo6VMw5l";bot:adjacentElement ?parede.
- ?parede props:globalIdIfcRoot_attribute_simple ?paredeGUID.
- OPTIONAL { ?parede civ:hasOpening ?abertura.?abertura props:globalIdIfcRoot_attribute_simple ?aberturaGUID.
- OPTIONAL { ?abertura civ:hasFilling ?preenchimento.?preenchimento props:globalIdIfcRoot_attribute_simple ?preenchimentoGUID. } }
-} ORDER BY ?paredeGUID ?aberturaGUID

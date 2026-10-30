@@ -1,9 +1,0 @@
-PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/ifc2sb-python#>
-PREFIX geom: <http://bimsparql.org/geometry#>
-SELECT DISTINCT ?ambiente ?superficie ?parede ?abertura ?preenchimento ?estado ?coordenadas
-WHERE {
- ?ambiente civ:temSuperficieCandidata ?superficie .
- ?superficie civ:faceDeElemento ?parede ; civ:temRecorteGeometricoDeAbertura ?recorte .
- ?recorte civ:recorteDeAbertura ?abertura ; civ:estado ?estado ; geom:asBody ?coordenadas .
- ?abertura civ:possuiPreenchimentoDeclaradoIFC ?preenchimento .
-}

@@ -1,7 +1,0 @@
-
-RESULT_JSON={"cut_1":[1.5,1.5],"cut_2":[0.75,0.75,1.5,1.5],"parent":[true,false,false,false,false,false,true]}
-[Warning] Parent face not matching. controle - controle (0.000000), (0.000000)
-[Warning] Parent face not matching. controle - controle (0.010000), (0.000000)
-[Warning] Parent face smaller than inner face. controle - controle (20.000000), (12.000000)
-[Warning] Parent face not matching. controle - controle (0.000000), (180.000000)
-[Warning] Parent face self reference. controle

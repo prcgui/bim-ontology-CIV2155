@@ -1,8 +1,0 @@
-{
-  "conforme_regras_declaradas": true,
-  "violacoes": 0,
-  "limite": "Não demonstra completude arquitetônica nem valida todas as restrições IFC/EXPRESS.",
-  "adjacencias_derivadas_com_evidencia": 135,
-  "adjacencias_totais_incluindo_conversor": 135,
-  "controle_negativo_ambiente_sem_geometria_detectado": true
-}

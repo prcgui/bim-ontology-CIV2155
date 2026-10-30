@@ -1,0 +1,51 @@
+{
+  "projeto": "FNDE Proinfância Tipo 2",
+  "revisao": "Arquitetura DTV R03",
+  "origem_oficial": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/proinfancia/projetos-arquitetonicos-para-construcao/projeto-tipo-2",
+  "ifc_sha256": "0975bf1394694eff8746e5e49232bdf950c36c37c858edb715c9e7bc8f65603a",
+  "pranchas": [
+    {
+      "arquivo": "TIPO2-ARQ-02-PLB-GER0_R03.pdf",
+      "sha256": "da20469d5df84fd719d8b7b1912e2da808c7bc9e914fab16a480af7ffb6b2a6d",
+      "prancha": "02/36",
+      "revisao": "R03/JAN2025"
+    },
+    {
+      "arquivo": "TIPO2-ARQ-20-AMP-BLCA_R03.pdf",
+      "sha256": "c8fabd7642d431ad06ea63c24e2ca2f2a3f457f04fc602c97d060c2a7af1fb7a",
+      "prancha": "20/36",
+      "revisao": "R03/JAN2025"
+    },
+    {
+      "arquivo": "TIPO2-ARQ-24-AMP-BLCA_R03.pdf",
+      "sha256": "2a01e8813d1ee3668b3c1422cab0844d4219374690d82d51f4d7a009021c3713",
+      "prancha": "24/36",
+      "revisao": "R03/JAN2025"
+    },
+    {
+      "arquivo": "TIPO2-ARQ-25-AMP-BLCA_R03.pdf",
+      "sha256": "7f34a6ad1a298edc6c660eae8df90181f002231befe5701c50628198841a0705",
+      "prancha": "25/36",
+      "revisao": "R03/JAN2025"
+    },
+    {
+      "arquivo": "TIPO2-ARQ-26-AMP-BLCA_R03.pdf",
+      "sha256": "beadb131fdb0ee4e709a4747453f1aa61ed620086202f0c9a90b83d40e383190",
+      "prancha": "26/36",
+      "revisao": "R03/JAN2025"
+    },
+    {
+      "arquivo": "TIPO2-ARQ-27-AMP-BLCA_R03.pdf",
+      "sha256": "e229dadb618bd92887a2ef3ce4e34ea32af3227129fd982aa0d7961bc3f07f76",
+      "prancha": "27/36",
+      "revisao": "R03/JAN2025"
+    }
+  ],
+  "conversao": {
+    "motor": "IFCtoLBD 2.49.0 com correção textual",
+    "triplas": 56961,
+    "rdf_sha256": "ac9480c1a7d01c7ee1e54891d778795a0c9b15f06f092df5e22159018d88db15",
+    "namespace_identidades": "https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/",
+    "observacao": "O identificador histórico nas URIs é preservado para manter a identidade dos produtos; não indica dependência de uma versão antiga de código."
+  }
+}

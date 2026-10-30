@@ -1,0 +1,4 @@
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+SELECT DISTINCT ?ambiente ?nome ?esquadria WHERE {
+  ?resultado a civ:ResultadoPorAmbiente ; civ:ambiente ?ambiente ; civ:nome ?nome ; civ:esquadriaAssociada ?esquadria .
+} ORDER BY ?nome ?esquadria
