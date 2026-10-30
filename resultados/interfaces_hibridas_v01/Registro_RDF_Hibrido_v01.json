@@ -1,0 +1,20 @@
+{
+  "triplas_entrada": 1946,
+  "triplas_saida": 2559,
+  "interfaces": 14,
+  "interfaces_qualificadas": 14,
+  "recortes_aberturas": 11,
+  "aberturas_associadas": 10,
+  "classes_dos_10_preenchimentos": {
+    "IfcDoor": 3,
+    "IfcWindow": 6,
+    "IfcWall": 1
+  },
+  "avaliacoes_aberturas": 24,
+  "linhas_consulta": 18,
+  "sha256_rdf_entrada": "0a68c9ce3864e9f9345d1497b07030966de51b6a6048f7883057c9ddc6a44fcb",
+  "sha256_rdf_saida": "69792f5895b45b5834b48b3c987efbe94312cba6f80db65bf9bcbfdb7342f2b1",
+  "roundtrip_e_preservacao": true,
+  "novas_adjacencias_bot_certificadas": 0,
+  "limite": "Relações qualificadas geometricamente no recorte; significado e completude arquitetônica permanecem sem validação independente."
+}

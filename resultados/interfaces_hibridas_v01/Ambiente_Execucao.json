@@ -1,0 +1,10 @@
+{
+  "sistema": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "ifcopenshell": "0.8.4",
+  "ocp": "7.8.1.1",
+  "shapely": "2.2.0",
+  "rdflib": "7.1.4",
+  "numpy": "2.5.4",
+  "execucao": "Windows local; células novas efetivamente executadas; versões anteriores preservadas sem reexecução."
+}
