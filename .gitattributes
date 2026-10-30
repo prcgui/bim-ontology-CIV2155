@@ -59,3 +59,10 @@
 /resultados/lilis_hibrido_v01/*.png binary
 /notebooks/01_Conversao_Arquitetura_IFC_LBD_v07.ipynb -text
 /notebooks/09_Lilis_Hibrido_Cozinha_v01.ipynb -text
+# Consolidated kitchen routine: preserve source and evidence bytes.
+/consultas/consolidacao_hibrido_v01/** -text
+/resultados/consolidacao_hibrido_v01/** -text
+/referencias/consolidacao_hibrido_v01/** -text
+/referencias/consolidacao_hibrido_v01/*.pdf binary
+/resultados/consolidacao_hibrido_v01/**/*.png binary
+/notebooks/01_Conversao_Arquitetura_IFC_LBD_v08.ipynb -text

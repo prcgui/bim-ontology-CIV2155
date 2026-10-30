@@ -1,0 +1,175 @@
+{
+  "natureza": "Consolidação específica do estudo; módulos científicos parcialmente adaptados, com atribuição preservada.",
+  "fontes": [
+    {
+      "autor": "Bonduel et al. (2018)",
+      "uri": "https://ceur-ws.org/Vol-2159/04paper.pdf",
+      "uso": "Conversão IFCtoLBD 2.49.0 e correção textual anteriores, reutilizadas por hash; Java não reexecutado."
+    },
+    {
+      "autor": "Fichter et al. (2021)",
+      "uri": "https://doi.org/10.26868/25222708.2021.30156",
+      "uso": "Recortes/ancestralidade e helper de BRep da adaptação parcial IFC2SB; reexecutados na cozinha.",
+      "codigo_original": "https://github.com/RWTH-E3D/IFC2SB/tree/96a89cdff65f13279c0c3ce67e729ad9f9f5adad"
+    },
+    {
+      "autor": "Kiavarz et al. (2023)",
+      "uri": "https://doi.org/10.3390/buildings13020350",
+      "uso": "Interfaces, projeção/interseção e sondas. Divergências do pseudocódigo mantidas no módulo anterior, §§4.2.2–4.4."
+    },
+    {
+      "autor": "Krijnen et al. (2020)",
+      "uri": "https://doi.org/10.46421/2706-6568.37.2020.paper008",
+      "uso": "Resultados CGAL anteriores do mesmo IFC, verificados por hash. Motor não reexecutado."
+    },
+    {
+      "autor": "Lilis et al. (2026)",
+      "uri": "https://doi.org/10.1016/j.autcon.2026.106840",
+      "uso": "Comparação opcional de operadores parciais. Desativada no núcleo desta execução; 20 controles analíticos repetidos. Sem alpha wrap."
+    },
+    {
+      "autor": "Zhang et al. (2018)",
+      "uri": "https://doi.org/10.3233/SW-180297",
+      "uso": "Representação GEOM de coordenadas no RDF preservada."
+    },
+    {
+      "autor": "FNDE, Projeto Tipo 2 R03",
+      "uri": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/proinfancia/projetos-arquitetonicos-para-construcao/projeto-tipo-2",
+      "uso": "Pranchas 02, 24, 25 e 26 para referência documental, com conflito JA-09 preservado."
+    }
+  ],
+  "extensoes_deste_estudo": [
+    "Entrada única executar_ambiente, com perfil explicitamente restrito à cozinha FNDE R03.",
+    "Inventário de todas as 184 aberturas e 92 entidades IfcDoor/IfcWindow, sem escolher candidatos pela referência documental.",
+    "Elementos internos candidatos por vértices IN/ON, com pelo menos um IN; tolerância 1e-5 m. Não prova contenção integral.",
+    "Componentes sem FillsVoids: caixas com distância <= 0.25 m e centro dentro do retângulo planar da esquadria com margem 0.02 m; evidência candidata.",
+    "Correspondência com identidades do grafo principal por GlobalId único, no mesmo IFC com hash verificado.",
+    "Conferência documental posterior à previsão, com estados sim/nao/indeterminado e componentes avaliados separadamente.",
+    "Métricas somente em 14 casos determinados; JA-09 fora dos denominadores; sem afirmação de generalização.",
+    "Novo Notebook 1 v08 reorganiza a rotina; versões v03–v07 preservadas como histórico."
+  ],
+  "limites": [
+    "A referência documental foi lida com assistência de IA; não é avaliação cega de especialista.",
+    "Não executa o IFC2SB, o GRC, CGAL de 2020 ou o framework energético de Kiavarz integralmente.",
+    "Não resolve o conflito JA-09 nem modifica o IFC.",
+    "Não certifica todas as superfícies, paredes, lajes, coberturas, mobiliário ou instalações."
+  ],
+  "arquivos": [
+    {
+      "arquivo": "apresentar_consolidacao.py",
+      "sha256": "a0d6dafd9d20e5ea3468eda84d3ac5661055786c128a802b1eace3877415cd66",
+      "natureza": "rotina nova específica do estudo"
+    },
+    {
+      "arquivo": "conferir_documentos.py",
+      "sha256": "56821ac909f04f1aad0e56b890fbe1706521053072bf3b73809889229a05e86e",
+      "natureza": "rotina nova específica do estudo"
+    },
+    {
+      "arquivo": "controles_lilis.py",
+      "sha256": "ccc8498a5332be2c1aad126a92987496044a5b1c9610992f33a222ed161fc18a",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "COPYING",
+      "sha256": "d0495053051967ebe76fb1facd287d79d1ed800da1be75cf501a556bc39a0472",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "ensaio_lilis.py",
+      "sha256": "03b816496f4ccbfe620196decf51427858a10ecb6a6b9eb3fd453c16996f8da8",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "exportar_hibrido.py",
+      "sha256": "ba19cfc53c406c826c6a6bcb8fb8298578e28e53a71ee40f2cbc2d7a5a086008",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "exportar_lilis.py",
+      "sha256": "0c1e8a4f35154f71d8ab529c8f299cbc9facfee644dac90466c749507724a051",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "faces_kiavarz.py",
+      "sha256": "56cea8cd8a1f8f8e8e2ae31dc8070b8ead426e606a659250a50edc938a8eadd9",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "ifc2sb_faces.py",
+      "sha256": "078cbc2c93c6f81854eb26738ddf26d31d34d3196c7533b8e54e734113d6a155",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "integrar_grafo_principal.py",
+      "sha256": "5c43d0ebeec2e77d1c887f11c5c13beb7b014a63943b4dd809e51621fff67334",
+      "natureza": "rotina nova específica do estudo"
+    },
+    {
+      "arquivo": "inventariar_projeto.py",
+      "sha256": "6aca4685bfc611ebbb275f22a921fbbe74e7e283a9ac2cdc55f6a52dee83dee8",
+      "natureza": "rotina nova específica do estudo"
+    },
+    {
+      "arquivo": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "operadores_lilis.py",
+      "sha256": "837541fe9290f70840904c8ed7e286049f31c4bb16bae50b5496535bdcbddad7",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "piloto.py",
+      "sha256": "71cd473ccc9bfdda5f8d89982046ca37e5991341e5412d7e4cb1c6e3b6fb828a",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "pipeline_hibrido.py",
+      "sha256": "940c00a6de62cd767ed8c1add0e9d4eecb3600acef2f03f04dbf025f0788906c",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "rotina_hibrida.py",
+      "sha256": "22c4767d08b8da6b34d5eb0eeab817fff5cba275bd4eeb1f7333cd2009964f93",
+      "natureza": "rotina nova específica do estudo"
+    },
+    {
+      "arquivo": "testar_adaptacao.py",
+      "sha256": "ad4a1024b82130cfc5399b1dc3dd7ebf4b12cda1b1d82f53233db3097f7c984a",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "testar_faces.py",
+      "sha256": "31a8eb99d7b6a2559f0ae80537008f880749223be51dc1194d25927e09190909",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "Vocabulario_Consolidado.ttl",
+      "sha256": "77e17af13fa87f59d85942130e38e49ccef10e4a67bfaec7bf2eead3c4e75215",
+      "natureza": "rotina nova específica do estudo"
+    },
+    {
+      "arquivo": "referencia_cpp/Compilacao.log",
+      "sha256": "323beea87f0a9ccce1dbfd48778cdaec1a32f6610f95ac51717ebfe816bbf3c4",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "referencia_cpp/Execucao.log",
+      "sha256": "3f1a6d755daca8e50c14f2ede0156a938049f5e420386fb31c1e28ff26cb4d78",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "referencia_cpp/Referencia.cpp",
+      "sha256": "670aab23fdd18e8b1ffef2ba18504328d14f6ee4ec19fe3a040fa8dd27bfd9db",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    },
+    {
+      "arquivo": "referencia_cpp/Resultado_CPP.json",
+      "sha256": "2e7cfc73670a63e77db9ce4cf0560dea2c51e5d2cc93ad1762be68bd08f83332",
+      "natureza": "cópia de módulo/referência de etapa anterior, sem alteração"
+    }
+  ],
+  "licenca": "Helper e rotinas derivadas IFC2SB mantêm GPL-3.0-or-later, atribuição de Eric Fichter, LICENSE/COPYING. Documentos FNDE são fontes documentais, sem alteração dos originais."
+}
