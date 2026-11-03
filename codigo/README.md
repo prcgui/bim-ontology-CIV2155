@@ -2,7 +2,7 @@
 
 O [Notebook 1](../notebooks/01_Arquitetura_IFC_RDF.ipynb) contém o código Python do processamento diretamente nas células, incluindo as funções auxiliares, o vocabulário e as consultas. Cada bloco apresenta explicação, referências, aplicação e limites. O N1 não baixa nem importa os módulos Python desta pasta. Seu padrão refaz a conversão desde o IFC e prepara as paredes em sequência, preservando os critérios geométricos.
 
-Os módulos abaixo registram a rotina selecionada que deu origem às células do N1 e continuam disponíveis porque os notebooks 2 e 3 usam essa implementação compartilhada. A seleção de associações e seus parâmetros foram preservados; a exportação reúne os resultados primários e a base semântica.
+Os três notebooks apresentam o código Python diretamente nas células, incluindo as funções auxiliares e os recursos próprios de cada etapa. Eles não baixam nem importam os módulos Python desta pasta. Os arquivos abaixo correspondem à implementação selecionada que deu origem às células e permitem conferir essa origem. A seleção de associações e seus parâmetros foram preservados; a exportação reúne os resultados primários e a base semântica.
 
 | Arquivo | Função no procedimento |
 |---|---|
@@ -41,6 +41,6 @@ Os arquivos intermediários da execução ficam em `.execucao/`, fora do conteú
 
 ## Organização e exploração no Notebook 3
 
-`organizar_dataset.py` carrega o resultado validado do N2, preserva suas identidades e grafos, recupera Psets diretamente associados à V137, executa o contrato SHACL e oito consultas e gera o índice e o Dataset organizado. `Perfil_Organizacao.ttl` contém o perfil próprio; `Restricoes_Organizacao.ttl` declara o contrato. Os oito arquivos em `consultas_exploracao/` são as perguntas efetivamente executadas. As dependências adicionais estão em `requirements-exploracao.txt`.
+O Notebook 3 incorpora as funções de `organizar_dataset.py`, o perfil de `Perfil_Organizacao.ttl`, o contrato de `Restricoes_Organizacao.ttl` e as oito consultas de `consultas_exploracao/` nas próprias células. Carrega o resultado do N2, preserva suas identidades e grafos, recupera Psets diretamente associados à V137, executa o contrato SHACL e as consultas e gera o índice e o Dataset organizado. Uma nova embalagem ZIP do N2 é aceita mediante equivalência dos cinco grafos e das tabelas de apoio; o hash do arquivo realmente recebido é registrado. As dependências adicionais estão em `requirements-exploracao.txt`.
 
 A [explicação metodológica](../docs/Organizacao_e_Exploracao.md) distingue o perfil dos dados originais, a POC da harmonização global e a conformidade SHACL de certificação do projeto. O [código do explorador](../visualizacao/explorador-integrado.html) usa o índice produzido pelo notebook. Ensaios e auditorias permanecem no Drive.
