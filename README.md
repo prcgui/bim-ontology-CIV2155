@@ -22,7 +22,9 @@ Na amostra documental de 14 ambientes, foram recuperados 39 dos 43 casos positiv
 
 ![Cobertura da execução nos espaços do IFC](resultados/Cobertura.png)
 
-Para executar, abra o notebook no [Google Colab](https://colab.research.google.com/github/prcgui/bim-ontology-CIV2155/blob/main/notebooks/01_Arquitetura_IFC_RDF.ipynb), ou instale as [dependências](requirements.txt) em Python 3.12 e execute as células na ordem. O preparo geométrico é refeito a partir do IFC. A conversão semântica já realizada é reutilizada por padrão; o notebook explica como repeti-la com Java 21.
+Para executar o N1, abra o notebook no [Google Colab](https://colab.research.google.com/github/prcgui/bim-ontology-CIV2155/blob/main/notebooks/01_Arquitetura_IFC_RDF.ipynb) e execute as células na ordem. O código Python do processamento, o vocabulário RDF e as consultas SPARQL estão dentro do próprio notebook, com explicação, referências, aplicação e limites junto a cada bloco. Não é necessário copiar a pasta `codigo/` para o Drive. O notebook baixa os dados de entrada com versões fixadas, instala as bibliotecas e obtém o motor externo IFCtoLBD, identificado na etapa correspondente.
+
+O padrão `RECONVERTER=True` refaz a conversão semântica desde o IFC original, com Java 21, e as etapas seguintes refazem o preparo e as associações geométricas. A opção `False` reutiliza explicitamente a base publicada. As paredes são preparadas em sequência para permitir a execução das funções diretamente nas células. A última etapa reúne os resultados em um ZIP para download; salvar a cópia do notebook no Drive não salva automaticamente os arquivos temporários da sessão. Para execução local, use Python 3.12 e as [dependências](requirements.txt).
 
 Este repositório apresenta a rotina selecionada e os seus resultados. O [arquivo técnico no Google Drive](https://drive.google.com/drive/u/0/folders/1kVGXvERWXieeMeURrJF07tuLaADdrJ_O) reúne auditorias, testes, ensaios comparativos e versões anteriores. A reorganização da versão principal preserva o histórico de commits.
 

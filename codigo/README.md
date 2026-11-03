@@ -1,10 +1,12 @@
 # Código utilizado
 
-O ponto de entrada é o [Notebook 1](../notebooks/01_Arquitetura_IFC_RDF.ipynb). Seus módulos foram consolidados a partir da rotina já executada no estudo. A seleção de associações e seus parâmetros foram preservados; a exportação foi reduzida aos resultados primários e à base semântica.
+O [Notebook 1](../notebooks/01_Arquitetura_IFC_RDF.ipynb) contém o código Python do processamento diretamente nas células, incluindo as funções auxiliares, o vocabulário e as consultas. Cada bloco apresenta explicação, referências, aplicação e limites. O N1 não baixa nem importa os módulos Python desta pasta. Seu padrão refaz a conversão desde o IFC e prepara as paredes em sequência, preservando os critérios geométricos.
+
+Os módulos abaixo registram a rotina selecionada que deu origem às células do N1 e continuam disponíveis porque os notebooks 2 e 3 usam essa implementação compartilhada. A seleção de associações e seus parâmetros foram preservados; a exportação reúne os resultados primários e a base semântica.
 
 | Arquivo | Função no procedimento |
 |---|---|
-| `converter_ifc.py` | Repete a conversão IFCtoLBD 2.49.0 com as duas correções textuais efetivamente usadas. A execução padrão usa o RDF já convertido. |
+| `converter_ifc.py` | Repete a conversão IFCtoLBD 2.49.0 com as duas correções textuais efetivamente usadas. No N1, a implementação está nas células e o padrão refaz a conversão. |
 | `preparar_geometria.py` | Lê o IFC, prepara espaços e recortes de 457 paredes, preserva relações declaradas e produz dados intermediários. |
 | `recuperar_geometria.py` | Exige sólido fechado e válido; tenta ShapeFix e costura controlada nos casos que falham no caminho estrito. |
 | `ifc2sb_faces.py` | Adaptação parcial do IFC2SB para faces, recortes de abertura e ancestralidade. |
