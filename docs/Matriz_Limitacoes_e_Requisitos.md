@@ -169,7 +169,7 @@ O objetivo do artigo é analisar limitações da transformação IFC para RDF e 
 
 **Demonstrado:** Resultados nessa amostra e nas condições expressas pelo contrato. Os alvos incluem 26.601 produtos, três modelos, 1.652 registros e 41 resultados por ambiente.
 
-**Limite da conclusão:** A referência foi construída com leitura assistida por IA e usada no desenvolvimento. Não houve avaliação cega, segundo edifício ou certificação global da semântica. As mutações não estimam precisão geral.
+**Limite da conclusão:** A referência foi construída com leitura das pranchas e usada no desenvolvimento. Não houve avaliação cega, segundo edifício ou certificação global da semântica. As mutações não estimam precisão geral.
 
 **Requisito proposto:** R10 Associar cada requisito a uma verificação, declarar alvos e informação ausente, e separar conformidade de dados da validação de significado e de projeto. D: contrato e casos controlados avaliados. R: validação independente e generalização permanecem pendentes.
 

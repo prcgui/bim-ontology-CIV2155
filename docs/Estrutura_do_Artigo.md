@@ -48,7 +48,7 @@ Meta editorial: cerca de 6 a 8 páginas, sujeita à conferência do Word. O limi
 
 ## Materiais de apoio
 
-A [matriz completa](Matriz_Limitacoes_e_Requisitos.md) mantém fontes e limites por caso. Código, gráficos detalhados e dados ficam nos notebooks e resultados. Auditorias, versões anteriores e revisões editoriais ficam no arquivo técnico do Drive. O Word com revisões é um rascunho assistido, com alterações reais e autoria identificada, para revisão do pesquisador; não representa um histórico de escrita anterior a esta execução.
+A [matriz completa](Matriz_Limitacoes_e_Requisitos.md) mantém fontes e limites por caso. Código, gráficos detalhados e dados ficam nos notebooks e resultados. Auditorias, versões anteriores e revisões editoriais ficam no arquivo técnico do Drive. O documento em Word reúne uma versão de trabalho para revisão do texto. As alterações registradas correspondem às revisões realizadas.
 
 ## Revisão de coesão e retomadas
 

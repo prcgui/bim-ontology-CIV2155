@@ -18,6 +18,6 @@ A rotina foi aplicada aos 41 espaços do modelo arquitetônico R03. A leitura do
 
 **Ganho observado na consolidação.** A rotina selecionada ampliou a execução de 29 para 38 espaços e os positivos recuperados na mesma amostra de 35 para 39 (81,4% → 90,7%). Esses valores históricos contextualizam a escolha; o repositório entrega a solução selecionada. Os ensaios que sustentam a comparação estão no [Drive](https://drive.google.com/drive/u/0/folders/1kVGXvERWXieeMeURrJF07tuLaADdrJ_O).
 
-**Limitações.** A referência foi construída com leitura assistida por IA e usada no desenvolvimento. Não houve conferência independente, avaliação cega ou segundo edifício. A análise não certifica todas as 101 associações, o fechamento dos ambientes, a ausência de sobreposições, a contenção de todos os elementos ou a integração arquitetura–estrutura. Pendências de recorte e geometria permanecem visíveis nos estados de execução.
+**Limitações.** A referência foi construída com leitura das pranchas e usada no desenvolvimento. Não houve conferência independente, avaliação cega ou segundo edifício. A análise não certifica todas as 101 associações, o fechamento dos ambientes, a ausência de sobreposições, a contenção de todos os elementos ou a integração arquitetura–estrutura. Pendências de recorte e geometria permanecem visíveis nos estados de execução.
 
 Consulte a [tabela dos 41 ambientes](../resultados/Ambientes.csv), a [tabela documental dos 14 ambientes](../resultados/Analise_Documental_14_Ambientes.csv) e as [associações obtidas](../resultados/Esquadrias_Por_Ambiente.csv).
