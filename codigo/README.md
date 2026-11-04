@@ -1,46 +1,26 @@
-# Código utilizado
+# Vocabulários, consultas e atribuições
 
-O [Notebook 1](../notebooks/01_Arquitetura_IFC_RDF.ipynb) contém o código Python do processamento diretamente nas células, incluindo as funções auxiliares, o vocabulário e as consultas. Cada bloco apresenta explicação, referências, aplicação e limites. O N1 não baixa nem importa os módulos Python desta pasta. Seu padrão refaz a conversão desde o IFC e prepara as paredes em sequência, preservando os critérios geométricos.
+O procedimento Python oficial está nos [três notebooks](../notebooks/), com funções completas, descrição, referências, aplicação e limites junto a cada bloco. Execute as células na ordem. Nenhum notebook importa módulos Python desta pasta.
 
-Os três notebooks apresentam o código Python diretamente nas células, incluindo as funções auxiliares e os recursos próprios de cada etapa. Eles não baixam nem importam os módulos Python desta pasta. Os arquivos abaixo correspondem à implementação selecionada que deu origem às células e permitem conferir essa origem. A seleção de associações e seus parâmetros foram preservados; a exportação reúne os resultados primários e a base semântica.
+Esta pasta conserva os recursos RDF, SPARQL e SHACL usados no estudo em arquivos próprios, para consulta e abertura em ferramentas externas. Os mesmos recursos próprios também aparecem nas células.
 
-| Arquivo | Função no procedimento |
+| Recurso | Uso |
 |---|---|
-| `converter_ifc.py` | Repete a conversão IFCtoLBD 2.49.0 com as duas correções textuais efetivamente usadas. No N1, a implementação está nas células e o padrão refaz a conversão. |
-| `preparar_geometria.py` | Lê o IFC, prepara espaços e recortes de 457 paredes, preserva relações declaradas e produz dados intermediários. |
-| `recuperar_geometria.py` | Exige sólido fechado e válido; tenta ShapeFix e costura controlada nos casos que falham no caminho estrito. |
-| `ifc2sb_faces.py` | Adaptação parcial do IFC2SB para faces, recortes de abertura e ancestralidade. |
-| `faces_kiavarz.py` | Projeta e intersecta faces, preserva anéis, aplica orientação, raios e sondas locais. |
-| `rotina_multiambientes.py` | Repete o mesmo critério para cada IfcSpace e registra associações e inconclusões. |
-| `publicar_resultados.py` | Seleciona as tabelas de apresentação, liga resultados às identidades IFC/RDF e entrega o grafo consolidado. |
-| `Vocabulario.ttl` | Define as classes e propriedades usadas nos resultados geométricos. |
-| `01_ambientes.rq`, `02_esquadrias.rq` | Consultas SPARQL executadas sobre o grafo entregue. |
-| `apresentar.py` | Produz a figura de cobertura mostrada no notebook e no repositório. |
-| `visualizar_rdf.py` | Lê o grafo entregue e desenha os recortes RDF em caixas: organização espacial, identidade da cozinha e associação com PA2. |
+| `Vocabulario.ttl` | Classes, propriedades e estados dos resultados geométricos do N1. |
+| `01_ambientes.rq`, `02_esquadrias.rq` | Consultas da arquitetura. |
+| `Vocabulario_Integracao.ttl` | Identidade dos modelos, vínculos qualificados, medidas e proveniência do N2. |
+| `03_modelos_integrados.rq`, `04_relacoes_estrutura_ambientes.rq` | Consultas dos grafos integrados. |
+| `Perfil_Organizacao.ttl` | Perfil próprio acrescentado pelo N3. |
+| `Restricoes_Organizacao.ttl` | Contrato SHACL executado na projeção documentada. |
+| `consultas_exploracao/` | Oito consultas executadas no N3. |
+| `COPYING` | Texto da licença GPL das adaptações de IFC2SB. |
 
-**IFC2SB:** fonte RWTH-E3D/IFC2SB, commit `96a89cdff65f13279c0c3ce67e729ad9f9f5adad`. Foram adaptadas rotinas de `Kernel_pre.cpp`, `Kernel_occ.cpp` e `cFace.cpp`, conforme cabeçalho do módulo. Copyright de Eric Fichter e licença GPL-3.0-or-later preservados em [COPYING](COPYING). A adaptação utiliza OCP em Python e não executa integralmente o programa dos autores, o outer hull ou sua reconstrução completa de limites.
+As cópias dos módulos Python foram retiradas para manter uma única implementação de uso, nas células. As atribuições continuam nos notebooks e nas [referências](../referencias/README.md).
 
-**Kiavarz:** adaptação metodológica do pseudocódigo, com base ortonormal 3D→2D, interseção de polígonos com anéis, tolerância entre planos e sondas no sólido. O IFC não fornece os limites `BoundedBy` exigidos pelo fluxo literal do artigo. A rotina não deve ser apresentada como reprodução integral.
+**IFC2SB:** adaptação parcial de `Kernel_pre.cpp`, `Kernel_occ.cpp` e `cFace.cpp`, fonte RWTH-E3D/IFC2SB, commit `96a89cdff65f13279c0c3ce67e729ad9f9f5adad`. Copyright 2022 Eric Fichter, GPL-3.0-or-later, com [licença integral](COPYING). A tradução para Python/OCP acrescenta critérios próprios de aceitação e a aplicação às interfaces ambiente-face. Não executa integralmente o programa original, o outer hull ou a reconstrução completa de limites.
 
-**IFCtoLBD:** o motor é obtido da distribuição oficial 2.49.0, verificada por hash. Duas classes de fontes fixadas recebem as alterações usadas para preservar Unicode e apóstrofos nos textos STEP. Compilam-se as classes modificadas e elas precedem os JARs originais no caminho de execução. As bibliotecas e fontes externas mantêm suas licenças.
+**Kiavarz:** adaptação metodológica do pseudocódigo, com projeção 3D para 2D, interseção de polígonos com anéis, tolerância entre planos e sondas no sólido. O IFC não fornece os limites `BoundedBy` exigidos pelo fluxo literal do artigo. Não é reprodução integral.
 
-Os arquivos intermediários da execução ficam em `.execucao/`, fora do conteúdo versionado. Os dados publicados estão em `resultados/`; as trilhas de auditoria e os ensaios ficam no Drive indicado no README principal.
+**IFCtoLBD:** distribuição oficial 2.49.0, conferida por hash, com duas correções textuais documentadas para Unicode e apóstrofos. As classes modificadas precedem os JARs originais na execução. As bibliotecas e fontes externas conservam suas licenças.
 
-## Rotina usada no Notebook 2
-
-| Arquivo | Função |
-|---|---|
-| `integrar_modelos.py` | Repete a extração comum nos três IFCs, confere identidades e nomes, reúne os grafos com proveniência, serializa em N-Quads e executa as consultas. |
-| `relacoes_interdisciplinares.py` | Reutiliza o preparo conservador do N1 e verifica contenção, interseção e superfície comum nos pares espaço–estrutura. |
-| `apresentar_integracao.py` | Produz o gráfico de contagens e o exemplo RDF da cozinha, conferido no Dataset. |
-| `Vocabulario_Integracao.ttl` | Registros qualificados dos vínculos, unidades, identidade dos modelos e proveniência. |
-| `03_modelos_integrados.rq`, `04_relacoes_estrutura_ambientes.rq` | Consultas executadas sobre os grafos nomeados. |
-
-`converter_ifc.py` aceita hash de origem, namespace e limite de memória como parâmetros. Os padrões do N1 foram preservados. Para a extensão maiúscula do SCO, usa uma cópia de trabalho byte a byte com extensão `.ifc`, compatível com a CLI do motor. [Fontes e limites das adaptações](../referencias/integracao/README.md).
-
-
-## Organização e exploração no Notebook 3
-
-O Notebook 3 incorpora as funções de `organizar_dataset.py`, o perfil de `Perfil_Organizacao.ttl`, o contrato de `Restricoes_Organizacao.ttl` e as oito consultas de `consultas_exploracao/` nas próprias células. Carrega o resultado do N2, preserva suas identidades e grafos, recupera Psets diretamente associados à V137, executa o contrato SHACL e as consultas e gera o índice e o Dataset organizado. Uma nova embalagem ZIP do N2 é aceita mediante equivalência dos cinco grafos e das tabelas de apoio; o hash do arquivo realmente recebido é registrado. As dependências adicionais estão em `requirements-exploracao.txt`.
-
-A [explicação metodológica](../docs/Organizacao_e_Exploracao.md) distingue o perfil dos dados originais, a POC da harmonização global e a conformidade SHACL de certificação do projeto. O [código do explorador](../visualizacao/explorador-integrado.html) usa o índice produzido pelo notebook. Ensaios e auditorias permanecem no Drive.
+Os intermediários ficam em `.execucao/`; os resultados primários, em `resultados/`. As conferências de execução permanecem somente no [Drive](https://drive.google.com/drive/u/0/folders/1kVGXvERWXieeMeURrJF07tuLaADdrJ_O).

@@ -31,7 +31,7 @@ O objetivo do artigo é analisar limitações da transformação IFC para RDF e 
 
 **Tipo de requisito:** Requisito de informação e exportação. **Relação com a disciplina:** Finalidade da informação e interoperabilidade OpenBIM.
 
-**Evidência do caso:** [TIPO2-ARQ-DTV_R03.ifc.zip](../dados/TIPO2-ARQ-DTV_R03.ifc.zip) · [rotina_multiambientes.py](../codigo/rotina_multiambientes.py) · [Esquadrias_Por_Ambiente.csv](../resultados/Esquadrias_Por_Ambiente.csv).
+**Evidência do caso:** [TIPO2-ARQ-DTV_R03.ifc.zip](../dados/TIPO2-ARQ-DTV_R03.ifc.zip) · [Notebook 1](../notebooks/01_Arquitetura_IFC_RDF.ipynb) · [Esquadrias_Por_Ambiente.csv](../resultados/Esquadrias_Por_Ambiente.csv).
 
 **Fundamentação:** [Noy e McGuinness (2001), p. 4-5](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf); [Rasmussen et al. (2021), §§3.2-3.5](https://doi.org/10.3233/SW-200385); [Kiavarz et al. (2023), §§4.2.2-4.4](https://doi.org/10.3390/buildings13020350); [buildingSMART, IFC4, IfcRelSpaceBoundary](https://standards.buildingsmart.org/IFC/RELEASE/IFC4/FINAL/HTML/schema/ifcproductextension/lexical/ifcrelspaceboundary.htm).
 
@@ -95,7 +95,7 @@ O objetivo do artigo é analisar limitações da transformação IFC para RDF e 
 
 **Tipo de requisito:** Requisito de representação semântica e conversão. **Relação com a disciplina:** Modelagem da informação e interoperabilidade.
 
-**Evidência do caso:** [Propriedades_V137.json](../resultados/organizacao/Propriedades_V137.json) · [Propriedades_V137.nt](../resultados/organizacao/Propriedades_V137.nt) · [organizar_dataset.py](../codigo/organizar_dataset.py) · [Resumo_Organizacao.json](../resultados/organizacao/Resumo_Organizacao.json).
+**Evidência do caso:** [Propriedades_V137.json](../resultados/organizacao/Propriedades_V137.json) · [Propriedades_V137.nt](../resultados/organizacao/Propriedades_V137.nt) · [Notebook 3](../notebooks/03_Organizacao_e_Exploracao.ipynb) · [Resumo_Organizacao.json](../resultados/organizacao/Resumo_Organizacao.json).
 
 **Fundamentação:** [Bonduel et al. (2018), §§1.3 e 2.1](https://ceur-ws.org/Vol-2159/04paper.pdf); [buildingSMART, IFC4, IfcPropertySingleValue](https://standards.buildingsmart.org/IFC/RELEASE/IFC4/FINAL/HTML/schema/ifcpropertyresource/lexical/ifcpropertysinglevalue.htm).
 

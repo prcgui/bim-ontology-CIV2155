@@ -25,4 +25,4 @@ Na figura de identidade, as legendas simplificadas correspondem a estes predicad
 
 `props:` corresponde a `http://lbd.arch.rwth-aachen.de/props#`; `civ:` corresponde ao [vocabulário deste estudo](../../codigo/Vocabulario.ttl). IDs longos e números foram abreviados/arredondados somente para exibição; os recortes Turtle mantêm as identidades e valores originais.
 
-O [código utilizado](../../codigo/visualizar_rdf.py) usa RDFLib e Matplotlib, já presentes nas dependências do projeto. O Notebook 1 gera estas figuras depois de produzir o grafo.
+O [Notebook 1](../../notebooks/01_Arquitetura_IFC_RDF.ipynb) contém o código das figuras, com RDFLib e Matplotlib, e as gera depois de produzir o grafo.
