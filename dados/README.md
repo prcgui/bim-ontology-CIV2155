@@ -7,12 +7,13 @@
 | `TIPO2-ARQ-DTV_R03.ifc.zip` | Modelo arquitetônico original, sem alteração. O notebook descompacta e verifica o hash antes de processar. |
 | `Conversao_IFCtoLBD.zip` | Resultado da conversão semântica efetivamente executada: 56.961 triplas, sem os antigos complementos geométricos. |
 | `Identidades_IFC_RDF.csv` | Correspondência entre GlobalId e URI dos produtos, usada na integração dos resultados. |
-| `pranchas/` | Seis PDFs oficiais R03 empregados na leitura documental: pranchas 02, 20 e 24–27. |
+| `pranchas/` | 23 PDFs oficiais R03 efetivamente empregados na leitura dos perímetros e na identificação das esquadrias dos 41 ambientes; nomes e hashes constam na referência documental. |
+| `Referencia_Documental_41_Ambientes.json` | Rótulos documentais dos 41 espaços, universo e exclusões, fontes com hashes e limites da avaliação. Não participa da associação geométrica. |
 | `Origem.json` | Identificação da fonte, hashes e informação da conversão reutilizada. |
 
 O modelo contém 41 IfcSpace e 457 IfcWall. O preparo examina também 184 aberturas e 188 produtos de preenchimento/componentes. Isso não equivale a analisar todas as categorias arquitetônicas ou todos os elementos do projeto.
 
-As pranchas sustentam a análise de uma amostra de 14 ambientes. O quadro agregado está em [Análise documental](../resultados/Analise_Documental_14_Ambientes.csv); as leituras caso a caso e seus registros estão no arquivo técnico do Drive.
+As pranchas sustentam a [referência documental dos 41 ambientes](Referencia_Documental_41_Ambientes.json), usada como entrada somente na etapa de avaliação do N1. Cada ambiente tem GUID, localização, esquadrias esperadas, justificativas e fontes. A [comparação agregada](../resultados/Comparacao_Documental_41_Ambientes.csv) é recalculada contra as associações da execução. A referência é uma leitura visual assistida por IA, sem revisão independente. Imagens de leitura, matriz completa de casos e controles ficam no arquivo técnico do Drive.
 
 O namespace das identidades RDF mantém `notebook1-v03` para preservar as URIs já usadas. O notebook atual usa apenas os arquivos desta estrutura; não depende dos antigos notebooks.
 

@@ -18,7 +18,7 @@ O [Notebook 1](notebooks/01_Arquitetura_IFC_RDF.ipynb) converte a arquitetura IF
 
 **Resultado principal:** dos 41 espaços do IFC, 38 chegaram à associação geométrica e três permaneceram inconclusivos. Foram obtidos **101 pares ambiente–esquadria, envolvendo 66 esquadrias distintas**. Um elemento pode aparecer associado a mais de um ambiente.
 
-Na amostra documental de 14 ambientes, foram recuperados 39 dos 43 casos positivos esperados (**90,7%**). Há uma omissão após a execução e três positivos sem resultado por falha de preparo. Esse percentual descreve a amostra usada no desenvolvimento, sem avaliação independente; não representa a acurácia de todas as associações do edifício.
+A conferência documental foi ampliada aos **41 ambientes**. Das **122 relações positivas esperadas**, 100 foram recuperadas, 15 ficaram ausentes em oito ambientes processados e sete ficaram indisponíveis por falha no preparo de três espaços. A recuperação global foi **82,0%**; nos ambientes processados, **87,0%**. Das 101 associações produzidas, 100 concordaram com a referência e uma permaneceu indeterminada. A referência foi construída por leitura visual assistida por IA, sem revisão independente ou avaliação cega. [Resultados, evidências e limites](docs/Analise_dos_Resultados.md).
 
 ![Cobertura da execução nos espaços do IFC](resultados/Cobertura.png)
 

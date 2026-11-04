@@ -15,5 +15,10 @@
   "triplas_base_semantica": 56961,
   "triplas_grafo_entregue": 80234,
   "coordenadas": "Referencial cartesiano do IFC; metros; não CRS84.",
-  "alcance": "Associação geométrica no mesmo IFC; conferência documental em 14 ambientes. Não certifica completude arquitetônica."
+  "alcance": "Associação geométrica no mesmo IFC. Comparação documental posterior dos 41 espaços em Resumo_Comparacao_Documental_41_Ambientes.json; não certifica completude arquitetônica.",
+  "avaliacao_documental_posterior": {
+    "data": "2026-11-04",
+    "arquivo": "Resumo_Comparacao_Documental_41_Ambientes.json",
+    "natureza": "Pós-processamento dos CSV; sem alterar a execução geométrica registrada."
+  }
 }

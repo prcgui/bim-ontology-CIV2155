@@ -40,7 +40,7 @@ Meta editorial: cerca de 6 a 8 páginas, sujeita à conferência do Word. O limi
 
 ## Resultados e recomendações
 
-**Demonstrado:** aplicação em 38 de 41 espaços; 101 pares ambiente e esquadria; 39 de 43 positivos documentais recuperados no recorte de desenvolvimento; preservação de 26.601 identidades; 1.652 pares espaciais positivos pelo critério; recuperação de nove Psets e 34 propriedades da V137; conformidade do contrato SHACL declarado.
+**Demonstrado:** aplicação em 38 de 41 espaços; 101 pares ambiente e esquadria; 100 de 122 relações positivas recuperadas na conferência documental preliminar dos 41 espaços, com 15 omissões em processados e sete positivos indisponíveis por preparo; preservação de 26.601 identidades; 1.652 pares espaciais positivos pelo critério; recuperação de nove Psets e 34 propriedades da V137; conformidade do contrato SHACL declarado.
 
 **Recomendado, sem benefício de remodelagem demonstrado:** entrega orientada à finalidade, vínculos espaço e elemento recuperáveis, geometrias compatíveis com o método, conferência independente do alinhamento e dos documentos, regras verificáveis para correspondências e validação por especialista.
 
