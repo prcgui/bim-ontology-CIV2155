@@ -24,3 +24,15 @@ A [bibliografia da integração](integracao/README.md) acrescenta o processo de 
 ## Referências aplicadas no Notebook 3
 
 A [bibliografia da organização e exploração](organizacao/README.md) relaciona contexto de integração, orientação a objetivos, propriedades contextualizadas, navegação visual, BOT, SHACL, PROV-O e IFC4. Cada fonte tem sua contribuição e limite explicitados. A matriz integral das alternativas e a cobertura real das leituras permanecem no Drive.
+
+
+## Fundamentação complementar do preparo geométrico
+
+As duas fontes abaixo foram incorporadas à discussão em 04/11/2026, depois da implementação. Fundamentam aspectos do preparo já existente no N1 (§§3.4 e 3.5) e reutilizado no N2 (§§4.2 e 4.3). A relação com o código é uma análise deste estudo, com diferenças de mecanismo e de domínio explicitadas nos notebooks.
+
+| Fonte e trecho conferido | O que pode fundamentar | Alcance e diferença em relação ao código |
+|---|---|---|
+| BRONSART, Robert; EDESSA, Desta M.; KLEINSORGE, Lutz. *Automatic pre-mesh CAD data repairing*. International Journal of Mechanical Engineering and Applications, 1(1), 1 a 9, 2013. [DOI](https://doi.org/10.11648/j.ijmea.20130101.11). §§6.3 e 7, p. 4 a 6; §§8 e 9, p. 7 e 8. | Encadeamento ShapeFix seguido de sewing em Open CASCADE; necessidade de cuidado com tolerâncias para evitar conexão indevida e alteração da forma. | Estudo de preparo CAD/IGES para malha, sem transformação IFC em RDF. Não fornece os nossos valores de tolerância nem valida nossos resultados. As condições combinadas de aceitação são próprias. |
+| BAREQUET, Gill; DUNCAN, Christian A.; KUMAR, Subodh. *RSVP: A Geometric Toolkit for Controlled Repair of Solid Models*. IEEE Transactions on Visualization and Computer Graphics, 4(2), 162 a 177, 1998. [DOI](https://doi.org/10.1109/2945.694983). §1.2, p. 163 e 164; §4.2, p. 167 e 168. | Princípio de limitar alterações em relação à geometria original e distinção entre validade geométrica e intenção de projeto. | Apoio conceitual. O RSVP não foi implementado. Sua verificação de deslocamentos individuais e autointerseções difere da comparação entre conjuntos de vértices usada aqui, que não garante proximidade de toda a superfície. |
+
+Os PDFs integrais estão no [acervo do Drive, Reparo geométrico e tolerâncias](https://drive.google.com/drive/u/0/folders/1R_j9oQb_xVaMvgPhTe9y8G2aqYm9tQzf). Os testes do projeto avaliam comportamentos da implementação; os artigos não comprovam sua exatidão arquitetônica ou sua generalização.
