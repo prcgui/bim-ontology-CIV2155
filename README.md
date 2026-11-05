@@ -52,3 +52,14 @@ A extensão melhora o contexto e a verificação das informações. Não demonst
 ## Limitações e requisitos para o artigo
 
 A [matriz de limitações, evidências e requisitos](docs/Matriz_Limitacoes_e_Requisitos.md) relaciona dez dificuldades aos requisitos de informação da consulta pretendida, com referências e limites por caso. A [estrutura do artigo](docs/Estrutura_do_Artigo.md) organiza o raciocínio e distingue resultados demonstrados de recomendações ainda não testadas. O [documento em Word e o material de redação](https://drive.google.com/drive/u/0/folders/1_0SFMbtcwTkfS2TFBsXS2E5VSXTXy5fJ) ficam no Drive; as revisões editoriais e os registros de conferência permanecem no arquivo técnico.
+
+## Documentos finais
+
+| Documento | Arquivos oficiais | Conteúdo conferido |
+|---|---|---|
+| Artigo | `Artigo_BIM_Consolidado.docx` e `Artigo_BIM_Consolidado.pdf` | 12 páginas, três figuras, duas tabelas e oito referências. |
+| Relatório visual | `Conferencia_Visual_Por_Ambiente.docx` | 517 páginas, 258 fichas, 41 ambientes e 345 casos selecionados. |
+
+A [pasta de artigo e relatório no Drive](https://drive.google.com/drive/u/0/folders/1_0SFMbtcwTkfS2TFBsXS2E5VSXTXy5fJ) é o destino dos documentos finais. O relatório relaciona os grafos às vistas dos modelos BIM; a seleção visual de 345 casos não constitui revisão exaustiva dos 1.753 pares RDF do controle quantitativo. As imagens estão incorporadas ao documento, e os sete grafos densos usam recortes identificados dos casos RDF selecionados.
+
+Os documentos Word/PDF, as fontes de montagem visual, os backups e as auditorias permanecem no Drive; o [arquivo técnico](https://drive.google.com/drive/u/0/folders/1kVGXvERWXieeMeURrJF07tuLaADdrJ_O) conserva os controles detalhados. O repositório mantém os três notebooks finais, os resultados primários e o [recorte GraphDB da Cozinha e da V137](resultados/organizacao/README.md#recorte-visual-da-cozinha-e-da-viga-v137).

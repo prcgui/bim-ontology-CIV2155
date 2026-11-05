@@ -2,7 +2,7 @@
 
 O procedimento Python oficial está nos [três notebooks](../notebooks/), com funções completas, descrição, referências, aplicação e limites junto a cada bloco. Execute as células na ordem. Nenhum notebook importa módulos Python desta pasta.
 
-Esta pasta conserva os recursos RDF, SPARQL e SHACL usados no estudo em arquivos próprios, para consulta e abertura em ferramentas externas. Os mesmos recursos próprios também aparecem nas células.
+Esta pasta conserva os recursos RDF, SPARQL e SHACL usados no estudo em arquivos próprios, para consulta e abertura em ferramentas externas. Os recursos dos três notebooks também aparecem nas células; as consultas adicionais para a figura do artigo estão identificadas separadamente.
 
 | Recurso | Uso |
 |---|---|
@@ -12,7 +12,7 @@ Esta pasta conserva os recursos RDF, SPARQL e SHACL usados no estudo em arquivos
 | `03_modelos_integrados.rq`, `04_relacoes_estrutura_ambientes.rq` | Consultas dos grafos integrados. |
 | `Perfil_Organizacao.ttl` | Perfil próprio acrescentado pelo N3. |
 | `Restricoes_Organizacao.ttl` | Contrato SHACL executado na projeção documentada. |
-| `consultas_exploracao/` | Oito consultas executadas no N3. |
+| `consultas_exploracao/` | Oito consultas executadas no N3 e duas consultas auxiliares da visualização do artigo, identificadas como 09 e 10. |
 | `COPYING` | Texto da licença GPL das adaptações de IFC2SB. |
 
 As cópias dos módulos Python foram retiradas para manter uma única implementação de uso, nas células. As atribuições continuam nos notebooks e nas [referências](../referencias/README.md).

@@ -1,0 +1,14 @@
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?type ?label ?rank WHERE {
+ BIND(1.0 AS ?rank)
+ OPTIONAL { ?node a ?type }
+ OPTIONAL { ?node int:areaContatoM2 ?area }
+ OPTIONAL { ?node props:longNameIfcSpatialElement_attribute_simple ?nome }
+ OPTIONAL { ?node rdfs:label ?rotulo }
+ BIND(IF(BOUND(?area),
+  CONCAT("Área comum ", REPLACE(STR(ROUND(xsd:decimal(?area)*10000)/10000), "[.]", ","), " m²"),
+  COALESCE(STR(?nome), STR(?rotulo), REPLACE(STR(?node), ".*[/#]", ""))) AS ?label)
+}
