@@ -2,7 +2,7 @@
   "conforme": true,
   "inferencia": "none",
   "triplas_da_projecao": 200962,
-  "duracao_s": 59.127,
+  "duracao_s": 110.608,
   "alvos": {
     "https://github.com/prcgui/bim-ontology-CIV2155/vocab/contexto#ProdutoIndexado": 26601,
     "https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#ModeloIFC": 3,

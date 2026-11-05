@@ -11,7 +11,9 @@
   "fonte": {
     "dataset": "Dataset_Organizado.zip",
     "sha256": "bc13ed84f73be01875cc33fd932285a68adc2043c94d2d9127bf898fa9c60ecf",
-    "grafo_relacoes": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/relacoes"
+    "grafo_relacoes": "https://github.com/prcgui/bim-ontology-CIV2155/grafo/relacoes",
+    "tipo_referencia": "Dataset histórico de 30/10 usado na conferência original do recorte, fixado no commit b1eb929; não é o pacote da execução de 04/11.",
+    "dataset_URL": "https://github.com/prcgui/bim-ontology-CIV2155/blob/b1eb92908b6717986a81fd2746ee7329528157bd/resultados/organizacao/Dataset_Organizado.zip"
   },
   "consultas": {
     "GraphExpansion": {
@@ -71,5 +73,19 @@
     "rank_uniforme": 1.0,
     "aplicacao": "Tamanho visual dos três nós no GraphDB.",
     "limite": "Parâmetro constante de apresentação; não representa centralidade, relevância ou propriedade BIM e não acrescenta triplas ao dataset."
+  },
+  "dataset_execucao_04Nov": {
+    "arquivo": "Dataset_Organizado.zip",
+    "bytes": 13619533,
+    "sha256": "449513651046b93ce423e6b6c3b11e8594748803f2fc01b4027e5c41f4a7e9d6",
+    "inicio_utc": "2026-11-04T18:37:53.272894+00:00",
+    "fim_utc": "2026-11-04T18:43:20.355591+00:00",
+    "sha256_entrada_N2": "22ec1bb3c746486395059d93929c69115db805f06027aa0f1803aed662a57f3a",
+    "equivalencia_do_caso": "As três triplas e a área de contato do caso REL_0460 estão presentes, com os mesmos termos e valores, no grafo de relações de ambas as versões.",
+    "equivalencia_grafos": "Sete grafos com multiconjuntos idênticos; BOT isomorfo; nove triplas de execução preservam seus próprios registros temporais e hash de entrada.",
+    "locais_consolidacao": [
+      "Git",
+      "Drive"
+    ]
   }
 }

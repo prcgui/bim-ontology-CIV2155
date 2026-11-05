@@ -19,8 +19,8 @@
   "quadruplas": 416603,
   "cinco_grafos_n2_inalterados": true,
   "reabertura_sem_alteracao_de_termos": true,
-  "sha256_entrada_n2": "8fb829827ec1ad3b02285b0f24d8d8329c7c999bf3904c50533c37e3294f5959",
-  "sha256_saida": "bc13ed84f73be01875cc33fd932285a68adc2043c94d2d9127bf898fa9c60ecf",
-  "inicio_utc": "2026-10-30T19:19:06.941259+00:00",
-  "fim_utc": "2026-10-30T19:22:29.664819+00:00"
+  "sha256_entrada_n2": "22ec1bb3c746486395059d93929c69115db805f06027aa0f1803aed662a57f3a",
+  "sha256_saida": "449513651046b93ce423e6b6c3b11e8594748803f2fc01b4027e5c41f4a7e9d6",
+  "inicio_utc": "2026-11-04T18:37:53.272894+00:00",
+  "fim_utc": "2026-11-04T18:43:20.355591+00:00"
 }
