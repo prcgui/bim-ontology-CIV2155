@@ -1,0 +1,22 @@
+{
+  "data_utc": "2026-11-06T02:15:04.775333+00:00",
+  "repository": "civ2155-recorte-despensa-20261105",
+  "http_limpeza": 204,
+  "http_importacao": 204,
+  "arquivo": "C:\\Users\\prcgu\\OneDrive\\Documentos\\ChatGPT\\Artigo da Disciplina BIM\\desenvolvimento\\n3_cinco_ambientes_relacoes_2026_11_05\\execucao\\resultados\\recorte_cinco_ambientes\\Recorte_Cinco_Ambientes_Relacoes.nq",
+  "sha256": "9b338f465063eb2dd954997ef8a532d95d74851007f792bc7b91890a41cb67e2",
+  "bytes": 172961,
+  "antes": {
+    "inferred": 0,
+    "total": 1722,
+    "explicit": 1722
+  },
+  "depois": {
+    "inferred": 0,
+    "total": 571,
+    "explicit": 571
+  },
+  "conteudo_servidor_igual_ao_arquivo": true,
+  "backup_anterior": "C:\\Users\\prcgu\\OneDrive\\Documentos\\ChatGPT\\Artigo da Disciplina BIM\\desenvolvimento\\n3_cinco_ambientes_relacoes_2026_11_05\\graphdb\\backup_antes",
+  "inferencia": false
+}

@@ -1,28 +1,13 @@
-# Fontes analisadas
+# Dados de entrada
 
-**Projeto:** FNDE Proinfância Tipo 2, arquitetura, revisão R03. [Página oficial do projeto](https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/proinfancia/projetos-arquitetonicos-para-construcao/projeto-tipo-2).
+Os modelos pertencem ao projeto padrão da Creche Tipo 2 do FNDE, revisão R03. A origem pública é a [página oficial do Projeto Tipo 2](https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/proinfancia/projetos-arquitetonicos-para-construcao/projeto-tipo-2).
 
-| Entrada | Utilização |
-|---|---|
-| `TIPO2-ARQ-DTV_R03.ifc.zip` | Modelo arquitetônico original, sem alteração. O notebook descompacta e verifica o hash antes de processar. |
-| `Conversao_IFCtoLBD.zip` | Resultado da conversão semântica efetivamente executada: 56.961 triplas, sem os antigos complementos geométricos. |
-| `Identidades_IFC_RDF.csv` | Correspondência entre GlobalId e URI dos produtos, usada na integração dos resultados. |
-| `pranchas/` | 23 PDFs oficiais R03 efetivamente empregados na leitura dos perímetros e na identificação das esquadrias dos 41 ambientes; nomes e hashes constam na referência documental. |
-| `Referencia_Documental_41_Ambientes.json` | Rótulos documentais dos 41 espaços, universo e exclusões, fontes com hashes e limites da avaliação. Não participa da associação geométrica. |
-| `Origem.json` | Identificação da fonte, hashes e informação da conversão reutilizada. |
+| Arquivo | Modelo | Unidade de comprimento declarada |
+|---|---|---|
+| [TIPO2-ARQ-DTV_R03.ifc.zip](TIPO2-ARQ-DTV_R03.ifc.zip) | Arquitetura | Metro |
+| [TIPO2-SMT-MOD_R03.ifc.zip](TIPO2-SMT-MOD_R03.ifc.zip) | Estrutura metálica | Milímetro |
+| [TIPO2-SCO-MOD_R03.IFC.zip](TIPO2-SCO-MOD_R03.IFC.zip) | Estrutura de concreto | Centímetro |
 
-O modelo contém 41 IfcSpace e 457 IfcWall. O preparo examina também 184 aberturas e 188 produtos de preenchimento/componentes. Isso não equivale a analisar todas as categorias arquitetônicas ou todos os elementos do projeto.
+Os IFCs originais são preservados. Os ZIPs são embalagens utilizadas pelo estudo. Os nomes e os hashes dos modelos estão registrados em [Fontes_e_Referenciais.json](../resultados/integracao/Fontes_e_Referenciais.json).
 
-As pranchas sustentam a [referência documental dos 41 ambientes](Referencia_Documental_41_Ambientes.json), usada como entrada somente na etapa de avaliação do N1. Cada ambiente tem GUID, localização, esquadrias esperadas, justificativas e fontes. A [comparação agregada](../resultados/Comparacao_Documental_41_Ambientes.csv) é recalculada contra as associações da execução. A referência é uma leitura visual assistida por IA, sem revisão independente. Imagens de leitura, matriz completa de casos e controles ficam no arquivo técnico do Drive.
-
-O namespace das identidades RDF mantém `notebook1-v03` para preservar as URIs já usadas. O notebook atual usa apenas os arquivos desta estrutura; não depende dos antigos notebooks.
-
-## Entradas adicionais do Notebook 2
-
-| Entrada | Utilização |
-|---|---|
-| `TIPO2-SMT-MOD_R03.ifc.zip` | Modelo de estrutura metálica R03, 5.256 produtos, comprimento em milímetros. |
-| `TIPO2-SCO-MOD_R03.IFC.zip` | Modelo de estrutura de concreto R03, 19.229 produtos, comprimento em centímetros. |
-| `Modelos_Integracao.json` | URLs de origem FNDE, nomes de arquivo, hashes IFC/ZIP, fatores de comprimento e namespaces dos três modelos. |
-
-Os IFCs estruturais vêm do pacote oficial FNDE `Projeto_Estrutural.rar`, indicado no JSON, e permanecem sem alteração. Os ZIPs são embalagens do estudo. O deslocamento de −40 m em X do terreno SCO é declarado na fonte e aplicado pela cadeia de placements. A geometria dos três modelos é expressa em metros na checagem; as outras propriedades permanecem em seus contextos. [Recorte geométrico e limitações](../docs/Integracao_Arquitetura_Estrutura.md).
+[Conversao_IFCtoLBD.zip](Conversao_IFCtoLBD.zip) fornece a conversão semântica arquitetônica reutilizada pelo N1. [Identidades_IFC_RDF.csv](Identidades_IFC_RDF.csv) relaciona os GlobalIds às URIs utilizadas no RDF. As instruções de leitura e processamento estão nos notebooks.

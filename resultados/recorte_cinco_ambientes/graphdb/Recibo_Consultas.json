@@ -1,0 +1,30 @@
+{
+  "data_utc": "2026-11-06T02:15:05.504613+00:00",
+  "repository": "civ2155-recorte-despensa-20261105",
+  "consultas": [
+    {
+      "consulta": "01_ambientes_e_estados.rq",
+      "http_status": 200,
+      "linhas": 5,
+      "inferencia": false,
+      "consulta_arquivo_sha256": "3361abce8b0ba32e748be6f4c2f57378eb133393784b09e357367f212065b94b",
+      "consulta_enviada_sha256": "3361abce8b0ba32e748be6f4c2f57378eb133393784b09e357367f212065b94b"
+    },
+    {
+      "consulta": "02_esquadrias_associadas.rq",
+      "http_status": 200,
+      "linhas": 13,
+      "inferencia": false,
+      "consulta_arquivo_sha256": "f5d4359f05f48ed2eccaedb2d91c6277aecee63c361197adf447dd75ea6627ff",
+      "consulta_enviada_sha256": "f5d4359f05f48ed2eccaedb2d91c6277aecee63c361197adf447dd75ea6627ff"
+    },
+    {
+      "consulta": "03_relacoes_estruturais.rq",
+      "http_status": 200,
+      "linhas": 28,
+      "inferencia": false,
+      "consulta_arquivo_sha256": "dcc10b8916ccf88dbf1ca414cc720984dd1cc392557a4bda50bb447566995106",
+      "consulta_enviada_sha256": "dcc10b8916ccf88dbf1ca414cc720984dd1cc392557a4bda50bb447566995106"
+    }
+  ]
+}

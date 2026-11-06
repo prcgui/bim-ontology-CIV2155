@@ -1,24 +1,32 @@
-# Resultados da rotina selecionada
+# Guia dos resultados
 
-[Ver o RDF em caixas, como na apresentação](grafo_rdf/README.md) · [Explorar os dados na aplicação](https://prcgui.github.io/bim-ontology-CIV2155/).
+Os arquivos abaixo são as saídas computacionais dos três notebooks. O recorte de consulta compreende cinco ambientes e os registros já produzidos nas etapas anteriores.
 
-| Resultado | Arquivo |
+| Etapa | Arquivos principais |
 |---|---|
-| Síntese da execução e do grafo entregue | [Resumo.json](Resumo.json) |
-| Estado e quantidade de associações dos 41 espaços | [Ambientes.csv](Ambientes.csv) |
-| 101 pares ambiente–esquadria | [Esquadrias_Por_Ambiente.csv](Esquadrias_Por_Ambiente.csv) |
-| Interfaces candidatas e qualificação geométrica | [Interfaces.csv](Interfaces.csv) |
-| Recortes locais com abertura e preenchimento declarados | [Recortes_Aberturas.csv](Recortes_Aberturas.csv) |
-| Grafo RDF consolidado, em Turtle compactado | [Arquitetura_Analisada.zip](Arquitetura_Analisada.zip) |
-| Respostas das consultas SPARQL executadas no grafo | [Ambientes](Consulta_Ambientes.csv) · [Esquadrias](Consulta_Esquadrias.csv) |
-| Comparação documental recalculada nos 41 ambientes | [Por ambiente](Comparacao_Documental_41_Ambientes.csv) · [Síntese](Resumo_Comparacao_Documental_41_Ambientes.json) |
-| Recuperação documental por ambiente | [Figura dos 41 espaços](Comparacao_Documental_41_Ambientes.png) |
-| Cobertura de execução | [Figura](Cobertura.png) |
+| N1 — Arquitetura | [RDF arquitetônico](Arquitetura_Analisada.zip), [ambientes](Ambientes.csv) e [associações a esquadrias](Esquadrias_Por_Ambiente.csv) |
+| N2 — Integração | [Dataset integrado](integracao/Integracao_Arquitetura_Estrutura.zip), [identidades](integracao/Identidades_Modelos.csv), [fontes e referenciais](integracao/Fontes_e_Referenciais.json), [modelos](integracao/Modelos_Integrados.csv), [relações espaciais](integracao/Relacoes_Espaciais.csv) e [síntese por ambiente](integracao/Integracao_Por_Ambiente.csv) |
+| N3 — Recorte | [RDF N-Quads](recorte_cinco_ambientes/Recorte_Cinco_Ambientes_Relacoes.nq), [ambientes selecionados](recorte_cinco_ambientes/Ambientes_Selecionados.csv), [associações arquitetônicas](recorte_cinco_ambientes/Associacoes_Arquitetura.csv), [relações estruturais](recorte_cinco_ambientes/Relacoes_Estruturais.csv) e [objetos do contexto](recorte_cinco_ambientes/Objetos_Contexto.csv) |
 
-**Leitura dos números:** 38 ambientes com associação executada, três inconclusivos; 101 pares e 66 esquadrias distintas. Das 3.011 interfaces candidatas, nem todas são qualificadas. A tabela inclui a coluna de qualificação. Interfaces/recortes são segmentos geométricos e não devem ser somados como quantitativo de peças.
+## Recorte dos cinco ambientes
 
-Contagens vazias nos inconclusivos significam ausência de resultado. Zero em ambiente processado significa nenhuma associação no critério. As coordenadas WKT estão em metros no referencial cartesiano do IFC, sem declaração de CRS84.
+| Ambiente | Associações a esquadrias N1 | Relações estruturais N2 | Total registrado |
+|---|---:|---:|---:|
+| Cozinha | 9 | 16 | 25 |
+| Despensa | 3 | 3 | 6 |
+| Infantil 1 | Ausente | Indisponível | Inconclusivo |
+| Playground | 0 | 1 | 1 |
+| Varanda de serviço / DML | 1 | 8 | 9 |
+| Total dos registros disponíveis | 13 | 28 | 41 |
 
-O grafo preserva as 56.961 triplas da conversão semântica e acrescenta somente o vocabulário e os resultados primários da rotina selecionada. Os complementos históricos de testes e auditorias não fazem parte deste artefato. Por isso, a quantidade de triplas entregue difere da dos antigos grafos de desenvolvimento.
+As linhas contabilizam relações ambiente–componente. Um componente pode participar de mais de uma relação. Ausência de resultado por processamento inconclusivo é distinta de zero associações em um ambiente processado. Os números são resultados computacionais, não medidas de desempenho de uma avaliação independente.
 
-O notebook refaz o preparo e as associações, exporta o grafo, reabre-o e executa as duas consultas. A etapa 8 recalcula a comparação contra a referência documental explícita dos 41 espaços. A referência vem de leitura visual assistida por IA, sem revisão independente. O notebook não relê os PDFs automaticamente. A síntese publicada de 04/11 foi calculada sobre os CSV reais do Colab, sem refazer a geometria. Consulte a [interpretação e suas limitações](../docs/Analise_dos_Resultados.md).
+## Consulta no GraphDB
+
+Importe o [recorte N-Quads](recorte_cinco_ambientes/Recorte_Cinco_Ambientes_Relacoes.nq) preservando os grafos nomeados. Execute, sem inferência, as consultas exportadas pelo N3:
+
+1. [Ambientes e estados](recorte_cinco_ambientes/01_ambientes_e_estados.rq) — [resultado CSV](recorte_cinco_ambientes/graphdb/01_ambientes_e_estados.csv).
+2. [Esquadrias associadas](recorte_cinco_ambientes/02_esquadrias_associadas.rq) — [resultado CSV](recorte_cinco_ambientes/graphdb/02_esquadrias_associadas.csv).
+3. [Relações estruturais](recorte_cinco_ambientes/03_relacoes_estruturais.rq) — [resultado CSV](recorte_cinco_ambientes/graphdb/03_relacoes_estruturais.csv).
+
+Os recibos de [importação](recorte_cinco_ambientes/graphdb/Recibo_Importacao.json) e [consultas](recorte_cinco_ambientes/graphdb/Recibo_Consultas.json) registram essa execução externa. O N3 seleciona e exporta os dados; as consultas são executadas no GraphDB.
