@@ -1,0 +1,6 @@
+# Preserve exact bytes used in notebook integrity checks on every platform.
+* -text
+*.zip binary
+*.pdf binary
+*.png binary
+*.ipynb -text

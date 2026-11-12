@@ -1,0 +1,14 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX props: <http://lbd.arch.rwth-aachen.de/props#>
+PREFIX civ: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/analise#>
+PREFIX int: <https://github.com/prcgui/bim-ontology-CIV2155/vocab/integracao#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?registro ?ambiente ?guidAmbiente ?elemento ?guidElemento ?rotulo (GROUP_CONCAT(DISTINCT STR(?tipo); separator=" | ") AS ?tiposRDF) ?modelo ?estado ?predicado ?volumeM3 ?areaM2 WHERE {
+ VALUES ?ambiente { <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_de3ed29d-12e1-45f6-af99-d3219f5ba16f> <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bd6f2750-0340-48e7-9361-326f94d1f5da> <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_bbfa3934-1b3d-4529-a9c4-10714c19a7a4> <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_ed8ce420-4cf1-4709-b59a-59bbb9245b23> <https://github.com/prcgui/bim-ontology-CIV2155/id/notebook1-v03/space_fef23785-b12a-446a-83b7-67b82e423e0b> }
+ ?ambiente props:globalIdIfcRoot_attribute_simple ?guidAmbiente .
+ ?registro a int:RelacaoEspacial ; int:ambiente ?ambiente ; int:elementoEstrutural ?elemento ; int:modelo ?modelo ;
+ int:estado ?estado ; int:predicado ?predicado ; int:volumeIntersecaoM3 ?volumeM3 ; int:areaContatoM2 ?areaM2 .
+ ?elemento props:globalIdIfcRoot_attribute_simple ?guidElemento ; rdf:type ?tipo .
+ OPTIONAL { ?elemento rdfs:label ?rotulo }
+} GROUP BY ?registro ?ambiente ?guidAmbiente ?elemento ?guidElemento ?rotulo ?modelo ?estado ?predicado ?volumeM3 ?areaM2 ORDER BY ?guidAmbiente ?guidElemento
